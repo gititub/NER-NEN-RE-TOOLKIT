@@ -118,21 +118,24 @@ def server(input, output, session):
     @render.data_frame
     @reactive.event(input.action)
     def table():
-        if input.output_type() == 'df':
-            if input.all_results():
-                return render.DataGrid(
-                    result(),
-                    width="100%",
-                    height="100%",
-                    filters=True,
-                )
-            else:
-                return render.DataGrid(
-                    result().head(15),
-                    width="100%",
-                    height="100%",
-                    filters=True,
-                )
+        if result():
+            if input.output_type() == 'df':
+                if input.all_results():
+                    return render.DataGrid(
+                        result(),
+                        width="100%",
+                        height="100%",
+                        filters=True,
+                    )
+                else:
+                    return render.DataGrid(
+                        result().head(15),
+                        width="100%",
+                        height="100%",
+                        filters=True,
+                    )
+        else:
+            return txt()
 
     @output
     @render.text
@@ -143,6 +146,8 @@ def server(input, output, session):
                 return result()
             else:
                 return f"No results found. Try again."
+        else:
+            return f"No results found. Try again."
 
     @session.download()
     def download():
