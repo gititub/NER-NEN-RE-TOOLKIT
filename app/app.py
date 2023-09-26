@@ -114,28 +114,26 @@ def server(input, output, session):
             result = plain_drugs(input_text, input.output_type())
         return result
 
+
     @output
     @render.data_frame
     @reactive.event(input.action)
     def table():
-        if result():
-            if input.output_type() == 'df':
-                if input.all_results():
-                    return render.DataGrid(
-                        result(),
-                        width="100%",
-                        height="100%",
-                        filters=True,
-                    )
-                else:
-                    return render.DataGrid(
-                        result().head(15),
-                        width="100%",
-                        height="100%",
-                        filters=True,
-                    )
-        else:
-            return txt()
+        if input.output_type() == 'df':
+            if input.all_results():
+                return render.DataGrid(
+                    result(),
+                    width="100%",
+                    height="100%",
+                    filters=True,
+                )
+            else:
+                return render.DataGrid(
+                    result().head(15),
+                    width="100%",
+                    height="100%",
+                    filters=True,
+                )
 
     @output
     @render.text
@@ -146,9 +144,8 @@ def server(input, output, session):
                 return result()
             else:
                 return f"No results found. Try again."
-        else:
-            return f"No results found. Try again."
 
+    
     @session.download()
     def download():
         if input.output_type() == 'df':
