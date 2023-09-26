@@ -5,8 +5,6 @@ from Bio import Entrez
 from drug_named_entity_recognition import find_drugs
 import spacy
 from bs4 import BeautifulSoup
-import warnings
-warnings.simplefilter('ignore')
 
 def extract_pubtator(ids, output):
     id_list = [num.strip() for num in ids.split(',') if num.strip()]
@@ -502,73 +500,76 @@ def count_characters(input_text):
     else:
         return character_count
 
+
 def plain_drugs(txt, output):
     nlp = spacy.blank("en")
     doc = nlp(txt)
     json_data2 = find_drugs([t.text for t in doc], is_ignore_case=True)
     json_data = find_drugs(txt.split(" "), is_ignore_case=True)
 
-    names = []
-    synonyms = []
-    mesh_ids = []
-    drugbank_ids = []
-    medline_ids = []
-    nhs_urls = []
-    wikipedia_urls = []
-    positions = []
+    if json_data:
+        names = []
+        synonyms = []
+        mesh_ids = []
+        drugbank_ids = []
+        medline_ids = []
+        nhs_urls = []
+        wikipedia_urls = []
+        positions = []
 
-    for data in json_data:
-        if 'name' in data[0]:
-            names.append(data[0]['name'])
-        else:
-            names.append(None)
-        if 'synonyms' in data[0]:
-            synonyms.append(data[0]['synonyms'])
-        else:
-            synonyms.append(None)
-        if 'mesh_id' in data[0]:
-            mesh_ids.append(data[0]['mesh_id'])
-        else:
-            mesh_ids.append(None)
-        if 'drugbank_id' in data[0]:
-            drugbank_ids.append(data[0]['drugbank_id'])
-        else:
-            drugbank_ids.append(None)
-        if 'medline_plus_id' in data[0]:
-            medline_ids.append(data[0]['medline_plus_id'])
-        else:
-            medline_ids.append(None)
-        if 'nhs_url' in data[0]:
-            nhs_urls.append(data[0]['nhs_url'])
-        else:
-            nhs_urls.append(None)
-        if 'wikipedia_url' in data[0]:
-            wikipedia_urls.append(data[0]['wikipedia_url'])
-        else:
-            wikipedia_urls.append(None)
+        for data in json_data:
+            if 'name' in data[0]:
+                names.append(data[0]['name'])
+            else:
+                names.append(None)
+            if 'synonyms' in data[0]:
+                synonyms.append(data[0]['synonyms'])
+            else:
+                synonyms.append(None)
+            if 'mesh_id' in data[0]:
+                mesh_ids.append(data[0]['mesh_id'])
+            else:
+                mesh_ids.append(None)
+            if 'drugbank_id' in data[0]:
+                drugbank_ids.append(data[0]['drugbank_id'])
+            else:
+                drugbank_ids.append(None)
+            if 'medline_plus_id' in data[0]:
+                medline_ids.append(data[0]['medline_plus_id'])
+            else:
+                medline_ids.append(None)
+            if 'nhs_url' in data[0]:
+                nhs_urls.append(data[0]['nhs_url'])
+            else:
+                nhs_urls.append(None)
+            if 'wikipedia_url' in data[0]:
+                wikipedia_urls.append(data[0]['wikipedia_url'])
+            else:
+                wikipedia_urls.append(None)
 
-        positions.append(data[1])
+            positions.append(data[1])
 
-    df = pd.DataFrame({'Name': names, 
-                       'Synonyms': synonyms,
-                       'MESH id': mesh_ids,
-                       'Drugbank_ID': drugbank_ids,
-                       'MedlinePlus id': medline_ids,
-                       'NHS URL': nhs_urls,
-                       'Wikipedia URL': wikipedia_urls,
-                       'Position': positions})
-    df['PubChem'], df['chEBI'], df['DrugBank'] = zip(*df['Name'].apply(db_from_wikipedia))
+        df = pd.DataFrame({'Name': names,
+                           'Synonyms': synonyms,
+                           'MESH id': mesh_ids,
+                           'Drugbank_ID': drugbank_ids,
+                           'MedlinePlus id': medline_ids,
+                           'NHS URL': nhs_urls,
+                           'Wikipedia URL': wikipedia_urls,
+                           'Position': positions})
+        if df:
+            df['PubChem'], df['chEBI'], df['DrugBank'] = zip(*df['Name'].apply(db_from_wikipedia))
 
-    if output == 'biocjson':
-        result = []
-        for item in json_data:
-            # Convert set of synonyms to a list
-            item[0]['synonyms'] = list(item[0]['synonyms'])
-            json_str = json.dumps(item[0], separators=(',', ':'))
-            result.append(json_str)
-        return result
-    elif output == 'df':
-        return df
+        if output == 'biocjson':
+            result = []
+            for item in json_data:
+                # Convert set of synonyms to a list
+                item[0]['synonyms'] = list(item[0]['synonyms'])
+                json_str = json.dumps(item[0], separators=(',', ':'))
+                result.append(json_str)
+            return result
+        elif output == 'df':
+            return df
 
 
 def download_from_PMC(pmcids):
