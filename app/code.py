@@ -575,6 +575,7 @@ def download_from_PMC(pmcids):
     pmcid_list = [num.strip() for num in pmcids.split(',') if num.strip()]
     text = []
     for pmcid in pmcid_list:
+        print(f"Downloading {pmcid}...")
         URL = f"https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/{pmcid}/unicode"
         response = requests.get(URL)
         data = response.text
@@ -586,6 +587,7 @@ def download_from_PubMed(pmids):
     pmid_list = [num.strip() for num in pmids.split(',') if num.strip()]
     text = []
     for pmid in pmid_list:
+        print(f"Downloading PMID {pmid}...")
         URL = f"https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pubmed.cgi/BioC_json/{pmid}/unicode"
         response = requests.get(URL)
         data = response.text
