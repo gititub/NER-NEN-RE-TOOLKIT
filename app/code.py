@@ -337,10 +337,7 @@ def query_plain(text, output):
             'span_end': span_end
         }
 
-        if not extracted_item.empty:
-            extracted_data.append(extracted_item)
-
-    df = pd.DataFrame(extracted_data)
+        extracted_data.append(extracted_item)
 
     if output == 'biocjson':
         if result:
@@ -348,6 +345,7 @@ def query_plain(text, output):
         else:
             return f'No results found.'
     elif output == 'df':
+        df = pd.DataFrame(extracted_data)
         if not df.empty:
             df['dbSNP'] = df['normalized_name'].str.extract(r'(?:rs|RS#:)(\d+)', expand=False)
             df['dbSNP'] = 'rs' + df['dbSNP']
@@ -486,18 +484,20 @@ def extract_pubtator_from_pmcs_query(query, pub_date, retmax, output):
             'identifier': identifier_list
         })
 
-        if not df.empty:
-            df_list.append(df)
+        df = df[df['identifier'].notna()]
+        df_list.append(df)
 
     if output == 'biocjson':
         if list_of_pubtators:
             return json.dumps(list_of_pubtators, indent=4)
         else:
-            return f'No results found. Check if the inputs are correct.'
+            return f'No results found. Check if all inputs are correct.'
     elif output == 'df':
         if df_list:
             combined_df = pd.concat(df_list, ignore_index=True)
             return combined_df
+        else:
+            return f'No results found. Check if all inputs are correct.'
 
 
 def count_characters(input_text):
@@ -564,7 +564,7 @@ def plain_drugs(txt, output):
                            'NHS URL': nhs_urls,
                            'Wikipedia URL': wikipedia_urls,
                            'Position': positions})
-        if df:
+        if not df.empty:
             df['PubChem'], df['chEBI'], df['DrugBank'] = zip(*df['Name'].apply(db_from_wikipedia))
 
         if output == 'biocjson':
@@ -603,4 +603,3 @@ def download_from_PubMed(pmids):
         text.append(data)
     joined_text = '.'.join(text)  # Join the text data with '.'
     return joined_text
-    
