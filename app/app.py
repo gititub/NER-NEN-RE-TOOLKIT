@@ -1,6 +1,7 @@
 # app.py
 import os
 import json
+import pandas as pd
 import shinyswatch
 from shiny import App, Inputs, Outputs, Session, reactive, render, req, ui
 from shiny.types import ImgData
@@ -118,24 +119,21 @@ def server(input, output, session):
     @render.data_frame
     @reactive.event(input.action)
     def table():
-        if input.output_type() == 'df':
-            if result():
-                if input.all_results():
-                    return render.DataGrid(
-                        result(),
-                        width="100%",
-                        height="100%",
-                        filters=True,
-                    )
-                else:
-                    return render.DataGrid(
-                        result().head(15),
-                        width="100%",
-                        height="100%",
-                        filters=True,
-                    )
+        if isinstance(result(), pd.DataFrame):
+            if input.all_results():
+                return render.DataGrid(
+                    result(),
+                    width="100%",
+                    height="100%",
+                    filters=True,
+                )
             else:
-                return txt
+                return render.DataGrid(
+                    result().head(15),
+                    width="100%",
+                    height="100%",
+                    filters=True,
+                )
 
     @output
     @render.text
@@ -146,9 +144,10 @@ def server(input, output, session):
                 return result()
             else:
                 return f"No results found. Try again."
-        elif input.output_type() == 'df':
-            if not result():
+        else:
+            if not isinstance(result(), pd.DataFrame):
                 return f"No results found. Try again."
+
 
     @session.download()
     def download():
