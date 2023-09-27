@@ -1,7 +1,7 @@
 # app.py
+import os
 import json
 import shinyswatch
-import os
 from shiny import App, Inputs, Outputs, Session, reactive, render, req, ui
 from shiny.types import ImgData
 from code import count_characters, extract_pubtator, extract_pubtator_from_pmcs, query_plain, \
@@ -114,26 +114,28 @@ def server(input, output, session):
             result = plain_drugs(input_text, input.output_type())
         return result
 
-
     @output
     @render.data_frame
     @reactive.event(input.action)
     def table():
         if input.output_type() == 'df':
-            if input.all_results():
-                return render.DataGrid(
-                    result(),
-                    width="100%",
-                    height="100%",
-                    filters=True,
-                )
+            if result():
+                if input.all_results():
+                    return render.DataGrid(
+                        result(),
+                        width="100%",
+                        height="100%",
+                        filters=True,
+                    )
+                else:
+                    return render.DataGrid(
+                        result().head(15),
+                        width="100%",
+                        height="100%",
+                        filters=True,
+                    )
             else:
-                return render.DataGrid(
-                    result().head(15),
-                    width="100%",
-                    height="100%",
-                    filters=True,
-                )
+                return txt
 
     @output
     @render.text
@@ -144,8 +146,10 @@ def server(input, output, session):
                 return result()
             else:
                 return f"No results found. Try again."
+        elif input.output_type() == 'df':
+            if not result():
+                return f"No results found. Try again."
 
-    
     @session.download()
     def download():
         if input.output_type() == 'df':
