@@ -6,6 +6,7 @@ from drug_named_entity_recognition import find_drugs
 import spacy
 from bs4 import BeautifulSoup
 
+
 def extract_pubtator(ids, output):
     id_list = [num.strip() for num in ids.split(',') if num.strip()]
     results_json = []
@@ -86,18 +87,18 @@ def extract_pubtator(ids, output):
             'identifier': identifier_list
         })
 
-        results.append(df)
-
-    if len(results) == 0:
-        print("No dataframes to concatenate.")
+        if not df.empty:
+            results.append(df)
 
     if output == 'biocjson':
-        return json.dumps(results_json, indent=4)
+        if results_json:
+            return json.dumps(results_json, indent=4)
+        else:
+            return f'No results found. Check if the PubMed ID is correct.'
     elif output == 'df':
-        combined_df = pd.concat(results, ignore_index=True)
-        return combined_df
-    else:
-        print("Invalid output format. Please choose 'biocjson' or 'df'.")
+        if results:
+            combined_df = pd.concat(results, ignore_index=True)
+            return combined_df
 
 
 def extract_pubtator_from_pmcs(ids, output):
@@ -191,34 +192,43 @@ def extract_pubtator_from_pmcs(ids, output):
             'identifiers_list': identifiers_list,
             'identifier': identifier_list
         })
-        results.append(df)
 
-    if len(results) == 0:
-        print("No dataframes to concatenate.")
+        if not df.empty:
+            results.append(df)
 
     if output == 'biocjson':
-        return json.dumps(list_of_pubtators, indent=4)
+        if list_of_pubtators:
+            return json.dumps(list_of_pubtators, indent=4)
+        else:
+            return f'No results found. Check if the PMC ID is correct.'
     elif output == 'df':
-        combined_df = pd.concat(results, ignore_index=True)
-        return combined_df
-    else:
-        print("Invalid output format. Please choose 'biocjson' or 'df'.")
+        if results:
+            combined_df = pd.concat(results, ignore_index=True)
+            return combined_df
+
 
 def bern_extract_pmids(pmids, output):
     results = []
     pmid_list = [num.strip() for num in pmids.split(',') if num.strip()]
+    json_data = None
+
     for pmid in pmid_list:
-        json_data, df = process_pmid(pmid)  # Capture both JSON data and DataFrame
-        if df is not None:
-            results.append(df)
-    if results:
-        bern = pd.concat(results)
+        try:
+            json_data, df = process_pmid(pmid)
+            if df is not None:
+                results.append(df)
+        except Exception as e:
+            print(f"Error processing PMID {pmid}: {str(e)}")
+
     if output == 'biocjson':
-        return json.dumps(json_data, indent=4)
+        if json_data:
+            return json.dumps(json_data, indent=4)
+        else:
+            return f'No results found. Check if the PubMed ID is correct.'
     elif output == 'df':
-        return bern  # Return the DataFrame
-    else:
-        print("Invalid output format. Please choose 'biocjson' or 'df'.")
+        if results:
+            bern = pd.concat(results, ignore_index=True)
+            return bern
 
 
 def process_pmid(pmid):
@@ -229,13 +239,14 @@ def process_pmid(pmid):
         if response.status_code == 200:
             json_data = response.json()
             df = json_to_df(json_data)
-            return json_data, df
+            if json_data:
+                return json_data, df
+            else:
+                return f'No results found. Check if the PubMed ID is correct.'
         else:
             print(f"Request for PMID {pmid} failed with status code:", response.status_code)
-            return None
     except Exception as e:
         print(f"Error processing PMID {pmid}: {str(e)}")
-        return None
 
 
 def json_to_df(json_data):
@@ -250,7 +261,6 @@ def json_to_df(json_data):
     norm_list = []
     mut_type_list = []
 
-    # Iterate over the JSON dictionaries and extract the information
     for item in json_data:
         if item['pmid'] is not None:
             pmid = item['pmid']
@@ -269,7 +279,6 @@ def json_to_df(json_data):
             begin = span.get("begin")
             end = span.get("end")
 
-            # Append the extracted information to the respective lists
             pmid_list.append(pmid)
             id_list.append(annotation_id)
             is_neural_normalized_list.append(is_neural_normalized)
@@ -281,11 +290,10 @@ def json_to_df(json_data):
             norm_list.append(norm)
             mut_type_list.append(mutation_type)
 
-    # Create a DataFrame using the extracted information
     df = pd.DataFrame({
         "pmid": pmid_list,
         "id": id_list,
-        #"is_neural_normalized": is_neural_normalized_list,
+        # "is_neural_normalized": is_neural_normalized_list,
         "prob": prob_list,
         "mention": mention_list,
         "normalized name": norm_list,
@@ -329,22 +337,23 @@ def query_plain(text, output):
             'span_end': span_end
         }
 
-        extracted_data.append(extracted_item)
+        if not extracted_item.empty:
+            extracted_data.append(extracted_item)
 
-    if len(extracted_data) == 0:
-        print("No dataframes to concatenate.")
     df = pd.DataFrame(extracted_data)
-    df['dbSNP'] = df['normalized_name'].str.extract(r'(?:rs|RS#:)(\d+)', expand=False)
-    df['dbSNP'] = 'rs' + df['dbSNP']
-    df['Wikipedia URL'] = df['mention'].apply(lambda x: 'https://en.wikipedia.org/wiki/' + x)
-    df['PubChem'], df['chEBI'], df['DrugBank'] = zip(*df['mention'].apply(db_from_wikipedia))
 
     if output == 'biocjson':
-        return json.dumps(result, indent=4)
+        if result:
+            return json.dumps(result, indent=4)
+        else:
+            return f'No results found.'
     elif output == 'df':
-        return df
-    else:
-        print("Invalid output format. Please choose 'biocjson' or 'df'.")
+        if not df.empty:
+            df['dbSNP'] = df['normalized_name'].str.extract(r'(?:rs|RS#:)(\d+)', expand=False)
+            df['dbSNP'] = 'rs' + df['dbSNP']
+            df['Wikipedia URL'] = df['mention'].apply(lambda x: 'https://en.wikipedia.org/wiki/' + x)
+            df['PubChem'], df['chEBI'], df['DrugBank'] = zip(*df['mention'].apply(db_from_wikipedia))
+            return df
 
 
 def db_from_wikipedia(mention):
@@ -477,20 +486,18 @@ def extract_pubtator_from_pmcs_query(query, pub_date, retmax, output):
             'identifier': identifier_list
         })
 
-        df = df[df['identifier'].notna()]
-        df_list.append(df)
-
-    if len(df_list) == 0:
-        print("No dataframes to concatenate.")
-
-    merged_df = pd.concat(df_list, ignore_index=True)
+        if not df.empty:
+            df_list.append(df)
 
     if output == 'biocjson':
-        return json.dumps(list_of_pubtators, indent=4)
+        if list_of_pubtators:
+            return json.dumps(list_of_pubtators, indent=4)
+        else:
+            return f'No results found. Check if the inputs are correct.'
     elif output == 'df':
-        return merged_df
-    else:
-        print("Invalid output format. Please choose 'biocjson' or 'df'.")
+        if df_list:
+            combined_df = pd.concat(df_list, ignore_index=True)
+            return combined_df
 
 
 def count_characters(input_text):
@@ -584,14 +591,16 @@ def download_from_PMC(pmcids):
     joined_text = '.'.join(text)  # Join the text data with '.'
     return joined_text
 
+
 def download_from_PubMed(pmids):
     pmid_list = [num.strip() for num in pmids.split(',') if num.strip()]
     text = []
     for pmid in pmid_list:
-        print(f"Downloading PMID {pmid}...")
+        print(f"Downloading {pmid}...")
         URL = f"https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pubmed.cgi/BioC_json/{pmid}/unicode"
         response = requests.get(URL)
         data = response.text
         text.append(data)
     joined_text = '.'.join(text)  # Join the text data with '.'
     return joined_text
+    
