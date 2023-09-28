@@ -603,3 +603,40 @@ def download_from_PubMed(pmids):
         text.append(data)
     joined_text = '.'.join(text)  # Join the text data with '.'
     return joined_text
+
+
+def synvar_ann(ids, output):
+    id_list = [num.strip() for num in ids.split(',') if num.strip()]
+    results_json = []
+
+    data_dict = {
+        'pmid': [],
+        'genes': [],
+        'drugs': []
+    }
+    for id in id_list:
+        print(f"Processing ID: {id}")
+        url = f"https://variomes.text-analytics.ch/api/fetchDoc?ids=" + str(id)
+
+        response = requests.get(url)
+        if response.ok:
+            result = response.json()
+            results_json.append(result)
+            data_dict['pmid'].append(id)
+            gene_data = result.get('publications', [])[0].get('details', {}).get('facet_details', {}).get('genes', [])
+            gene_info = [f"{gene.get('preferred_term')}({gene.get('id')})" for gene in gene_data]
+            data_dict['genes'].append(gene_info)
+            drug_data = result.get('publications', [])[0].get('details', {}).get('facet_details', {}).get('drugs', [])
+            drug_info = [f"{drug.get('preferred_term')}({drug.get('id')})" for drug in drug_data]
+            data_dict['drugs'].append(drug_info)
+
+        synvar_df = pd.DataFrame(data_dict)
+
+    if output == 'biocjson':
+        if results_json:
+            return json.dumps(results_json, indent=4)
+        else:
+            return f'No results found. Check if the PubMed ID is correct.'
+    elif output == 'df':
+        if result:
+            return synvar_df
