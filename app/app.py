@@ -6,7 +6,9 @@ import shinyswatch
 from shiny import App, Inputs, Outputs, Session, reactive, render, req, ui
 from shiny.types import ImgData
 from code import count_characters, extract_pubtator, extract_pubtator_from_pmcs, query_plain, \
-    extract_pubtator_from_pmcs_query, plain_drugs, download_from_PMC, download_from_PubMed, bern_extract_pmids
+    extract_pubtator_from_pmcs_query, plain_drugs, download_from_PMC, download_from_PubMed, \
+    bern_extract_pmids, synvar_ann
+
 
 app_ui = ui.page_fluid(
     shinyswatch.theme.superhero(),
@@ -41,6 +43,7 @@ app_ui = ui.page_fluid(
                     "pmc_drugs": "PMC (Drug NER)",
                     "pmid_drugs": "PubMed ID (Drug NER)",
                     "query": "Word in PubMed Central (PubTator)",
+                    "pmid_synvar": "PubMed ID (Variomes)",
                 },
                 selected='Plain Text',
             ),
@@ -110,6 +113,8 @@ def server(input, output, session):
         elif input.input_type() == 'pmid_drugs':
             input_text = download_from_PubMed(input.id())
             result = plain_drugs(input_text, input.output_type())
+        elif input.input_type() == 'pmid_synvar':
+            result = synvar_ann(input.id(), input.output_type())
         else:
             input_text = download_from_PMC(input.id())
             result = plain_drugs(input_text, input.output_type())
