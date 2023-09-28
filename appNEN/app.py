@@ -6,8 +6,7 @@ import os
 from shiny import App, Inputs, Outputs, Session, reactive, render, req, ui
 from shiny.types import FileInfo
 from code import fetch_litvar_data, litvar_data, get_gene_info_by_gene_number, get_gene_info_by_gene_name, \
-    get_gene_info_by_rsid
-
+    get_gene_info_by_rsid, synvar_file, synvar, fetch_data, extract_variants_syn, extract_drugs, extract_genes
 
 app_ui = ui.page_fluid(
     shinyswatch.theme.minty(),
@@ -34,7 +33,8 @@ app_ui = ui.page_fluid(
         "input_type",
         "Select function:",
         {
-            "norm": "Variant Normalization",
+            "norm": "LitVar Variant Normalization",
+            "norm2": "SynVar Variant Normalization",
             "gene": "Gene Normalization",
             "gene_name": "Gene Name",
             "gene_info": "rs ID Gene Info",
@@ -88,6 +88,8 @@ def server(input, output, session):
             return "e.g. 7157,657,4234"
         elif input.input_type() == 'gene_info':
             return "e.g. rs5030858"
+        elif input.input_type() == 'norm2':
+            return "e.g. 19915144, MEK1(p.Q56P) or upload CSV file with three mandatory columns: 'pmid', gene' and 'HGVS'."
         else:
             return "e.g. BRAF p.V600E (or upload CSV file with two mandatory columns,'gene' and 'HGVS)"
 
@@ -99,6 +101,13 @@ def server(input, output, session):
             result = get_gene_info_by_gene_number(input.id())
         elif input.input_type() == 'gene_info':
             result = get_gene_info_by_rsid(input.id())
+        elif input.input_type() == 'norm2':
+            if input.file():
+                f: list[FileInfo] = input.file()
+                file = pd.read_csv(f[0]["datapath"], header=0, sep='\t')
+                result = synvar_file(file)
+            else:
+                result = synvar(input.id())
         else:
             if input.file():
                 f: list[FileInfo] = input.file()
@@ -108,25 +117,26 @@ def server(input, output, session):
                 result = litvar_data(input.id())
         return result
 
-    @reactive.Effect
+    @output
+    @render.ui
     @reactive.event(input.clear)
     def _():
-        if input.file():
-            return input.file() == None
+        return None
 
     @output
     @render.data_frame
     @reactive.event(input.action)
     def table():
-        if input.all_results():
-            return render.DataGrid(
-                result(),
-                width="100%",
-                height="100%",
-                filters=True,
-            )
-        else:
-            return result().head(15)
+        if isinstance(result(), pd.DataFrame):
+            if input.all_results():
+                return render.DataGrid(
+                    result(),
+                    width="100%",
+                    height="100%",
+                    filters=True,
+                )
+            else:
+                return result().head(15)
 
     @session.download()
     def download():
