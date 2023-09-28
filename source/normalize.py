@@ -3,6 +3,7 @@ import pandas as pd
 import time
 import sys
 
+
 def fetch_litvar_data(query_list):
     data_dict = {
         'Query': [],
@@ -51,6 +52,7 @@ def fetch_data(row):
     else:
         return None
 
+
 def extract_variants_syn(result):
     if result is None:
         return None
@@ -58,13 +60,27 @@ def extract_variants_syn(result):
         variants_data = result.get('normalized_query', {}).get('variants', [])
         return variants_data[0].get('terms')
 
+
 def extract_genes(result):
     if result is None:
         return None
     else:
-        gene_data = result.get('normalized_query', {}).get('genes', [])
+        gene_data = result.get('publications', [])[0].get('details', {}).get('facet_details', {}).get('genes', [])
+        gene_info = [f"{gene.get('preferred_term')}({gene.get('id')})" for gene in gene_data]
         if gene_data:
-            return gene_data[0].get('preferred_term')
+            return gene_info
+        else:
+            return None
+
+
+def extract_drugs(result):
+    if result is None:
+        return None
+    else:
+        drug_data = result.get('publications', [])[0].get('details', {}).get('facet_details', {}).get('drugs', [])
+        drug_info = [f"{drug.get('preferred_term')}({drug.get('id')})" for drug in drug_data]
+        if drug_data:
+            return drug_info
         else:
             return None
 
@@ -76,7 +92,8 @@ def main():
     input_file = sys.argv[1]
     output_dir = sys.argv[2]
 
-    # Load the input TSV file using pandas
+    start_time = time.time()
+
     file = pd.read_csv(input_file, sep='\t')
     file['litvar'] = file['gene'] + " "+ file['HGVS']
     file['synvar'] = file['gene'] + "("+ file['HGVS']+")"
@@ -88,13 +105,16 @@ def main():
 
     # Fetch and process data
     file['result'] = file.apply(fetch_data, axis=1)
-    file['Gene'] = file['result'].apply(extract_genes)
+    file['genes'] = file['result'].apply(extract_genes)
     file['variants_syn'] = file['result'].apply(extract_variants_syn)
+    file['drugs'] = file['result'].apply(extract_drugs)
 
-    total_time = time.time() - litvar_total_time
+    end_time = time.time()
+    total_time = end_time - start_time - litvar_total_time
     print(f"Total time taken for SynVar processing: {total_time:.2f} seconds")
 
     file.to_csv(f'{output_dir}/synvar_results.tsv', sep='\t', index=False)
+
 
 if __name__ == "__main__":
     main()
