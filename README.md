@@ -203,8 +203,9 @@ cd appNEN;shiny run --reload
   alt="Alt text"
   style="display: block; width: 400px">
 
-1.	Make a query  
-- Variant Normalization: e.g. BRAFp.V600E  (one or more, comma separated) or upload CSV file with two mandatory columns,'gene' and 'HGVS. → dbSNP rs ID  
+1.	Make a query
+- SynVar Normalization : e.g. 19915144, MEK1(p.Q56P) or upload CSV file with three mandatory columns: 'pmid', gene' and 'HGVS'.
+- LitVar Normalization: e.g. BRAFp.V600E  (one or more, comma separated) or upload CSV file with two mandatory columns,'gene' and 'HGVS. → dbSNP rs ID  
 - Gene Normalization to gene ID (one by one, only a gene name or gene + specie)  
 - Gene ID → Gene Name (one or more, comma separated)  
 - Rs id → Gene Info (one or more, comma separated)   
@@ -212,7 +213,7 @@ cd appNEN;shiny run --reload
    
 ## NER with SynVar and LitVar
 
-To run example use test.tsv or test2.csv as input file, or use your own data with 3 columns: pmid, gene, HGVS. Returns two files in the specified output directory, one with LitVar normalization and the second one with SynVar normalization.
+To run example use test.tsv or test2.csv as input file, or use your own data with 3 columns: pmid, gene, HGVS. Returns two files in the specified output directory, one with LitVar normalization and the second one with SynVar normalization and gene+drug NER.
 
 $ python source/normalize.py [input_file] [output_directory] 
 
