@@ -129,3 +129,94 @@ def litvar_data(input):
 
     litvar = pd.DataFrame(data_dict)
     return litvar
+
+
+def synvar(input):
+    data_dict = {
+        'pmid': [],
+        'query': [],
+        'gene': [],
+        'variants_synonyms': [],
+        'drugs': []
+    }
+    lines = input.split('\n')
+    for line in lines:
+        items = [item.strip() for item in line.split(',')]
+        if len(items) != 2:
+            continue  # Skip lines that do not have exactly two items
+        ids = items[0]
+        genvars = items[1]
+        url = f"https://variomes.text-analytics.ch/api/fetchDoc?ids={ids}&genvars={genvars}"
+        response = requests.get(url)
+        if response.ok:
+            result = response.json()
+
+            data_dict['pmid'].append(ids)
+            data_dict['query'].append(genvars)
+
+            variants_data = result.get('normalized_query', {}).get('variants', [])
+            data_dict['variants_synonyms'].append(variants_data[0].get('terms'))
+
+            gene_data = result.get('publications', [])[0].get('details', {}).get('facet_details', {}).get('genes', [])
+            gene_info = [f"{gene.get('preferred_term')}({gene.get('id')})" for gene in gene_data]
+            data_dict['gene'].append(gene_info)
+
+            drug_data = result.get('publications', [])[0].get('details', {}).get('facet_details', {}).get('drugs', [])
+            drug_info = [f"{drug.get('preferred_term')}({drug.get('id')})" for drug in drug_data]
+            data_dict['drugs'].append(drug_info)
+
+    synvar_df = pd.DataFrame(data_dict)
+    return synvar_df
+
+
+def synvar_file(file):
+    file['query'] = file['gene'] + "(" + file['HGVS'] + ")"
+    file['result'] = file.apply(fetch_data, axis=1)
+    file['genes'] = file['result'].apply(extract_genes)
+    file['variants_synonyms'] = file['result'].apply(extract_variants_syn)
+    file['drugs'] = file['result'].apply(extract_drugs)
+    return file[['pmid', 'query', 'genes', 'variants_synonyms', 'drugs']]
+
+
+def fetch_data(row):
+    ids = row['pmid']
+    genvars = row['query']
+    url = f"https://variomes.text-analytics.ch/api/fetchDoc?ids={ids}&genvars={genvars}"
+    response = requests.get(url)
+    if response.ok:
+        data = response.json()
+        return data
+    else:
+        return None
+
+
+def extract_variants_syn(result):
+    if result is None:
+        return None
+    else:
+        variants_data = result.get('normalized_query', {}).get('variants', [])
+        return variants_data[0].get('terms')
+
+
+def extract_genes(result):
+    if result is None:
+        return None
+    else:
+        gene_data = result.get('publications', [])[0].get('details', {}).get('facet_details', {}).get('genes', [])
+        gene_info = [f"{gene.get('preferred_term')}({gene.get('id')})" for gene in gene_data]
+        if gene_data:
+            return gene_info
+        else:
+            return None
+
+
+def extract_drugs(result):
+    if result is None:
+        return None
+    else:
+        drug_data = result.get('publications', [])[0].get('details', {}).get('facet_details', {}).get('drugs', [])
+        drug_info = [f"{drug.get('preferred_term')}({drug.get('id')})" for drug in drug_data]
+        if drug_data:
+            return drug_info
+        else:
+            return None
