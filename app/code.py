@@ -630,7 +630,7 @@ def synvar_ann(ids, output):
             drug_info = [f"{drug.get('preferred_term')}({drug.get('id')})" for drug in drug_data]
             data_dict['drugs'].append(drug_info)
 
-        synvar_df = pd.DataFrame(data_dict)
+    synvar_df = pd.DataFrame(data_dict)
 
     if output == 'biocjson':
         if results_json:
@@ -638,5 +638,5 @@ def synvar_ann(ids, output):
         else:
             return f'No results found. Check if the PubMed ID is correct.'
     elif output == 'df':
-        if result:
+        if not synvar_df.empty:
             return synvar_df
