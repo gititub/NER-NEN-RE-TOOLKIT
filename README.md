@@ -111,7 +111,7 @@ python source/convert_pdf.py pdf_files bern_ft_pdf
 ```
 Then, you can run **BERN2**. 
 
-⚠️ This process can take several minutes.
+⚠️ This process might take several minutes. 
 
 
 $ python source/bern_extract_ann.py [input_dir] [output_dir] [json/df]
