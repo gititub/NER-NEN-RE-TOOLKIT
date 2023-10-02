@@ -29,6 +29,9 @@ def extract_pubtator_from_pmcs(pmcs, output):
             response = requests.get(url)
             response.raise_for_status()
             json_data = response.json()
+            if not json_data.get('passages'):
+                print(f"No Pubtator results found for PMC: PMC{pmc}")
+                continue
         except requests.exceptions.RequestException as e:
             error_pmc_ids.append(pmc)
             error_sum += 1
@@ -116,12 +119,15 @@ def extract_pubtator_from_pmcs(pmcs, output):
         df = df[df['identifier'].notna()]
         df_list.append(df)
 
-    merged_df = pd.concat(df_list, ignore_index=True)
-
     if output == 'biocjson':
         return list_of_pubtators
     elif output == 'df':
-        return merged_df
+        if not df_list:
+            print("No articles with annotations found.")
+            return pd.DataFrame()
+        else:
+            merged_df = pd.concat(df_list, ignore_index=True)
+            return merged_df
     else:
         print("Invalid output format. Please choose 'biocjson' or 'df'.")
 
