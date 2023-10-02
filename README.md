@@ -144,10 +144,10 @@ $ python source/ptc_extract_pmc_query.py [query] [output_filename] [max retrieva
 
 Run example: 
 ```
-python source/ptc_extract_pmc_query.py BRAF output_braf.json 35
+python source/ptc_extract_pmc_query.py BRAF output_braf.json 35 --pub_date "2021/01/01"
 ```
 ```
-python source/ptc_extract_pmc_query.py Hodgkin+Lymphoma output_lymphoma.tsv 25 --pub_date "2021/01/01"
+python source/ptc_extract_pmc_query.py Hodgkin+Lymphoma output_lymphoma.tsv 25 
 ```
 ## ID converter
 
