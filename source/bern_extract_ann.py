@@ -13,6 +13,7 @@ def process_file(file_path):
     results = []
     
     with open(file_path, 'r') as file:
+        print(f"Processing file {file_path}.")
         file_contents = file.read()
         text = file_contents.strip()
         url = "http://bern2.korea.ac.kr/plain"
