@@ -25,7 +25,7 @@ def extract_pubtator(pmids, output):
             response.raise_for_status()
             json_data = response.json()
             if not json_data.get('passages'):
-                print(f"No Pubtator results found for PMC: PMC{pmc}")
+                print(f"No Pubtator results found for PMID: {pmid}")
                 continue
         except requests.exceptions.RequestException as e:
             print(f"Error for {pmid}: {e}")
