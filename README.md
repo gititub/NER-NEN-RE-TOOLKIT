@@ -194,14 +194,14 @@ You can also run NER-App in Windows.
 2. Select output type  
 
 
-## NormaMed Toolbox
-
-https://nerversetoolkit.shinyapps.io/normamedtoolbox/
-
 <img
   src="https://github.com/gititub/test/blob/main/resources/Captura.png"
   alt="Alt text"
   style="display: block; width:400px">
+  
+## NormaMed Toolbox
+
+https://nerversetoolkit.shinyapps.io/normamedtoolbox/
 
 **Run NEN-App in Linux:**
 ```
