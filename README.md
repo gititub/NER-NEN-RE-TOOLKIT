@@ -166,7 +166,9 @@ Run example:
 python source/pmid_from_pmc.py example/pmcs.txt '.' _pmid
 ```
 
-## NER&NEN-App NerVerseToolkit 
+# NER&NEN-App 
+
+## NerVerseToolkit 
 
 https://nerversetoolkit.shinyapps.io/nerversetoolkit/
 
@@ -190,6 +192,11 @@ You can also run NER-App in Windows.
 - PubMed id Drug Named Entity Recognition (one or more, comma separated)
 - Query: Word (replace space with ‘&’) + Publication Date + max. Retrievals
 2. Select output type  
+
+
+## NormaMed Toolbox
+
+https://nerversetoolkit.shinyapps.io/normamedtoolbox/
 
 <img
   src="https://github.com/gititub/test/blob/main/resources/Captura.png"
