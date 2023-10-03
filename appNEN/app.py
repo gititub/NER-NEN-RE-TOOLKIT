@@ -5,8 +5,9 @@ import shinyswatch
 import os
 from shiny import App, Inputs, Outputs, Session, reactive, render, req, ui
 from shiny.types import FileInfo
-from code import fetch_litvar_data, litvar_data, get_gene_info_by_gene_number, get_gene_info_by_gene_name, \
-    get_gene_info_by_rsid, synvar_file, synvar, fetch_data, extract_variants_syn, extract_drugs, extract_genes
+from code import fetch_litvar_data, get_gene_info_by_gene_number, get_gene_info_by_gene_name, \
+    get_gene_info_by_rsid, synvar_file, synvar, fetch_data, extract_variants_syn, extract_drugs, \
+    extract_genes, get_pmc_ids_from_pmids, get_pmids_from_pmc_ids
 
 app_ui = ui.page_fluid(
     shinyswatch.theme.minty(),
@@ -38,6 +39,8 @@ app_ui = ui.page_fluid(
             "gene": "Gene Normalization",
             "gene_name": "Gene Name",
             "gene_info": "rs ID Gene Info",
+            "pmid_to_pmc": "PubMed ID to PMC ID",
+            "pmc_to_pmid": "PMC ID to PubMed ID",
         },
         selected="Variant Normalization",
     ),
@@ -49,7 +52,7 @@ app_ui = ui.page_fluid(
         ui.column(
             4,
             ui.input_file("file", "Choose CSV or TSV File",
-                          accept=[".csv", ".tsv"],
+                          accept=[".csv", ".tsv", ".txt"],
                           multiple=False),
         ),
         ui.column(
@@ -88,6 +91,10 @@ def server(input, output, session):
             return "e.g. 7157,657,4234"
         elif input.input_type() == 'gene_info':
             return "e.g. rs5030858"
+        elif input.input_type() == 'pmid_to_pmc':
+            return "e.g. 27432226, 22383897 or upload CSV/TSV/TXT file "
+        elif input.input_type() == 'pmc_to_pmid':
+            return "e.g. PMC9797458, PMC3285588  or upload CSV/TSV/TXT file"
         elif input.input_type() == 'norm2':
             return "e.g. 19915144, MEK1(p.Q56P) or upload CSV file with three mandatory columns: 'pmid', gene' and 'HGVS'."
         else:
@@ -95,26 +102,34 @@ def server(input, output, session):
 
     @reactive.Calc
     def result():
-        if input.input_type() == "gene":
-            result = get_gene_info_by_gene_name(input.id())
-        elif input.input_type() == 'gene_name':
-            result = get_gene_info_by_gene_number(input.id())
-        elif input.input_type() == 'gene_info':
-            result = get_gene_info_by_rsid(input.id())
-        elif input.input_type() == 'norm2':
-            if input.file():
-                f: list[FileInfo] = input.file()
-                file = pd.read_csv(f[0]["datapath"], header=0, sep='\t')
+        if input.file():
+            f: list[FileInfo] = input.file()
+            file = pd.read_csv(f[0]["datapath"], header=0, sep='\t')
+            if input.input_type() == 'pmc_to_pmid':
+                result = get_pmids_from_pmc_ids(file, None)
+            elif input.input_type() == 'pmid_to_pmc':
+                result = get_pmc_ids_from_pmids(file, None)
+            elif input.input_type() == 'norm2':
                 result = synvar_file(file)
-            else:
-                result = synvar(input.id())
+            elif input.input_type() == 'norm':
+                result = fetch_litvar_data(file, None)
+
         else:
-            if input.file():
-                f: list[FileInfo] = input.file()
-                file = pd.read_csv(f[0]["datapath"], header=0, sep='\t')
-                result = fetch_litvar_data(file)
-            else:
-                result = litvar_data(input.id())
+            if input.input_type() == "gene":
+                result = get_gene_info_by_gene_name(input.id())
+            elif input.input_type() == 'gene_name':
+                result = get_gene_info_by_gene_number(input.id())
+            elif input.input_type() == 'gene_info':
+                result = get_gene_info_by_rsid(input.id())
+            elif input.input_type() == 'pmid_to_pmc':
+                result = get_pmc_ids_from_pmids(file=None, input=input.id())
+            elif input.input_type() == 'pmc_to_pmid':
+                result = get_pmids_from_pmc_ids(file=None, input=input.id())
+            elif input.input_type() == 'norm2':
+                result = synvar(input.id())
+            elif input.input_type() == 'norm':
+                result = fetch_litvar_data(None, input.id())
+
         return result
 
     @output
