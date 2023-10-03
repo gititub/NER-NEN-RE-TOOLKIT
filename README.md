@@ -177,10 +177,6 @@ https://nerversetoolkit.shinyapps.io/nerversetoolkit/
   alt="Alt text"
   style="display: block; width:400px">
 
-**Run NER-App in Linux:**
-```
-cd app;shiny run --reload
-```
 You can also run NER-App in Windows.  
 1. Make a query:  
 - PMC or PubMed id to **PubTator** (One or more, comma separated).
@@ -195,33 +191,41 @@ You can also run NER-App in Windows.
 2. Select output type: DataFrame or BioCjson.  
 3. Download results
 
-
 <img
   src="https://github.com/gititub/test/blob/main/resources/Captura.png"
   alt="Alt text"
   style="display: block; width:400px">
-  
+
+**Run NER-App in Linux:**
+```
+cd app;shiny run --reload
+```
+
 ## NormaMed Toolbox
 
 https://nerversetoolkit.shinyapps.io/normamedtoolbox/
 
-**Run NEN-App in Linux:**
-```
-cd appNEN;shiny run --reload
-```
 <img
   src="https://github.com/gititub/test/blob/main/resources/appNEN.png"
   alt="Alt text"
   style="display: block; width: 400px">
 
-1.	Make a query
+1.	Make a query  
+- LitVar Normalization: e.g. BRAFp.V600E  (one or more, comma separated) or upload CSV/TSV/TXT  file with two mandatory columns,'gene' and 'HGVS. → dbSNP rs ID  
 - SynVar Normalization : e.g. 19915144, MEK1(p.Q56P) or upload CSV file with three mandatory columns: 'pmid', gene' and 'HGVS'.
-- LitVar Normalization: e.g. BRAFp.V600E  (one or more, comma separated) or upload CSV file with two mandatory columns,'gene' and 'HGVS. → dbSNP rs ID  
 - Gene Normalization to gene ID (one by one, only a gene name or gene + specie)  
 - Gene ID → Gene Name (one or more, comma separated)  
-- Rs id → Gene Info (one or more, comma separated)   
+- Rs id → Gene Info (one or more, comma separated)
+- PubMed ID to PMC ID (one or more, comma separated, or upload CSV/TSV/TXT file with tab separated IDs).  
+- PMC ID to PubMed ID (one or more, comma separated, or upload CSV/TSV/TXT file with tab separated IDs).
+  
 2.	Download results  
-   
+
+**Run NEN-App in Linux:**
+```
+cd appNEN;shiny run --reload
+```
+
 ## NER with SynVar and LitVar
 
 To run example use test.tsv or test2.csv as input file, or use your own data with 3 columns: pmid, gene, HGVS. Returns two files in the specified output directory, one with LitVar normalization and the second one with SynVar normalization and gene+drug NER.
