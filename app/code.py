@@ -98,7 +98,8 @@ def extract_pubtator(ids, output):
     elif output == 'df':
         if results:
             combined_df = pd.concat(results, ignore_index=True)
-            return combined_df
+            df_cleaned = combined_df.dropna(axis=1, how='all')
+            return df_cleaned
 
 
 def extract_pubtator_from_pmcs(ids, output):
@@ -204,7 +205,8 @@ def extract_pubtator_from_pmcs(ids, output):
     elif output == 'df':
         if results:
             combined_df = pd.concat(results, ignore_index=True)
-            return combined_df
+            df_cleaned = combined_df.dropna(axis=1, how='all')
+            return df_cleaned
 
 
 def bern_extract_pmids(pmids, output):
@@ -228,7 +230,8 @@ def bern_extract_pmids(pmids, output):
     elif output == 'df':
         if results:
             bern = pd.concat(results, ignore_index=True)
-            return bern
+            bern_cleaned = bern.dropna(axis=1, how='all')
+            return bern_cleaned
 
 
 def process_pmid(pmid):
@@ -304,8 +307,9 @@ def json_to_df(json_data):
     })
     df['Wikipedia URL'] = df['mention'].apply(lambda x: 'https://en.wikipedia.org/wiki/' + x)
     df['PubChem'], df['chEBI'], df['DrugBank'] = zip(*df['mention'].apply(db_from_wikipedia))
+    df_cleaned = df.dropna(axis=1, how='all')
 
-    return df
+    return df_cleaned
 
 
 def query_plain(text, output):
@@ -351,7 +355,8 @@ def query_plain(text, output):
             df['dbSNP'] = 'rs' + df['dbSNP']
             df['Wikipedia URL'] = df['mention'].apply(lambda x: 'https://en.wikipedia.org/wiki/' + x)
             df['PubChem'], df['chEBI'], df['DrugBank'] = zip(*df['mention'].apply(db_from_wikipedia))
-            return df
+            df_cleaned = df.dropna(axis=1, how='all')
+            return df_cleaned
 
 
 def db_from_wikipedia(mention):
@@ -495,7 +500,8 @@ def extract_pubtator_from_pmcs_query(query, pub_date, retmax, output):
     elif output == 'df':
         if df_list:
             combined_df = pd.concat(df_list, ignore_index=True)
-            return combined_df
+            df_cleaned = combined_df.dropna(axis=1, how='all')
+            return df_cleaned
         else:
             return f'No results found. Check if all inputs are correct.'
 
@@ -511,8 +517,8 @@ def count_characters(input_text):
 def plain_drugs(txt, output):
     nlp = spacy.blank("en")
     doc = nlp(txt)
-    json_data2 = find_drugs([t.text for t in doc], is_ignore_case=True)
-    json_data = find_drugs(txt.split(" "), is_ignore_case=True)
+    json_data = find_drugs([t.text for t in doc], is_ignore_case=True)
+    json_data2 = find_drugs(txt.split(" "), is_ignore_case=True)
 
     if json_data:
         names = []
@@ -576,7 +582,8 @@ def plain_drugs(txt, output):
                 result.append(json_str)
             return result
         elif output == 'df':
-            return df
+            df_cleaned = df.dropna(axis=1, how='all')
+            return df_cleaned
 
 
 def download_from_PMC(pmcids):
@@ -604,7 +611,6 @@ def download_from_PubMed(pmids):
     joined_text = '.'.join(text)  # Join the text data with '.'
     return joined_text
 
-
 def synvar_ann(ids, output):
     id_list = [num.strip() for num in ids.split(',') if num.strip()]
     results_json = []
@@ -614,6 +620,7 @@ def synvar_ann(ids, output):
         'genes': [],
         'drugs': []
     }
+
     for id in id_list:
         print(f"Processing ID: {id}")
         url = f"https://variomes.text-analytics.ch/api/fetchDoc?ids=" + str(id)
@@ -622,6 +629,7 @@ def synvar_ann(ids, output):
         if response.ok:
             result = response.json()
             results_json.append(result)
+
             data_dict['pmid'].append(id)
             gene_data = result.get('publications', [])[0].get('details', {}).get('facet_details', {}).get('genes', [])
             gene_info = [f"{gene.get('preferred_term')}({gene.get('id')})" for gene in gene_data]
@@ -636,7 +644,10 @@ def synvar_ann(ids, output):
         if results_json:
             return json.dumps(results_json, indent=4)
         else:
-            return f'No results found. Check if the PubMed ID is correct.'
+            return f'No results found. Check if the PubMed InoD is correct.'
     elif output == 'df':
         if not synvar_df.empty:
-            return synvar_df
+            #synvar_df = synvar_df.explode('genes', ignore_index=True)
+            #synvar_df = synvar_df.explode('drugs', ignore_index=True)
+            df_cleaned = synvar_df.dropna(axis=1, how='all')
+            return df_cleaned
