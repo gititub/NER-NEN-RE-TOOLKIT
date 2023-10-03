@@ -17,10 +17,10 @@ def get_pmids_from_pmc_ids(pmc_ids, output_dir, file_name):
             records = data.get("records", [])
             if records:
                 record = records[0]
-                pmid = record.get("pmid", "none")
+                pmid = record.get("pmid", None)
                 results.append((pmc_id, pmid))
             else:
-                results.append((pmc_id, "none"))
+                results.append((pmc_id, None))
     df = pd.DataFrame(results, columns=["PMC", "PMID"])
     output_file = os.path.join(output_dir, file_name)
     df.to_csv(output_file, sep="\t", index=False)
