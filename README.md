@@ -183,15 +183,17 @@ cd app;shiny run --reload
 ```
 You can also run NER-App in Windows.  
 1. Make a query:  
-- PMC id PubTator (one or more, comma separated)  
-- PubMed id PubTator (one or more, comma separated)  
-- Plain Text BERN2 (max. 5000 characters)
-- PubMed id BERN2 (one or more, comma separated)
-- Plain Text Drug Named Entity Recognition 
-- PMC Drug Named Entity Recognition (one or more, comma separated)
-- PubMed id Drug Named Entity Recognition (one or more, comma separated)
-- Query: Word (replace space with ‘&’) + Publication Date + max. Retrievals
-2. Select output type  
+- PMC or PubMed id to **PubTator** (One or more, comma separated).
+  For example, "36064841, PMC9797458" (They can be mixed together).
+- Query to **PubTator**: Word (replace space with ‘&’) + Publication Date + max. Retrievals
+- Plain Text to **BERN2** (max. 5000 characters)
+- PubMed id to **BERN2** (one or more, comma separated)
+- Plain Text to **Drug Named Entity Recognition**
+- PMC or PubMed id to **Drug Named Entity Recognition** (one or more, comma separated. They can be mixed together)
+- PubMed id to **Variomes**
+
+2. Select output type: DataFrame or BioCjson.  
+3. Download results
 
 
 <img
