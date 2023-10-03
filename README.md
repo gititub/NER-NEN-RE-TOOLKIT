@@ -206,7 +206,7 @@ cd app;shiny run --reload
 https://nerversetoolkit.shinyapps.io/normamedtoolbox/
 
 <img
-  src="https://github.com/gititub/test/blob/main/resources/appNEN.png"
+  src="https://github.com/gititub/test/blob/main/resources/NEN.png"
   alt="Alt text"
   style="display: block; width: 400px">
 
