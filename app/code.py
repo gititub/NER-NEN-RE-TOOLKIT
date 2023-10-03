@@ -7,14 +7,18 @@ import spacy
 from bs4 import BeautifulSoup
 
 
+
 def extract_pubtator(ids, output):
     id_list = [num.strip() for num in ids.split(',') if num.strip()]
     results_json = []
+    error_ids = []
     results = []
-
     for id in id_list:
         print(f"Processing ID: {id}")
-        url = "https://www.ncbi.nlm.nih.gov/research/pubtator-api/publications/export/biocjson?pmids=" + str(id)
+        if id.startswith('PMC'):
+            url = "https://www.ncbi.nlm.nih.gov/research/pubtator-api/publications/export/biocjson?pmcids=" + str(id)
+        else:
+            url = "https://www.ncbi.nlm.nih.gov/research/pubtator-api/publications/export/biocjson?pmids=" + str(id)
         try:
             response = requests.get(url)
             response.raise_for_status()
@@ -22,11 +26,14 @@ def extract_pubtator(ids, output):
             results_json.append(json_data)
         except requests.exceptions.RequestException as e:
             print(f"Error for {id}: {e}")
+            error_ids.append(id)
+            continue
         except ValueError as e:
             print("Error parsing JSON data:", e)
             print("URL:", url)
             print("Response:", response.content)
             continue
+    print(f"Total number of errors extracting Pubtator data from PMCs: {len(error_ids)}")
 
     for pubtator in results_json:
         PMID_list = []
@@ -43,11 +50,21 @@ def extract_pubtator(ids, output):
         identifiers_list = []
         homologene_list = []
 
-        PMID = id  # pubtator['id']
-        PMC = pubtator['passages'][0]['infons'].get('article-id_pmc')
+        if pubtator['_id'].split('|')[0] is not None:
+            PMID = pubtator['_id'].split('|')[0]
+        else:
+            PMID = pubtator['passages'][0]['infons'].get('article-id_pmid')
+
+        if pubtator['_id'].split('|')[1] is not None:
+            PMC = pubtator['_id'].split('|')[1]
+        else:
+            PMC = pubtator['passages'][0]['infons'].get('article-id_pmc')
 
         for d in pubtator['passages']:
-            section_type = d['infons']['type']
+            if 'section_type' in d['infons'] and d['infons']['section_type'] is not None:
+                section_type = d['infons']['section_type']
+            else:
+                section_type = d['infons']['type']
             for annotation in d['annotations']:
                 entity_type = annotation['infons']['type']
                 subtype = annotation['infons'].get('subtype')
@@ -94,118 +111,12 @@ def extract_pubtator(ids, output):
         if results_json:
             return json.dumps(results_json, indent=4)
         else:
-            return f'No results found. Check if the PubMed ID is correct.'
+            return f'No results found. Check if the PubMed or PMC ID is correct.'
     elif output == 'df':
         if results:
             combined_df = pd.concat(results, ignore_index=True)
             df_cleaned = combined_df.dropna(axis=1, how='all')
-            return df_cleaned
-
-
-def extract_pubtator_from_pmcs(ids, output):
-    id_list = [num.strip() for num in ids.split(',') if num.strip()]
-    list_of_pubtators = []
-    error_ids = []
-    results = []
-
-    for id in id_list:
-        print(f"Processing ID: {id}")
-        url = "https://www.ncbi.nlm.nih.gov/research/pubtator-api/publications/export/biocjson?pmcids=" + str(id)
-        try:
-            response = requests.get(url)
-            response.raise_for_status()
-            json_data = response.json()
-            list_of_pubtators.append(json_data)
-        except requests.exceptions.RequestException as e:
-            error_ids.append(id)
-            continue  # Skip to the next ID if an error occurs
-        except ValueError as e:
-            print("Error parsing JSON data:", e)
-            print("URL:", url)
-            print("Response:", response.content)
-            continue  # Skip to the next ID if an error occurs
-
-        print(f"Total number of errors extracting Pubtator data from PMCs: {error_ids}")
-
-    for pubtator in list_of_pubtators:
-        PMID_list = []
-        PMC_list = []
-        section_type_list = []
-        sentences_list = []
-        entity_type_list = []
-        offset_list = []
-        end_list = []
-        identifier_list = []
-        string_text_list = []
-        subtype_list = []
-        tmvar_list = []
-        identifiers_list = []
-        homologene_list = []
-
-        if pubtator['_id'].split('|')[0] is not None:
-            PMID = pubtator['_id'].split('|')[0]
-        else:
-            PMID = pubtator['passages'][0]['infons'].get('article-id_pmid')
-
-        if pubtator['_id'].split('|')[1] is not None:
-            PMC = pubtator['_id'].split('|')[1]
-        else:
-            PMC = pubtator['passages'][0]['infons'].get('article-id_pmc')
-
-        for d in pubtator['passages']:
-            section_type = d['infons']['section_type']
-
-            for annotation in d['annotations']:
-                entity_type = annotation['infons']['type']
-                subtype = annotation['infons'].get('subtype')
-                tmVar = annotation['infons'].get('originalIdentifier')
-                identifiers = annotation['infons'].get('identifiers')
-                offset = annotation['locations'][0]['offset']
-                end = offset + annotation['locations'][0]['length']
-                identifier = annotation['infons']['identifier']
-                string_text = annotation['text']
-                ncbi_homologene = annotation['infons'].get('ncbi_homologene')
-
-                PMID_list.append(PMID)
-                PMC_list.append(PMC)
-                section_type_list.append(section_type)
-                entity_type_list.append(entity_type)
-                offset_list.append(offset)
-                end_list.append(end)
-                identifier_list.append(identifier)
-                identifiers_list.append(identifiers)
-                string_text_list.append(string_text)
-                subtype_list.append(subtype)
-                tmvar_list.append(tmVar)
-                homologene_list.append(ncbi_homologene)
-
-        df = pd.DataFrame({
-            'PMID': PMID_list,
-            'PMC': PMC_list,
-            'section_type': section_type_list,
-            'string_text': string_text_list,
-            'offset': offset_list,
-            'end': end_list,
-            'entity_type': entity_type_list,
-            'entity_subtype': subtype_list,
-            'ncbi_homologene': homologene_list,
-            'tmVar': tmvar_list,
-            'identifiers_list': identifiers_list,
-            'identifier': identifier_list
-        })
-
-        if not df.empty:
-            results.append(df)
-
-    if output == 'biocjson':
-        if list_of_pubtators:
-            return json.dumps(list_of_pubtators, indent=4)
-        else:
-            return f'No results found. Check if the PMC ID is correct.'
-    elif output == 'df':
-        if results:
-            combined_df = pd.concat(results, ignore_index=True)
-            df_cleaned = combined_df.dropna(axis=1, how='all')
+            pd.set_option('display.max_colwidth', 30) 
             return df_cleaned
 
 
@@ -231,6 +142,7 @@ def bern_extract_pmids(pmids, output):
         if results:
             bern = pd.concat(results, ignore_index=True)
             bern_cleaned = bern.dropna(axis=1, how='all')
+            pd.set_option('display.max_colwidth', 30)
             return bern_cleaned
 
 
@@ -242,8 +154,10 @@ def process_pmid(pmid):
         if response.status_code == 200:
             json_data = response.json()
             df = json_to_df(json_data)
+            df_cleaned = df.dropna(axis=1, how='all')
+            pd.set_option('display.max_colwidth', 30)
             if json_data:
-                return json_data, df
+                return json_data, df_cleaned
             else:
                 return f'No results found. Check if the PubMed ID is correct.'
         else:
@@ -305,10 +219,9 @@ def json_to_df(json_data):
         "span_begin": begin_list,
         "span_end": end_list
     })
-    df['Wikipedia URL'] = df['mention'].apply(lambda x: 'https://en.wikipedia.org/wiki/' + x)
-    df['PubChem'], df['chEBI'], df['DrugBank'] = zip(*df['mention'].apply(db_from_wikipedia))
+    df[['PubChem', 'chEBI', 'DrugBank']] = df.apply(apply_db_from_wikipedia, axis=1, result_type='expand')
     df_cleaned = df.dropna(axis=1, how='all')
-
+    pd.set_option('display.max_colwidth', 30)
     return df_cleaned
 
 
@@ -353,10 +266,18 @@ def query_plain(text, output):
         if not df.empty:
             df['dbSNP'] = df['normalized_name'].str.extract(r'(?:rs|RS#:)(\d+)', expand=False)
             df['dbSNP'] = 'rs' + df['dbSNP']
-            df['Wikipedia URL'] = df['mention'].apply(lambda x: 'https://en.wikipedia.org/wiki/' + x)
-            df['PubChem'], df['chEBI'], df['DrugBank'] = zip(*df['mention'].apply(db_from_wikipedia))
+            df[['PubChem', 'chEBI', 'DrugBank']] = df.apply(apply_db_from_wikipedia, axis=1, result_type='expand')
             df_cleaned = df.dropna(axis=1, how='all')
+            pd.set_option('display.max_colwidth', 30)
             return df_cleaned
+
+
+def apply_db_from_wikipedia(row):
+    if row['obj'] == 'drug':
+        pubchem, chebi, drugbank = db_from_wikipedia(row['mention'])
+        return pubchem, chebi, drugbank
+    else:
+        return None, None, None
 
 
 def db_from_wikipedia(mention):
@@ -501,6 +422,7 @@ def extract_pubtator_from_pmcs_query(query, pub_date, retmax, output):
         if df_list:
             combined_df = pd.concat(df_list, ignore_index=True)
             df_cleaned = combined_df.dropna(axis=1, how='all')
+            pd.set_option('display.max_colwidth', 30)
             return df_cleaned
         else:
             return f'No results found. Check if all inputs are correct.'
@@ -562,6 +484,8 @@ def plain_drugs(txt, output):
 
             positions.append(data[1])
 
+        pd.set_option('display.max_colwidth', 20)
+
         df = pd.DataFrame({'Name': names,
                            'Synonyms': synonyms,
                            'MESH id': mesh_ids,
@@ -572,15 +496,11 @@ def plain_drugs(txt, output):
                            'Position': positions})
         if not df.empty:
             df['PubChem'], df['chEBI'], df['DrugBank'] = zip(*df['Name'].apply(db_from_wikipedia))
+            df['Synonyms'] = df['Synonyms'].apply(lambda x: ', '.join(x))
 
         if output == 'biocjson':
-            result = []
-            for item in json_data:
-                # Convert set of synonyms to a list
-                item[0]['synonyms'] = list(item[0]['synonyms'])
-                json_str = json.dumps(item[0], separators=(',', ':'))
-                result.append(json_str)
-            return result
+            return json.dumps(json_data, indent=4)
+
         elif output == 'df':
             df_cleaned = df.dropna(axis=1, how='all')
             return df_cleaned
@@ -610,6 +530,25 @@ def download_from_PubMed(pmids):
         text.append(data)
     joined_text = '.'.join(text)  # Join the text data with '.'
     return joined_text
+    
+
+def download_data(id_input):
+    id_list = [num.strip() for num in id_input.split(',') if num.strip()]
+    text = []
+    for item in id_list:
+        if item.startswith("PMC"):
+            print(f"Downloading {item} from PMC...")
+            URL = f"https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/{item}/unicode"
+        else:
+            print(f"Downloading {item} from PubMed...")
+            URL = f"https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pubmed.cgi/BioC_json/{item}/unicode"
+        
+        response = requests.get(URL)
+        data = response.text
+        text.append(data)
+    joined_text = '.'.join(text)  # Join the text data with '.'
+    return joined_text
+    
 
 def synvar_ann(ids, output):
     id_list = [num.strip() for num in ids.split(',') if num.strip()]
@@ -650,4 +589,5 @@ def synvar_ann(ids, output):
             #synvar_df = synvar_df.explode('genes', ignore_index=True)
             #synvar_df = synvar_df.explode('drugs', ignore_index=True)
             df_cleaned = synvar_df.dropna(axis=1, how='all')
+            pd.set_option('display.max_colwidth', 30)
             return df_cleaned
