@@ -5,9 +5,9 @@ import pandas as pd
 import shinyswatch
 from shiny import App, Inputs, Outputs, Session, reactive, render, req, ui
 from shiny.types import ImgData
-from code import count_characters, extract_pubtator, extract_pubtator_from_pmcs, query_plain, \
+from code import count_characters, extract_pubtator, query_plain, \
     extract_pubtator_from_pmcs_query, plain_drugs, download_from_PMC, download_from_PubMed, \
-    bern_extract_pmids, synvar_ann
+    bern_extract_pmids, synvar_ann, download_data, apply_db_from_wikipedia
 
 
 app_ui = ui.page_fluid(
@@ -35,14 +35,12 @@ app_ui = ui.page_fluid(
                 "input_type",
                 "Query Type",
                 {
-                    "PMC": "PMC (PubTator)",
-                    "pmid": "PubMed ID (PubTator)",
+                    "PTC": "PMC or PubMed ID (PubTator)",
+                    "query": "Word in PubMed Central (PubTator)",
                     "plain_text": "Plain Text (BERN2)",
                     "pmid_bern": "PubMed ID (BERN2)",
                     "plain_drugs": "Plain Text (Drug NER)",
-                    "pmc_drugs": "PMC (Drug NER)",
-                    "pmid_drugs": "PubMed ID (Drug NER)",
-                    "query": "Word in PubMed Central (PubTator)",
+                    "id_drugs":  "PMC or PubMed ID (Drug NER)",
                     "pmid_synvar": "PubMed ID (Variomes)",
                 },
                 selected='Plain Text',
@@ -63,7 +61,7 @@ app_ui = ui.page_fluid(
         ),
     ),
     ui.input_text_area("id",
-                       "PMC or pmid (one or more, comma separated), word or plain text (less than 5000 characters)",
+                       "PMC or pmid (one or more, comma separated), word or plain text (less than 5000 characters for BERN2)",
                        placeholder='eg.PMC2882923 or 34216518 or Hardy&Weinberg for query',
                        width='800px', height='200px'),
     ui.output_text('ch'),
@@ -96,12 +94,10 @@ def server(input, output, session):
 
     @reactive.Calc
     def result():
-        if input.input_type() == "PMC":
-            result = extract_pubtator_from_pmcs(input.id(), input.output_type())
+        if input.input_type() == "PTC":
+            result = extract_pubtator(input.id(), input.output_type())
         elif input.input_type() == 'plain_text':
             result = query_plain(input.id(), input.output_type())
-        elif input.input_type() == 'pmid':
-            result = extract_pubtator(input.id(), input.output_type())
         elif input.input_type() == 'pmid_bern':
             result = bern_extract_pmids(input.id(), input.output_type())
         elif input.input_type() == 'query':
@@ -110,13 +106,10 @@ def server(input, output, session):
                                                       input.output_type())
         elif input.input_type() == 'plain_drugs':
             result = plain_drugs(input.id(), input.output_type())
-        elif input.input_type() == 'pmid_drugs':
-            input_text = download_from_PubMed(input.id())
-            result = plain_drugs(input_text, input.output_type())
         elif input.input_type() == 'pmid_synvar':
             result = synvar_ann(input.id(), input.output_type())
         else:
-            input_text = download_from_PMC(input.id())
+            input_text = download_data(input.id())
             result = plain_drugs(input_text, input.output_type())
         return result
 
