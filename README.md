@@ -149,6 +149,17 @@ python source/ptc_extract_pmc_query.py BRAF output_braf.json 35 --pub_date "2021
 ```
 python source/ptc_extract_pmc_query.py Hodgkin+Lymphoma output_lymphoma.tsv 25 
 ```
+
+## NER with SynVar and LitVar
+
+To run example use test.tsv or test2.csv as input file, or use your own data with 3 columns: pmid, gene, HGVS. Returns two files in the specified output directory, one with LitVar normalization and the second one with SynVar normalization and gene+drug NER.
+
+$ python source/normalize.py [input_file] [output_directory] 
+
+```
+python source/normalize.py example/test2.csv '.'
+```
+
 ## ID converter
 
 **Convert PubMed ids to PMC ids**  
@@ -166,7 +177,7 @@ Run example:
 python source/pmid_from_pmc.py example/pmcs.txt '.' _pmid
 ```
 
-# NER&NEN-App 
+# NER-NEN-App 
 
 ## NerVerseToolkit 
 
@@ -196,7 +207,7 @@ You can also run NER-App in Windows.
   alt="Alt text"
   style="display: block; width:400px">
 
-**Run NER-App in Linux:**
+**Run NerVerseToolkit in Linux:**
 ```
 cd app;shiny run --reload
 ```
@@ -221,17 +232,9 @@ https://nerversetoolkit.shinyapps.io/normamedtoolbox/
   
 2.	Download results  
 
-**Run NEN-App in Linux:**
+**Run NormaMed Toolbox in Linux:**
 ```
 cd appNEN;shiny run --reload
 ```
 
-## NER with SynVar and LitVar
 
-To run example use test.tsv or test2.csv as input file, or use your own data with 3 columns: pmid, gene, HGVS. Returns two files in the specified output directory, one with LitVar normalization and the second one with SynVar normalization and gene+drug NER.
-
-$ python source/normalize.py [input_file] [output_directory] 
-
-```
-python source/normalize.py example/test2.csv '.'
-```
