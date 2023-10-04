@@ -2,6 +2,13 @@
 # NEN-NER-TOOLKIT
 This repository provides the code for automatic system to retrieve annotations of biomedical concepts such as genes, mutations and chemicals, from PubMed abstracts, PMC full-text articles, or plain text. The system utilizes API tools such as PubTator, BERN2, and Variomes for Named Entity Recognition (NER) and Named Entity Normalization (NEN). Additionally, it incorporates LitvAr or SynVar for NEN. The workflow is  integrated into the development of a web application using Shiny for Python.
 
+## NerVerseToolkit 
+
+https://nerversetoolkit.shinyapps.io/nerversetoolkit/
+
+## NormaMed Toolbox
+
+https://nerversetoolkit.shinyapps.io/normamedtoolbox/
 
 <img
   src="https://github.com/gititub/test/blob/main/resources/workflow2.png"
