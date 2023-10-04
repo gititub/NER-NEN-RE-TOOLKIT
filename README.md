@@ -173,7 +173,7 @@ python source/pmid_from_pmc.py example/pmcs.txt '.' _pmid
 https://nerversetoolkit.shinyapps.io/nerversetoolkit/
 
 <img
-  src="https://github.com/gititub/test/blob/main/resources/app.png"
+  src="https://github.com/gititub/test/blob/main/resources/APP.png"
   alt="Alt text"
   style="display: block; width:400px">
 
