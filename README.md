@@ -192,7 +192,7 @@ You can also run NER-App in Windows.
 3. Download results
 
 <img
-  src="https://github.com/gititub/test/blob/main/resources/Captura.png"
+  src="https://github.com/gititub/test/blob/main/resources/app.png"
   alt="Alt text"
   style="display: block; width:400px">
 
