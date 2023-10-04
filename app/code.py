@@ -436,73 +436,64 @@ def count_characters(input_text):
         return character_count
 
 
+class SetEncoder(JSONEncoder):
+    def default(self, obj):
+        if isinstance(obj, set):
+            return list(obj)
+        return JSONEncoder.default(self, obj)
+
+
 def plain_drugs(txt, output):
     nlp = spacy.blank("en")
     doc = nlp(txt)
-    json_data = find_drugs([t.text for t in doc], is_ignore_case=True)
-    json_data2 = find_drugs(txt.split(" "), is_ignore_case=True)
+    drugs = find_drugs([t.text for t in doc], is_ignore_case=True)
+    drugs2 = find_drugs(txt.split(" "), is_ignore_case=True)
 
-    if json_data:
-        names = []
-        synonyms = []
-        mesh_ids = []
-        drugbank_ids = []
-        medline_ids = []
-        nhs_urls = []
-        wikipedia_urls = []
-        positions = []
+    if drugs:
+        data_dicts = []
+        for data in drugs:
+            drug_dict = {}
+            drug_dict['start'] = data[1]
+            drug_dict['end'] = data[2]
+            drug_info = data[0]
 
-        for data in json_data:
-            if 'name' in data[0]:
-                names.append(data[0]['name'])
+            if 'name' in drug_info:
+                drug_dict['name'] = drug_info['name']
             else:
-                names.append(None)
-            if 'synonyms' in data[0]:
-                synonyms.append(data[0]['synonyms'])
+                drug_dict['name'] = None
+            if 'synonyms' in drug_info:
+                drug_dict['synonyms'] = list(drug_info['synonyms'])
             else:
-                synonyms.append(None)
-            if 'mesh_id' in data[0]:
-                mesh_ids.append(data[0]['mesh_id'])
+                drug_dict['synonyms'] = None
+            if 'mesh_id' in drug_info:
+                drug_dict['mesh_id'] = drug_info['mesh_id']
             else:
-                mesh_ids.append(None)
-            if 'drugbank_id' in data[0]:
-                drugbank_ids.append(data[0]['drugbank_id'])
+                drug_dict['mesh_id'] = None
+            if 'drugbank_id' in drug_info:
+                drug_dict['drugbank_id'] = drug_info['drugbank_id']
             else:
-                drugbank_ids.append(None)
-            if 'medline_plus_id' in data[0]:
-                medline_ids.append(data[0]['medline_plus_id'])
+                drug_dict['drugbank_id'] = None
+            if 'medline_plus_id' in drug_info:
+                drug_dict['medline_plus_id'] = drug_info['medline_plus_id']
             else:
-                medline_ids.append(None)
-            if 'nhs_url' in data[0]:
-                nhs_urls.append(data[0]['nhs_url'])
+                drug_dict['medline_plus_id'] = None
+            if 'nhs_url' in drug_info:
+                drug_dict['nhs_url'] = drug_dict['nhs_url'] 
             else:
-                nhs_urls.append(None)
-            if 'wikipedia_url' in data[0]:
-                wikipedia_urls.append(data[0]['wikipedia_url'])
-            else:
-                wikipedia_urls.append(None)
+                drug_dict['nhs_url'] = None
 
-            positions.append(data[1])
-
-        pd.set_option('display.max_colwidth', 20)
-
-        df = pd.DataFrame({'Name': names,
-                           'Synonyms': synonyms,
-                           'MESH id': mesh_ids,
-                           'Drugbank_ID': drugbank_ids,
-                           'MedlinePlus id': medline_ids,
-                           'NHS URL': nhs_urls,
-                           'Wikipedia URL': wikipedia_urls,
-                           'Position': positions})
-        if not df.empty:
-            df['PubChem'], df['chEBI'], df['DrugBank'] = zip(*df['Name'].apply(db_from_wikipedia))
-            df['Synonyms'] = df['Synonyms'].apply(lambda x: ', '.join(x))
+            data_dicts.append(drug_dict)
 
         if output == 'biocjson':
-            return json.dumps(json_data, indent=4)
+            return json.dumps(data_dicts, indent=4, cls=SetEncoder)
 
         elif output == 'df':
-            df_cleaned = df.dropna(axis=1, how='all')
+            pd.set_option('display.max_colwidth', 20)
+            df = pd.DataFrame(data_dicts)
+            if not df.empty:
+                df['PubChem'], df['chEBI'], df['DrugBank'] = zip(*df['name'].apply(db_from_wikipedia))
+                df['synonyms'] = df['synonyms'].apply(lambda x: ', '.join(x))
+                df_cleaned = df.dropna(axis=1, how='all')
             return df_cleaned
 
 
