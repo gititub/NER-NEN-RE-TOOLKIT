@@ -156,16 +156,19 @@ def server(input, output, session):
     @render.data_frame
     @reactive.event(input.action)
     def table():
+        height = 450 if input.all_results() else None
         if isinstance(result(), pd.DataFrame):
             if input.all_results():
                 return render.DataGrid(
                     result(),
                     width="100%",
-                    height="100%",
+                    height=height,
                     filters=True,
                 )
             else:
-                return result().head(15)
+                return render.DataGrid(
+                    result().head(15)
+                    )
 
     @session.download()
     def download():
