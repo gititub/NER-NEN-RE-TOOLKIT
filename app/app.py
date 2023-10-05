@@ -24,8 +24,14 @@ app_ui = ui.page_fluid(
             ui.output_image("imagen", height="90px"),
         ),
         ui.column(
-            6,
+            4,
             ui.h2("Biomedical Entity Recognition"),
+        ),
+         ui.column(
+            2,
+            ui.output_image("imagen2", height="90px"),
+            ui.tags.a("About & FAQ",
+                  href="https://github.com/gititub/NEN-NER-TOOLKIT"),
         ),
     ),
     ui.row(
@@ -50,7 +56,7 @@ app_ui = ui.page_fluid(
             4,
             ui.input_select(
                 "output_type",
-                "Output type",
+                "Output Type",
                 {
                     "df": "Dataframe",
                     "biocjson": "BioCjson"
@@ -84,6 +90,14 @@ def server(input, output, session):
     def imagen():
         return {
             "src": 'literatura.png',
+            "style": "width: 100px; max-height: 100px;",
+        }
+
+    @output
+    @render.image
+    def imagen2():
+        return {
+            "src": '5907623.png',
             "style": "width: 80px; max-height: 80px;",
         }
 
