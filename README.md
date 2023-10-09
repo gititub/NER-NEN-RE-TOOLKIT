@@ -234,8 +234,10 @@ https://nerversetoolkit.shinyapps.io/normamedtoolbox/
 - Gene Normalization to gene ID (one by one, only a gene name or gene + specie)  
 - Gene ID → Gene Name (one or more, comma separated)  
 - Rs id → Gene Info (one or more, comma separated)
-- PubMed ID to PMC ID (one or more, comma separated, or upload CSV/TSV/TXT file with tab separated IDs).  
-- PMC ID to PubMed ID (one or more, comma separated, or upload CSV/TSV/TXT file with tab separated IDs).
+- PubMed ID to PMC ID (one or more, comma separated, or upload CSV/TSV/TXT file with tab separated IDs)*
+- PMC ID to PubMed ID (one or more, comma separated, or upload CSV/TSV/TXT file with tab separated IDs)*
+  
+  (*) It is not necessary a column name and there can be more than one column, it just will read the first column.  
   
 2.	Download results  
 
