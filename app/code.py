@@ -478,7 +478,7 @@ def plain_drugs(txt, output):
             else:
                 drug_dict['medline_plus_id'] = None
             if 'nhs_url' in drug_info:
-                drug_dict['nhs_url'] = drug_dict['nhs_url'] 
+                drug_dict['nhs_url'] = drug_info['nhs_url'] 
             else:
                 drug_dict['nhs_url'] = None
 
