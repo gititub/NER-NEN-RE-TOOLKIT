@@ -86,7 +86,7 @@ python source/ptc_extract_pmc.py example/pmcs.txt output_pmc.tsv
 
 ## NER and NEN for plain text with BERN2
 
-Plain text is limited to 5000 characters. To expedite the process, you can distribute the texts (each no longer than 5000 characters) into subdirectories within the designated input directory (with no more than 120 files per subdirectory). This process is parallelized to concurrently process the subdirectories. The outcome is acquired in a file bearing the same name as the subdirectory, following the specified format (JSON or TSV) – one result file per subdirectory. 
+Plain text is limited to 5000 characters. To speed up the process, texts (each no longer than 5000 characters) are distributed into subdirectories within the designated input directory (with no more than 120 files per subdirectory). This process is parallelized to concurrently process the subdirectories. The outcome is acquired in a file bearing the same name as the subdirectory, following the specified format (JSON or TSV) – one result file per subdirectory. 
 
 You can download the full text automatically divided into subdirectories yourself, from a PMC list or from a folder with pdf files.
 
