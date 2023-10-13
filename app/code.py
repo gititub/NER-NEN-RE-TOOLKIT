@@ -1,11 +1,11 @@
 import requests
 import json
+from json import JSONEncoder
 import pandas as pd
 from Bio import Entrez
 from drug_named_entity_recognition import find_drugs
 import spacy
 from bs4 import BeautifulSoup
-
 
 
 def extract_pubtator(ids, output):
