@@ -159,7 +159,7 @@ python source/ptc_extract_pmc_query.py BRAF output_braf.json 35 --pub_date "2021
 python source/ptc_extract_pmc_query.py Hodgkin+Lymphoma output_lymphoma.tsv 25 
 ```
 
-## NER with SynVar and LitVar
+## Normalize Variants with SynVar and LitVar
 
 To run example use test.tsv or test2.csv as input file, or use your own data with 3 columns: pmid, gene, HGVS. Returns two files in the specified output directory, one with LitVar normalization and the second one with SynVar normalization and gene+drug NER.
 
