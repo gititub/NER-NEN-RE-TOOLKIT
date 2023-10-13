@@ -134,9 +134,7 @@ python source/bern_extract_ann.py bern_ft_pdf bern_ft_pdf_results df
 
 This command will search for PMC articles related to a query, for example *biotin* or *Hodgkin+Lymphoma* (it is not case sensitive), using Bio.Entrez (Spaces may be replaced by '+' sign). Retrieves and processes PubTator annotations and save the results in the specified output file in biocjson or tsv format.
 
-Entrez.ESearch searches and retrieves primary IDs and term translations, and optionally retains results for future use in the user’s environment. The fourth command-line argument is the number of IDs to retrieve.
-
-The last command-line argument is the oldest publication date. If you don't want to filter by date, simply omit the --pub_date argument. This argument is not mandatory but it is recommended to use it.
+The fourth command-line argument is the number of IDs to retrieve. The last command-line argument is the oldest publication date. If you don't want to filter by date, simply omit the --pub_date argument. This argument is not mandatory but it is recommended to use it.
 
 **Pubmed abstracts**
 
