@@ -5,7 +5,6 @@ from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 import os
-import pickle
 import shutil
 import argparse
 import time
@@ -41,13 +40,13 @@ def save_text_to_files(pmc_list, max_length, output_directory):
         for paragraph in filtered_paragraphs:
             paragraph_text = paragraph.get_text().strip()
             while len(paragraph_text) > max_length:
-                last_space_index = paragraph_text.rfind(' ', 0, max_length)
-                if last_space_index == -1:
-                    last_space_index = max_length
+                last_period_index = paragraph_text.rfind('.', 0, max_length)
+                if last_period_index == -1:
+                    last_period_index = max_length
 
-                split_text = paragraph_text[:last_space_index]
-                paragraph_text = paragraph_text[last_space_index:].strip()
-                
+                split_text = paragraph_text[:last_period_index + 1]  # Include the last period in the chunk
+                paragraph_text = paragraph_text[last_period_index + 1:].strip()
+
                 output_file_path = os.path.join(output_directory, f"{pmc}({file_number}).txt")
                 with open(output_file_path, 'w', encoding='utf-8') as output_file:
                     output_file.write(split_text)
