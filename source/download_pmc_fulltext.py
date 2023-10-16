@@ -6,8 +6,8 @@ from bs4 import BeautifulSoup
 import requests
 import shutil
 import uuid
-
 warnings.filterwarnings("ignore")
+
 
 def save_text_to_files(pmc_list, max_length, output_directory):
     if not os.path.exists(output_directory):
@@ -21,8 +21,15 @@ def save_text_to_files(pmc_list, max_length, output_directory):
             print(f'Response status for PMC {pmc}: {response.status_code}')
             if response.status_code == 200:
                 content = response.content.decode()
-                chunks = [content[i:i + max_length] for i in range(0, len(content), max_length)]
-                
+                chunks = []
+                while content:
+                    last_period_index = content.rfind('.', 0, max_length)
+                    if last_period_index == -1:
+                        last_period_index = max_length
+                    chunk = content[:last_period_index + 1]  # Include the last period in the chunk
+                    content = content[last_period_index + 1:].strip()
+                    chunks.append(chunk)
+
                 for chunk_number, chunk in enumerate(chunks, start=1):
                     output_file_path = os.path.join(output_directory, f"{pmc}({chunk_number}).txt")
                     with open(output_file_path, 'w', encoding='utf-8') as output_file:
