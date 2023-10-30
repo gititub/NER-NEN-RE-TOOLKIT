@@ -86,7 +86,7 @@ def process_json_files(directory):
 
                     for annotation in doc['annotations']:
                         text = annotation['text']
-                        types =  annotation['infons']['type']
+                        types = annotation['infons']['type']
                         identifier = annotation['infons']['identifier']
                         locations = annotation['locations'][0]['offset']
                         table_element = annotation['locations'][0]['table_element']
@@ -109,10 +109,13 @@ def process_json_files(directory):
                     'identifier': identifier_list})
 
                 df_list.append(df)
-    df = pd.concat(df_list, ignore_index=True)
-    df['PMC'] = df['PMC'].str.extract(r'PMC(\d+)\.html')
-    df['PMC'] = "PMC" + df['PMC']
-    df.to_csv('tables_GWASminer.tsv', sep='\t', index=False)
+    if df_list:
+        df = pd.concat(df_list, ignore_index=True)
+        df['PMC'] = df['PMC'].str.extract(r'PMC(\d+)\.html')
+        df['PMC'] = "PMC" + df['PMC']
+        df.to_csv('tables_GWASminer.tsv', sep='\t', index=False)
+    else:
+        print("No valid JSON files found in the directory.")
 
 def main():
     process_xml_files(directory1)
