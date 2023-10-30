@@ -21,12 +21,12 @@ process_file() {
   output_file="${file_name_without_extension}.${output_type}"
 
   if [[ $file_content =~ ^[0-9]+$ ]] || [[ $file_content == "pmid" ]]; then
-    python source/bern_extract_pmids.py "$file" "${output_directory}/bern_pmid_${output_file}"
-    python source/ptc_extract_pmids.py "$file" "${output_directory}/ptc_pmid_${output_file}"
+    python src/bern_extract_pmids.py "$file" "${output_directory}/bern_pmid_${output_file}"
+    python src/ptc_extract_pmids.py "$file" "${output_directory}/ptc_pmid_${output_file}"
   elif [[ $file_content =~ ^PMC[0-9]+$ ]] || [[ $file_content == "PMC" ]]; then
-    python source/ptc_extract_pmc.py "$file" "${output_directory}/ptc_pmc_${output_file}"
-    cp "$file" source/GWAS-Miner/GWAS_Miner/"$file"
-    cd source/GWAS-Miner/GWAS_Miner/
+    python src/ptc_extract_pmc.py "$file" "${output_directory}/ptc_pmc_${output_file}"
+    cp "$file" src/GWAS-Miner/GWAS_Miner/"$file"
+    cd src/GWAS-Miner/GWAS_Miner/
     ./gwasminer.sh "$file"
     cp tables_GWASminer.tsv "${current_dir}/${output_directory}/tables_GWASminer.tsv"
     cp data_GWASminer.tsv "${current_dir}/${output_directory}/data_GWASminer.tsv"
