@@ -12,7 +12,7 @@ output_directory="results_${current_date}"
 
 # Create the output directory if it doesn't exist
 mkdir -p "$output_directory"
-
+current_dir=$(pwd)
 # Function to process a single file
 process_file() {
   file="$1"
@@ -25,6 +25,11 @@ process_file() {
     python source/ptc_extract_pmids.py "$file" "${output_directory}/ptc_pmid_${output_file}"
   elif [[ $file_content =~ ^PMC[0-9]+$ ]] || [[ $file_content == "PMC" ]]; then
     python source/ptc_extract_pmc.py "$file" "${output_directory}/ptc_pmc_${output_file}"
+    cp "$file" source/GWAS-Miner/GWAS_Miner/"$file"
+    cd source/GWAS-Miner/GWAS_Miner/
+    ./gwasminer.sh "$file"
+    cp tables_GWASminer.tsv "${current_dir}/${output_directory}/tables_GWASminer.tsv"
+    cp data_GWASminer.tsv "${current_dir}/${output_directory}/data_GWASminer.tsv"
   fi
 }
 
