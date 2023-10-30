@@ -1,6 +1,6 @@
 
 # NER-NEN-RE-TOOLKIT
-This repository provides the code for automatic system to retrieve annotations of biomedical concepts such as genes, mutations and chemicals, from PubMed abstracts, PMC full-text articles, or plain text. The system utilizes API tools such as PubTator, BERN2, and Variomes for Named Entity Recognition (NER), Named Entity Normalization (NEN), and related entities (RE) with PubTator3. Additionally, it incorporates LitVar or SynVar for NEN. The workflow is integrated into the development of a web application using Shiny for Python.
+This repository provides the code for automatic system to retrieve annotations of biomedical concepts such as genes, mutations and chemicals, from PubMed abstracts, PMC full-text articles, or plain text. The system utilizes API tools such as PubTator, BERN2, and Variomes for Named Entity Recognition (NER), Named Entity Normalization (NEN), and related entities (RE) with PubTator3. Additionally, it incorporates Auto-CORPus+GWASMiner that allows retrieval of information about diseases, variants, and significance values (p-values) from full-text articles, including data from inner tables. LitVar and SynVar are used for NEN. The workflow is integrated into the development of a web application using Shiny for Python.
 
 ## NerVerseToolkit 
 
@@ -11,7 +11,7 @@ https://nerversetoolkit.shinyapps.io/nerversetoolkit/
 https://nerversetoolkit.shinyapps.io/normamedtoolbox/
 
 <img
-  src="https://github.com/gititub/test/blob/main/resources/workflow2.png"
+  src="https://github.com/gititub/test/blob/main/rsc/workflow2.png"
   alt="Alt text"
   style="display: block; height:450px; width:800px">
 
@@ -33,7 +33,7 @@ pip install -r requirements.txt
 
 $ ./ann.sh [input file or directory] [json/tsv]
 
-This code first checks if the input is a directory and then process each file within the directory while applying the appropriate logic based on the file content, PubMed ID or PMC ID. Based on which function is being executed, the output files will have distinct names: "pmids", "PMC", "bern" and "ptc" will be appended to the output file name. Additionally, the script distinguishes between two output formats: 'biocjson' or 'dataframe' depending on whether the second argument is 'json' or 'tsv' respectively.
+This code first checks if the input is a directory and then process each file within the directory while applying the appropriate logic based on the file content, PubMed ID or PMC ID. Based on which function is being executed, the output files will have distinct names: "pmids", "PMC", "bern" (only pmids), "gwasminer" (only PMCIDs) and "ptc" will be appended to the output file name. Additionally, the script distinguishes between two output formats: 'biocjson' or 'dataframe' depending on whether the second argument is 'json' or 'tsv' respectively.
 
 Results will be saved in a directory named "results_[datetime]".
 
@@ -46,6 +46,9 @@ Or of a single file:
 ```
 ./ann.sh example/pmids.tsv json
 ```
+```
+./ann.sh example/pmcs.txt tsv
+```
 
 ℹ️ **Accepted file input extensions for all commands include .txt, .tsv, or .csv. The data must be organized into a single column of elements. If it's a number, interpret it as a PMID; if it starts with "PMC," interpret it as a PMC ID. The first row may also include a column name, which can be either 'pmid' or 'PMC'.**
 
@@ -53,35 +56,35 @@ If the output filename concludes with '.tsv', you will receive the results as a 
 
 ## NER and NEN for PubMed abstracts with PubTator
 
-$ python source/ptc_extract_pmids.py [file_path_pmids] [output_filename]
+$ python src/ptc_extract_pmids.py [file_path_pmids] [output_filename]
 
 Run example: 
 ```
-python source/ptc_extract_pmids.py example/pmids.tsv output.json
+python src/ptc_extract_pmids.py example/pmids.tsv output.json
 ```
 ```
-python source/ptc_extract_pmids.py example/pmids.tsv output.tsv
+python src/ptc_extract_pmids.py example/pmids.tsv output.tsv
 ```
 ## NER and NEN for PubMed abstracts with BERN2
 
-$ python source/bern_extract_pmids.py [file_path_pmids] [output_filename]
+$ python src/bern_extract_pmids.py [file_path_pmids] [output_filename]
 
 ```
-python source/bern_extract_pmids.py example/pmids2.csv output_bern.tsv
+python src/bern_extract_pmids.py example/pmids2.csv output_bern.tsv
 ```
 ```
-python source/bern_extract_pmids.py example/pmids.tsv output_bern.json
+python src/bern_extract_pmids.py example/pmids.tsv output_bern.json
 ```
 ## NER and NEN for PMC full-text articles with PubTator
 
-$ python source/ptc_extract_pmc.py [file_path_pmcs] [output_filename]
+$ python src/ptc_extract_pmc.py [file_path_pmcs] [output_filename]
 
 Run example:
 ```
-python source/ptc_extract_pmc.py example/pmcs.txt output_pmc.json
+python src/ptc_extract_pmc.py example/pmcs.txt output_pmc.json
 ```
 ```
-python source/ptc_extract_pmc.py example/pmcs.txt output_pmc.tsv
+python src/ptc_extract_pmc.py example/pmcs.txt output_pmc.tsv
 ```
 
 ## NER and NEN for plain text with BERN2
@@ -92,42 +95,42 @@ You can download the full text automatically divided into subdirectories yoursel
 
 From PMC list:
 
-$ python source/download_pmc_fulltext.py [filepath_pmcs] [output_dir]
+$ python src/download_pmc_fulltext.py [filepath_pmcs] [output_dir]
 
 Run example: 
 ```
-python source/download_pmc_fulltext.py example/pmcs.txt bern_ft
+python src/download_pmc_fulltext.py example/pmcs.txt bern_ft
 ```
 Or from a one or more PMCs:
 ```  
-python source/download_pmc_fulltext.py PMC2907921,PMC8885421 bern_ft2
+python src/download_pmc_fulltext.py PMC2907921,PMC8885421 bern_ft2
 ```
 
 Additionally, you can use **Selenium** and **ChromeDriver**. ℹ️ The ChromeDriver’s primary function is to start Google Chrome. Without them, it is impossible to automate any website and run Selenium. To use ChromeDriver, you need to first download it from the Chromium website and then install it. https://chromedriver.chromium.org/downloads  
 
-$ python source/download_fulltext_bern.py [filepath_pmcs] [output_dir]
+$ python src/download_fulltext_bern.py [filepath_pmcs] [output_dir]
 
 ```
-python source/download_fulltext_bern.py example/pmcs.txt bern_ft
+python src/download_fulltext_bern.py example/pmcs.txt bern_ft
 ```
 From **PDF files**:
 
-$ python source/convert_pdf.py [pdf_directory] [output_directory]
+$ python src/convert_pdf.py [pdf_directory] [output_directory]
 
 Run example: 
 ```
-python source/convert_pdf.py pdf_files bern_ft_pdf
+python src/convert_pdf.py pdf_files bern_ft_pdf
 ```
 Then, you can run **BERN2**. 
 
 ⚠️ This process might take several minutes. 
 
 
-$ python source/bern_extract_ann.py [input_dir] [output_dir] [json/df]
+$ python src/bern_extract_ann.py [input_dir] [output_dir] [json/df]
 
 Run example: 
 ```
-python source/bern_extract_ann.py bern_ft_pdf bern_ft_pdf_results df
+python src/bern_extract_ann.py bern_ft_pdf bern_ft_pdf_results df
 ```
 
 ## NER and NEN from query
@@ -138,33 +141,33 @@ The fourth command-line argument is the number of IDs to retrieve. The last comm
 
 **Pubmed abstracts**
 
-$ python source/ptc_extract_pmids_query.py [query] [output_filename] [max retrievals] --pub_date ["YYYY/MM/DD"]
+$ python src/ptc_extract_pmids_query.py [query] [output_filename] [max retrievals] --pub_date ["YYYY/MM/DD"]
 
 Run example: published after January 1, 2023
 ```
-python source/ptc_extract_pmids_query.py biotin output_biotin.tsv 50 --pub_date "2022/01/01"
+python src/ptc_extract_pmids_query.py biotin output_biotin.tsv 50 --pub_date "2022/01/01"
 ```
 
 **PMC articles**
 
-$ python source/ptc_extract_pmc_query.py [query] [output_filename] [max retrievals] --pub_date ["YYYY/MM/DD"]
+$ python src/ptc_extract_pmc_query.py [query] [output_filename] [max retrievals] --pub_date ["YYYY/MM/DD"]
 
 Run example: 
 ```
-python source/ptc_extract_pmc_query.py BRAF output_braf.json 35 --pub_date "2021/01/01"
+python src/ptc_extract_pmc_query.py BRAF output_braf.json 35 --pub_date "2021/01/01"
 ```
 ```
-python source/ptc_extract_pmc_query.py Hodgkin+Lymphoma output_lymphoma.tsv 25 
+python src/ptc_extract_pmc_query.py Hodgkin+Lymphoma output_lymphoma.tsv 25 
 ```
 
 ## Normalize Variants with SynVar and LitVar
 
 To run example use test.tsv or test2.csv as input file, or use your own data with 3 columns: pmid, gene, HGVS. Returns two files in the specified output directory, one with LitVar normalization and the second one with SynVar normalization and gene+drug NER.
 
-$ python source/normalize.py [input_file] [output_directory] 
+$ python src/normalize.py [input_file] [output_directory] 
 
 ```
-python source/normalize.py example/test2.csv '.'
+python src/normalize.py example/test2.csv '.'
 ```
 
 ## ID converter
@@ -172,59 +175,62 @@ python source/normalize.py example/test2.csv '.'
 **Convert PubMed ids to PMC ids**  
 Here, pmids is your input file containing the list of pmids (tsv, csv and txt format allowed), output_directory is the directory where you want to save the output file, and _pmc is the suffix you want to add to the output file's name. This script will read the input pmids, retrieve PMC IDs, and save the output file in the specified directory with the desired name.
 
-$ python source/pmc_from_pmid.py [pmids] [output_directory] [_pmc]
+$ python src/pmc_from_pmid.py [pmids] [output_directory] [_pmc]
  
 Run example: 
 ```
-python source/pmc_from_pmid.py example/pmids.tsv '.' _pmc
+python src/pmc_from_pmid.py example/pmids.tsv '.' _pmc
 ```
 **Convert PMC ids to pmids**  
 Run example: 
 ```
-python source/pmid_from_pmc.py example/pmcs.txt '.' _pmid
+python src/pmid_from_pmc.py example/pmcs.txt '.' _pmid
 ```
 
-# NER-NEN-App 
+# NER-NEN-RE-App 
 
 ## NerVerseToolkit 
 
 https://nerversetoolkit.shinyapps.io/nerversetoolkit/
 
 <img
-  src="https://github.com/gititub/test/blob/main/resources/APP.png"
+  src="https://github.com/gititub/test/blob/main/rsc/APP.png"
   alt="Alt text"
   style="display: block; width:400px">
 
-You can also run NER-App in Windows.  
+
 1. Make a query:  
 - PMC or PubMed id to **PubTator** (One or more, comma separated).
-  For example, "36064841, PMC9797458" (They can be mixed together).
+  For example, "36064841, PMC9797458" (They can be mixed together).  
+- PMC or PubMed id to **PubTator3 Relation Extraction** (One or more, comma separated).
+  For example, "36064841". PMC queries are allowed but, due to the large number of results, certain queries may take a considerable amount of time to complete.  
 - Query to **PubTator**: Word (replace space with ‘&’) + Publication Date + max. Retrievals
 - Plain Text to **BERN2** (max. 5000 characters)
 - PubMed id to **BERN2** (one or more, comma separated)
 - Plain Text to **Drug Named Entity Recognition**
 - PMC or PubMed id to **Drug Named Entity Recognition** (one or more, comma separated. They can be mixed together)
-- PubMed id to **Variomes**
+- PubMed id to **Variomes**: For genes and drugs in abstracts.
 
 2. Select output type: DataFrame or BioCjson.  
 3. Download results
 
 <img
-  src="https://github.com/gititub/test/blob/main/resources/app.png"
+  src="https://github.com/gititub/test/blob/main/rsc/app.png"
   alt="Alt text"
   style="display: block; width:400px">
 
-**Run NerVerseToolkit in Linux:**
+**Run previous version of NerVerseToolkit in Linux:**
 ```
 cd app;shiny run --reload
 ```
+You can also run NER-App in Windows.  
 
 ## NormaMed Toolbox
 
 https://nerversetoolkit.shinyapps.io/normamedtoolbox/
 
 <img
-  src="https://github.com/gititub/test/blob/main/resources/NEN.png"
+  src="https://github.com/gititub/test/blob/main/rsc/NEN.png"
   alt="Alt text"
   style="display: block; width: 400px">
 
