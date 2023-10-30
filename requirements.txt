@@ -1,6 +1,6 @@
 # app
 argparse
-beautifulsoup4
+beautifulsoup4==4.12.2
 Bio
 biopython
 drug-named-entity-recognition
