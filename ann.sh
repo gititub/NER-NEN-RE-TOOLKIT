@@ -25,9 +25,10 @@ process_file() {
     python src/ptc_extract_pmids.py "$file" "${output_directory}/ptc_pmid_${output_file}"
   elif [[ $file_content =~ ^PMC[0-9]+$ ]] || [[ $file_content == "PMC" ]]; then
     python src/ptc_extract_pmc.py "$file" "${output_directory}/ptc_pmc_${output_file}"
-    cp "$file" src/GWAS-Miner/GWAS_Miner/"$file"
+    input_filename=$(basename "$file")
+    cp "$file" ./src/GWAS-Miner/GWAS_Miner/"$input_filename"
     cd src/GWAS-Miner/GWAS_Miner/
-    ./gwasminer.sh "$file"
+    ./gwasminer.sh "$input_filename"
     cp tables_GWASminer.tsv "${current_dir}/${output_directory}/tables_GWASminer.tsv"
     cp data_GWASminer.tsv "${current_dir}/${output_directory}/data_GWASminer.tsv"
   fi
