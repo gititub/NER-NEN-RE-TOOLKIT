@@ -1,0 +1,38 @@
+{
+  "src": "Auto-CORPus (abbreviations)",
+  "date": "20231109",
+  "key": "autocorpus_abbreviations.key",
+  "documents": [
+    {
+      "id": "PMC2888392",
+      "inputfile": "./html_files/PMC2888392.html",
+      "passages": [
+        {
+          "text_short": "NPM",
+          "text_long_1": "nucleophosmin",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "ALK",
+          "text_long_1": "anaplastic lymphoma kinase",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "KAL",
+          "text_long_1": "kinase activation loop",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "ALK+ALCL",
+          "text_long_1": "ALK2-positive anaplastic large cell lymphoma",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "FBS",
+          "text_long_1": "fetal bovine serum",
+          "extraction_algorithm_1": "fulltext"
+        }
+      ]
+    }
+  ]
+}

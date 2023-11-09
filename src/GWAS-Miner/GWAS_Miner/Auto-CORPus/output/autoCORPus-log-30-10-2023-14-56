@@ -1,0 +1,23 @@
+Auto-CORPus log file from 14:56 on 30/10/2023
+Input directory provided: ./html_files
+Output directory provided: output
+Config provided: configs/config_pmc.json
+Output format: JSON
+13 files processed.
+0 files not processed due to errors.
+
+
+./html_files/PMC2842125 was processed successfully.
+./html_files/PMC2907921 was processed successfully.
+./html_files/PMC2876068 was processed successfully.
+./html_files/PMC2912428 was processed successfully.
+./html_files/PMC2818631 was processed successfully.
+./html_files/PMC2777185 was processed successfully.
+./html_files/PMC2916062 was processed successfully.
+./html_files/PMC2854434 was processed successfully.
+./html_files/PMC2882923 was processed successfully.
+./html_files/PMC2888392 was processed successfully.
+./html_files/PMC2798468 was processed successfully.
+./html_files/PMC2892953 was processed successfully.
+./html_files/PMC2837563 was processed successfully.
+

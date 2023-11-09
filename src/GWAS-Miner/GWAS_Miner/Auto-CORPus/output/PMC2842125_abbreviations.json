@@ -1,0 +1,153 @@
+{
+  "src": "Auto-CORPus (abbreviations)",
+  "date": "20231109",
+  "key": "autocorpus_abbreviations.key",
+  "documents": [
+    {
+      "id": "PMC2842125",
+      "inputfile": "./html_files/PMC2842125.html",
+      "passages": [
+        {
+          "text_short": "SHP2",
+          "text_long_1": "Src homology-2 domain containing protein tyrosine phosphatase-2",
+          "extraction_algorithm_1": "abbreviations section, fulltext"
+        },
+        {
+          "text_short": "PTP",
+          "text_long_1": "protein tyrosine phosphatase",
+          "extraction_algorithm_1": "abbreviations section"
+        },
+        {
+          "text_short": "PTK",
+          "text_long_1": "protein tyrosine kinase",
+          "extraction_algorithm_1": "abbreviations section"
+        },
+        {
+          "text_short": "ERK",
+          "text_long_1": "extracellular signal-regulated protein kinase",
+          "extraction_algorithm_1": "abbreviations section"
+        },
+        {
+          "text_short": "EGF",
+          "text_long_1": "epidermal growth factor",
+          "extraction_algorithm_1": "abbreviations section"
+        },
+        {
+          "text_short": "GM-CSF",
+          "text_long_1": "granulocyte-macrophage colony-stimulating factor",
+          "extraction_algorithm_1": "abbreviations section, fulltext"
+        },
+        {
+          "text_short": "PTKs",
+          "text_long_1": "protein tyrosine kinases",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "PTPs",
+          "text_long_1": "protein tyrosine phosphatases",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "JMML",
+          "text_long_1": "juvenile myelomonocytic leukemia",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "DMF",
+          "text_long_1": "dimethylformamide",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "HEK293",
+          "text_long_1": "human embryonic kidney 293",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "Grb2",
+          "text_long_1": "growth factor receptor bound protein 2",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "Sos",
+          "text_long_1": "Son of Sevenless",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "RMSD",
+          "text_long_1": "root-mean-square-derivation",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "DTT",
+          "text_long_1": "Dithiothreitol",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "LB",
+          "text_long_1": "Luria broth",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "pNPP",
+          "text_long_1": "p-nitrophenyl phosphate",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "MSCV",
+          "text_long_1": "murine stem cell virus",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "EGFP",
+          "text_long_1": "enhanced green fluorescent protein",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "SCF",
+          "text_long_1": "stem cell factor",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "G-CSF",
+          "text_long_1": "granulocyte-colony stimulating factor",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "Tpo",
+          "text_long_1": "thrombopoietin",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "FACS",
+          "text_long_1": "fluorescence activated cell sorting",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "CPM",
+          "text_long_1": "counts per minute",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "DMEM",
+          "text_long_1": "Dulbecco modified Eagle medium",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "Shp2",
+          "text_long_1": "Src homology-2 domain containing protein tyrosine phosphatase-2",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "SHP-2",
+          "text_long_1": "Src homology 2 domain-containing tyrosine phosphatase 2",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "MAP",
+          "text_long_1": "mitogen-activated protein",
+          "extraction_algorithm_1": "fulltext"
+        }
+      ]
+    }
+  ]
+}

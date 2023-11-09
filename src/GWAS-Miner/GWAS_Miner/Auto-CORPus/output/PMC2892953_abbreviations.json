@@ -1,0 +1,143 @@
+{
+  "src": "Auto-CORPus (abbreviations)",
+  "date": "20231109",
+  "key": "autocorpus_abbreviations.key",
+  "documents": [
+    {
+      "id": "PMC2892953",
+      "inputfile": "./html_files/PMC2892953.html",
+      "passages": [
+        {
+          "text_short": "JAK2",
+          "text_long_1": "Janus kinase 2",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "MPN",
+          "text_long_1": "myeloproliferative neoplasms",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "TYK2",
+          "text_long_1": "tyrosine kinase 2",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "PV",
+          "text_long_1": "polycythemia vera",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "ET",
+          "text_long_1": "essential thrombocythemia",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "PMF",
+          "text_long_1": "primary myelofibrosis",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "BCR-ABL",
+          "text_long_1": "breakpoint cluster region–Abelson leukemia virus",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "CML",
+          "text_long_1": "chronic myeloid leukemia",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "MIG",
+          "text_long_1": "MSCV-IRES-GFP",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "EPOR",
+          "text_long_1": "erythropoietin receptor",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "GST",
+          "text_long_1": "Glutathione S-transferase",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "OHSU",
+          "text_long_1": "Oregon Health & Science University",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "H&E",
+          "text_long_1": "hematoxylin/eosin",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "GFP",
+          "text_long_1": "green fluorescent protein",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "GAPDH",
+          "text_long_1": "glyceraldehyde-3-phosphate dehydrogenase",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "qPCR",
+          "text_long_1": "quantitative polymerase chain reaction",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "LC",
+          "text_long_1": "liquid chromatography",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "ATP",
+          "text_long_1": "adenosine triphosphate",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "ERK1/2",
+          "text_long_1": "extracellular signal-regulated kinase 1/2",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "STAT5",
+          "text_long_1": "signal transducer and activator of transcription 5",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "FACS",
+          "text_long_1": "fluorescence-activated cell sorter",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "Lin-neg",
+          "text_long_1": "lineage-negative",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "IRES",
+          "text_long_1": "internal ribosomal entry site",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "ENU",
+          "text_long_1": "ethyl-N-nitrosourea",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "IRESes",
+          "text_long_1": "internal ribosome entry sites",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "IL",
+          "text_long_1": "interleukin",
+          "extraction_algorithm_1": "fulltext"
+        }
+      ]
+    }
+  ]
+}

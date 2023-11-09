@@ -1,0 +1,53 @@
+{
+  "src": "Auto-CORPus (abbreviations)",
+  "date": "20231109",
+  "key": "autocorpus_abbreviations.key",
+  "documents": [
+    {
+      "id": "PMC2916062",
+      "inputfile": "./html_files/PMC2916062.html",
+      "passages": [
+        {
+          "text_short": "PTC",
+          "text_long_1": "papillary thyroid cancer",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "FTC",
+          "text_long_1": "follicular thyroid cancer",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "ATC",
+          "text_long_1": "anaplastic thyroid cancer",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "RTK",
+          "text_long_1": "receptor tyrosine kinases",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "PI3K",
+          "text_long_1": "phosphatidylinositol-3-kinase",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "p70S6K",
+          "text_long_1": "p70S6 Kinase",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "CI",
+          "text_long_1": "combination-index",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "Fa",
+          "text_long_1": "fraction affected",
+          "extraction_algorithm_1": "fulltext"
+        }
+      ]
+    }
+  ]
+}

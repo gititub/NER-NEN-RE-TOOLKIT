@@ -1,0 +1,43 @@
+{
+  "src": "Auto-CORPus (abbreviations)",
+  "date": "20231109",
+  "key": "autocorpus_abbreviations.key",
+  "documents": [
+    {
+      "id": "PMC2777185",
+      "inputfile": "./html_files/PMC2777185.html",
+      "passages": [
+        {
+          "text_short": "MAP kinase",
+          "text_long_1": "mitogen-activated protein kinase",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "CFC",
+          "text_long_1": "cardio-facio-cutaneous",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "MAPK",
+          "text_long_1": "mitogen-activated protein kinase",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "Pts",
+          "text_long_1": "patients",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "TMZ",
+          "text_long_1": "temozolomide",
+          "extraction_algorithm_1": "fulltext"
+        },
+        {
+          "text_short": "MEK1",
+          "text_long_1": "MAP kinase kinase 1",
+          "extraction_algorithm_1": "fulltext"
+        }
+      ]
+    }
+  ]
+}

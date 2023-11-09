@@ -1,0 +1,545 @@
+{
+  "src": "Auto-CORPus (tables)",
+  "date": "20231109",
+  "key": "autocorpus_tables.key",
+  "infons": {},
+  "documents": [
+    {
+      "inputfile": "./html_files/PMC2892953.html",
+      "id": "1",
+      "infons": {},
+      "passages": [
+        {
+          "offset": 0,
+          "infons": {
+            "section_title_1": "table_title",
+            "iao_name_1": "document title",
+            "iao_id_1": "IAO:0000305"
+          },
+          "text": [
+            "Table 1"
+          ]
+        },
+        {
+          "offset": 1,
+          "infons": {
+            "section_title_1": "table_caption",
+            "iao_name_1": "caption",
+            "iao_id_1": "IAO:0000304"
+          },
+          "text": "In vitro activity of CYT387 in 26 different hematopoietic and somatic cell lines"
+        },
+        {
+          "offset": 81,
+          "infons": {
+            "section_title_1": "table_content",
+            "iao_name_1": "table",
+            "iao_id_1": "IAO:0000306"
+          },
+          "column_headings": [
+            {
+              "cell_id": "1.1.1",
+              "cell_text": "Cell line"
+            },
+            {
+              "cell_id": "1.1.2",
+              "cell_text": "Origin/phenotype"
+            },
+            {
+              "cell_id": "1.1.3",
+              "cell_text": "Transforming kinase"
+            },
+            {
+              "cell_id": "1.1.4",
+              "cell_text": "IC<sub>50</sub>, nM"
+            }
+          ],
+          "data_section": [
+            {
+              "table_section_title_1": "",
+              "data_rows": [
+                [
+                  {
+                    "cell_id": "1.2.1",
+                    "cell_text": "Ba/F3-EpoR parental control"
+                  },
+                  {
+                    "cell_id": "1.2.2",
+                    "cell_text": "Murine pre-B cell"
+                  },
+                  {
+                    "cell_id": "1.2.3",
+                    "cell_text": "IL-3–dependent growth"
+                  },
+                  {
+                    "cell_id": "1.2.4",
+                    "cell_text": 1250.0
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.3.1",
+                    "cell_text": "Ba/F3-EpoR-JAK2-V617F"
+                  },
+                  {
+                    "cell_id": "1.3.2",
+                    "cell_text": "Murine pre-B cell"
+                  },
+                  {
+                    "cell_id": "1.3.3",
+                    "cell_text": "JAK2-V617F"
+                  },
+                  {
+                    "cell_id": "1.3.4",
+                    "cell_text": 500.0
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.4.1",
+                    "cell_text": "32D-EpoR parental"
+                  },
+                  {
+                    "cell_id": "1.4.2",
+                    "cell_text": "Murine myeloid precursor"
+                  },
+                  {
+                    "cell_id": "1.4.3",
+                    "cell_text": "IL-3–dependent growth"
+                  },
+                  {
+                    "cell_id": "1.4.4",
+                    "cell_text": 1000.0
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.5.1",
+                    "cell_text": "32D-EpoR-JAK2-WT"
+                  },
+                  {
+                    "cell_id": "1.5.2",
+                    "cell_text": "Murine myeloid precursor"
+                  },
+                  {
+                    "cell_id": "1.5.3",
+                    "cell_text": "IL-3–dependent growth"
+                  },
+                  {
+                    "cell_id": "1.5.4",
+                    "cell_text": 1500.0
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.6.1",
+                    "cell_text": "32D-EpoR-JAK2-V617F"
+                  },
+                  {
+                    "cell_id": "1.6.2",
+                    "cell_text": "Murine myeloid precursor"
+                  },
+                  {
+                    "cell_id": "1.6.3",
+                    "cell_text": "JAK2-V617F"
+                  },
+                  {
+                    "cell_id": "1.6.4",
+                    "cell_text": 1500.0
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.7.1",
+                    "cell_text": "HEL"
+                  },
+                  {
+                    "cell_id": "1.7.2",
+                    "cell_text": "Acute myeloid leukemia"
+                  },
+                  {
+                    "cell_id": "1.7.3",
+                    "cell_text": "JAK2-V617F"
+                  },
+                  {
+                    "cell_id": "1.7.4",
+                    "cell_text": 1500.0
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.8.1",
+                    "cell_text": "Ba/F3"
+                  },
+                  {
+                    "cell_id": "1.8.2",
+                    "cell_text": "Murine pre-B cell"
+                  },
+                  {
+                    "cell_id": "1.8.3",
+                    "cell_text": "IL-3–dependent growth"
+                  },
+                  {
+                    "cell_id": "1.8.4",
+                    "cell_text": 1750.0
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.9.1",
+                    "cell_text": "TF-1"
+                  },
+                  {
+                    "cell_id": "1.9.2",
+                    "cell_text": "Acute myeloid leukemia"
+                  },
+                  {
+                    "cell_id": "1.9.3",
+                    "cell_text": "GM-CSF–dependent growth"
+                  },
+                  {
+                    "cell_id": "1.9.4",
+                    "cell_text": 1250.0
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.10.1",
+                    "cell_text": "MO7e-p210"
+                  },
+                  {
+                    "cell_id": "1.10.2",
+                    "cell_text": "Acute myeloid leukemia"
+                  },
+                  {
+                    "cell_id": "1.10.3",
+                    "cell_text": "BCR-ABL expression"
+                  },
+                  {
+                    "cell_id": "1.10.4",
+                    "cell_text": 1500.0
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.11.1",
+                    "cell_text": "Ba/F3-p210"
+                  },
+                  {
+                    "cell_id": "1.11.2",
+                    "cell_text": "Murine pre-B cell"
+                  },
+                  {
+                    "cell_id": "1.11.3",
+                    "cell_text": "BCR-ABL expression"
+                  },
+                  {
+                    "cell_id": "1.11.4",
+                    "cell_text": 2000.0
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.12.1",
+                    "cell_text": "Ba/F3-p210-T315I"
+                  },
+                  {
+                    "cell_id": "1.12.2",
+                    "cell_text": "Murine pre-B cell"
+                  },
+                  {
+                    "cell_id": "1.12.3",
+                    "cell_text": "BCR-ABL expression"
+                  },
+                  {
+                    "cell_id": "1.12.4",
+                    "cell_text": 1500.0
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.13.1",
+                    "cell_text": "32D-p190"
+                  },
+                  {
+                    "cell_id": "1.13.2",
+                    "cell_text": "Murine myeloid precursor"
+                  },
+                  {
+                    "cell_id": "1.13.3",
+                    "cell_text": "BCR-ABL expression"
+                  },
+                  {
+                    "cell_id": "1.13.4",
+                    "cell_text": 1500.0
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.14.1",
+                    "cell_text": "KcL 22"
+                  },
+                  {
+                    "cell_id": "1.14.2",
+                    "cell_text": "Chronic myeloid leukemia"
+                  },
+                  {
+                    "cell_id": "1.14.3",
+                    "cell_text": "BCR-ABL expression"
+                  },
+                  {
+                    "cell_id": "1.14.4",
+                    "cell_text": 3000.0
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.15.1",
+                    "cell_text": "AR230-R1"
+                  },
+                  {
+                    "cell_id": "1.15.2",
+                    "cell_text": "Chronic myeloid leukemia"
+                  },
+                  {
+                    "cell_id": "1.15.3",
+                    "cell_text": "BCR-ABL expression"
+                  },
+                  {
+                    "cell_id": "1.15.4",
+                    "cell_text": 4000.0
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.16.1",
+                    "cell_text": "AR230-S"
+                  },
+                  {
+                    "cell_id": "1.16.2",
+                    "cell_text": "Chronic myeloid leukemia"
+                  },
+                  {
+                    "cell_id": "1.16.3",
+                    "cell_text": "BCR-ABL expression"
+                  },
+                  {
+                    "cell_id": "1.16.4",
+                    "cell_text": "> 5000"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.17.1",
+                    "cell_text": "KBM5"
+                  },
+                  {
+                    "cell_id": "1.17.2",
+                    "cell_text": "Chronic myeloid leukemia"
+                  },
+                  {
+                    "cell_id": "1.17.3",
+                    "cell_text": "BCR-ABL expression"
+                  },
+                  {
+                    "cell_id": "1.17.4",
+                    "cell_text": "> 5000"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.18.1",
+                    "cell_text": "KU812"
+                  },
+                  {
+                    "cell_id": "1.18.2",
+                    "cell_text": "Chronic myeloid leukemia"
+                  },
+                  {
+                    "cell_id": "1.18.3",
+                    "cell_text": "BCR-ABL expression"
+                  },
+                  {
+                    "cell_id": "1.18.4",
+                    "cell_text": "> 5000"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.19.1",
+                    "cell_text": "Lama"
+                  },
+                  {
+                    "cell_id": "1.19.2",
+                    "cell_text": "Chronic myeloid leukemia"
+                  },
+                  {
+                    "cell_id": "1.19.3",
+                    "cell_text": "BCR-ABL expression"
+                  },
+                  {
+                    "cell_id": "1.19.4",
+                    "cell_text": "> 5000"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.20.1",
+                    "cell_text": "Molm-14"
+                  },
+                  {
+                    "cell_id": "1.20.2",
+                    "cell_text": "Acute myeloid leukemia"
+                  },
+                  {
+                    "cell_id": "1.20.3",
+                    "cell_text": "FLT3-ITD expression"
+                  },
+                  {
+                    "cell_id": "1.20.4",
+                    "cell_text": 500.0
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.21.1",
+                    "cell_text": "CMK"
+                  },
+                  {
+                    "cell_id": "1.21.2",
+                    "cell_text": "Acute myeloid leukemia"
+                  },
+                  {
+                    "cell_id": "1.21.3",
+                    "cell_text": "JAK3-A572V"
+                  },
+                  {
+                    "cell_id": "1.21.4",
+                    "cell_text": 1500.0
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.22.1",
+                    "cell_text": "REH"
+                  },
+                  {
+                    "cell_id": "1.22.2",
+                    "cell_text": "Acute lymphocytic leukemia"
+                  },
+                  {
+                    "cell_id": "1.22.3",
+                    "cell_text": "NN"
+                  },
+                  {
+                    "cell_id": "1.22.4",
+                    "cell_text": 5000.0
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.23.1",
+                    "cell_text": "U266"
+                  },
+                  {
+                    "cell_id": "1.23.2",
+                    "cell_text": "Multiple myeloma"
+                  },
+                  {
+                    "cell_id": "1.23.3",
+                    "cell_text": "IL-6–dependent growth"
+                  },
+                  {
+                    "cell_id": "1.23.4",
+                    "cell_text": 750.0
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.24.1",
+                    "cell_text": "HeLa"
+                  },
+                  {
+                    "cell_id": "1.24.2",
+                    "cell_text": "Breast cancer"
+                  },
+                  {
+                    "cell_id": "1.24.3",
+                    "cell_text": "NN"
+                  },
+                  {
+                    "cell_id": "1.24.4",
+                    "cell_text": 5000.0
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.25.1",
+                    "cell_text": "SKmI5"
+                  },
+                  {
+                    "cell_id": "1.25.2",
+                    "cell_text": "Melanoma"
+                  },
+                  {
+                    "cell_id": "1.25.3",
+                    "cell_text": "NN"
+                  },
+                  {
+                    "cell_id": "1.25.4",
+                    "cell_text": "> 5000"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.26.1",
+                    "cell_text": "SKmI28"
+                  },
+                  {
+                    "cell_id": "1.26.2",
+                    "cell_text": "Melanoma"
+                  },
+                  {
+                    "cell_id": "1.26.3",
+                    "cell_text": "NN"
+                  },
+                  {
+                    "cell_id": "1.26.4",
+                    "cell_text": "> 5000"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.27.1",
+                    "cell_text": "COS7"
+                  },
+                  {
+                    "cell_id": "1.27.2",
+                    "cell_text": "Primate kidney"
+                  },
+                  {
+                    "cell_id": "1.27.3",
+                    "cell_text": "NN"
+                  },
+                  {
+                    "cell_id": "1.27.4",
+                    "cell_text": "> 5000"
+                  }
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "offset": 1356,
+          "infons": {
+            "section_title_1": "table_footer",
+            "iao_name_1": "caption",
+            "iao_id_1": "IAO:0000304"
+          },
+          "text": "NN indicates not known; GM-CSF, granulocyte monocyte–colony stimulation factor; BCR-ABL, breakpoint cluster region–Abelson leukemia virus; and FLT3-ITD, Fms-like tyrosine kinase 3–insert tandem duplication."
+        }
+      ]
+    }
+  ]
+}
