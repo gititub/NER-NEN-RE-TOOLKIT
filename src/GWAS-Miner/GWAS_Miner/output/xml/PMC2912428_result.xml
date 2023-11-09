@@ -1,0 +1,1952 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<collection>
+  <source>Auto-CORPus (full-text)</source>
+  <date>20231109</date>
+  <key>autocorpus_fulltext.key</key>
+  <document>
+    <id>PMC2912428</id>
+    <passage>
+      <infon key="iao_name_1">document title</infon>
+      <infon key="iao_id_1">IAO:0000305</infon>
+      <offset>0</offset>
+      <text>Design and Synthesis of Bis-Biotin-Containing Reagents for Applications Utilizing Monoclonal Antibody-Based Pretargeting Systems with Streptavidin Mutants</text>
+      <annotation id="T0">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D001710</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:06Z</infon>
+        <location offset="28" length="6"/>
+        <text>Biotin</text>
+      </annotation>
+      <annotation id="T1">
+        <infon key="type">trait</infon>
+        <infon key="identifier">M0011227</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:06Z</infon>
+        <location offset="46" length="8"/>
+        <text>Reagents</text>
+      </annotation>
+      <annotation id="T2">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D000911</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:06Z</infon>
+        <location offset="82" length="19"/>
+        <text>Monoclonal Antibody</text>
+      </annotation>
+      <annotation id="T3">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D019809</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:06Z</infon>
+        <location offset="134" length="12"/>
+        <text>Streptavidin</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_title_1">Abstract</infon>
+      <infon key="iao_name_1">textual abstract section</infon>
+      <infon key="iao_id_1">IAO:0000315</infon>
+      <offset>154</offset>
+      <text>Previous studies have shown that pretargeting protocols, using cancer-targeting fusion proteins, composed of 4 anti-CD20 single chain Fv (scFv) fragments and streptavidin (scFv4-SAv), followed by a biotinylated dendrimeric N-acetyl-galactosamine blood clearing agent (CA), 1, then a radiolabeled DOTA-biotin derivative (a mono-biotin), 3a, can provide effective therapy for lymphoma xenografts in mouse models. A shortcoming in this pretargeting system is that endogenous biotin may affect its efficacy in patients. To circumvent this potential problem, we investigated a pretargeting system that employs anti-CD20 scFv4-SAv mutant fusion proteins with radioiodinated bis-biotin derivatives. With that combination of reagents good localization of the radiolabel to lymphoma tumor xenografts was obtained in the presence of endogenous biotin. However, the blood clearance reagents employed in the studies were ineffective, resulting in abnormally high levels of radioactivity in other tissues. Thus, in the present investigation a bis-biotin-tri-galactose blood clearance reagent, 2, was designed, synthesized and evaluated in vivo. Additionally, another DOTA-biotin derivative (a bis-biotin), 4a, was designed and synthesized, such that radiometals (e.g. 111In, 90Y, 177Lu) could be used in the pretargeting protocols employing scFv4-SAv mutant fusion proteins. Studies in mice demonstrated that the CA 2 was more effective than CA 1 at removing [125I]scFv4-SAv-S45A mutant fusion proteins from blood. Another in vivo study compared tumor targeting and normal tissue concentrations of the new reagents (2 &amp; [111In]4b) with standard reagents (1 and [111In]3b) used in pretargeting protocols. The study showed that lymphoma xenografts could be targeted in the presence of endogenous biotin when anti-CD20 fusion proteins containing SAv mutants (scFv4-SAv-S45A or scFv4-SAv-Y43A) were employed in combination with CA 2 and [111In]4b. Importantly, normal tissue concentrations of [111In]4b were similar to those obtained using the standard reagents (1 &amp; [111In]3b), except that the blood and liver concentrations were slightly higher with the new reagents. While the reasons for the higher blood and liver concentrations are unknown, the differences in the galactose structures of the clearance agents 1 and 2 may play a role.</text>
+    </passage>
+    <passage>
+      <infon key="section_title_1">INTRODUCTION</infon>
+      <infon key="iao_name_1">introduction section</infon>
+      <infon key="iao_id_1">IAO:0000316</infon>
+      <offset>2484</offset>
+      <text>Radioimmunotherapy (RIT3) employing radiolabeled anti-CD20 monoclonal antibodies (MAb) has proven to be efficacious as a treatment for patients with B-cell lymphomas (1). While it seems likely that changes being evaluated in the current RIT treatment regimens will increase efficacy and/or decrease toxicity (2–4), newer approaches to RIT, such as cancer “pretargeting” (5–7), may provide more significant improvements in the treatment of lymphoma. One of the pretargeting approaches being investigated uses monoclonal antibody-streptavidin (MAb-SAv) conjugates (8–10), or related scFv4-SAv fusion proteins, in protocols where they are administered in an initial step, followed in subsequent steps by administration of a blood clearance agent, then a biotin derivative labeled with a therapeutic radionuclide. In preclinical investigations, it has been conclusively shown that pretargeting protocols in mouse models using MAb-SAv conjugates, or fusion proteins, reactive with CD20 (11), or other lymphoma cell surface antigens (12, 13), either alone or in combinations (14), provides a more efficacious therapy than obtained with conventional RIT.</text>
+    </passage>
+    <passage>
+      <infon key="section_title_1">INTRODUCTION</infon>
+      <infon key="iao_name_1">introduction section</infon>
+      <infon key="iao_id_1">IAO:0000316</infon>
+      <offset>3643</offset>
+      <text>Although the MAb-SAv/radiolabeled biotin pretargeting approach benefits from the very high affinity of the biotin-SAv binding pair, a potential limitation in the approach is the fact that patient serum contains significant amounts of biotin (15). Based on animal studies (16), it is possible that endogenous biotin in patients blood can bind with administered MAb-SAv conjugates or fusion proteins to block the binding of subsequently administered blood clearance and radiolabeled biotin derivatives. To circumvent this problem, new MAb-SAv/biotin binding pairs were designed and prepared. Site-directed mutations of the biotin-binding pocket in streptavidin (SAv) were performed to prepare SAv mutants that have decreased binding with biotin (17). Subsequently, those SAv mutants were used to prepare scFv4-SAv mutant fusion proteins (18). It was hypothesized that the decrease in biotin binding in the SAv mutants could be off-set by using bis-biotin derivatives, which would have increased binding due to dual binding with a single SAv molecule (19) and an avidity effect (20). Therefore, a series of bis-biotin derivatives were synthesized and their binding with SAv mutants was assessed. Importantly, it was demonstrated that the bis-biotin derivatives could bind with the SAv mutants in the presence of biotin (21). Later pretargeting studies demonstrated that tumor xenografts could be effectively targeted using scFv4-SAv mutant fusion proteins, a blood clearance agent, and a radioiodinated bis-biotin derivative, even when the mice were placed on a normal (biotin-containing) diet (22). While the studies successfully demonstrated that a MAb-SAv/biotin-based pretargeting approach targeted tumors in the presence of endogenous biotin, the concentrations of radioactivity in normal tissues were much higher than those obtained in other pretargeting studies. The higher normal tissue concentrations appeared to be caused by a lack of efficient blood clearance when using either of the two blood clearing agents studied. Those agents included; [1] a monobiotin-hexadecyl-N-acetylgalactose derivative, 1, (Figure 1) and [2] a galactosylated and bis-biotinylated human serum albumin derivative (22).</text>
+    </passage>
+    <passage>
+      <infon key="section_title_1">INTRODUCTION</infon>
+      <infon key="iao_name_1">introduction section</infon>
+      <infon key="iao_id_1">IAO:0000316</infon>
+      <offset>5847</offset>
+      <text>In the current studies, two new reagents, 2 and 4a (Figure 1), were synthesized for use in pretargeting protocols with scFv4-SAv mutant fusion proteins. A new biotin-containing blood clearance agent, 2, was designed and synthesized to evaluate the hypothesis that the unacceptably high concentrations of a radioiodinated bis-biotin derivative in normal tissues previously obtained was due to ineffective blood clearance of the antibody-SAv mutant fusion protein. Additionally, a bis-biotin derivative containing the metal chelation moiety DOTA, 4a was designed and synthesized due to our interest in using radiometals, such as Indium-111 (111In) and Yttrium-90 (90Y) in pretargeting protocols. The bis-biotin-DOTA derivative, 4a, was designed to be similar to the bis-biotiniodobenzoyl derivative previously shown to bind selectively with SAv mutants in the presence of biotin (21). In addition to syntheses of the new reagents, studies were conducted in mice to demonstrate that the new reagents functioned as designed. A study was conducted in mice to compare the blood clearance of a scFv4-SAv mutant fusion in the presence of endogenous biotin when the clearing agents 1 and 2 were employed. Another study was conducted to evaluate whether 111In-labeled 4a, [111In]4b, could successfully target tumors in athymic mice bearing Ramos lymphoma. In that study, an anti-CD20 scFv4-SAv mutant fusion protein was administered, followed by blood clearance with 2, then administration of an 111In-labeled biotin derivative. For comparison, the biodistribution of [111In]4b alone was evaluated in mice. The results obtained in the synthesis of 2 and 4a, preparation of radiolabeled biotin derivatives, [111In]3a/[111In]4a, and use of those reagents in animal studies are described herein.</text>
+    </passage>
+    <passage>
+      <infon key="section_title_1">EXPERIMENTAL PROCEDURES</infon>
+      <infon key="section_title_2">General</infon>
+      <infon key="iao_name_1">methods section</infon>
+      <infon key="iao_id_1">IAO:0000317</infon>
+      <offset>7629</offset>
+      <text>Chemicals purchased from commercial sources were analytical grade or better, and were used without further purification. Di-tert-butyl-dicarbonate, 2,2’-(ethylenedioxy)bis(ethylamine), nitromethanetrispropionic acid, acetobromo-α-D-galactose (2,3,4,6-tetra-O-acetyl-α-D-galactopyranosyl bromide), 3-iodopropionic acid, 1,1’-carbonyldiimidazole (CDI), 1,1’-thiocarbonyldiimidazole (TCDI), Amberlite IR120 (hydrogen form), and most other chemicals were obtained from Sigma-Aldrich (Milwaukee, WI). L-aspartic acid α-t-butyl ester, 10, was obtained from Novabiochem (AMD Biosciences, Inc., San Diego, CA). D-biotin, 9, N-Boc-trioxatridecanediamine, 16, and N-(phthalimido)amino-dPEG4-acid, 19, were gifts from Quanta BioDesign, Powell, OH; aminobenzyl-DOTA (S-2-(4-Aminobenzyl)-1,4,7,10-tetraazacyclododecane tetraacetic acid), 31, was obtained from Macrocyclics, Inc. (Dallas, TX). Biotin-sarcosine-aminobenzyl-DOTA, 3a, was prepared as previously described (23) [currently available from Macrocyclics, Inc, Dallas, TX]. 2,3,5,6-Tetrafluorophenyl trifluoroacetate, TFP-OTFA was prepared as previously described (24). Sephadex LH-20 gel filtration resin was obtained from Fluka (Sigma-Aldrich, Milwaukee, WI). Melting points were obtained in open capillary tubes on a Mel-Temp II apparatus with a Fluke 51 K/J electronic thermometer, and are uncorrected.</text>
+    </passage>
+    <passage>
+      <infon key="section_title_1">EXPERIMENTAL PROCEDURES</infon>
+      <infon key="section_title_2">Radioactive Materials</infon>
+      <infon key="iao_name_1">methods section</infon>
+      <infon key="iao_id_1">IAO:0000317</infon>
+      <offset>9010</offset>
+      <text>All radioactive materials were handled according to approved protocols at the University of Washington and Fred Hutchinson Cancer Research Center. Standard methods for safely using radioactive materials were employed (25). Sodium [125I]Iodide and [111In]Indium chloride were purchased from PerkinElmer Life Sciences (Billerica, MA). Measurement of 125I and 111In was conducted on a Capintec CRC-15R Radioisotope Calibrator using calibration numbers provided by the manufacturer. Samples containing 125I or 111In were counted in a Packard Cobra II gamma counter (PerkinElmer Life and Analytical Services, Waltham, MA). Radioactivity counts were imported into an Excel Spreadsheet (Microsoft Corp., Redmond, WA) where calculations of percent injected dose (%ID) and percent injected dose per gram (%ID/g) were made.</text>
+    </passage>
+    <passage>
+      <infon key="section_title_1">EXPERIMENTAL PROCEDURES</infon>
+      <infon key="section_title_2">Spectral Analyses</infon>
+      <infon key="iao_name_1">methods section</infon>
+      <infon key="iao_id_1">IAO:0000317</infon>
+      <offset>9844</offset>
+      <text>1H NMR spectra were obtained on a Bruker AV 500 (500 MHz) instrument. Proton chemical shifts are expressed as ppm using tetramethylsilane as an internal standard (δ = 0.0 ppm). Low-resolution mass spectral (LRMS) and high-resolution mass spectral (HRMS) data were obtained on a Bruker APEX III 47e Fourier Transform Mass Spectrometer using electrospray ionization. For analysis, the samples were dissolved in 50/50 MeOH/H2O and were introduced by an integral syringe infusion pump (Cole Parmer Series 74900).</text>
+    </passage>
+    <passage>
+      <infon key="section_title_1">EXPERIMENTAL PROCEDURES</infon>
+      <infon key="section_title_2">Chromatography</infon>
+      <infon key="iao_name_1">methods section</infon>
+      <infon key="iao_id_1">IAO:0000317</infon>
+      <offset>10369</offset>
+      <text>All synthetic reactions were monitored by HPLC. Samples were assessed on a system that contained a Hewlett-Packard quaternary 1050 gradient pump, a variable wavelength UV detector (254 nm), and a Varex ELSD MKIII or an Alltech ELSD 2000 evaporative light-scattering detector. Analyses of HPLC data were conducted using Hewlett-Packard HPLC ChemStation software. Reversed-phase HPLC chromatography was carried out on an Alltech Altima C-18 column (5 µm, 250 × 4.5 mm) using a gradient solvent system at a flow rate of 1 mL/min. A gradient of MeOH and H2O/0.1% HOAc was used. Starting with 40% MeOH, the initial solvent mixture was held for 2 min, then the gradient was increased to 100% MeOH over the next 10 min, then held at 100% MeOH for 8 min. Retention times (tR) under these conditions for compounds are provided with the compound experimental.</text>
+    </passage>
+    <passage>
+      <infon key="section_title_1">EXPERIMENTAL PROCEDURES</infon>
+      <infon key="section_title_2">Chromatography</infon>
+      <infon key="iao_name_1">methods section</infon>
+      <infon key="iao_id_1">IAO:0000317</infon>
+      <offset>11232</offset>
+      <text>Some synthesized compounds were purified from crude reaction mixtures using a Biotage SP Flash Purification System (Charlottesville, VA) on a reversed-phase C18 FLASH 25+M column. The purification used a gradient mixture composed of MeOH and 0.1% aqueous HOAc solution (pH 3.25). The gradient started with 25% MeOH / 75% HOAc/H2O, and that mixture was held for 2 min. Following that, the % MeOH was increased linearly to 100% over the next 10 min, then held at 100% for 8 min. Fractions were collected based on UV detection at 215 or 254 nm. Fractions containing pure products were determined by analytical HPLC and were combined, solvent evaporated, and isolated to provide the yields listed.</text>
+    </passage>
+    <passage>
+      <infon key="section_title_1">EXPERIMENTAL PROCEDURES</infon>
+      <infon key="section_title_2">Chromatography</infon>
+      <infon key="iao_name_1">methods section</infon>
+      <infon key="iao_id_1">IAO:0000317</infon>
+      <offset>11925</offset>
+      <text>The 111In-labeling reactions of biotin derivatives 3a and 4a, to prepare [111In]3b and [111In]4b, were followed by radio-HPLC, and the products were purified by isolation from the HPLC effluent. The HPLC equipment used consisted of a Hewlett-Packard quaternary 1050 gradient pump, Waters 601 UV detector, and a Beckman model 170 radioisotope detector. Analysis of the HPLC data was conducted on Hewlett-Packard HPLC ChemStation software. The separations used a C-18 column (Altima C-18, 5 mm, 250 × 4.5 mm; Alltech, Deerfield, IL) with a gradient eluting at a flow rate of 1 mL/min. The gradient was composed of MeOH as solvent A and 0.1% HOAc in water as solvent B. The gradient started at 60% B, which was held for 2 min, then the percent of MeOH was increased linearly to 100% over the next 10 min. After reaching 100% MeOH, it was held at there for 8 min.</text>
+    </passage>
+    <passage>
+      <infon key="section_title_1">EXPERIMENTAL PROCEDURES</infon>
+      <infon key="section_title_2">5-N-(tert-Butyloxycarbonyl)aminoisophthalate-1,3-bis-O-(2,3,5,6-tetrafluorophenyl) ester, 6</infon>
+      <infon key="iao_name_1">methods section</infon>
+      <infon key="iao_id_1">IAO:0000317</infon>
+      <offset>12784</offset>
+      <text>This compound was prepared from aminoisophthalic acid, 5, by reaction with di-tert-butyl dicarbonate in basic DMF/H2O solution, followed by esterification with tetrafluorophenol and EDC in DMF as previously reported (21).</text>
+    </passage>
+    <passage>
+      <infon key="section_title_1">EXPERIMENTAL PROCEDURES</infon>
+      <infon key="section_title_2">N-(tert-Butyloxycarbonyl)-3,6-dioxa-1,8-octanediamine, 7</infon>
+      <infon key="iao_name_1">methods section</infon>
+      <infon key="iao_id_1">IAO:0000317</infon>
+      <offset>13096</offset>
+      <text>To a solution of 2,2’-(ethylenedioxy)bis(ethylamine) (403 mL, 2760 mmol) in 200 mL of dichloromethane, di-tert-butyl dicarbonate (20 g, 91.6 mmol) with 200 mL of dichloromethane were added dropwise over 4 h. After the addition was completed, the reaction solution was allowed to stir at room temperature for 1 h. Dichloromethane was evaporated by rotoevaporator under vacuum, then the residue was dissolved in water (200 mL), washed with hexanes (2 × 200 mL). The aqueous solution was then extracted with dichloromethane (3 × 100 mL). The fractions of dichloromethane were combined and washed with water (3 × 100 mL), dried over anhydrous Na2SO4, then evaporated under vacuum on a rotoevaporator to yield 14.11 g (62%) of 7 as a colorless oil (used without further purification). 1H NMR (CDCl3, 500 MHz): δ 1.45 (s, 9H), 1.57 (s, 2H), 2.88 (t, J = 5.4 Hz, 2H), 3.32 (q, J = 5.2 Hz, 2H), 3.54 (q, J = 5.5 Hz, 4H), 3.62 (s, 4H), 5.18 (br s, 1H). HPLC: tR = 4.1 min. [Alternate syntheses have been previously reported (26, 27)].</text>
+    </passage>
+    <passage>
+      <infon key="section_title_1">EXPERIMENTAL PROCEDURES</infon>
+      <infon key="section_title_2">N,N’-Bis(N-(tert-butyloxycarbonyl)-N-(8-amino-3,6-dioxaoctanylamino)-5-(N-tert-butyloxycarbonyl)aminoisophthalamide, 8</infon>
+      <infon key="iao_name_1">methods section</infon>
+      <infon key="iao_id_1">IAO:0000317</infon>
+      <offset>14177</offset>
+      <text>A 1.25 g (5.09 mmol) quantity of 7 was added to a solution containing 6 (1.50 g, 2.42 mmol), Et3N (1.01 mL, 7.27 mmol) and anhydrous CH3CN (150 mL). The resultant solution was stirred at room temperature for 30 min, and then evaporated to dryness under vacuum on a rotoevaporator. The crude product was purified by silica gel column (2.5 cm × 25 cm) eluting with 10% MeOH/EtOAc to yield 1.57 g (81%) of 8 as a colorless tacky solid. 1H NMR (CDCl3, 500 MHz): δ 1.41 (s, 18H), 1.53 (s, 9H), 3.28–3.31 (m, 4H), 3.55 (t, J = 5.3 Hz, 4H), 3.64 (s, 8H), 3.67 (s, 8H), 5.23 (s, 2H), 7.10 (s, 2H), 7.87 (s, 1H), 7.99 (s, 1H), 8.17 (s, 2H). HRMS (ES+) calcd for C35H60N5O12 (M+H)+: 764.4052. Found: 764.4030. HPLC: tR = 13.7 min.</text>
+    </passage>
+    <passage>
+      <infon key="section_title_1">EXPERIMENTAL PROCEDURES</infon>
+      <infon key="section_title_2">2-(N-Biotinoyl)-L-aspartate-1-O-tert-butyl Ester, 11</infon>
+      <infon key="iao_name_1">methods section</infon>
+      <infon key="iao_id_1">IAO:0000317</infon>
+      <offset>15015</offset>
+      <text>This compound was prepared from biotin, 9, by reaction with 2,3,5,6-tetrafluorophenyl trifluoroacetate (TFP-OTFA) in an initial step, followed by reaction of the intermediate biotin tetrafluorophenyl ester with L-aspartic acid α-tert-butyl ester, 10, as previously reported (28).</text>
+    </passage>
+    <passage>
+      <infon key="section_title_1">EXPERIMENTAL PROCEDURES</infon>
+      <infon key="section_title_2">4-(O-Tetrafluorophenyl)-2-(N-Biotinoyl)-L-aspartate-1-O-tert-butyl ester, 12</infon>
+      <infon key="iao_name_1">methods section</infon>
+      <infon key="iao_id_1">IAO:0000317</infon>
+      <offset>15346</offset>
+      <text>This compound was prepared by reaction of 11 with TFP-OTFA following a previously reported procedure (28).</text>
+    </passage>
+    <passage>
+      <infon key="section_title_1">EXPERIMENTAL PROCEDURES</infon>
+      <infon key="section_title_2">N,N’-Bis(N-(biotinyl)-β-N-(tert-butyloxycarbonyl)-N-(8-amino-3,6-dioxaoctanyl)aspartamidyl)-5-aminoisophthalamide, 13</infon>
+      <infon key="iao_name_1">methods section</infon>
+      <infon key="iao_id_1">IAO:0000317</infon>
+      <offset>15528</offset>
+      <text>A 1.50 g (2.02 mmol) quantity of 8 was stirred with trifluoroacetic acid (10 mL) at room temperature for 10 min. Excess trifluoroacetic acid was evaporated under a stream of argon, then the residue was washed with ethyl acetate (2 × 40 mL) and dried under vacuum for 3 h. The deprotected aniline derivative was dissolved in anhydrous DMF (20 mL), and then Et3N (1.13 mL, 8.09 mmol) and 12 (2.34 g, 4.14 mmol) were added respectively. The resultant solution was stirred at room temperature for 1 h. After solvents were evaporated under vacuum on a rotoevaporator, the crude product was purified by silica gel column (2.5 cm × 25 cm) eluting with 50% MeOH/EtOAc to yield 1.84 g (74%) of 13 as a colorless tacky solid. 1H NMR (CD3OD, 500 MHz): δ 1.38–1.43 (m, 4H), 1.44 (s, 18H), 1.51–1.75 (m, 8H), 2.19–2.28 (m, 4H), 2.62–2.72 (m, 6H), 2.89–2.92 (m, 2H), 3.15–3.19 (m, 2H), 3.33–3.35 (m, 4H), 3.53 (t, J = 5.4 Hz, 4H), 3.56 (t, J = 5.4 Hz, 4H), 3.61–3.67 (m, 12H), 4.29 (dd, J = 4.8, 8.0 Hz, 2H), 4.47 (dd, J = 4.8, 8.0 Hz, 2H), 4.61 (t, J = 6.6 Hz, 2H), 7.24 (s, 2H), 7.49 (s, 1H). LRMS (ES+) calcd for C56H90N11O16S2 (M+H)+: 1236.6. Found: 1236.8. HPLC: tR = 11.0 min.</text>
+    </passage>
+    <passage>
+      <infon key="section_title_1">EXPERIMENTAL PROCEDURES</infon>
+      <infon key="section_title_2">Nitromethane-tris(3-propionate-O-2,3,5,6-tetrafluorophenyl ester), 15</infon>
+      <infon key="iao_name_1">methods section</infon>
+      <infon key="iao_id_1">IAO:0000317</infon>
+      <offset>16813</offset>
+      <text>A 5.0 g (18.1 mmol) quantity of nitromethanetrispropionic acid, 14, was dissolved in 10 mL of anhydrous DMF under argon atmosphere. To that solution was added 10.4 mL (7.29 g, 72.2 mmol) of Et3N, followed by addition of 12.5 mL (18.9 g, 72.2 mmol) of TFP-OTFA at 0°C. The reaction was allowed to come to room temperature and was stirred for an additional 30 min. A portion of the DMF was removed under vacuum, and the resultant light brown liquid was poured into 200 mL cold water (ice bath) with stirring. The colorless solid was collected, and dried to give 12.28g (96%) of 15. mp 133.4–134.4°C. 1H NMR (CDCl3, 500 MHz): δ 2.52 (t, J = 7.9 Hz, 6H), 2.82 (t, J = 7.9 Hz, 6H), 7.00–7.06 (m, 3H). HRMS (ES+) calcd for C28H15F12NNaO8 (M+Na)+: 744.0504. Found: 744.0518. HPLC: tR = 15.2 min.</text>
+    </passage>
+    <passage>
+      <infon key="section_title_1">EXPERIMENTAL PROCEDURES</infon>
+      <infon key="section_title_2">Nitromethane-tris(N-(4,7,10-trioxa-13-tridecaneamino)-N-(tert-butyloxycarbonyl)-3-propionylamine), 17</infon>
+      <infon key="iao_name_1">methods section</infon>
+      <infon key="iao_id_1">IAO:0000317</infon>
+      <offset>17670</offset>
+      <text>A 8.40 g (26.2 mmol) quantity of N-(tert-butyloxycarbonyl)-4,7,10-trioxa-1,13-tridecanediamine, 16, was dissolved in 70 mL anhydrous THF. The solution was cooled to −78°C using a dry-ice acetone bath. Then, 5.64 g (8.0 mmol) of 15 was added. The reaction mixture changed from yellow to clear while it was allowed to come to room temperature with stirring overnight. The THF was removed on a rotary evaporator and the residue was dissolved in 100 mL EtOAc, washed with 1N HCl (2 × 50 mL), 1N Na2CO3 (3 × 50 mL) and brine (50 mL). The EtOAc was evaporated by rotary evaporator and the residue was dried under vacuum to give 8.65 g (92%) of 17 as a yellow oil. 1H NMR (CDCl3, 500 MHz): δ 1.43 (s, 27H), 1.73–1.79 (m, 12H), 2.13 (t, J = 7.9 Hz, 6H), 2.25 (t, J = 7.9 Hz, 6H), 3.21 (q, J = 5.8 Hz, 6H), 3.33 (q, J = 5.9 Hz, 6H), 3.52–3.57 (m, 12H), 3.58–3.61 (m, 12H), 3.63–3.66 (m, 12H), 5.08 (br s, 3H), 6.65 (br s, 3H). HRMS (ES+) calcd for C55H105N7NaO20 (M+Na)+: 1206.7312. Found: 1206.7245. HPLC: tR = 13.2 min.</text>
+    </passage>
+    <passage>
+      <infon key="section_title_1">EXPERIMENTAL PROCEDURES</infon>
+      <infon key="section_title_2">Aminomethane-tris(N-(4,7,10-trioxa-13-amino)-N-(tert-butyloxycarbonyl)-3-propionylamine), 18</infon>
+      <infon key="iao_name_1">methods section</infon>
+      <infon key="iao_id_1">IAO:0000317</infon>
+      <offset>18783</offset>
+      <text>A 0.95 g (0.83 mmol) quantity of 17 was dissolved in 30 mL of absolute EtOH. To that solution was added 3g of a 50% RaNi/H2O slurry with stirring. The mixture was put under hydrogen (45 psi) and was stirred overnight. Hydrogen pressure dropped from 45 psi to 40 psi. Hydrogen was removed with a H2O aspirator vacuum and argon was introduced to the mixture, this procedure was repeated 3×, then the EtOH solution was filtered through a celite column. The solvent was removed from the filtrate to yield 0.95g (99%) of 18 as colorless oil. 1H NMR (CDCl3, 500 MHz): δ 1.44 (s, 27H), 1.66 (t, J = 7.9 Hz, 6H), 1.73–1.79 (m, 12H), 2.05 (br s, 2H), 2.21 (t, J = 7.8 Hz, 6H), 3.22 (q, J = 5.8 Hz, 6H), 3.32 (q, J = 6.0 Hz, 6H), 3.54 (q, J = 6.0 Hz, 12H), 3.58–3.61 (m, 12H), 3.63–3.66 (m, 12H), 5.14 (br s, 3H), 6.59 (br s, 3H). HRMS (ES+) calcd for C55H108N7O18 (M+H)+: 1154.7751. Found: 1154.7754. HPLC: tR = 11.6 min.</text>
+    </passage>
+    <passage>
+      <infon key="section_title_1">EXPERIMENTAL PROCEDURES</infon>
+      <infon key="section_title_2">15-N-(Phthalimido)-(3,6,9,12-tetraoxa)pentadecanoic acid, 19</infon>
+      <infon key="iao_name_1">methods section</infon>
+      <infon key="iao_id_1">IAO:0000317</infon>
+      <offset>19787</offset>
+      <text>This compound was obtained from Quanta BioDesign (Powell, OH) and was used without further purification. 1H NMR (CDCl3, 500 MHz): δ 2.62 (t, J = 6.4 Hz, 2H), 3.57–3.63 (m, 10H), 3.65–3.67 (m, 2H), 3.74–3.77 (m, 4H), 3.91 (t, J = 5.8 Hz, 2H), 7.72 (dd, J = 3.2, 5.4 Hz, 2H), 7.85 (dd, J = 3.2, 5.4 Hz, 2H), 9.38 (br s, 1H).</text>
+    </passage>
+    <passage>
+      <infon key="section_title_1">EXPERIMENTAL PROCEDURES</infon>
+      <infon key="section_title_2">1-(15-N-(Phthalimido)-(3,6,9,12-tetraoxa)pentadecanoylamino)methane-tris(N-(4,7,10-trioxa-13-amino)-N-(tert-butyloxycarbonyl)-3-propionylamine), 20</infon>
+      <infon key="iao_name_1">methods section</infon>
+      <infon key="iao_id_1">IAO:0000317</infon>
+      <offset>20169</offset>
+      <text>A 0.30 g (0.77 mmol) quantity of 19 was dissolved in 50 mL of anhydrous DMF. To that solution was added 0.89 g (0.77 mmol) of 18, 0.32 g (1.54 mmol) of DCC and catalytic amount of HOBT. This solution was stirred at room temperature over a weekend. Et3N was added to neutralize the residual TFA in the acid (from removal of tBu ester). When the acid and DCC were mixed a white precipitate was noted immediately. To purify, the solvent was removed under vacuum and the residue loaded onto a silicagel column and eluted with a gradient of 100% EtOAc to 50% MeOH/EtOAc to yield 0.85 g (72%) of 20 as a pale yellow oil. 1H NMR (CDCl3, 500 MHz): δ 1.43 (s, 27H), 1.73–1.78 (m, 12H), 1.99 (t, J = 7.8 Hz, 6H), 2.19 (t, J = 7.8 Hz, 6H), 2.38 (t, J = 5.9 Hz, 2H), 2.43 (br s, 1H), 3.21 (q, J = 5.9 Hz, 6H), 3.29 (q, J = 6.0 Hz, 6H), 3.52–3.55 (m, 12H), 3.57–3.60 (m, 22H), 3.63–3.66 (m, 14H), 3.72 (t, J = 5.8 Hz, 2H), 3.73 (t, J = 5.8 Hz, 2H), 3.90 (t, J = 5.9 Hz, 2H), 5.13 (br s, 3H), 6.53 (br s, 3H), 7.73 (dd, J = 3.2, 5.4 Hz, 2H), 7.85 (dd, J = 3.2, 5.4 Hz, 2H). HRMS (ES+) calcd for C74H130N8NaO25 (M+Na)+: 1553.9045. Found: 1553.8990. HPLC: tR = 14.2 min.</text>
+    </passage>
+    <passage>
+      <infon key="section_title_1">EXPERIMENTAL PROCEDURES</infon>
+      <infon key="section_title_2">N-(15-Amino-(3,6,9,12-tetraoxa)pentadecanoylamino)methane-tris(N-(4,7,10-trioxa-13-amino)-N-(tert-butyloxycarbonyl)-3-propionylamine), 21</infon>
+      <infon key="iao_name_1">methods section</infon>
+      <infon key="iao_id_1">IAO:0000317</infon>
+      <offset>21470</offset>
+      <text>Hydrazine (106 mg, 3.3 mmol) was added to a solution of 20 (245 mg, 0.16 mmol) in absolute EtOH (20 mL) and stirred at room temperature overnight. The solvent was removed under vacuum and the residue was dissolved in MeOH. The solution was filtered to remove precipitates, and then loaded onto a Sephadex LH-20 gel filtration column for purification. Combined fractions yielded 0.18 g (78%) of 21 as pale yellow oil. 1H NMR (CDCl3, 500 MHz): δ 1.43 (s, 27H), 1.73–1.79 (m, 12H), 1.99 (t, J = 7.6 Hz, 6H), 2.21 (t, J = 7.6 Hz, 6H), 2.45 (t, J = 5.9 Hz, 2H), 3.05 (br s, 2H), 3.22 (q, J = 6.0 Hz, 6H), 3.28 (q, J = 6.1 Hz, 6H), 3.53 (q, J = 6.3 Hz, 12H), 3.58–3.61 (m, 18H), 3.62–3.68 (m, 22H), 3.72 (t, J = 5.8 Hz, 2H), 5.12 (br s, 3H), 7.07 (br s, 3H), 7.51 (s, 1H). HRMS (ES+) calcd for C66H129N8O23 (M+H)+: 1401.9165. Found: 1401.9122. HPLC: tR = 12.0 min.</text>
+    </passage>
+    <passage>
+      <infon key="section_title_1">EXPERIMENTAL PROCEDURES</infon>
+      <infon key="section_title_2">2,3,4,6-Tetra-O-acetyl-galactopyranosyl-1-β-pseudothiourea Hydrobromide, 23</infon>
+      <infon key="iao_name_1">methods section</infon>
+      <infon key="iao_id_1">IAO:0000317</infon>
+      <offset>22465</offset>
+      <text>This compound was prepared by reaction of 2,3,4,6-tetra-O-acetyl-α-D-galactopyranosyl bromide, 22, to form thiourea intermediate, 23, in a procedure similar to that previously described (29). To a solution of 2.02 g (0.026 mol) of thiourea in 24 mL acetone was added 10 g (0.024 mol) of 2,3,4,6-tetra-O-acetyl-α-D-galactopyranosyl bromide, 22. The mixture was refluxed for 20 min, then cooled on ice. The solid was collected and rinsed with 10 mL of ice-cold acetone. The collected solid was suspended in 20 mL ice-cold acetone, then refluxed for 15 min, cooled on ice, and filtered. The solid was rinsed with 10 mL of ice-cold acetone, air dried, then dried under vacuum to yield 4.15 g (69%) of 23 as a colorless solid. This compound was used in the next step without further purification.</text>
+    </passage>
+    <passage>
+      <infon key="section_title_1">EXPERIMENTAL PROCEDURES</infon>
+      <infon key="section_title_2">2,3,4,6-Tetra-O-acetyl-galactopyranosyl-1-β-(3’-thiopropionic acid), 24</infon>
+      <infon key="iao_name_1">methods section</infon>
+      <infon key="iao_id_1">IAO:0000317</infon>
+      <offset>23331</offset>
+      <text>This compound was prepared from the psuedothiourea intermediate, 23, as previously described (30). Briefly, A mixture of 0.9 g (1.85 mmol) 23, 0.37 g (1.99 mmol) 3-iodopriopionic acid, 0.32 g (167 mmol) Na2S2O5 and 0.30 g (2.15 mmol) potassium carbonate in 1.5 mL acetone / 1.5 mL H2O was stirred at room temperature for 45 min. To the mixture was added 7 mL of HCl (5%) and 7 mL of CHCl3. The CHCl3 layer was separated, washed with H2O, dried with MgSO4, and evaporated to give 0.77 g (96%) of 24 as an oil. This compound was used in the next step without further purification.</text>
+    </passage>
+    <passage>
+      <infon key="section_title_1">EXPERIMENTAL PROCEDURES</infon>
+      <infon key="section_title_2">2,3,4,6-Tetra-O-acetyl-galactopyranosyl-1-α-(3’-thiopropionate-O-2,3,5,6-tetrafluorophenyl ester), 25</infon>
+      <infon key="iao_name_1">methods section</infon>
+      <infon key="iao_id_1">IAO:0000317</infon>
+      <offset>23980</offset>
+      <text>To a solution of 24 (772 mg, 1.77mmol) in anhydrous DMF (15mL) at 0°C, was added dropwise TFP-OTFA (0.448 mL, 2.6 mmol), followed by addition of Et3N (0.362 mL, 2.6 mmol). The mixture was stirred in an ice-bath for 1 h. Then half of the solvent was removed under vacuum, and the remaining solution was extracted with EtOAc (3 × 100 mL). The EtOAc solution was dried with MgSO4 and evaporated by rotary evaporator under vacuum to afford 1.038 g (100%) of 25 as a pale-yellow oil. 1H NMR (CDCl3, 500 MHz): δ 2.00 (s, 3H), 2.05 (s, 3H), 2.08 (s, 3H), 2.17 (s, 3H), 2.98–3.04 (m, 1H), 3.09–3.12 (m, 2H), 3.13–3.19 (m, 1H), 3.99 (t, J = 6.5 Hz, 1H), 4.14–4.19 (m, 2H), 4.60 (d, J = 10.0 Hz, 1H), 5.08 (dd, J = 3.4, 10.0 Hz, 1H), 5.28 (t, J = 9.9 Hz, 1H), 5.46 (d, J = 3.5 Hz, 1H), 7.01–7.08 (m, 1H). HRMS (ES+) C23H24F4NaO11S (M+Na)+ calcd: 607.0873. Found: 607.0865. HPLC: tR = 16.3 min.</text>
+    </passage>
+    <passage>
+      <infon key="section_title_1">EXPERIMENTAL PROCEDURES</infon>
+      <infon key="section_title_2">N-(15-(N,N’-Bis(N-(biotinyl)-β-N-(tert-butyloxycarbonyl)-N-(8-amino-3,6-dioxaoctanyl)aspartamidyl)-5-aminoisophthalamido)-(3,6,9,12-tetraoxa)pentadecanoylamino)methane-tris(N-(4,7,10-trioxa-13-amino)-N-(tert-butyloxycarbonyl)-3-propionylamine), 27</infon>
+      <infon key="iao_name_1">methods section</infon>
+      <infon key="iao_id_1">IAO:0000317</infon>
+      <offset>24964</offset>
+      <text>A solution of 13 (135 mg, 0.109 mmol), 1,1'-carbonyldiimidazole (35.4 mg, 0.218 mmol) and anhydrous DMF (8 mL) was stirred at room temperature for 1 h. The solution was triturated with 10% EtOAc/hexanes (50 mL). The solution was decanted, and the residue, containing 26, was washed with EtOAc (2 × 10 mL), then dried under vacuum for 2 h. A solution containing 21 (104 mg, 0.74 mmol), Et3N (20.6 µL, 0.148 mmol) and anhydrous DMF (8 mL) was added to the flask containing 26, and the resultant solution was stirred at room temperature overnight. The volatile materials were removed by rotary evaporation under vacuum, and the crude residue was purified by Sephadex LH-20 gel filtration column to yield 173 mg (88%) of 27. 1H NMR (CD3OD, 500 MHz): δ 1.42 (s, 27H), 1.43 (s, 9H), 1.44 (s, 9H), 1.52–1.77 (m, 24H), 1.97 (t, J = 7.6 Hz, 6H), 2.15–2.27 (m, 10H), 2.41 (t, J = 6.0 Hz, 2H), 2.62–2.72 (m, 6H), 2.88–2.93 (m, 2H), 3.11 (t, J = 6.8 Hz, 6H), 3.14–3.19 (m, 2H), 3.24 (t, J = 6.9 Hz, 6H), 3.33–3.35 (m, 4H), 3.42 (t, J = 5.2 Hz, 2H), 3.48–3.52 (m, 12H), 3.53–3.72 (m, 60H), 4.30 (dd, J = 4.9, 7.9 Hz, 2H), 4.48 (dd, J = 4.9, 7.9 Hz, 2H), 4.61 (t, J = 6.3 Hz, 2H), 7.86 (s, 1H), 7.99 (s, 1H), 8.12 (s, 1H). HRMS (ES+) C123H215N19Na2O40S2 (M+2Na)2+ calcd: 1354.2300. Found: 1354.2239. HPLC: tR = 13.7 min.</text>
+    </passage>
+    <passage>
+      <infon key="section_title_1">EXPERIMENTAL PROCEDURES</infon>
+      <infon key="section_title_2">N-(15-(N,N’-Bis(N-(biotinyl)-β-N-(tert-butyloxycarbonyl)-N-(8-amino-3,6-dioxaoctanyl)aspartamidyl)-5-aminoisophthalamido)-(3,6,9,12-tetraoxa)pentadecanoylamino)methane-tris(N-(4,7,10-trioxa-13-amino)-3-propionylamine), 28</infon>
+      <infon key="iao_name_1">methods section</infon>
+      <infon key="iao_id_1">IAO:0000317</infon>
+      <offset>26517</offset>
+      <text>A 139 mg (0.052 mmol) quantity of 27 was stirred in 2 mL of TFA for 45 min. The excess TFA was removed under a stream of air. The residue was washed with diethyl ether and was placed under high vacuum overnight. The crude residue was dissolved in H2O and was purified over a Sephadex LH-20 gel filtration column to yield 92.8 mg (0.036 mmol; 69%) of 28. This compound was used in the next step without further characterization.</text>
+    </passage>
+    <passage>
+      <infon key="section_title_1">EXPERIMENTAL PROCEDURES</infon>
+      <infon key="section_title_2">N-(15-(N,N’-Bis(N-(biotinyl)-β-N-(tert-butyloxycarbonyl)-N-(8-amino-3,6-dioxaoctanyl)aspartamidyl)-5-aminoisophthalamido)-(3,6,9,12-tetraoxa)pentadecanoylamino)methane-tris(N-(4,7,10-trioxa-13-amino)-N-(2,3,4,6-tetra-O-acetyl-galactose-1-α-(3’-thiopropionylamine), 29</infon>
+      <infon key="iao_name_1">methods section</infon>
+      <infon key="iao_id_1">IAO:0000317</infon>
+      <offset>27165</offset>
+      <text>A solution, containing 28 (42.3 mg, 0.019 mmol), Et3N (21 mL, 0.15 mmol) and anhydrous DMF (2 mL), was added dropwise to a solution of 25 (54.9 mg, 0.094 mmol) in anhydrous DMF (2 mL). The resultant solution was stirred at room temperature overnight. Volatile materials were removed by rotary evaporator under vacuum, then the crude product was dissolved in 50% MeOH/water and purified by flash chromatography (Biotage). After purification a 60 mg (0.017 mmol; 91%) quantity of 29 was obtained as a colorless oil. 1H NMR (CD3OD, 500 MHz): δ 1.38–1.46 (m, 4H), 1.52–1.65 (m, 8H), 1.72–1.78 (m, 12H), 1.95 (s, 9H), 1.96–2.00 (m, 6H), 2.03 (s, 9H), 2.04 (s, 9H), 2.15 (s, 9H), 2.16–2.24 (m, 10H), 2.51–2.55 (m, 6H), 2.66–2.71 (m, 4H), 2.86–3.01 (m, 15H), 3.16–3.29 (m, 15H), 3.41 (t, J = 5.1 Hz, 2H), 3.50–3.54 (m, 12H), 3.57–3.72 (m, 63H), 4.13 (s, 6H), 4.28–4.31 (m, 2H), 4.44–4.50 (m, 4H), 4.76 (d, J = 9.6 Hz, 3H), 5.10–5.17 (m, 6H), 5.43 (d, J = 2.9 Hz, 3H), 7.38 (s, 1H), 7.86 (s, 1H), 7.87 (s, 1H). LRMS (ES+) C151H242KN19NaO64S5 (M+H+Na+K)+ calc 3567.4. Found 3567.5. HPLC: tR= 11.2 min.</text>
+    </passage>
+    <passage>
+      <infon key="section_title_1">EXPERIMENTAL PROCEDURES</infon>
+      <infon key="section_title_2">N-(15-(N,N’-Bis(N-(biotinyl)-β-N-(tert-butyloxycarbonyl)-N-(8-amino-3,6-dioxaoctanyl)aspartamidyl)-5-aminoisophthalamido)-(3,6,9,12-tetraoxa)pentadecanoylamino)methane-tris(N-(4,7,10-trioxa-13-amino)-N-(galactose-1-α-(3’-thiopropionylamine), 2</infon>
+      <infon key="iao_name_1">methods section</infon>
+      <infon key="iao_id_1">IAO:0000317</infon>
+      <offset>28524</offset>
+      <text>A 83 mg (0.024 mmol) quantity of 29 was added to a clear solution of Na metal (0.55 mg; 0.024 mmol) in anhydrous MeOH (1 mL). The resultant solution was stirred for 2 h at room temperature. The mixture was loaded onto an Amberlite IR120 ion exchange resin (H+ form) and eluted slowly. The fractions containing 2 were combined and the solvent was removed under vacuum to yield 67.5 mg (0.022 mmol; 94%) as a pale-yellow oil. 1H NMR (CD3OD, 500 MHz): δ 1.38–1.46 (m, 4H), 1.54–1.66 (m, 8H), 1.73–1.79 (m, 12H), 1.96–2.00 (m, 6H), 2.17–2.30 (m, 10H), 2.42 (t, J = 5.7 Hz, 2H), 2.55 (t, J = 6.9 Hz, 6H), 2.68–2.79 (m, 4H), 2.88–2.93 (m, 4H), 2.97–3.03 (m, 4H), 3.16–3.29 (m, 15H), 3.42 (t, J = 5.1 Hz, 2H), 3.46–3.56 (m, 25H), 3.57–3.72 (m, 63H), 3.77 (dd, J = 7.4 Hz, 11.4 Hz, 3H), 3.87 (d, J = 2.0 Hz, 3H), 4.28–4.31 (m, 2H), 4.34 (d, J = 7.3 Hz, 2H), 4.47–4.50 (m, 2H), 4.72–4.74 (m, 2H), 7.37 (s, 1H), 7.88 (s, 1H), 7.93 (s, 1H). HRMS (ES+) C127H218N19O52S5 (M+H)+ calc 3001.3602. Found 3001.3223. HPLC: tR= 8.4 min.</text>
+    </passage>
+    <passage>
+      <infon key="section_title_1">EXPERIMENTAL PROCEDURES</infon>
+      <infon key="section_title_2">N,N’-Bis(N-(biotinyl)-β-N-(butyloxycarbonyl)-N-(8-amino-3,6-dioxaoctanyl)aspartamidyl-5-N-(DOTA-benzylamido)aminoisophthalamide, 32</infon>
+      <infon key="iao_name_1">methods section</infon>
+      <infon key="iao_id_1">IAO:0000317</infon>
+      <offset>29783</offset>
+      <text>A solution of 13 (170 mg, 0.137 mmol), thiocarbonyldiimidazole (40.8 mg, 0.206 mmol), and anhydrous DMF (4 mL) was stirred at room temperature for 1 h. After the solution was washed with 10% EtOAc/hexanes (5 × 15 mL), the volatile materials were removed under vacuum on a rotoevaporator, and the isothiocyanate 30 was dried under vacuum for 2 h. The crude 30 was dissolved in anhydrous DMF (4 mL), then aminobenzylDOTA, HCl salt, 31 (100 mg, 0.137 mmol) and pyridine (111 µL, 1.374 mmol) were added respectively. The resultant solution was stirred at room temperature for 16 h. Volatile materials were evaporated under vacuum on a rotoevaporator. The residue was dissolved in DMF/MeOH/water (5 mL, 1/2/2) and purified by flash chromatography (Biotage). Fractions containing product were combined and solvent removed to yield 185 mg (75%) of 32 as a colorless solid. 1H NMR (CD3OD, 500 MHz): δ 1.37–1.42 (m, 4H), 1.44 (s, 18H), 1.51–1.75 (m, 8H), 2.26 (t, J = 7.2 Hz, 4H), 2.69 (t, J = 7.1 Hz, 4H), 2.74 (d, J = 12.9 Hz, 2H), 2.95 (dd, J = 4.4, 12.9 Hz, 2H), 3.00–3.19 (m, 6H), 3.22–3.26 (m, 3H), 3.31–3.42 (m, 11H), 3.58–3.76 (m, 26H), 3.85–3.98 (m, 5H), 4.36 (dd, J = 4.5, 7.5 Hz, 2H), 4.56 (dd, J = 4.5, 7.5 Hz, 2H), 4.59 (t, J = 6.5 Hz, 2H), 7.36 (d, J = 8.3 Hz, 2H), 7.42 (d, J = 8.3 Hz, 2H), 8.04 (s, 2H), 8.10 (s, 1H). HRMS (ES+) calcd for C80H123N16O24S3 (M+H)+: 1787.8053. Found: 1787.8137. HPLC: tR = 10.4 min.</text>
+    </passage>
+    <passage>
+      <infon key="section_title_1">EXPERIMENTAL PROCEDURES</infon>
+      <infon key="section_title_2">N,N’-Bis(N-biotinyl-N-(8-amino-3,6-dioxaoctanyl)aspartamidyl-5-N-(DOTA-benzylamido)aminoisophthalamide, 4a</infon>
+      <infon key="iao_name_1">methods section</infon>
+      <infon key="iao_id_1">IAO:0000317</infon>
+      <offset>31333</offset>
+      <text>A solution containing 32 (185 mg, 0.103 mmol) and trifluoroacetic acid (4 mL) was stirred at room temperature for 20 min. Excess trifluoroacetic acid was evaporated under a stream of argon, then the residue was dissolved in 50% MeOH/water and purified by flash chromatography (Biotage). Fractions containing product were combined and solvent removed to yield 165 mg (95%) of 4a as a colorless solid. mp 211–213°C. 1H NMR (CD3OD, 500 MHz): δ 1.33–1.41 (m, 4H), 1.47–1.71 (m, 8H), 2.23 (t, J = 7.2 Hz, 4H), 2.66–2.78 (m, 6 H), 2.92 (dd, J = 4.9, 13.0 Hz, 2H), 2.97–3.17 (m, 6H), 3.19–3.23 (m, 3H), 3.33 (t, J = 5.3 Hz, 4H), 3.56 (t, J = 5.1 Hz, 4H), 3.62–3.74 (m, 28H), 3.90–4.21 (m, 6H), 4.33 (dd, J = 4.8, 7.5 Hz, 2H), 4.53 (dd, J = 4.9, 7.4 Hz, 2H), 4.69 (t, J = 6.4 Hz, 2H), 7.32–7.43 (m, 4H), 8.00 (s, 2H), 8.07 (s, 1H). LRMS (ES+) calcd for C72H107N16O24S3 (M+H)+: 1675.6. Found: 1675.5. HPLC: tR = 6.3 min.</text>
+    </passage>
+    <passage>
+      <infon key="section_title_1">EXPERIMENTAL PROCEDURES</infon>
+      <infon key="section_title_2">Preparation of [111In]indium-labeled 3a, [111In]3b</infon>
+      <infon key="iao_name_1">methods section</infon>
+      <infon key="iao_id_1">IAO:0000317</infon>
+      <offset>32350</offset>
+      <text>The radiolabeling reactions were conducted with metal free reagents and labware. Methods for demetallation have been previously described (31). To a 7–17 µL aliquot of a 3 mg/mL (20–50 µg) solution of 3a in H2O was added 80–100 µL 500 mM NH4OAc solution, pH 5.3 (demetallated), followed by 2–4 µL (0.63–1.22 mCi) of [111In]indium chloride. This mixture was placed in a heat block at 85°C for 30–60 min, then purified by radio-HPLC to give 72–95% isolated yield from a peak at 4.5 min. Following isolation from the HPLC, the eluant solvents were removed by evaporation under vacuum (90–100%) and the predetermined amount of PBS was added to make the animal injectate. Radiochemical purity was determined by an avidin bead assay. In that assay, the preparations had 95–99% of the [111In]3b bound with avidin.</text>
+    </passage>
+    <passage>
+      <infon key="section_title_1">EXPERIMENTAL PROCEDURES</infon>
+      <infon key="section_title_2">Preparation of [111In]Indium-labeled 4a, [111In]4b</infon>
+      <infon key="iao_name_1">methods section</infon>
+      <infon key="iao_id_1">IAO:0000317</infon>
+      <offset>33206</offset>
+      <text>This reaction was conducted in a manner similar to preparation of [111In]3b. To a 27–33 µL aliquot of 3 mg/mL (80–100 µg) 4a in H2O was added 80–100 µL 500 mM NH4OAc solution, pH 5.3 (demetallated) followed by 6–10 µL (1.42–2.81 mCi) of [111In]indium chloride. This mixture was placed in a heat block at 85°C for 30 min, then purified by HPLC to give 45–94% isolated yields from a peak at 7.5 min. Following isolation from the HPLC, the eluant solvents were removed by evaporation under vacuum (90–100%) and the predetermined amount of PBS was added to make the animal injectate. Analyses by avidin bead assay showed that 85–95% of the [111In]4b bound with avidin.</text>
+    </passage>
+    <passage>
+      <infon key="section_title_1">EXPERIMENTAL PROCEDURES</infon>
+      <infon key="section_title_2">Avidin Bead Assay</infon>
+      <infon key="iao_name_1">methods section</infon>
+      <infon key="iao_id_1">IAO:0000317</infon>
+      <offset>33920</offset>
+      <text>The avidin beads were prepared for use by the following procedure. A solution of avidin-agarose from the manufacturer (Sigma-Aldrich #A9207-5 mL or ImmunoPure Immobilized Avidin Gel, Pierce Biotechnology, Inc. Rockford, IL) was vortexed, and then a 300 µL aliquot of the suspended avidin-agarose beads was added to a microcentrifuge filter (Fisher #07–200–387; 0.45 mm cellulose acetate spin column with centrifuge tube filter). The filter was placed in a microcentrifuge and spun at 1000g for 1 min. The filtrate was discarded.</text>
+    </passage>
+    <passage>
+      <infon key="section_title_1">EXPERIMENTAL PROCEDURES</infon>
+      <infon key="section_title_2">Avidin Bead Assay</infon>
+      <infon key="iao_name_1">methods section</infon>
+      <infon key="iao_id_1">IAO:0000317</infon>
+      <offset>34465</offset>
+      <text>The binding assay was conducted as follows. A 300 µL aliquot of PBS was added to filter (with avidin-agarose) and vortexed to thoroughly mix. The beads were spun at 1000g for 1 min, and then the PBS filtrate was discarded. The PBS washing step was repeated, then an aliquot (up to 2 µL) of 111In-labeled biotin ([111In]3b or [111In]4b) was added to the suspended beads, and this suspension was vortexed to mix thoroughly. The 111In-labeled biotin was incubated with the beads for 10 min at room temperature. The mixture was vortexed to mix, then placed in microcentrifuge and spun at 1000g for 1 min. The filtrate was set aside, and 300 µL of PBS was added to the avidin-agarose beads as a wash. The filter was vortexed to mix, then was placed in a microcentrifuge and spun at 1000g for 1 min. The filtrate was combined with the previous filtrate. The microcentrifuge filter containing avidin-agarose beads was placed in a tube, then that tube and the tube containing the combined filtrates were counted in a gamma. The quantity of 111In-labeled biotin derivative remaining in the filter (% bound) was calculated as [radioactivity in filter]/[radioactivity in filter]+[radioactivity in filtrates]*100.</text>
+    </passage>
+    <passage>
+      <infon key="section_title_1">EXPERIMENTAL PROCEDURES</infon>
+      <infon key="section_title_2">Lymphoma cell line</infon>
+      <infon key="iao_name_1">methods section</infon>
+      <infon key="iao_id_1">IAO:0000317</infon>
+      <offset>35666</offset>
+      <text>The human Ramos B lymphoma cell line (American Type Culture Collection, Bethesda, MD) was maintained in log-phase growth in RPMI-1640 medium supplemented with 10% heat-inactivated fetal calf serum in a 5% CO2 incubator.</text>
+    </passage>
+    <passage>
+      <infon key="section_title_1">EXPERIMENTAL PROCEDURES</infon>
+      <infon key="section_title_2">Synthesis and purification of anti-CD20 1F5 scFv4-SAv fusion proteins</infon>
+      <infon key="iao_name_1">methods section</infon>
+      <infon key="iao_id_1">IAO:0000317</infon>
+      <offset>35903</offset>
+      <text>The production and purification of 1F5 scFv4-SAv-WT fusion protein and the related site-directed SAv mutant fusion proteins, 1F5 scFv4-SAv-S45A and 1F5 scFv4-SAv-Y43A, have been previously described (17, 18). Briefly, scFv-SAv fusion genes were produced by molecularly fusing the single-chain variable regions (scFv) of the murine anti-CD20 1F5 antibody to either the full length SAv wild-type gene or SAv mutant genes. The resultant fusion proteins were expressed in the periplasmic space of E. coli and spontaneously formed stable soluble tetramers of 1F5 scFv4-SAv with a molecular weight of 174 kDa. The 1F5-SAv fusion proteins were formulated at a concentration of 3 mg/mL in phosphate buffer saline (PBS) containing 5% sorbitol.</text>
+    </passage>
+    <passage>
+      <infon key="section_title_1">EXPERIMENTAL PROCEDURES</infon>
+      <infon key="section_title_2">Preparation of 1F5 [125I]scFv4-SAv-S45A fusion protein</infon>
+      <infon key="iao_name_1">methods section</infon>
+      <infon key="iao_id_1">IAO:0000317</infon>
+      <offset>36706</offset>
+      <text>Fusion proteins were radioiodinated with Na[125I]I (PerkinElmer, Waltham, MA) by the chloramine-T method in a manner similar to that previously published (32). Briefly, 50 µL of a 1 mg/mL solution of chloramine-T (Sigma-Aldrich, St. Louis, MO) was added to 500 µL fusion protein. Next the Na[125I]I was added and the solution vortexed. Following a 1 minute incubation at room temperature, 5 µL of a 1 mg/mL solution of sodium metabisulfite was added and the solution was vortexed. The contents were pipetted onto a pre-washed PD10 column, eluted with PBS, collecting 600 µL fractions. The amount of radioactivity in each fraction was measured in a Capintec CRC-7 Radioisotope Calibrator, and early fractions with the highest activity were pooled to obtain the labeled fusion protein.</text>
+    </passage>
+    <passage>
+      <infon key="section_title_1">EXPERIMENTAL PROCEDURES</infon>
+      <infon key="section_title_2">Blood clearance of 1F5 [125I]scFv4-SAv fusion protein</infon>
+      <infon key="iao_name_1">methods section</infon>
+      <infon key="iao_id_1">IAO:0000317</infon>
+      <offset>37543</offset>
+      <text>Female FoxN1NU athymic nude mice, aged 6–8 weeks, were obtained from Harlan Sprague-Dawley (Indianapolis, IN) and housed under protocols approved by the Fred Hutchinson Cancer Research Institute Institutional Animal Care and Use Committee. Mice were fed a standard diet (containing biotin) and separated into three groups of 4 mice each. Mice were injected intravenously with 500 µg (2.8 nmol) of 1F5 [125I]scFv4-SAv-S45A fusion protein. After 24 hours, mice were injected intravenously with equimolar doses of 1 (5.8 nmol; 50 µg) or 2 (5.8 nmol; 17.4 µg). Blood samples were drawn at serial time points before and after injection of 1 or 2, and the blood samples were counted in a gamma counter. The percent of injected dose per gram of blood (%ID/g) was calculated and the mean values were plotted using KaleidaGraph software (Synergy Software, Reading, PA). A tabulation of the blood clearance data is provided as Table S1 in Supporting Information.</text>
+    </passage>
+    <passage>
+      <infon key="section_title_1">EXPERIMENTAL PROCEDURES</infon>
+      <infon key="section_title_2">Biodistributions of [111In]3b and [111In]4b in tumor-bearing mice pretargeted with 1F5 scFv4-SAv fusion proteins</infon>
+      <infon key="iao_name_1">methods section</infon>
+      <infon key="iao_id_1">IAO:0000317</infon>
+      <offset>38548</offset>
+      <text>Female FoxN1NU athymic nude mice were separated into four groups, and were fed either a standard diet (group 1) or biotin-free diet (Harlan Teklad, Madison, WI) (groups 2–4). Ramos cells (10 × 106) were injected subcutaneously in the right flank of each mouse. Mice were monitored until palpable tumor nodules appeared (7–10 days) and mice with tumors of similar sizes (5–10 mm3) were selected for the experiment. Groups of 5 mice were injected intravenously with 500 µg (2.9 nmol) of 1F5 scFv4-SAv–WT (groups 1 and 2), or one of the SAv mutant fusion proteins, 1F5 scFv4-SAv-S45A (group 3), or 1F5 scFv4-SAv-Y43A (group 4). After 20 hours, the mice were injected with either 50 µg (5.8 nmol) of 1 (groups 1 and 2) or 17.5 µg (5.8 nmol) of 2 (groups 3 and 4). Four hours after administration of clearing agent, 20 µCi on 1.2 nmol (~ 1 µg 3a or ~2 µg of 4a) of the 111In-labeled biotin derivatives, [111In]3b (groups 1 and 2) or [111In]4b (groups 3 and 4), were administered. Mice were euthanized, and tumors and normal organs were harvested 24 hours after injection of radioactivity. Selected tissues and tumors were weighed and counted in a gamma counter. Counts were corrected for decay using standard aliquots of the injectate. The percent injected dose per gram (%ID/g) values for tissues and tumor xenografts were calculated. The mean values and standard deviations were plotted for each tissue. A tablulation of the pretargeting data is provided as Table S2 in Supporting Information.</text>
+    </passage>
+    <passage>
+      <infon key="section_title_1">EXPERIMENTAL PROCEDURES</infon>
+      <infon key="section_title_2">Biodistributions of [111In]4b</infon>
+      <infon key="iao_name_1">methods section</infon>
+      <infon key="iao_id_1">IAO:0000317</infon>
+      <offset>40150</offset>
+      <text>Female FoxN1NU athymic nude mice, aged 6–8 weeks, were obtained from Harlan Sprague-Dawley (Indianapolis, IN) and housed under protocols approved by the Fred Hutchinson Cancer Research Institute Institutional Animal Care and Use Committee. Mice were fed a standard diet (containing biotin) and separated into three groups of 5 mice each. Mice were injected intravenously with ~30 µCi on 2 µg of [111In]4b. Groups of mice were euthanized at 1, 4 and 24 h post injection of [111In]4b, and preselected tissues were harvested and counted in a gamma counter. The percent of injected dose per gram (%ID/g) of blood or tissue was calculated. A tabulation of the biodistribution data is provided as Table S3 in Supporting Information.</text>
+    </passage>
+    <passage>
+      <infon key="section_title_1">RESULTS</infon>
+      <infon key="section_title_2">Synthesis of the blood clearance agent, 2</infon>
+      <infon key="iao_name_1">results section</infon>
+      <infon key="iao_id_1">IAO:0000318</infon>
+      <offset>40905</offset>
+      <text>The synthesis of 2 utilized a convergent approach, combining a bis-biotin component, a tetrafunctional polyethylene glycol (PEG) component, and a galactosyl component. The syntheses of the individual components are shown in Schemes 1 – 3. The synthetic steps to prepare the bis-biotin derivative 13 are shown in Scheme 1. In the synthesis, aminoisophthalic acid, 5, was modified with di-tert-butyl-dicarbonate, then tetrafluorophenol and EDC were used to prepare N-Boc-aminoisophthalate di-tetrafluorophenyl ester, 6. Reaction of 6 with mono-Boc protected diamino-dioxaoctane, 7, and triethylamine in anhydrous DMF provided the tri-N-Boc protected aminoisophthalic acid derivative, 8. After removal of the N-Boc groups on 8 with neat TFA, the resulting alkyl amines were reacted with the tetrafluorophenyl ester of the biotin-aspartate adduct 12, which was prepared from biotin, 9, as previously described (28). That reaction provided the anilino-bis-biotin derivative 13 in 74% yield. It should be noted that the synthesis was conducted in this manner so that the aspartate carboxylates remained as tert-butyl esters in bis-biotin derivative 13, since that is required to prepare the isocyanate functionality in a later step of the synthesis.</text>
+      <annotation id="T4">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D001710</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:07Z</infon>
+        <location offset="40972" length="6"/>
+        <location offset="41183" length="6"/>
+        <location offset="41724" length="6"/>
+        <location offset="41776" length="6"/>
+        <location offset="41856" length="6"/>
+        <location offset="42030" length="6"/>
+        <text>biotin</text>
+      </annotation>
+      <annotation id="T5">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D006018</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:07Z</infon>
+        <location offset="41021" length="6"/>
+        <text>glycol</text>
+      </annotation>
+      <annotation id="T6">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D001710</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:07Z</infon>
+        <location offset="41183" length="6"/>
+        <location offset="41724" length="6"/>
+        <location offset="41776" length="6"/>
+        <location offset="41856" length="6"/>
+        <location offset="42030" length="6"/>
+        <text>biotin</text>
+      </annotation>
+      <annotation id="T7">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D010261</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:07Z</infon>
+        <location offset="41343" length="3"/>
+        <text>EDC</text>
+      </annotation>
+      <annotation id="T8">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D004952</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:07Z</infon>
+        <location offset="41413" length="5"/>
+        <location offset="41711" length="5"/>
+        <text>ester</text>
+      </annotation>
+      <annotation id="T9">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D000588</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:07Z</infon>
+        <location offset="41664" length="6"/>
+        <text>amines</text>
+      </annotation>
+      <annotation id="T10">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D004952</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:07Z</infon>
+        <location offset="41711" length="5"/>
+        <text>ester</text>
+      </annotation>
+      <annotation id="T11">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D001710</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:07Z</infon>
+        <location offset="41724" length="6"/>
+        <location offset="41776" length="6"/>
+        <location offset="41856" length="6"/>
+        <location offset="42030" length="6"/>
+        <text>biotin</text>
+      </annotation>
+      <annotation id="T12">
+        <infon key="type">trait</infon>
+        <infon key="identifier">T003668</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:07Z</infon>
+        <location offset="41731" length="9"/>
+        <location offset="41970" length="9"/>
+        <text>aspartate</text>
+      </annotation>
+      <annotation id="T13">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D001710</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:07Z</infon>
+        <location offset="41776" length="6"/>
+        <location offset="41856" length="6"/>
+        <location offset="42030" length="6"/>
+        <text>biotin</text>
+      </annotation>
+      <annotation id="T14">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D001710</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:07Z</infon>
+        <location offset="41856" length="6"/>
+        <location offset="42030" length="6"/>
+        <text>biotin</text>
+      </annotation>
+      <annotation id="T15">
+        <infon key="type">trait</infon>
+        <infon key="identifier">T003668</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:07Z</infon>
+        <location offset="41970" length="9"/>
+        <text>aspartate</text>
+      </annotation>
+      <annotation id="T16">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D004952</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:07Z</infon>
+        <location offset="42016" length="6"/>
+        <text>esters</text>
+      </annotation>
+      <annotation id="T17">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D001710</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:07Z</infon>
+        <location offset="42030" length="6"/>
+        <text>biotin</text>
+      </annotation>
+      <annotation id="T18">
+        <infon key="type">trait</infon>
+        <infon key="identifier">T001008584</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:07Z</infon>
+        <location offset="42090" length="10"/>
+        <text>isocyanate</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_title_1">RESULTS</infon>
+      <infon key="section_title_2">Synthesis of the blood clearance agent, 2</infon>
+      <infon key="iao_name_1">results section</infon>
+      <infon key="iao_id_1">IAO:0000318</infon>
+      <offset>42196</offset>
+      <text>A key part of the design of the blood-clearing agent 2 was the inclusion of three galactosyl groups at the terminus of polyethylene glycol (PEG) spacer arms. A PEG-containing tetra-functional molecule, 21, was utilized as a core for the branched galactosyl portion of 2. The synthesis to prepare 21 is shown in Scheme 2. In the synthesis, nitromethane-tris-propionic acid, 14, was converted to the tris-tetrafluorophenyl ester 15 in 96% yield by reaction with tetrafluorophenyl-O-trifluoroacetate (TFP-OTFA) and triethylamine in DMF. Reaction of 15 with an excess of N-Boc-trioxatridecanediamine, 16, provided the adduct 17 in 92% yield. Reduction of the nitro group in 17 by hydrogenation over Raney-Nickel gave nearly a quantitative yield of the amino derivative 18. Reaction of the hindered amine in 18 with the phthalimido-protected amino-dPEG™4-acid, 19, and DCC/HOBT in DMF at room temperature for 72 hours provided a 72% yield of adduct 20. Removal of the phthalimide protecting group using hydrazine in ethanol for 16 hours provided a 78% yield of the tetra-functional intermediate, 21.</text>
+      <annotation id="T19">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D006018</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:07Z</infon>
+        <location offset="42328" length="6"/>
+        <text>glycol</text>
+      </annotation>
+      <annotation id="T20">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D001132</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:07Z</infon>
+        <location offset="42348" length="4"/>
+        <text>arms</text>
+      </annotation>
+      <annotation id="T21">
+        <infon key="type">trait</infon>
+        <infon key="identifier">M0017763</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:07Z</infon>
+        <location offset="42553" length="14"/>
+        <text>propionic acid</text>
+      </annotation>
+      <annotation id="T22">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D004952</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:07Z</infon>
+        <location offset="42617" length="5"/>
+        <text>ester</text>
+      </annotation>
+      <annotation id="T23">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D014269</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:07Z</infon>
+        <location offset="42676" length="16"/>
+        <text>trifluoroacetate</text>
+      </annotation>
+      <annotation id="T24">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D006865</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:07Z</infon>
+        <location offset="42872" length="13"/>
+        <text>hydrogenation</text>
+      </annotation>
+      <annotation id="T25">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D009532</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:07Z</infon>
+        <location offset="42897" length="6"/>
+        <text>Nickel</text>
+      </annotation>
+      <annotation id="T26">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D000588</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:07Z</infon>
+        <location offset="42990" length="5"/>
+        <text>amine</text>
+      </annotation>
+      <annotation id="T27">
+        <infon key="type">trait</infon>
+        <infon key="identifier">T040253</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:07Z</infon>
+        <location offset="43084" length="11"/>
+        <text>temperature</text>
+      </annotation>
+      <annotation id="T28">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D010797</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:07Z</infon>
+        <location offset="43159" length="11"/>
+        <text>phthalimide</text>
+      </annotation>
+      <annotation id="T29">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D006834</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:07Z</infon>
+        <location offset="43194" length="9"/>
+        <text>hydrazine</text>
+      </annotation>
+      <annotation id="T30">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D000431</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:07Z</infon>
+        <location offset="43207" length="7"/>
+        <text>ethanol</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_title_1">RESULTS</infon>
+      <infon key="section_title_2">Synthesis of the blood clearance agent, 2</infon>
+      <infon key="iao_name_1">results section</infon>
+      <infon key="iao_id_1">IAO:0000318</infon>
+      <offset>43290</offset>
+      <text>The tetra-O-acetyl-galactose derivative 25 used in the synthesis of 2 was prepared as shown in Scheme 3. Nucleophilic displacement of the bromine in acetylbromo-α-D-galactose, 22, by reaction of thiourea in refluxing acetone produced the β-pseudothiourea derivative 23 in 69% yield. Reaction of 23 with 3-iodopropionic acid in a basic acetone/water mixture gave a 96% yield of the galactose-thiopropionic acid derivative, 24. Preparation of the tetrafluorophenyl ester derivative, 25, was achieved in nearly quantitative yield by reaction of 24 with TFP-OTFA.</text>
+      <annotation id="T31">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D005690</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:07Z</infon>
+        <location offset="43309" length="9"/>
+        <location offset="43671" length="9"/>
+        <text>galactose</text>
+      </annotation>
+      <annotation id="T32">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D001966</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:07Z</infon>
+        <location offset="43428" length="7"/>
+        <text>bromine</text>
+      </annotation>
+      <annotation id="T33">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D005690</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:07Z</infon>
+        <location offset="43453" length="11"/>
+        <text>D-galactose</text>
+      </annotation>
+      <annotation id="T34">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D013890</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:07Z</infon>
+        <location offset="43485" length="8"/>
+        <text>thiourea</text>
+      </annotation>
+      <annotation id="T35">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D000096</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:07Z</infon>
+        <location offset="43507" length="7"/>
+        <location offset="43625" length="7"/>
+        <text>acetone</text>
+      </annotation>
+      <annotation id="T36">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D000096</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:07Z</infon>
+        <location offset="43625" length="7"/>
+        <text>acetone</text>
+      </annotation>
+      <annotation id="T37">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D014867</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:07Z</infon>
+        <location offset="43633" length="5"/>
+        <text>water</text>
+      </annotation>
+      <annotation id="T38">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D005690</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:07Z</infon>
+        <location offset="43671" length="9"/>
+        <text>galactose</text>
+      </annotation>
+      <annotation id="T39">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D004952</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:07Z</infon>
+        <location offset="43753" length="5"/>
+        <text>ester</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_title_1">RESULTS</infon>
+      <infon key="section_title_2">Synthesis of the blood clearance agent, 2</infon>
+      <infon key="iao_name_1">results section</infon>
+      <infon key="iao_id_1">IAO:0000318</infon>
+      <offset>43849</offset>
+      <text>The final sequence of reactions, which combined the three components to produce 2, is shown in Scheme 4. The reaction sequence began with conversion of the bis-biotin derivative 13 to the phenylisocyanate, 26, by reaction with carbonyldiimidazole (CDI). Reaction of 26 with 21 provided the adduct 27 in 88% yield. Deprotection of the N-Boc and tert-butyl esters in 27 was accomplished in one step by reaction in neat trifluoroacetic acid to provide a 69% yield of intermediate 28. Reaction of 28 with the tetra-O-acetyl-galactose derivative 25 provided 29 in 91% yield. In the final step, the acetyl protecting groups were removed from 29 using an acid form of an ion exchange column to provide a 94% yield of the targeted blood clearance agent 2.</text>
+      <annotation id="T40">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D001710</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:07Z</infon>
+        <location offset="44009" length="6"/>
+        <text>biotin</text>
+      </annotation>
+      <annotation id="T41">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D004952</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:07Z</infon>
+        <location offset="44204" length="6"/>
+        <text>esters</text>
+      </annotation>
+      <annotation id="T42">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D014269</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:07Z</infon>
+        <location offset="44266" length="20"/>
+        <text>trifluoroacetic acid</text>
+      </annotation>
+      <annotation id="T43">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D005690</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:07Z</infon>
+        <location offset="44369" length="9"/>
+        <text>galactose</text>
+      </annotation>
+      <annotation id="T44">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D007474</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:07Z</infon>
+        <location offset="44513" length="12"/>
+        <text>ion exchange</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_title_1">RESULTS</infon>
+      <infon key="section_title_2">Syntheses of the bis-biotin-DOTA derivative, 4a</infon>
+      <infon key="iao_name_1">results section</infon>
+      <infon key="iao_id_1">IAO:0000318</infon>
+      <offset>44596</offset>
+      <text>Partial synthesis of the radiometal-binding bis-biotin derivative 4a is shown in Scheme 5. The initial steps of the synthesis involved preparation of bis-biotin derivative 13, as described previously (and shown in Scheme 1). Conversion of the aniline in 13 to the phenylisothiocyanate functionality in 30 was accomplished by reaction with thiocarbonyldiimidazole (TCDI). The isothiocyanate derivative, 30, was prepared and used in this coupling reaction, rather than the phenylisocyanate, 26, due to the low reactivity of the aniline. Reaction of 30 with aminobenzylDOTA, 31, using pyridine as the base, provided the adduct 32 in 75% yield. Removal of the tert-butyl esters in 32 was accomplished in neat TFA to provide the bis-DOTA-biotin compound 4a in 95% yield.</text>
+      <annotation id="T45">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D001710</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:07Z</infon>
+        <location offset="44644" length="6"/>
+        <location offset="44750" length="6"/>
+        <location offset="45329" length="6"/>
+        <text>biotin</text>
+      </annotation>
+      <annotation id="T46">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D001710</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:07Z</infon>
+        <location offset="44750" length="6"/>
+        <location offset="45329" length="6"/>
+        <text>biotin</text>
+      </annotation>
+      <annotation id="T47">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D000814</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:07Z</infon>
+        <location offset="44839" length="7"/>
+        <location offset="45122" length="7"/>
+        <text>aniline</text>
+      </annotation>
+      <annotation id="T48">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D017879</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:07Z</infon>
+        <location offset="44971" length="14"/>
+        <text>isothiocyanate</text>
+      </annotation>
+      <annotation id="T49">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D000814</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:07Z</infon>
+        <location offset="45122" length="7"/>
+        <text>aniline</text>
+      </annotation>
+      <annotation id="T50">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D011725</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:07Z</infon>
+        <location offset="45178" length="8"/>
+        <text>pyridine</text>
+      </annotation>
+      <annotation id="T51">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D004952</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:07Z</infon>
+        <location offset="45263" length="6"/>
+        <text>esters</text>
+      </annotation>
+      <annotation id="T52">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D001710</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:07Z</infon>
+        <location offset="45329" length="6"/>
+        <text>biotin</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_title_1">RESULTS</infon>
+      <infon key="section_title_2">Radiolabeling</infon>
+      <infon key="iao_name_1">results section</infon>
+      <infon key="iao_id_1">IAO:0000318</infon>
+      <offset>45408</offset>
+      <text>The 1F5 scFv4-SAv-S45A mutant fusion protein was radioiodinated in a standard protocol using chloramine-T as the oxidant. Several 111In-labeling reactions of the biotin derivative 3a conducted for these studies provided isolated radiochemical yields (72–95%) of [111In]3b, with radiochemical purities of 95–99% being obtained as measured in an avidin binding assay. It should be noted that the labeling yields reported are for the isolated product, and in some examples not all of the [111In]3b was isolated from the HPLC eluant making the radiolabeling yields appear lower. In labeling optimization studies, radiolabeling yields of 97+% were obtained for [111In]3b under a variety of reaction conditions studied.</text>
+      <annotation id="T53">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D017293</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:07Z</infon>
+        <location offset="45445" length="7"/>
+        <text>protein</text>
+      </annotation>
+      <annotation id="T54">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D002700</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:07Z</infon>
+        <location offset="45501" length="10"/>
+        <text>chloramine</text>
+      </annotation>
+      <annotation id="T55">
+        <infon key="type">trait</infon>
+        <infon key="identifier">T000997673</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:07Z</infon>
+        <location offset="45521" length="7"/>
+        <text>oxidant</text>
+      </annotation>
+      <annotation id="T56">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D001710</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:07Z</infon>
+        <location offset="45570" length="6"/>
+        <text>biotin</text>
+      </annotation>
+      <annotation id="T57">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D001360</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:07Z</infon>
+        <location offset="45752" length="6"/>
+        <text>avidin</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_title_1">RESULTS</infon>
+      <infon key="section_title_2">Radiolabeling</infon>
+      <infon key="iao_name_1">results section</infon>
+      <infon key="iao_id_1">IAO:0000318</infon>
+      <offset>46134</offset>
+      <text>Radiolabeling reactions of 4a with 111In were more variable, providing ranges of isolated radiochemical yields from 45% to 94% under the reaction conditions used. The radiolabeled product was purified by radio-HPLC. Analysis of the radiochemical purity of [111In]4b, as determined by the avidin bead assay, was 85–95% for the preparations (some were HPLC purified). In subsequent labeling optimization studies, it was found that consistently high 111In-labeling yields (90+%) could be obtained for the reaction of 4a by conducting the reactions in 0.5 M ammonium acetate buffer at pH 5.3 and lowering the reaction temperature to 45°C (from 85°C).</text>
+      <annotation id="T58">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D001360</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:07Z</infon>
+        <location offset="46422" length="6"/>
+        <text>avidin</text>
+      </annotation>
+      <annotation id="T59">
+        <infon key="type">trait</infon>
+        <infon key="identifier">M0000984</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:07Z</infon>
+        <location offset="46688" length="8"/>
+        <text>ammonium</text>
+      </annotation>
+      <annotation id="T60">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D000085</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:07Z</infon>
+        <location offset="46697" length="7"/>
+        <text>acetate</text>
+      </annotation>
+      <annotation id="T61">
+        <infon key="type">trait</infon>
+        <infon key="identifier">T001005736</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:07Z</infon>
+        <location offset="46705" length="6"/>
+        <text>buffer</text>
+      </annotation>
+      <annotation id="T62">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D006863</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:07Z</infon>
+        <location offset="46715" length="2"/>
+        <text>pH</text>
+      </annotation>
+      <annotation id="T63">
+        <infon key="type">trait</infon>
+        <infon key="identifier">T040253</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:07Z</infon>
+        <location offset="46748" length="11"/>
+        <text>temperature</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_title_1">RESULTS</infon>
+      <infon key="section_title_2">Comparison of blood clearance with 1 and 2</infon>
+      <infon key="iao_name_1">results section</infon>
+      <infon key="iao_id_1">IAO:0000318</infon>
+      <offset>46780</offset>
+      <text>An experiment was conducted to determine the effectiveness of 1 and 2 for decreasing 1F5 scFv4-SAv-S45A mutant fusion protein concentration in blood. In the experiment, the blood concentrations were assessed in three groups of four athymic FoxN1Nu mice after administration of 1F5 [125I]scFv4-SAv-S45A. Serial blood samples were obtained and counted to assess the blood concentrations. A logarithmic plot of the blood concentrations of 1F5 [125I]scFv4SA-S45A in the three groups of mice, as a function of time, is provided in Figure 2 (data is provided as Table S1 in Supporting Information). One group of mice did not receive a blood-clearance agent (group 1, red line). Mice in the second and third groups received a single dose of either 1 or 2 given intravenously 24 hours after 1F5 [125I]scFv4-SAv-S45A administration. Administration of the bis-biotin-trigalactose reagent, 2, removed 70% of 1F5 [125I]scFv4-SAv-S45A from the bloodstream within 2 hours of injection (group 3, green line). However, only a 29% reduction in blood concentrations of 1F5 [125I]scFv4-SAv-S45A was observed at the same time point when 1 was used (group 2, blue line) . Similar blood clearance data was obtained in mice administered the fusion protein, 1F5 [125I]scFv4-SAv-Y43A (data not shown).</text>
+      <annotation id="T64">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D017293</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:07Z</infon>
+        <location offset="46898" length="7"/>
+        <location offset="48005" length="7"/>
+        <text>protein</text>
+      </annotation>
+      <annotation id="P0">
+        <infon key="type">significance</infon>
+        <infon key="identifier">PVAL</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:07Z</infon>
+        <location offset="47432" length="7"/>
+        <text>group 1</text>
+      </annotation>
+      <annotation id="T65">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D001710</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:07Z</infon>
+        <location offset="47630" length="6"/>
+        <text>biotin</text>
+      </annotation>
+      <annotation id="T66">
+        <infon key="type">trait</infon>
+        <infon key="identifier">M0011227</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:07Z</infon>
+        <location offset="47650" length="7"/>
+        <text>reagent</text>
+      </annotation>
+      <annotation id="P1">
+        <infon key="type">significance</infon>
+        <infon key="identifier">PVAL</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:07Z</infon>
+        <location offset="47752" length="7"/>
+        <text>group 3</text>
+      </annotation>
+      <annotation id="P2">
+        <infon key="type">significance</infon>
+        <infon key="identifier">PVAL</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:07Z</infon>
+        <location offset="47909" length="7"/>
+        <text>group 2</text>
+      </annotation>
+      <annotation id="T67">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D017293</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:07Z</infon>
+        <location offset="48005" length="7"/>
+        <text>protein</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_title_1">RESULTS</infon>
+      <infon key="section_title_2">Biodistributions of [111In]3b or [111In]4b in tumor-bearing mice pretargeted with 1F5 scFv4-SAv fusion proteins</infon>
+      <infon key="iao_name_1">results section</infon>
+      <infon key="iao_id_1">IAO:0000318</infon>
+      <offset>48098</offset>
+      <text>A pretargeting experiment was conducted to determine if the new clearing agent 2 was effective in decreasing normal tissue concentrations of [111In]4b, and to determine if [111In]4b could be used in a pretargeting protocol to effectively target tumor xenografts in the presence of endogenous biotin. The biodistribution study did not include groups of mice on biotin-deficient diets when scFv4-SAv mutant fusion proteins were administered, as no difference in tumor concentrations were seen previously in pretargeting experiments using the same fusion proteins in mice placed on biotin-deficient diets or standard diets (22).</text>
+      <annotation id="T68">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D009369</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:08Z</infon>
+        <location offset="48343" length="5"/>
+        <location offset="48558" length="5"/>
+        <text>tumor</text>
+      </annotation>
+      <annotation id="T69">
+        <infon key="type">trait</infon>
+        <infon key="identifier">T839606</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:08Z</infon>
+        <location offset="48349" length="10"/>
+        <text>xenografts</text>
+      </annotation>
+      <annotation id="T70">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D001710</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:08Z</infon>
+        <location offset="48390" length="6"/>
+        <location offset="48458" length="6"/>
+        <location offset="48677" length="6"/>
+        <text>biotin</text>
+      </annotation>
+      <annotation id="T71">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D001710</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:08Z</infon>
+        <location offset="48458" length="6"/>
+        <location offset="48677" length="6"/>
+        <text>biotin</text>
+      </annotation>
+      <annotation id="T72">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D004032</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:08Z</infon>
+        <location offset="48475" length="5"/>
+        <location offset="48694" length="5"/>
+        <location offset="48712" length="5"/>
+        <text>diets</text>
+      </annotation>
+      <annotation id="T73">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D009369</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:08Z</infon>
+        <location offset="48558" length="5"/>
+        <text>tumor</text>
+      </annotation>
+      <annotation id="T74">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D001710</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:08Z</infon>
+        <location offset="48677" length="6"/>
+        <text>biotin</text>
+      </annotation>
+      <annotation id="T75">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D004032</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:08Z</infon>
+        <location offset="48694" length="5"/>
+        <location offset="48712" length="5"/>
+        <text>diets</text>
+      </annotation>
+      <annotation id="T76">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D004032</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:08Z</infon>
+        <location offset="48712" length="5"/>
+        <text>diets</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_title_1">RESULTS</infon>
+      <infon key="section_title_2">Biodistributions of [111In]3b or [111In]4b in tumor-bearing mice pretargeted with 1F5 scFv4-SAv fusion proteins</infon>
+      <infon key="iao_name_1">results section</infon>
+      <infon key="iao_id_1">IAO:0000318</infon>
+      <offset>48834</offset>
+      <text>In the pretargeting experiment, four groups of female FoxN1NU athymic nude mice (5 mice/ group) bearing Ramos lymphoma xenografts were administered the fusion proteins (FP), blood clearance agents (CA) and radiolabeled biotin derivatives (RB) as depicted in Scheme 6. Group 1 was fed a biotin-deficient diet and groups 2 through 4 were fed standard diets. Twenty hours after anti-CD20 fusion protein administration, the mice received a blood clearing agent, either 1 or 2, followed 4 hours later by either [111In]3b or [111In]4b. Mice were sacrificed 24 hours after administration of [111In]3b or [111In]4b, and selected tissues were harvested. The tissues were counted in a gamma counter, and the concentration of 111In in each tissue was calculated as %ID/g. A bar graph showing the concentrations in tumor xenografts and selected tissues is provided as Figure 3 (data is provided as Table S2 in Supporting Information). An additional biodistribution study was conducted in athymic mice injecting [111In]4b alone. In that biodistribution, the only tissue that had more than 1% ID/g was kidney (1.57 ± 0.10, 1.54 ± 0.11 and 1.03 ± 0.20 at 1, 4 and 24 h pirespectively), and most tissue concentrations were less than 0.2 %ID/g (Table S3 in Supporting Information).</text>
+      <annotation id="T77">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D008223</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:08Z</infon>
+        <location offset="48944" length="8"/>
+        <text>lymphoma</text>
+      </annotation>
+      <annotation id="T78">
+        <infon key="type">trait</infon>
+        <infon key="identifier">T839606</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:08Z</infon>
+        <location offset="48953" length="10"/>
+        <location offset="49643" length="10"/>
+        <text>xenografts</text>
+      </annotation>
+      <annotation id="T79">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D001710</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:08Z</infon>
+        <location offset="49053" length="6"/>
+        <location offset="49120" length="6"/>
+        <text>biotin</text>
+      </annotation>
+      <annotation id="P3">
+        <infon key="type">significance</infon>
+        <infon key="identifier">PVAL</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:08Z</infon>
+        <location offset="49102" length="7"/>
+        <text>Group 1</text>
+      </annotation>
+      <annotation id="T80">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D001710</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:08Z</infon>
+        <location offset="49120" length="6"/>
+        <text>biotin</text>
+      </annotation>
+      <annotation id="T81">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D004032</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:08Z</infon>
+        <location offset="49137" length="4"/>
+        <text>diet</text>
+      </annotation>
+      <annotation id="T82">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D004032</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:08Z</infon>
+        <location offset="49183" length="5"/>
+        <text>diets</text>
+      </annotation>
+      <annotation id="T83">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D017293</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:08Z</infon>
+        <location offset="49226" length="7"/>
+        <text>protein</text>
+      </annotation>
+      <annotation id="T84">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D009369</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:08Z</infon>
+        <location offset="49637" length="5"/>
+        <text>tumor</text>
+      </annotation>
+      <annotation id="T85">
+        <infon key="type">trait</infon>
+        <infon key="identifier">T839606</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:08Z</infon>
+        <location offset="49643" length="10"/>
+        <text>xenografts</text>
+      </annotation>
+      <annotation id="T86">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D007668</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:08Z</infon>
+        <location offset="49922" length="6"/>
+        <text>kidney</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_title_1">RESULTS</infon>
+      <infon key="section_title_2">Biodistributions of [111In]3b or [111In]4b in tumor-bearing mice pretargeted with 1F5 scFv4-SAv fusion proteins</infon>
+      <infon key="iao_name_1">results section</infon>
+      <infon key="iao_id_1">IAO:0000318</infon>
+      <offset>50098</offset>
+      <text>Figure 3 shows the dramatic effect that endogenous biotin can have on tumor concentrations of radiolabeled biotin in pretargeting protocols. The tumor and tissue concentrations after administration of wild-type SAv fusion protein (1F5 scFv4-SAv-WT), the blood clearance agent 1 and 111In-labeled DOTA-biotin, [111In]3b are represented as groups 1 (red bars) and 2 (blue bars). Significant tumor concentrations (8.6 ± 1.2% ID/g) of [111In]3b were obtained when the mice were fed biotin-free diets (group 1), whereas when mice were on normal diets (group 2) the concentrations of [111In]3b in tumor (0.25 ± 0.1 %ID/g) were very low, indicating that little or no tumor targeting was attained. Furthermore, the substitution of 2 for 1, or [111In]4b for [111In]3b did not significantly change the concentration of radioactivity in tumor xenografts when pretargeted with 1F5 scFv4SA-WT (data not shown). In contrast, pretargeting using the SAv mutant fusion proteins, scFv4-SAv-S45A or scFv4-Y43A, in mice fed a standard diet exhibited high concentrations of radioactivity (8.52 ± 4.4% ID/g and 6.71 ± 1.3% ID/g, respectively) in tumor xenografts. These results demonstrate that the blocking of radiolabeled biotin by endogenous biotin observed with the 1F5-SAv-WT can be overcome by using the lower affinity SAv mutants. The tissue concentrations of [111In]3b and [111In]4b were of a similar magnitude for the three fusion proteins, except in the blood and liver. The blood concentrations in the groups administered SAv mutant fusion proteins, scFv4-SAv-S45A and scFv4-SAv-Y43A, were much higher (0.18 ± 0.06 %ID/g and 0.58 ± 0.13 %ID/g) than in the groups administered scFv4-SAv-WT (0.008 ± 0.002 %ID/g and 0.004 ± 0.001 %ID/g), indicating that CA 2 was less efficient at clearing the SAv mutant fusion proteins than CA 1 was with the SAv WT fusion protein. Similarly, liver concentrations in the groups administered SAv mutant fusion proteins, scFv4-SAv-S45A and scFv4-SAv-Y43A, were somewhat higher (1.77 ± 0.4% ID/g and 3.99 ± 0.8% ID/g, respectively) than were obtained in groups administered the scFv4-SAv-WT fusion protein (0.43 ± 0.1% ID/g and 0.36 ± 0.18 %ID/g).</text>
+      <annotation id="T87">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D001710</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:08Z</infon>
+        <location offset="50149" length="6"/>
+        <location offset="50205" length="6"/>
+        <location offset="50399" length="6"/>
+        <location offset="50576" length="6"/>
+        <location offset="51300" length="6"/>
+        <location offset="51321" length="6"/>
+        <text>biotin</text>
+      </annotation>
+      <annotation id="T88">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D009369</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:08Z</infon>
+        <location offset="50168" length="5"/>
+        <location offset="50243" length="5"/>
+        <location offset="50487" length="5"/>
+        <location offset="50689" length="5"/>
+        <location offset="50758" length="5"/>
+        <location offset="50924" length="5"/>
+        <location offset="51222" length="5"/>
+        <text>tumor</text>
+      </annotation>
+      <annotation id="T89">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D001710</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:08Z</infon>
+        <location offset="50205" length="6"/>
+        <location offset="50399" length="6"/>
+        <location offset="50576" length="6"/>
+        <location offset="51300" length="6"/>
+        <location offset="51321" length="6"/>
+        <text>biotin</text>
+      </annotation>
+      <annotation id="T90">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D009369</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:08Z</infon>
+        <location offset="50243" length="5"/>
+        <location offset="50487" length="5"/>
+        <location offset="50689" length="5"/>
+        <location offset="50758" length="5"/>
+        <location offset="50924" length="5"/>
+        <location offset="51222" length="5"/>
+        <text>tumor</text>
+      </annotation>
+      <annotation id="T91">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D017293</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:08Z</infon>
+        <location offset="50320" length="7"/>
+        <location offset="51943" length="7"/>
+        <location offset="52215" length="7"/>
+        <text>protein</text>
+      </annotation>
+      <annotation id="T92">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D001710</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:08Z</infon>
+        <location offset="50399" length="6"/>
+        <location offset="50576" length="6"/>
+        <location offset="51300" length="6"/>
+        <location offset="51321" length="6"/>
+        <text>biotin</text>
+      </annotation>
+      <annotation id="T93">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D009369</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:08Z</infon>
+        <location offset="50487" length="5"/>
+        <location offset="50689" length="5"/>
+        <location offset="50758" length="5"/>
+        <location offset="50924" length="5"/>
+        <location offset="51222" length="5"/>
+        <text>tumor</text>
+      </annotation>
+      <annotation id="T94">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D001710</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:08Z</infon>
+        <location offset="50576" length="6"/>
+        <location offset="51300" length="6"/>
+        <location offset="51321" length="6"/>
+        <text>biotin</text>
+      </annotation>
+      <annotation id="T95">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D004032</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:08Z</infon>
+        <location offset="50588" length="5"/>
+        <location offset="50638" length="5"/>
+        <text>diets</text>
+      </annotation>
+      <annotation id="P4">
+        <infon key="type">significance</infon>
+        <infon key="identifier">PVAL</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:08Z</infon>
+        <location offset="50595" length="7"/>
+        <text>group 1</text>
+      </annotation>
+      <annotation id="T96">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D004032</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:08Z</infon>
+        <location offset="50638" length="5"/>
+        <text>diets</text>
+      </annotation>
+      <annotation id="P5">
+        <infon key="type">significance</infon>
+        <infon key="identifier">PVAL</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:08Z</infon>
+        <location offset="50645" length="7"/>
+        <text>group 2</text>
+      </annotation>
+      <annotation id="T97">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D009369</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:08Z</infon>
+        <location offset="50689" length="5"/>
+        <location offset="50758" length="5"/>
+        <location offset="50924" length="5"/>
+        <location offset="51222" length="5"/>
+        <text>tumor</text>
+      </annotation>
+      <annotation id="T98">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D009369</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:08Z</infon>
+        <location offset="50758" length="5"/>
+        <location offset="50924" length="5"/>
+        <location offset="51222" length="5"/>
+        <text>tumor</text>
+      </annotation>
+      <annotation id="T99">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D011851</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:08Z</infon>
+        <location offset="50907" length="13"/>
+        <location offset="51151" length="13"/>
+        <text>radioactivity</text>
+      </annotation>
+      <annotation id="T100">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D009369</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:08Z</infon>
+        <location offset="50924" length="5"/>
+        <location offset="51222" length="5"/>
+        <text>tumor</text>
+      </annotation>
+      <annotation id="T101">
+        <infon key="type">trait</infon>
+        <infon key="identifier">T839606</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:08Z</infon>
+        <location offset="50930" length="10"/>
+        <location offset="51228" length="10"/>
+        <text>xenografts</text>
+      </annotation>
+      <annotation id="T102">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D004032</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:08Z</infon>
+        <location offset="51113" length="4"/>
+        <text>diet</text>
+      </annotation>
+      <annotation id="T103">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D011851</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:08Z</infon>
+        <location offset="51151" length="13"/>
+        <text>radioactivity</text>
+      </annotation>
+      <annotation id="T104">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D009369</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:08Z</infon>
+        <location offset="51222" length="5"/>
+        <text>tumor</text>
+      </annotation>
+      <annotation id="T105">
+        <infon key="type">trait</infon>
+        <infon key="identifier">T839606</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:08Z</infon>
+        <location offset="51228" length="10"/>
+        <text>xenografts</text>
+      </annotation>
+      <annotation id="T106">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D001710</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:08Z</infon>
+        <location offset="51300" length="6"/>
+        <location offset="51321" length="6"/>
+        <text>biotin</text>
+      </annotation>
+      <annotation id="T107">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D001710</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:08Z</infon>
+        <location offset="51321" length="6"/>
+        <text>biotin</text>
+      </annotation>
+      <annotation id="T108">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D008099</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:08Z</infon>
+        <location offset="51550" length="5"/>
+        <location offset="51963" length="5"/>
+        <text>liver</text>
+      </annotation>
+      <annotation id="T109">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D017293</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:08Z</infon>
+        <location offset="51943" length="7"/>
+        <location offset="52215" length="7"/>
+        <text>protein</text>
+      </annotation>
+      <annotation id="T110">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D008099</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:08Z</infon>
+        <location offset="51963" length="5"/>
+        <text>liver</text>
+      </annotation>
+      <annotation id="T111">
+        <infon key="type">trait</infon>
+        <infon key="identifier">D017293</infon>
+        <infon key="annotator">tr142@le.ac.uk</infon>
+        <infon key="updated_at">2023-11-09T14:31:08Z</infon>
+        <location offset="52215" length="7"/>
+        <text>protein</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_title_1">DISCUSSION</infon>
+      <infon key="iao_name_1">discussion section</infon>
+      <infon key="iao_id_1">IAO:0000319</infon>
+      <offset>52264</offset>
+      <text>The ultimate goal of our studies is to develop a pretargeting protocol based on the streptavidin/biotin binding pair that provides good tumor targeting of therapeutic radionuclides in the presence of endogenous biotin, while having minimal localization of the radionuclides in normal tissues. Although endogenous biotin has not precluded the use of antibody-streptavidin conjugates or fusion proteins in clinical studies (33), it has the potential to significantly diminish the blood clearance and tumor targeting of the radiolabeled biotin derivatives in patients. In the pretargeting approach being investigated, a recombinant tetrameric fusion protein, combining the scFv portion of the anti-CD20 antibody 1F5 with streptavidin mutants that have decreased binding for biotin, is used in combination with a bis-biotin derivative that is radiolabeled with a diagnostic or therapeutic radionuclide. Due to its bivalency, bis-biotin derivatives have higher binding avidities than biotin, allowing their preferential binding with SAv mutants in the presence of endogenous biotin. The SAv mutants used in this investigation have a serine or tyrosine in the biotin-binding pocket replaced with an alanine residue (S45A and Y43A, respectively, (17)). In initial proof-of-principle studies, the SAv-Y43A mutant was found to have a 67-fold lower affinity for biotin than the wild-type (WT) SAv, and the off-rate for the bis-biotin was found to be 640 times slower than biotin when binding SAv-Y43A (21). This combination of reagents was previously found to target radionuclides to lymphoma xenografts in the presence of endogenous biotin, but normal tissues had significant concentrations of the radionuclides (22). Thus, the primary goal of this investigation was to design and synthesize a galactose-containing bis-biotin reagent that would bind in vivo with a scFv4-SAv fusion protein, such that more efficient blood clearance of the fusion proteins could be attained. In addition to preparation of an effective clearing agent, a bis-biotin derivative that could be radiolabeled with 111In and 90Y was prepared such that those radiometals could be used in the pretargeting protocols with mutant SAv fusion proteins.</text>
+    </passage>
+    <passage>
+      <infon key="section_title_1">DISCUSSION</infon>
+      <infon key="iao_name_1">discussion section</infon>
+      <infon key="iao_id_1">IAO:0000319</infon>
+      <offset>54485</offset>
+      <text>The majority of our pretargeting investigations have used the biotin-hexadecyl-galactosamine reagent, 1 (also referred to as N-acetylgalactosamine-biotin or NAGB)4, to affect clearance of the wild-type SAv conjugates of, or fusion proteins with, antibodies. The asialoglycoprotein receptors, also referred to as Ashwell receptors, are hepatic plasma membrane receptors responsible for regulating the concentrations of circulating glycoproteins (34, 35). This regulation is controlled by removal of sialic acid termini on glycoproteins to expose terminal galactose residues, allowing binding with the asialoglycoprotein receptor. It has been shown that asialogycoproteins are bound to liver membranes by a saturable, calcium dependent process. Bis-biotin blood-clearance reagent 2 was designed to bind with SAv in antibody conjugates or fusion proteins in the blood, then bind with the asialoglycoprotein receptors in the liver to clear them from blood. The structure of 2 was designed based on information provided in several literature reports. Studies by Lee et al. reported that conjugation of different monosacharides to proteins resulted in varying binding affinities with isolated rabbit liver membranes (36). In those studies it was demonstrated that proteins conjugated with thio-D-galactose moieties were effective at inhibiting binding of a standard, [125I]iodo-asialoorosomucoid ([125I]ASOR). Indeed, depending on the number of thio-D-galactosyl moieties conjugated, measured relative inhibitory power (RIP) values were as high as 10,000× the [125I]ASOR. The studies also demonstrated that a 9-atom linker between the sugar and protein provided a higher RIP then when there was a 2 or 5 atom linker. Those early studies set a basis for the use of galactosyl conjugates for removal of proteins from blood using the asialoglycoprotein receptors, and began to define some of the structural requirements of the conjugates for efficient binding.</text>
+    </passage>
+    <passage>
+      <infon key="section_title_1">DISCUSSION</infon>
+      <infon key="iao_name_1">discussion section</infon>
+      <infon key="iao_id_1">IAO:0000319</infon>
+      <offset>56436</offset>
+      <text>The difficulty in synthesizing a bis-biotin counterpart to the large clearing agent 1 led us to consider whether the 16 galactosyl moieties were required for effective blood clearance. There are literature reports suggesting that as few as three galactosyl moieties may be effective. In early studies, Lee recognized that a number of biological systems require clustering of glycosides for biological activity, and that such clustering was often obtained from branched structures, so he prepared a number of tri-glucose and tri-galactose derivatives for study (37). Evaluation of mono-, bis-, and tris-galactosyl derivatized bovine serum albumin binding with rabbit liver membrane demonstrated that the tris-galactosyl conjugates were better at inhibiting binding of [125I]ASOR than the bis-galactose conjugate, which was better than the mono-galactose conjugate (38). In another study, Lee et al. demonstrated that the number of branched galactose moieties provided dramatic differences in inhibitory potency, with tetra- &gt; tris-&gt;bis-&gt;mono (39). The 50% inhibitory value was ~ 1 mM for the mono-galactose conjugate, whereas it was ~1 nM for the tri-galactose conjugate. This large difference in binding inhibition based on the number of galactose residue in branched chains was also noted by Bezouska et al. (40). It was noted by Baenziger and Maynard that the galactose residues may bind two sites simultaneously, and speculated that the sites might be 25–30Å apart (41). In a later study, Lee et al. synthesized “cluster ligands” with 1, 2, 3, 4 or 6 terminal galactose moieties (42). They found that the highest binding was obtained with the highest number of galactose moieties (i.e. 6 moieties), but that the binding affinity increased only a modest amount for the compounds containing 4 or 6 galactose moieties relative to the high binding of the compound that had 3 galactose moieties in a “flexible” structure. Based on their results, it was hypothesized that there are three galactose-binding sites in the asialoglycoprotein receptor, and that the binding occurs in a triangle configuration with distances between binding sites of 15, 22 and 25Å. Some years later, Biessen et al. added hydrophilic polyethylene glycol spacers of varying lengths (4, 9, 10, 13 &amp; 20Å) between galactose moieties and the branch point in trigalactose derivatives (or 38Å between anomeric oxygen atoms on galactose residues), and evaluated their competitive binding vs. [125I]ASOR to isolated parenchymal liver cells (43). They found that the binding affinity of the tri-galactose cluster compounds was strongly correlated with the length of the spacer between the galactosyl residues and the branching point of the galactoside, with a factor of 2000× higher affinity with the 20Å spacer vs. the 4Å spacer.</text>
+    </passage>
+    <passage>
+      <infon key="section_title_1">DISCUSSION</infon>
+      <infon key="iao_name_1">discussion section</infon>
+      <infon key="iao_id_1">IAO:0000319</infon>
+      <offset>59230</offset>
+      <text>The information from the literature provided the basis for the structure of galactose-containing portion of 2. Our previous studies demonstrating successful in vivo targeting of tumor xenografts with a radioiodinated bis-biotin derivative led us to retain the main structural features of that portion of the compound. Those structural features included; (1) appropriate functional groups to provide a distance between biotin carboxyate carbonyl functionalities of ~40Å, (2) carboxylate groups on the carbon alpha to the biotinamide functionalities, (3) diamino-dioxaoctane spacer arms to increase aqueous solubility of compound. The distance between biotin moieties was chosen as the distance that was adequate to readily bind the two biotin-binding pockets on one face of the streptavidin mutants (19). The addition of the carboxylates alpha to the biotinamide provided protection from in vivo cleavage of the biotinamide bonds by the enzyme biotinidase (28). The structural properties that were previously shown to bind asialoglycoprotein receptors in liver were combined with the bis-biotin structural properties desired for binding with streptavidin mutants to design blood clearance agent 2.</text>
+    </passage>
+    <passage>
+      <infon key="section_title_1">DISCUSSION</infon>
+      <infon key="iao_name_1">discussion section</infon>
+      <infon key="iao_id_1">IAO:0000319</infon>
+      <offset>60426</offset>
+      <text>An investigation of pretargeting using bis-biotin derivatives 2 and [111In]4b was conducted in mice. The quantities of bis-biotin clearing agent 2 (5.8 nmol) and radiolabeled bis-biotin [111In]4b (1.2 nmol) used in this investigation were the same as in the previous studies employing fusion proteins constructed with wild-type (WT) SAv, the NAGB clearing agent, 1, and radiolabeled DOTA-biotin, [111In]3b. The quantity of those reagents and the times for their administration were optimized in a series of experiments (18, 44). Those optimization studies were not repeated in this investigation, instead a limited series of experiments varying the doses of mutant SAv fusion protein and 2 within a more narrow range were conducted. Those studies verified that the quantities previously optimized also worked optimally with the new reagents.</text>
+    </passage>
+    <passage>
+      <infon key="section_title_1">DISCUSSION</infon>
+      <infon key="iao_name_1">discussion section</infon>
+      <infon key="iao_id_1">IAO:0000319</infon>
+      <offset>61267</offset>
+      <text>A blood clearance study demonstrated that the fusion protein 1F5 [125I]scFv4-S45A could be more efficiently cleared from blood in mice after administration of 2 than when 1 was administered. This is shown in Figure 2. Importantly, use of 2 in a pretargeting study, where both 1F5 scFv4-SAv-S45A and 1F5 scFv4-SAv-Y43A fusion proteins (in separate groups) were evaluated with bis-biotin [111In]4b, resulted in normal tissue concentrations that were much lower than obtained in our previous pretargeting studies employing those fusion proteins with CA 1 and a radioiodinated bis-biotin derivative. The tissue concentration data obtained in the pretargeting study are shown as a bar graph in Figure 3. The most striking differences between [111In]4b and [111In]3b concentrations in tissues were found in the blood and liver. The higher blood concentrations are most likely brought about by less efficient blood clearance using 2, however, it is unclear why the liver concentrations of [111In]4b are somewhat higher. There may be several possible contributing factors to the observed differences in liver concentrations. For example, a contributing factor may be the difference in the nature of the galactose derivative in the clearing agents, 1 and 2. In 1 the galactose derivative is an N-acetyl-galactosamine moiety, whereas in 2 it is a galactose moiety. Although most literature relating to developing ligands for binding to asialoglycoprotein receptor are directed at galactose derivatives, it has been reported that the avidity of agents with terminal N-acetylgalactosamine moieties is greater than those terminated with galactose moieties (41). Indeed, studies have shown that tris-N-acetyl-D-galactosamine derivatives can have subnanomolar binding with the asialoglycoprotein receptor (45). Another possible contributing factor is higher denticity (i.e. more galactosamine residues), which could increase the rate of cell internalization (20). Yet another possible contributing factor is the binding avidity of the bis-biotin with the mutant fusion protein. It seems likely that the difference in binding of 1 with the mutant proteins contributes to the higher liver concentrations, as the liver concentration of [111In]4b at the time of sacrifice was about 2× higher when the fusion protein 1F5 scFv4-SAv-Y43A was used than when 1F5 scFv4-SAv-S45A was used. It is not possible to determine the reason for the differences in liver concentrations with the data obtained, particularly with the complexity of the internalization process (46) and receptor/ligand recycling that has been observed (47, 48). Further studies need to be conducted to understand which parameters affect the observed higher liver concentrations.</text>
+    </passage>
+    <passage>
+      <infon key="section_title_1">DISCUSSION</infon>
+      <infon key="iao_name_1">discussion section</infon>
+      <infon key="iao_id_1">IAO:0000319</infon>
+      <offset>63990</offset>
+      <text>In conclusion, the pretargeting approach using a combination of SAv mutant fusion proteins, bis-biotin-trigalactose blood clearance agent 2, and 111In-labeled DOTA-bis-biotin, [111In]4b, was found to target lymphoma tumor xenografts in high concentrations, resulting in far superior biodistributions compared with the 1F5 scFv4-SAv-WT conjugate system in the presence of endogenous biotin. While the new blood clearance agent, 2, has been shown to greatly decrease the radioactivity concentrations in most normal tissues relative to CA 1, the fact that higher blood and liver concentrations were obtained indicates that the structure of 2 is not optimal. Optimization of the structure of 2 might include use of N-acetylgalactosamine residues in the place of galactose residues, and incorporation of higher number of galactosamine residues (i.e. 4–6). While CA 2 is not optimized, we believe the results obtained are adequate to support investigation of 2 and 4a in pretargeting therapy studies using scFv4-SAv mutant fusion proteins in tumor-bearing mice fed standard diets.</text>
+    </passage>
+    <passage>
+      <infon key="section_title_1">ACKNOWLEDGMENTS</infon>
+      <infon key="iao_name_1">acknowledgements section</infon>
+      <infon key="iao_id_1">IAO:0000324</infon>
+      <offset>65064</offset>
+      <text>We thank Quanta BioDesign (Powell, Ohio) for providing D-biotin, 9, N-Boc-trioxatridecanediamine, 16, and N-(phthalimido)amino-dPEG™4-acid, 19, used in the studies. We thank Dr. Patrick Stayton (Bioengineering, University of Washington, Seattle, WA) for assistance in the preparation and purification of the fusion proteins containing mutant streptavidins S45A and Y43A. We thank NIH (P01 CA44991, R01 CA76287, R01 109663, R01 136639, R01 CA113431 and K08 CA095448) and Lymphoma Research Foundation (Postdoctoral Fellowship Grant # 82360) for funding the studies.</text>
+    </passage>
+    <passage>
+      <infon key="section_title_1">Footnotes</infon>
+      <infon key="iao_name_1">footnote section</infon>
+      <infon key="iao_id_1">IAO:0000325</infon>
+      <offset>65642</offset>
+      <text>Supporting Information Available: Table S1 and S2 provide the data plotted to prepare Figures 2 and ​and3,3, and Table S3 provides biodistribution data for [111In]4b. This material is available free of charge via the Internet at http://pubs.acs.org/BC.</text>
+    </passage>
+    <passage>
+      <infon key="section_title_1">Footnotes</infon>
+      <infon key="iao_name_1">footnote section</infon>
+      <infon key="iao_id_1">IAO:0000325</infon>
+      <offset>65903</offset>
+      <text>3Abbreviations: ASOR, asialoorosomucoid protein; CA, blood clearance agent; CDI, carbonyldiimidazole; DCC, N,N’-dicyclohexylcarbodiimide; DOTA, 1,4,7,10-tetraazacyclododecane tetraacetic acid; EDC, 1-ethyl-3-(3-dimethylaminopropyl)carbodiimide; FP, fusion protein; HOBT, 1-hydroxybenztriazole ; MAb, monoclonal antibody; PEG, polyethylene glycol; Ra/Ni, Raney-Nickel; RIP, relative inhibitory power; RIT, radioimmunotherapy; RB, radiolabeled biotin; SAv, streptavidin; scFv, single chain fusion of light and heavy chains in variable region of MAb; TCDI, thiocarbonyldiimidazole; TFA, trifluoroacetic acid; TFP-OTFA, 2,3,5,6-tetrafluorophenyl-O-trifluoroacetate; WT, wild-type (native) protein sequence</text>
+    </passage>
+    <passage>
+      <infon key="section_title_1">Footnotes</infon>
+      <infon key="iao_name_1">footnote section</infon>
+      <infon key="iao_id_1">IAO:0000325</infon>
+      <offset>66604</offset>
+      <text>4The N-acetylgalactosamine-biotin reagent, 1, was designed and synthesized at NeoRx Corporation, Seattle, WA, and was provided as a gift.</text>
+    </passage>
+    <passage>
+      <infon key="journal">J. Clin. Oncol. </infon>
+      <infon key="volume">26</infon>
+      <infon key="section_title_1">LITERATURE CITED</infon>
+      <infon key="iao_name_1">references section</infon>
+      <infon key="iao_id_1">IAO:0000320</infon>
+      <offset>66741</offset>
+      <text>1. Press OW. Evidence mounts for the efficacy of radioimmunotherapy for B-cell lymphomas. J. Clin. Oncol. 2008;26:5147–5150. [PMC free article] [PubMed] [Google Scholar]</text>
+    </passage>
+    <passage>
+      <infon key="journal">Semin. Oncol. </infon>
+      <infon key="volume">30</infon>
+      <infon key="section_title_1">LITERATURE CITED</infon>
+      <infon key="iao_name_1">references section</infon>
+      <infon key="iao_id_1">IAO:0000320</infon>
+      <offset>66926</offset>
+      <text>2. Press OW. Radioimmunotherapy for non-Hodgkin's lymphomas: a historical perspective. Semin. Oncol. 2003;30:10–21. [PubMed] [Google Scholar]</text>
+    </passage>
+    <passage>
+      <infon key="journal">Blood. </infon>
+      <infon key="volume">113</infon>
+      <infon key="section_title_1">LITERATURE CITED</infon>
+      <infon key="iao_name_1">references section</infon>
+      <infon key="iao_id_1">IAO:0000320</infon>
+      <offset>67067</offset>
+      <text>3. Sharkey RM, Press OW, Goldenberg DM. A re-examination of radioimmunotherapy in the treatment of non-Hodgkin lymphoma: prospects for dual-targeted antibody/radioantibody therapy. Blood. 2009;113:3891–3895. [PMC free article] [PubMed] [Google Scholar]</text>
+    </passage>
+    <passage>
+      <infon key="journal">Oncologist. </infon>
+      <infon key="volume">13</infon>
+      <infon key="section_title_1">LITERATURE CITED</infon>
+      <infon key="iao_name_1">references section</infon>
+      <infon key="iao_id_1">IAO:0000320</infon>
+      <offset>67319</offset>
+      <text>4. Buchegger F, Press OW, Delaloye AB, Ketterer N. Radiolabeled and native antibodies and the prospect of cure of follicular lymphoma. Oncologist. 2008;13:657–667. [PubMed] [Google Scholar]</text>
+    </passage>
+    <passage>
+      <infon key="journal">Clin. Cancer Res. </infon>
+      <infon key="volume">13</infon>
+      <infon key="section_title_1">LITERATURE CITED</infon>
+      <infon key="iao_name_1">references section</infon>
+      <infon key="iao_id_1">IAO:0000320</infon>
+      <offset>67508</offset>
+      <text>5. Green DJ, Pagel JM, Pantelias A, Hedin N, Lin Y, Wilbur DS, Gopal A, Hamlin DK, Press OW. Pretargeted radioimmunotherapy for B-cell lymphomas. Clin. Cancer Res. 2007;13:5598s–5603s. [PubMed] [Google Scholar]</text>
+    </passage>
+    <passage>
+      <infon key="journal">Clin. Cancer Res. </infon>
+      <infon key="volume">11</infon>
+      <infon key="section_title_1">LITERATURE CITED</infon>
+      <infon key="iao_name_1">references section</infon>
+      <infon key="iao_id_1">IAO:0000320</infon>
+      <offset>67718</offset>
+      <text>6. Sharkey RM, Karacay H, Cardillo TM, Chang CH, McBride WJ, Rossi EA, Horak ID, Goldenberg DM. Improving the delivery of radionuclides for imaging and therapy of cancer using pretargeting methods. Clin. Cancer Res. 2005;11:7109s–7121s. [PubMed] [Google Scholar]</text>
+    </passage>
+    <passage>
+      <infon key="journal">Cancer (Suppl.) </infon>
+      <infon key="volume">80</infon>
+      <infon key="section_title_1">LITERATURE CITED</infon>
+      <infon key="iao_name_1">references section</infon>
+      <infon key="iao_id_1">IAO:0000320</infon>
+      <offset>67980</offset>
+      <text>7. Goodwin DA, Meares CF. Pretargeting: General Principles. Cancer (Suppl.) 1997;80:2675–2680. [PubMed] [Google Scholar]</text>
+    </passage>
+    <passage>
+      <infon key="journal">J. Immunother. </infon>
+      <infon key="volume">16</infon>
+      <infon key="section_title_1">LITERATURE CITED</infon>
+      <infon key="iao_name_1">references section</infon>
+      <infon key="iao_id_1">IAO:0000320</infon>
+      <offset>68100</offset>
+      <text>8. Axworthy DB, Fritzberg AR, Hylarides MD, Mallett RW, Theodore LJ, Gustavson LM, Su F-M, Beaumier PL, Reno JM. Preclinical Evaluation of an Anti-tumor Monoclonal Antibody/Streptavidin Conjugate For Pretargeted 90Y Radioimmunotherapy in a Mouse Xenograft Model. J. Immunother. 1994;16:158. [Google Scholar]</text>
+    </passage>
+    <passage>
+      <infon key="journal">Proc. Natl. Acad. Sci. U. S. A. </infon>
+      <infon key="volume">97</infon>
+      <infon key="section_title_1">LITERATURE CITED</infon>
+      <infon key="iao_name_1">references section</infon>
+      <infon key="iao_id_1">IAO:0000320</infon>
+      <offset>68407</offset>
+      <text>9. Axworthy DB, Reno JM, Hylarides MD, Mallett RW, Theodore LJ, Gustavson LM, Su F, Hobson LJ, Beaumier PL, Fritzberg AR. Cure of human carcinoma xenografts by a single dose of pretargeted yttrium-90 with negligible toxicity. Proc. Natl. Acad. Sci. U. S. A. 2000;97:1802–1807. [PMC free article] [PubMed] [Google Scholar]</text>
+    </passage>
+    <passage>
+      <infon key="journal">Radioimmunotherapy of Cancer.</infon>
+      <infon key="section_title_1">LITERATURE CITED</infon>
+      <infon key="iao_name_1">references section</infon>
+      <infon key="iao_id_1">IAO:0000320</infon>
+      <offset>68728</offset>
+      <text>10. Theodore LJ, Fritzberg AR, Schultz JE, Axworthy DB. Evolution of a Pretarget Radioimmunotherapeutic Regimen. In: Abrams PG, Fritzberg AR, editors. Radioimmunotherapy of Cancer. New York: Marcel Dekker; 2000. pp. 195–221. [Google Scholar]</text>
+    </passage>
+    <passage>
+      <infon key="journal">Blood. </infon>
+      <infon key="volume">98</infon>
+      <infon key="section_title_1">LITERATURE CITED</infon>
+      <infon key="iao_name_1">references section</infon>
+      <infon key="iao_id_1">IAO:0000320</infon>
+      <offset>68969</offset>
+      <text>11. Press OW, Corcoran M, Subbiah K, Hamlin DK, Wilbur DS, Johnson T, Theodore L, Yau E, Mallett R, Meyer DL, Axworthy D. A comparative evaluation of conventional and pretargeted radioimmunotherapy of CD20-expressing lymphoma xenografts. Blood. 2001;98:2535–2543. [PubMed] [Google Scholar]</text>
+    </passage>
+    <passage>
+      <infon key="journal">Cancer Res. </infon>
+      <infon key="volume">67</infon>
+      <infon key="section_title_1">LITERATURE CITED</infon>
+      <infon key="iao_name_1">references section</infon>
+      <infon key="iao_id_1">IAO:0000320</infon>
+      <offset>69258</offset>
+      <text>12. Pagel JM, Pantelias A, Hedin N, Wilbur S, Saganic L, Lin Y, Axworthy D, Hamlin DK, Wilbur DS, Gopal AK, Press OW. Evaluation of CD20, CD22, and HLA-DR targeting for radioimmunotherapy of B-cell lymphomas. Cancer Res. 2007;67:5921–5928. [PubMed] [Google Scholar]</text>
+    </passage>
+    <passage>
+      <infon key="journal">Blood. </infon>
+      <infon key="volume">101</infon>
+      <infon key="section_title_1">LITERATURE CITED</infon>
+      <infon key="iao_name_1">references section</infon>
+      <infon key="iao_id_1">IAO:0000320</infon>
+      <offset>69523</offset>
+      <text>13. Pagel JM, Hedin N, Subbiah K, Meyer D, Mallet R, Axworthy D, Theodore LJ, Wilbur DS, Matthews DC, Press OW. Comparison of anti-CD20 and anti-CD45 antibodies for conventional and pretargeted radioimmunotherapy of B-cell lymphomas. Blood. 2003;101:2340–2348. [PubMed] [Google Scholar]</text>
+    </passage>
+    <passage>
+      <infon key="journal">Blood. </infon>
+      <infon key="volume">113</infon>
+      <infon key="section_title_1">LITERATURE CITED</infon>
+      <infon key="iao_name_1">references section</infon>
+      <infon key="iao_id_1">IAO:0000320</infon>
+      <offset>69809</offset>
+      <text>14. Pagel JM, Orgun N, Hamlin DK, Wilbur DS, Gooley TA, Gopal AK, Park SI, Green DJ, Lin Y, Press OW. A comparative analysis of conventional and pretargeted radioimmunotherapy of B-cell lymphomas by targeting CD20, CD22, and HLA-DR singly and in combinations. Blood. 2009;113:4903–4913. [PMC free article] [PubMed] [Google Scholar]</text>
+    </passage>
+    <passage>
+      <infon key="journal">Ann N Y Acad Sci. </infon>
+      <infon key="volume">447</infon>
+      <infon key="section_title_1">LITERATURE CITED</infon>
+      <infon key="iao_name_1">references section</infon>
+      <infon key="iao_id_1">IAO:0000320</infon>
+      <offset>70140</offset>
+      <text>15. Baker H. Assessment of Biotin Status: Clinical Implications. Ann N Y Acad Sci. 1985;447:129–132. [PubMed] [Google Scholar]</text>
+    </passage>
+    <passage>
+      <infon key="journal">Nucl. Med. Commun. </infon>
+      <infon key="volume">16</infon>
+      <infon key="section_title_1">LITERATURE CITED</infon>
+      <infon key="iao_name_1">references section</infon>
+      <infon key="iao_id_1">IAO:0000320</infon>
+      <offset>70266</offset>
+      <text>16. Rusckowski M, Fogarasi M, Virzi F, Hnatowich DJ. Influence of endogenous biotin on the biodistribution of labelled biotin derivatives in mice. Nucl. Med. Commun. 1995;16:38–46. [PubMed] [Google Scholar]</text>
+    </passage>
+    <passage>
+      <infon key="journal">Biochemistry. </infon>
+      <infon key="volume">37</infon>
+      <infon key="section_title_1">LITERATURE CITED</infon>
+      <infon key="iao_name_1">references section</infon>
+      <infon key="iao_id_1">IAO:0000320</infon>
+      <offset>70472</offset>
+      <text>17. Klumb LA, Chu V, Stayton PS. Energetic roles of hydrogen bonds at the ureido oxygen binding pocket in the streptavidin-biotin complex. Biochemistry. 1998;37:7657–7663. [PubMed] [Google Scholar]</text>
+    </passage>
+    <passage>
+      <infon key="journal">Cancer Res. </infon>
+      <infon key="volume">66</infon>
+      <infon key="section_title_1">LITERATURE CITED</infon>
+      <infon key="iao_name_1">references section</infon>
+      <infon key="iao_id_1">IAO:0000320</infon>
+      <offset>70669</offset>
+      <text>18. Lin Y, Pagel JM, Axworthy D, Pantelias A, Hedin N, Press OW. A genetically engineered anti-CD45 single-chain antibody-streptavidin fusion protein for pretargeted radioimmunotherapy of hematologic malignancies. Cancer Res. 2006;66:3884–3892. [PubMed] [Google Scholar]</text>
+    </passage>
+    <passage>
+      <infon key="journal">Bioconjugate Chem. </infon>
+      <infon key="volume">8</infon>
+      <infon key="section_title_1">LITERATURE CITED</infon>
+      <infon key="iao_name_1">references section</infon>
+      <infon key="iao_id_1">IAO:0000320</infon>
+      <offset>70939</offset>
+      <text>19. Wilbur DS, Pathare PM, Hamlin DK, Weerawarna SA. Biotin Reagents for Antibody Pretargeting. 2. Synthesis and in Vitro Evaluation of Biotin Dimers and Trimers for Crosslinking of Streptavidin. Bioconjugate Chem. 1997;8:819–832. [PubMed] [Google Scholar]</text>
+    </passage>
+    <passage>
+      <infon key="journal">Angew. Chem., Int. Ed. </infon>
+      <infon key="volume">37</infon>
+      <infon key="section_title_1">LITERATURE CITED</infon>
+      <infon key="iao_name_1">references section</infon>
+      <infon key="iao_id_1">IAO:0000320</infon>
+      <offset>71195</offset>
+      <text>20. Mammen M, Chio S-K, Whitesides GM. Polyvalent interactions in biological systems: implications for design and use of multivalent ligands and inhibitors. Angew. Chem., Int. Ed. 1998;37:2755–2794. [PubMed] [Google Scholar]</text>
+    </passage>
+    <passage>
+      <infon key="journal">Bioconjugate Chem. </infon>
+      <infon key="volume">13</infon>
+      <infon key="section_title_1">LITERATURE CITED</infon>
+      <infon key="iao_name_1">references section</infon>
+      <infon key="iao_id_1">IAO:0000320</infon>
+      <offset>71419</offset>
+      <text>21. Hamblett KJ, Kegley BB, Hamlin DK, Chyan MK, Hyre DE, Press OW, Wilbur DS, Stayton PS. A streptavidin-biotin binding system that minimizes blocking by endogenous biotin. Bioconjugate Chem. 2002;13:588–598. [PubMed] [Google Scholar]</text>
+    </passage>
+    <passage>
+      <infon key="journal">Bioconjugate Chem. </infon>
+      <infon key="volume">16</infon>
+      <infon key="section_title_1">LITERATURE CITED</infon>
+      <infon key="iao_name_1">references section</infon>
+      <infon key="iao_id_1">IAO:0000320</infon>
+      <offset>71654</offset>
+      <text>22. Hamblett KJ, Press OW, Meyer DL, Hamlin DK, Axworthy D, Wilbur DS, Stayton PS. Role of biotin-binding affinity in streptavidin-based pretargeted radioimmunotherapy of lymphoma. Bioconjugate Chem. 2005;16:131–138. [PubMed] [Google Scholar]</text>
+    </passage>
+    <passage>
+      <infon key="journal">United States Patent. </infon>
+      <infon key="section_title_1">LITERATURE CITED</infon>
+      <infon key="iao_name_1">references section</infon>
+      <infon key="iao_id_1">IAO:0000320</infon>
+      <offset>71896</offset>
+      <text>23. Yau EK, Theodore LJ, Gustavson LM. Pretargeting Methods and Compounds. United States Patent. #5,541,287. 1996. </text>
+    </passage>
+    <passage>
+      <infon key="journal">Nucl. Acids Res. </infon>
+      <infon key="volume">21</infon>
+      <infon key="section_title_1">LITERATURE CITED</infon>
+      <infon key="iao_name_1">references section</infon>
+      <infon key="iao_id_1">IAO:0000320</infon>
+      <offset>72011</offset>
+      <text>24. Gamper HB, Reed MW, Cox T, Virosco JS, Adams AD, Gall AA, Scholler JK, Meyer RB., Jr Facile preparation of nuclease resistant 3' modified oligodeoxynucleotides. Nucl. Acids Res. 1993;21:145–150. [PMC free article] [PubMed] [Google Scholar]</text>
+    </passage>
+    <passage>
+      <infon key="journal">Bioconjugate Chem. </infon>
+      <infon key="volume">7</infon>
+      <infon key="section_title_1">LITERATURE CITED</infon>
+      <infon key="iao_name_1">references section</infon>
+      <infon key="iao_id_1">IAO:0000320</infon>
+      <offset>72254</offset>
+      <text>25. Wilbur DS, Hamlin DK, Vessella RL, Stray JE, Buhler KR, Stayton PS, Klumb LA, Pathare PM, Weerawarna SA. Antibody fragments in tumor pretargeting. Evaluation of biotinylated Fab' colocalization with recombinant streptavidin and avidin. Bioconjugate Chem. 1996;7:689–702. [PubMed] [Google Scholar]</text>
+    </passage>
+    <passage>
+      <infon key="journal">J. Am. Chem. Soc. </infon>
+      <infon key="volume">118</infon>
+      <infon key="section_title_1">LITERATURE CITED</infon>
+      <infon key="iao_name_1">references section</infon>
+      <infon key="iao_id_1">IAO:0000320</infon>
+      <offset>72554</offset>
+      <text>26. Sigal GB, Mammen M, Dahmann G, Whitesides GM. Polyacrylamides Bearing Pendant a-Sialoside Groups Strongly Inhibit Agglutination of Erythrocytes by Influenza Virus: The Strong Inhibiton Reflects Enhanced Binding through Cooperative Polyvalent Interactions. J. Am. Chem. Soc. 1996;118:3789–3800. [Google Scholar]</text>
+    </passage>
+    <passage>
+      <infon key="journal">Eur. J. Org. Chem. </infon>
+      <infon key="section_title_1">LITERATURE CITED</infon>
+      <infon key="iao_name_1">references section</infon>
+      <infon key="iao_id_1">IAO:0000320</infon>
+      <offset>72868</offset>
+      <text>27. Braun M, Camps X, Vostrowsky O, Hirsch A, Endress E, Bayerl TM, Birkert O, Gauglitz G. Synthesis of a Biotinylated Lipofullerene as a New Type of Transmembrane Anchor. Eur. J. Org. Chem. 2000:1173–1182. [Google Scholar]</text>
+    </passage>
+    <passage>
+      <infon key="journal">Bioconjugate Chem. </infon>
+      <infon key="volume">12</infon>
+      <infon key="section_title_1">LITERATURE CITED</infon>
+      <infon key="iao_name_1">references section</infon>
+      <infon key="iao_id_1">IAO:0000320</infon>
+      <offset>73091</offset>
+      <text>28. Wilbur DS, Hamlin DK, Chyan MK, Kegley BB, Pathare PM. Biotin reagents for antibody pretargeting. 5. Additional studies of biotin conjugate design to provide biotinidase stability. Bioconjugate Chem. 2001;12:616–623. [PubMed] [Google Scholar]</text>
+    </passage>
+    <passage>
+      <infon key="journal">US Patent. </infon>
+      <infon key="section_title_1">LITERATURE CITED</infon>
+      <infon key="iao_name_1">references section</infon>
+      <infon key="iao_id_1">IAO:0000320</infon>
+      <offset>73337</offset>
+      <text>29. Theodore LJ, Axworthy DB. Cluster Clearing Agents. US Patent. 6,172,045. 2001. </text>
+    </passage>
+    <passage>
+      <infon key="journal">J. Med. Chem. </infon>
+      <infon key="volume">24</infon>
+      <infon key="section_title_1">LITERATURE CITED</infon>
+      <infon key="iao_name_1">references section</infon>
+      <infon key="iao_id_1">IAO:0000320</infon>
+      <offset>73420</offset>
+      <text>30. Ponpipom MM, Bugianesi RL, Robbins JC, Doebber TW, Shen TY. Cell-specific ligands for selective drug delivery to tissues and organs. J. Med. Chem. 1981;24:1388–1395. [PubMed] [Google Scholar]</text>
+    </passage>
+    <passage>
+      <infon key="journal">Blood. </infon>
+      <infon key="volume">100</infon>
+      <infon key="section_title_1">LITERATURE CITED</infon>
+      <infon key="iao_name_1">references section</infon>
+      <infon key="iao_id_1">IAO:0000320</infon>
+      <offset>73615</offset>
+      <text>31. Sandmaier BM, Bethge WA, Wilbur DS, Hamlin DK, Santos EB, Brechbiel MW, Fisher DR, Storb R. Bismuth 213-labeled anti-CD45 radioimmunoconjugate to condition dogs for nonmyeloablative allogeneic marrow grafts. Blood. 2002;100:318–326. [PubMed] [Google Scholar]</text>
+    </passage>
+    <passage>
+      <infon key="journal">J. Clin. Oncol. </infon>
+      <infon key="volume">7</infon>
+      <infon key="section_title_1">LITERATURE CITED</infon>
+      <infon key="iao_name_1">references section</infon>
+      <infon key="iao_id_1">IAO:0000320</infon>
+      <offset>73877</offset>
+      <text>32. Press OW, Eary JF, Badger CC, Martin PJ, Appelbaum FR, Levy R, Miller R, Brown S, Nelp WB, Krohn KA, Fisher D, DeSantes K, Porter B, Kidd P, Thomas ED, Berstein ID. Treatment of Refractory Non-Hodgkin's Lymphoma With Radiolabeled MB-1 (Anti-CD37) Antibody. J. Clin. Oncol. 1989;7:1027–2038. [PubMed] [Google Scholar]</text>
+    </passage>
+    <passage>
+      <infon key="journal">Clin. Cancer Res. </infon>
+      <infon key="volume">6</infon>
+      <infon key="section_title_1">LITERATURE CITED</infon>
+      <infon key="iao_name_1">references section</infon>
+      <infon key="iao_id_1">IAO:0000320</infon>
+      <offset>74197</offset>
+      <text>33. Knox SJ, Goris ML, Tempero M, Weiden PL, Gentner L, Breitz H, Adams GP, Axworthy D, Gaffigan S, Bryan K, Fisher DR, Colcher D, Horak ID, Weiner LM. Phase II trial of yttrium-90-DOTA-biotin pretargeted by NR-LU-10 antibody/streptavidin in patients with metastatic colon cancer [In Process Citation] Clin. Cancer Res. 2000;6:406–414. [PubMed] [Google Scholar]</text>
+    </passage>
+    <passage>
+      <infon key="journal">Adv. Enzymol. </infon>
+      <infon key="volume">41</infon>
+      <infon key="section_title_1">LITERATURE CITED</infon>
+      <infon key="iao_name_1">references section</infon>
+      <infon key="iao_id_1">IAO:0000320</infon>
+      <offset>74558</offset>
+      <text>34. Ashwell G, Morell AG. The Role of Surface Carbohydrates in the Hepatic Recognition and Transport of Circulating Glycoproteins. Adv. Enzymol. 1974;41:99–128. [PubMed] [Google Scholar]</text>
+    </passage>
+    <passage>
+      <infon key="journal">Annu. Rev. Biochem. </infon>
+      <infon key="volume">51</infon>
+      <infon key="section_title_1">LITERATURE CITED</infon>
+      <infon key="iao_name_1">references section</infon>
+      <infon key="iao_id_1">IAO:0000320</infon>
+      <offset>74744</offset>
+      <text>35. Ashwell G, Harford J. Carbohydrate-specific receptors of the liver. Annu. Rev. Biochem. 1982;51:531–554. [PubMed] [Google Scholar]</text>
+    </passage>
+    <passage>
+      <infon key="journal">Biochemistry. </infon>
+      <infon key="volume">19</infon>
+      <infon key="section_title_1">LITERATURE CITED</infon>
+      <infon key="iao_name_1">references section</infon>
+      <infon key="iao_id_1">IAO:0000320</infon>
+      <offset>74878</offset>
+      <text>36. Lee RT, Lee YC. Preparation and some biochemical properties of neoglycoproteins produced by reductive amination of thioglycosides containing an omega-aldehydoaglycon. Biochemistry. 1980;19:156–163. [PubMed] [Google Scholar]</text>
+    </passage>
+    <passage>
+      <infon key="journal">Carbohydrate Res. </infon>
+      <infon key="volume">67</infon>
+      <infon key="section_title_1">LITERATURE CITED</infon>
+      <infon key="iao_name_1">references section</infon>
+      <infon key="iao_id_1">IAO:0000320</infon>
+      <offset>75105</offset>
+      <text>37. Lee YC. Synthesis of Some Cluster Glycosides Suitable for Attachment to Proteins or Solid Matrices. Carbohydrate Res. 1978;67:509–514. [Google Scholar]</text>
+    </passage>
+    <passage>
+      <infon key="journal">Arch. Biochem. Biophys. </infon>
+      <infon key="volume">205</infon>
+      <infon key="section_title_1">LITERATURE CITED</infon>
+      <infon key="iao_name_1">references section</infon>
+      <infon key="iao_id_1">IAO:0000320</infon>
+      <offset>75260</offset>
+      <text>38. Kawaguchi K, Kuhlenschmidt M, Roseman S, Lee YC. Synthesis of some cluster galactosides and their effect on the hepatic galactose-binding system. Arch. Biochem. Biophys. 1980;205:388–395. [PubMed] [Google Scholar]</text>
+    </passage>
+    <passage>
+      <infon key="journal">J. Biol. Chem. </infon>
+      <infon key="volume">258</infon>
+      <infon key="section_title_1">LITERATURE CITED</infon>
+      <infon key="iao_name_1">references section</infon>
+      <infon key="iao_id_1">IAO:0000320</infon>
+      <offset>75477</offset>
+      <text>39. Lee YC, Townsend RR, Hardy MR, Lonngren J, Arnarp J, Haraldsson M, Lonn H. Binding of synthetic oligosaccharides to the hepatic Gal/GalNAc lectin. Dependence on fine structural features. J. Biol. Chem. 1983;258:199–202. [PubMed] [Google Scholar]</text>
+    </passage>
+    <passage>
+      <infon key="journal">Biochem. J. </infon>
+      <infon key="volume">227</infon>
+      <infon key="section_title_1">LITERATURE CITED</infon>
+      <infon key="iao_name_1">references section</infon>
+      <infon key="iao_id_1">IAO:0000320</infon>
+      <offset>75726</offset>
+      <text>40. Bezouska K, Táborsky O, Kubrycht J, Pospisil M, Kocourek J. Carbohydrate-structure dependent recognition of desialylated serum glycoproteins in the liver and leucocyes. Biochem. J. 1985;227:345–354. [PMC free article] [PubMed] [Google Scholar]</text>
+    </passage>
+    <passage>
+      <infon key="journal">J. Biol. Chem. </infon>
+      <infon key="volume">255</infon>
+      <infon key="section_title_1">LITERATURE CITED</infon>
+      <infon key="iao_name_1">references section</infon>
+      <infon key="iao_id_1">IAO:0000320</infon>
+      <offset>75973</offset>
+      <text>41. Baenziger JU, Maynard Y. Human hepatic lectin. Physiochemical properties and specificity. J. Biol. Chem. 1980;255:4607–4613. [PubMed] [Google Scholar]</text>
+    </passage>
+    <passage>
+      <infon key="journal">Biochemistry. </infon>
+      <infon key="volume">23</infon>
+      <infon key="section_title_1">LITERATURE CITED</infon>
+      <infon key="iao_name_1">references section</infon>
+      <infon key="iao_id_1">IAO:0000320</infon>
+      <offset>76127</offset>
+      <text>42. Lee RT, Lin P, Lee YC. New synthetic cluster ligands for galactose/N-acetylgalactosamine-specific lectin of mammalian liver. Biochemistry. 1984;23:4255–4261. [PubMed] [Google Scholar]</text>
+    </passage>
+    <passage>
+      <infon key="journal">J. Med. Chem. </infon>
+      <infon key="volume">38</infon>
+      <infon key="section_title_1">LITERATURE CITED</infon>
+      <infon key="iao_name_1">references section</infon>
+      <infon key="iao_id_1">IAO:0000320</infon>
+      <offset>76314</offset>
+      <text>43. Biessen EAL, Beuting DM, Roelen HCPF, van de Marel GA, Van Boom JH, Van Berkel TJC. Synthesis of Cluster Galactosides with High Affinity for the Hepatic Asialoglycoprotein Receptor. J. Med. Chem. 1995;38:1538–1546. [PubMed] [Google Scholar]</text>
+    </passage>
+    <passage>
+      <infon key="journal">Blood. </infon>
+      <infon key="volume">108</infon>
+      <infon key="section_title_1">LITERATURE CITED</infon>
+      <infon key="iao_name_1">references section</infon>
+      <infon key="iao_id_1">IAO:0000320</infon>
+      <offset>76558</offset>
+      <text>44. Pagel JM, Lin Y, Hedin N, Pantelias A, Axworthy D, Stone D, Hamlin DK, Wilbur DS, Press OW. Comparison of a tetravalent single-chain antibody-streptavidin fusion protein and an antibody-streptavidin chemical conjugate for pretargeted anti-CD20 radioimmunotherapy of B-cell lymphomas. Blood. 2006;108:328–336. [PMC free article] [PubMed] [Google Scholar]</text>
+    </passage>
+    <passage>
+      <infon key="journal">Glycoconjugate J. </infon>
+      <infon key="volume">4</infon>
+      <infon key="section_title_1">LITERATURE CITED</infon>
+      <infon key="iao_name_1">references section</infon>
+      <infon key="iao_id_1">IAO:0000320</infon>
+      <offset>76915</offset>
+      <text>45. Lee RT, Lee YC. Preparation of Cluster Glycosides of N-Acetylgalactosamine That Have Subnanomolar Binding Constants Towards the Mammalian Hepatic Gal/GalNAc-specific Receptor. Glycoconjugate J. 1987;4:317–328. [Google Scholar]</text>
+    </passage>
+    <passage>
+      <infon key="journal">Cell (Cambridge, Mass.) </infon>
+      <infon key="volume">21</infon>
+      <infon key="section_title_1">LITERATURE CITED</infon>
+      <infon key="iao_name_1">references section</infon>
+      <infon key="iao_id_1">IAO:0000320</infon>
+      <offset>77145</offset>
+      <text>46. Wall DA, Wilson G, Hubbard AL. The galactose-specific recognition system of mammalian liver: the route of ligand internalization in rat hepatocytes. Cell (Cambridge, Mass.) 1980;21:79–93. [PubMed] [Google Scholar]</text>
+    </passage>
+    <passage>
+      <infon key="journal">J. Biol. Chem. </infon>
+      <infon key="volume">258</infon>
+      <infon key="section_title_1">LITERATURE CITED</infon>
+      <infon key="iao_name_1">references section</infon>
+      <infon key="iao_id_1">IAO:0000320</infon>
+      <offset>77362</offset>
+      <text>47. Oka JA, Weigel PH. Recycling of the asialoglycoprotein receptor in isolated rat hepatocytes. Dissociation of internalized ligand from receptor occurs in two kinetically and thermally distinguishable compartments. J. Biol. Chem. 1983;258:10253–10262. [PubMed] [Google Scholar]</text>
+    </passage>
+    <passage>
+      <infon key="journal">Proc. Natl. Acad. Sci. U S A. </infon>
+      <infon key="volume">81</infon>
+      <infon key="section_title_1">LITERATURE CITED</infon>
+      <infon key="iao_name_1">references section</infon>
+      <infon key="iao_id_1">IAO:0000320</infon>
+      <offset>77641</offset>
+      <text>48. Townsend RR, Wall DA, Hubbard AL, Lee YC. Rapid release of galactose-terminated ligands after endocytosis by hepatic parenchymal cells: evidence for a role of carbohydrate structure in the release of internalized ligand from receptor. Proc. Natl. Acad. Sci. U S A. 1984;81:466–470. [PMC free article] [PubMed] [Google Scholar]</text>
+    </passage>
+  </document>
+</collection>
