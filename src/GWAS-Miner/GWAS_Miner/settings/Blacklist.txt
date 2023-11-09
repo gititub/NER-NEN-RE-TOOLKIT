@@ -1,0 +1,51 @@
+D001244	association	TRUE
+D016678	genome	TRUE
+D005838	genotype	TRUE
+D011153	population	TRUE
+D002875	chromosome	TRUE
+D000483	allele	TRUE
+D033242	minor	TRUE
+D018401	sample size	TRUE
+D009711	nucleotide	TRUE
+D004194	disease	TRUE
+D055106	genome-wide association study	TRUE
+D005823	genetic	TRUE
+D005190	family	TRUE
+D000339	affect	TRUE
+D010361	patients	TRUE
+D009154	mutations	TRUE
+D011516	prothrombin	TRUE
+D019991	Database	TRUE
+D000465	algorithm	TRUE
+D004247	DNA	TRUE
+D014041	Tokyo	TRUE
+D000068476	Beijing	TRUE
+D007596	joint	TRUE
+D005091	exon	TRUE
+D007109	immunity	TRUE
+D012723	sex	TRUE
+D006239	haplotype	TRUE
+D005260	females	TRUE
+D020501	Table	TRUE
+D004602	elements	TRUE
+D001665	binding site	TRUE
+D003062	codon	TRUE
+D011506	protein	TRUE
+D001769	blood	FALSE
+D015536	down-regulation	TRUE
+D019683	penetrance	TRUE
+D012694	serine	TRUE
+D019007	P-selectin	TRUE
+D010949	plasma	TRUE
+D004813	epidemiology	TRUE
+D013534	survival	TRUE
+D014680	vein	TRUE
+D000925	anticoagulant	TRUE
+D000941	antigen	TRUE
+D012306	risk	TRUE
+D012106	Research	TRUE
+D000078182	systematic review	TRUE
+D015994	incidence	TRUE
+D014280	triglycerides	TRUE
+D008074	lipoprotein	TRUE
+D008049	lipase	TRUE

@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/autoCORPus.py
+src/autoCORPus.egg-info/PKG-INFO
+src/autoCORPus.egg-info/SOURCES.txt
+src/autoCORPus.egg-info/dependency_links.txt
+src/autoCORPus.egg-info/requires.txt
+src/autoCORPus.egg-info/top_level.txt
