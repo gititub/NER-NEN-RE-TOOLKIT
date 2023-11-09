@@ -157,7 +157,7 @@ Run example:
 python src/ptc_extract_pmc_query.py BRAF output_braf.json 35 --pub_date "2021/01/01"
 ```
 ```
-python src/ptc_extract_pmc_query.py Hodgkin+Lymphoma output_lymphoma.tsv 25 
+python src/ptc_extract_pmc_query.py Hardy+Weinberg output_hw.tsv 25 
 ```
 
 ## Normalize Variants with SynVar and LitVar
