@@ -1,0 +1,1233 @@
+{
+  "src": "Auto-CORPus (tables)",
+  "date": "20231109",
+  "key": "autocorpus_tables.key",
+  "infons": {},
+  "documents": [
+    {
+      "inputfile": "./html_files/PMC6263819.html",
+      "id": "1",
+      "infons": {},
+      "passages": [
+        {
+          "offset": 0,
+          "infons": {
+            "section_title_1": "table_title",
+            "iao_name_1": "document title",
+            "iao_id_1": "IAO:0000305"
+          },
+          "text": [
+            "Table 1"
+          ]
+        },
+        {
+          "offset": 1,
+          "infons": {
+            "section_title_1": "table_caption",
+            "iao_name_1": "caption",
+            "iao_id_1": "IAO:0000304"
+          },
+          "text": "Top hits of the GWAS on the severe DR in the GoDARTS"
+        },
+        {
+          "offset": 53,
+          "infons": {
+            "section_title_1": "table_content",
+            "iao_name_1": "table",
+            "iao_id_1": "IAO:0000306"
+          },
+          "column_headings": [
+            {
+              "cell_id": "1.1.1",
+              "cell_text": "SNPs"
+            },
+            {
+              "cell_id": "1.1.2",
+              "cell_text": "Chr:position (hg19)"
+            },
+            {
+              "cell_id": "1.1.3",
+              "cell_text": "Gene"
+            },
+            {
+              "cell_id": "1.1.4",
+              "cell_text": "Minor allele (its frequency in cases:controls)"
+            },
+            {
+              "cell_id": "1.1.5",
+              "cell_text": "p value"
+            },
+            {
+              "cell_id": "1.1.6",
+              "cell_text": "OR ± SE"
+            },
+            {
+              "cell_id": "1.1.7",
+              "cell_text": "CI 0.95"
+            },
+            {
+              "cell_id": "1.1.8",
+              "cell_text": "Imputation score (Affymetrix:Illumina)"
+            }
+          ],
+          "data_section": [
+            {
+              "table_section_title_1": "",
+              "data_rows": [
+                [
+                  {
+                    "cell_id": "1.2.1",
+                    "cell_text": "rs3913535"
+                  },
+                  {
+                    "cell_id": "1.2.2",
+                    "cell_text": "11:89096757"
+                  },
+                  {
+                    "cell_id": "1.2.3",
+                    "cell_text": "NOX4"
+                  },
+                  {
+                    "cell_id": "1.2.4",
+                    "cell_text": "C (0.518:0.411)"
+                  },
+                  {
+                    "cell_id": "1.2.5",
+                    "cell_text": "4.05 × 10<sup>−9</sup>"
+                  },
+                  {
+                    "cell_id": "1.2.6",
+                    "cell_text": "1.55 ± 0.07"
+                  },
+                  {
+                    "cell_id": "1.2.7",
+                    "cell_text": "1.34–1.79"
+                  },
+                  {
+                    "cell_id": "1.2.8",
+                    "cell_text": "1:0.98"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.3.1",
+                    "cell_text": "rs10765219"
+                  },
+                  {
+                    "cell_id": "1.3.2",
+                    "cell_text": "11:89354278"
+                  },
+                  {
+                    "cell_id": "1.3.3",
+                    "cell_text": "31 kb to NOX4"
+                  },
+                  {
+                    "cell_id": "1.3.4",
+                    "cell_text": "T (0.529:0.424)"
+                  },
+                  {
+                    "cell_id": "1.3.5",
+                    "cell_text": "7.41 × 10<sup>−8</sup>"
+                  },
+                  {
+                    "cell_id": "1.3.6",
+                    "cell_text": "1.54 ± 0.08"
+                  },
+                  {
+                    "cell_id": "1.3.7",
+                    "cell_text": "1.31–1.80"
+                  },
+                  {
+                    "cell_id": "1.3.8",
+                    "cell_text": "1:0.94"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.4.1",
+                    "cell_text": "rs11018670"
+                  },
+                  {
+                    "cell_id": "1.4.2",
+                    "cell_text": "11:89356628"
+                  },
+                  {
+                    "cell_id": "1.4.3",
+                    "cell_text": "33 kb to NOX4"
+                  },
+                  {
+                    "cell_id": "1.4.4",
+                    "cell_text": "G (0.534:0.427)"
+                  },
+                  {
+                    "cell_id": "1.4.5",
+                    "cell_text": "1.23 × 10<sup>−8</sup>"
+                  },
+                  {
+                    "cell_id": "1.4.6",
+                    "cell_text": "1.55 ± 0.08"
+                  },
+                  {
+                    "cell_id": "1.4.7",
+                    "cell_text": "1.33–1.80"
+                  },
+                  {
+                    "cell_id": "1.4.8",
+                    "cell_text": "1:0.98"
+                  }
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "offset": 334,
+          "infons": {
+            "section_title_1": "table_footer",
+            "iao_name_1": "caption",
+            "iao_id_1": "IAO:0000304"
+          },
+          "text": "CI = confidence interval, OR ± SE = odds ratio ± standard error."
+        }
+      ]
+    },
+    {
+      "inputfile": "./html_files/PMC6263819.html",
+      "id": "2",
+      "infons": {},
+      "passages": [
+        {
+          "offset": 0,
+          "infons": {
+            "section_title_1": "table_title",
+            "iao_name_1": "document title",
+            "iao_id_1": "IAO:0000305"
+          },
+          "text": [
+            "Table 2"
+          ]
+        },
+        {
+          "offset": 1,
+          "infons": {
+            "section_title_1": "table_caption",
+            "iao_name_1": "caption",
+            "iao_id_1": "IAO:0000304"
+          },
+          "text": "The input information and the output meta‐analysis results of 7 Caucasian cohorts based on GWAMA (default setting)"
+        },
+        {
+          "offset": 115,
+          "infons": {
+            "section_title_1": "table_content",
+            "iao_name_1": "table",
+            "iao_id_1": "IAO:0000306"
+          },
+          "column_headings": [
+            {
+              "cell_id": "2.1.1",
+              "cell_text": "MARKER"
+            },
+            {
+              "cell_id": "2.1.2",
+              "cell_text": "EA"
+            },
+            {
+              "cell_id": "2.1.3",
+              "cell_text": "NEA"
+            },
+            {
+              "cell_id": "2.1.4",
+              "cell_text": "OR"
+            },
+            {
+              "cell_id": "2.1.5",
+              "cell_text": "OR_95L"
+            },
+            {
+              "cell_id": "2.1.6",
+              "cell_text": "OR_95U"
+            },
+            {
+              "cell_id": "2.1.7",
+              "cell_text": "N (cases + controls)"
+            },
+            {
+              "cell_id": "2.1.8",
+              "cell_text": "p"
+            }
+          ],
+          "data_section": [
+            {
+              "table_section_title_1": "GoDARTS (severe DR, type 2)",
+              "data_rows": [
+                [
+                  {
+                    "cell_id": "2.2.1",
+                    "cell_text": "rs3913535"
+                  },
+                  {
+                    "cell_id": "2.2.2",
+                    "cell_text": "C"
+                  },
+                  {
+                    "cell_id": "2.2.3",
+                    "cell_text": "T"
+                  },
+                  {
+                    "cell_id": "2.2.4",
+                    "cell_text": 1.55
+                  },
+                  {
+                    "cell_id": "2.2.5",
+                    "cell_text": 1.34
+                  },
+                  {
+                    "cell_id": "2.2.6",
+                    "cell_text": 1.79
+                  },
+                  {
+                    "cell_id": "2.2.7",
+                    "cell_text": "4666 (560 + 4,106)"
+                  },
+                  {
+                    "cell_id": "2.2.8",
+                    "cell_text": "4.05 × 10<sup>−9</sup>"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "2.3.1",
+                    "cell_text": "rs10765219"
+                  },
+                  {
+                    "cell_id": "2.3.2",
+                    "cell_text": "T"
+                  },
+                  {
+                    "cell_id": "2.3.3",
+                    "cell_text": "G"
+                  },
+                  {
+                    "cell_id": "2.3.4",
+                    "cell_text": 1.54
+                  },
+                  {
+                    "cell_id": "2.3.5",
+                    "cell_text": 1.31
+                  },
+                  {
+                    "cell_id": "2.3.6",
+                    "cell_text": 1.8
+                  },
+                  {
+                    "cell_id": "2.3.7",
+                    "cell_text": 4666.0
+                  },
+                  {
+                    "cell_id": "2.3.8",
+                    "cell_text": "7.41 × 10<sup>−8</sup>"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "2.4.1",
+                    "cell_text": "rs11018670"
+                  },
+                  {
+                    "cell_id": "2.4.2",
+                    "cell_text": "G"
+                  },
+                  {
+                    "cell_id": "2.4.3",
+                    "cell_text": "A"
+                  },
+                  {
+                    "cell_id": "2.4.4",
+                    "cell_text": 1.55
+                  },
+                  {
+                    "cell_id": "2.4.5",
+                    "cell_text": 1.33
+                  },
+                  {
+                    "cell_id": "2.4.6",
+                    "cell_text": 1.8
+                  },
+                  {
+                    "cell_id": "2.4.7",
+                    "cell_text": 4666.0
+                  },
+                  {
+                    "cell_id": "2.4.8",
+                    "cell_text": "1.23 × 10<sup>−8</sup>"
+                  }
+                ]
+              ]
+            },
+            {
+              "table_section_title_1": "SDR (general DR, type 2)",
+              "data_rows": [
+                [
+                  {
+                    "cell_id": "2.5.1",
+                    "cell_text": "rs3913535"
+                  },
+                  {
+                    "cell_id": "2.5.2",
+                    "cell_text": "C"
+                  },
+                  {
+                    "cell_id": "2.5.3",
+                    "cell_text": "T"
+                  },
+                  {
+                    "cell_id": "2.5.4",
+                    "cell_text": 0.98
+                  },
+                  {
+                    "cell_id": "2.5.5",
+                    "cell_text": 0.95
+                  },
+                  {
+                    "cell_id": "2.5.6",
+                    "cell_text": 1.01
+                  },
+                  {
+                    "cell_id": "2.5.7",
+                    "cell_text": "2016 (1,151 + 865)"
+                  },
+                  {
+                    "cell_id": "2.5.8",
+                    "cell_text": 0.25
+                  }
+                ]
+              ]
+            },
+            {
+              "table_section_title_1": "AUST (general DR, type 2)",
+              "data_rows": [
+                [
+                  {
+                    "cell_id": "2.6.1",
+                    "cell_text": "rs10765219"
+                  },
+                  {
+                    "cell_id": "2.6.2",
+                    "cell_text": "T"
+                  },
+                  {
+                    "cell_id": "2.6.3",
+                    "cell_text": "G"
+                  },
+                  {
+                    "cell_id": "2.6.4",
+                    "cell_text": 1.04
+                  },
+                  {
+                    "cell_id": "2.6.5",
+                    "cell_text": 1.004
+                  },
+                  {
+                    "cell_id": "2.6.6",
+                    "cell_text": 1.07
+                  },
+                  {
+                    "cell_id": "2.6.7",
+                    "cell_text": 2016.0
+                  },
+                  {
+                    "cell_id": "2.6.8",
+                    "cell_text": 0.02
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "2.7.1",
+                    "cell_text": "rs11018670"
+                  },
+                  {
+                    "cell_id": "2.7.2",
+                    "cell_text": "G"
+                  },
+                  {
+                    "cell_id": "2.7.3",
+                    "cell_text": "A"
+                  },
+                  {
+                    "cell_id": "2.7.4",
+                    "cell_text": 1.03
+                  },
+                  {
+                    "cell_id": "2.7.5",
+                    "cell_text": 1.004
+                  },
+                  {
+                    "cell_id": "2.7.6",
+                    "cell_text": 1.07
+                  },
+                  {
+                    "cell_id": "2.7.7",
+                    "cell_text": 2016.0
+                  },
+                  {
+                    "cell_id": "2.7.8",
+                    "cell_text": 0.03
+                  }
+                ]
+              ]
+            },
+            {
+              "table_section_title_1": "BMES (general DR, type 2)",
+              "data_rows": [
+                [
+                  {
+                    "cell_id": "2.8.1",
+                    "cell_text": "rs3913535"
+                  },
+                  {
+                    "cell_id": "2.8.2",
+                    "cell_text": "C"
+                  },
+                  {
+                    "cell_id": "2.8.3",
+                    "cell_text": "T"
+                  },
+                  {
+                    "cell_id": "2.8.4",
+                    "cell_text": 1.05
+                  },
+                  {
+                    "cell_id": "2.8.5",
+                    "cell_text": 0.84
+                  },
+                  {
+                    "cell_id": "2.8.6",
+                    "cell_text": 1.3
+                  },
+                  {
+                    "cell_id": "2.8.7",
+                    "cell_text": "780 (346 + 434)"
+                  },
+                  {
+                    "cell_id": "2.8.8",
+                    "cell_text": 0.68
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "2.9.1",
+                    "cell_text": "rs10765219"
+                  },
+                  {
+                    "cell_id": "2.9.2",
+                    "cell_text": "T"
+                  },
+                  {
+                    "cell_id": "2.9.3",
+                    "cell_text": "G"
+                  },
+                  {
+                    "cell_id": "2.9.4",
+                    "cell_text": 1.04
+                  },
+                  {
+                    "cell_id": "2.9.5",
+                    "cell_text": 0.84
+                  },
+                  {
+                    "cell_id": "2.9.6",
+                    "cell_text": 1.28
+                  },
+                  {
+                    "cell_id": "2.9.7",
+                    "cell_text": 780.0
+                  },
+                  {
+                    "cell_id": "2.9.8",
+                    "cell_text": 0.73
+                  }
+                ]
+              ]
+            },
+            {
+              "table_section_title_1": "CHS2 (general DR, type 2)",
+              "data_rows": [
+                [
+                  {
+                    "cell_id": "2.10.1",
+                    "cell_text": "rs11018670"
+                  },
+                  {
+                    "cell_id": "2.10.2",
+                    "cell_text": "G"
+                  },
+                  {
+                    "cell_id": "2.10.3",
+                    "cell_text": "A"
+                  },
+                  {
+                    "cell_id": "2.10.4",
+                    "cell_text": 1.05
+                  },
+                  {
+                    "cell_id": "2.10.5",
+                    "cell_text": 0.85
+                  },
+                  {
+                    "cell_id": "2.10.6",
+                    "cell_text": 1.3
+                  },
+                  {
+                    "cell_id": "2.10.7",
+                    "cell_text": 780.0
+                  },
+                  {
+                    "cell_id": "2.10.8",
+                    "cell_text": 0.62
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "2.11.1",
+                    "cell_text": "rs3913535"
+                  },
+                  {
+                    "cell_id": "2.11.2",
+                    "cell_text": "C"
+                  },
+                  {
+                    "cell_id": "2.11.3",
+                    "cell_text": "T"
+                  },
+                  {
+                    "cell_id": "2.11.4",
+                    "cell_text": 1.89
+                  },
+                  {
+                    "cell_id": "2.11.5",
+                    "cell_text": 0.9
+                  },
+                  {
+                    "cell_id": "2.11.6",
+                    "cell_text": 3.99
+                  },
+                  {
+                    "cell_id": "2.11.7",
+                    "cell_text": "162 (15 + 147)"
+                  },
+                  {
+                    "cell_id": "2.11.8",
+                    "cell_text": 0.09
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "2.12.1",
+                    "cell_text": "rs10765219"
+                  },
+                  {
+                    "cell_id": "2.12.2",
+                    "cell_text": "T"
+                  },
+                  {
+                    "cell_id": "2.12.3",
+                    "cell_text": "G"
+                  },
+                  {
+                    "cell_id": "2.12.4",
+                    "cell_text": 2.76
+                  },
+                  {
+                    "cell_id": "2.12.5",
+                    "cell_text": 1.31
+                  },
+                  {
+                    "cell_id": "2.12.6",
+                    "cell_text": 5.79
+                  },
+                  {
+                    "cell_id": "2.12.7",
+                    "cell_text": 162.0
+                  },
+                  {
+                    "cell_id": "2.12.8",
+                    "cell_text": 0.007
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "2.13.1",
+                    "cell_text": "rs11018670"
+                  },
+                  {
+                    "cell_id": "2.13.2",
+                    "cell_text": "G"
+                  },
+                  {
+                    "cell_id": "2.13.3",
+                    "cell_text": "A"
+                  },
+                  {
+                    "cell_id": "2.13.4",
+                    "cell_text": 2.85
+                  },
+                  {
+                    "cell_id": "2.13.5",
+                    "cell_text": 1.35
+                  },
+                  {
+                    "cell_id": "2.13.6",
+                    "cell_text": 6.02
+                  },
+                  {
+                    "cell_id": "2.13.7",
+                    "cell_text": 162.0
+                  },
+                  {
+                    "cell_id": "2.13.8",
+                    "cell_text": 0.006
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "2.14.1",
+                    "cell_text": "rs3913535"
+                  },
+                  {
+                    "cell_id": "2.14.2",
+                    "cell_text": "C"
+                  },
+                  {
+                    "cell_id": "2.14.3",
+                    "cell_text": "T"
+                  },
+                  {
+                    "cell_id": "2.14.4",
+                    "cell_text": 1.12
+                  },
+                  {
+                    "cell_id": "2.14.5",
+                    "cell_text": 0.3
+                  },
+                  {
+                    "cell_id": "2.14.6",
+                    "cell_text": 4.11
+                  },
+                  {
+                    "cell_id": "2.14.7",
+                    "cell_text": "116 (5 + 111)"
+                  },
+                  {
+                    "cell_id": "2.14.8",
+                    "cell_text": 0.87
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "2.15.1",
+                    "cell_text": "rs10765219"
+                  },
+                  {
+                    "cell_id": "2.15.2",
+                    "cell_text": "T"
+                  },
+                  {
+                    "cell_id": "2.15.3",
+                    "cell_text": "G"
+                  },
+                  {
+                    "cell_id": "2.15.4",
+                    "cell_text": 1.67
+                  },
+                  {
+                    "cell_id": "2.15.5",
+                    "cell_text": 0.47
+                  },
+                  {
+                    "cell_id": "2.15.6",
+                    "cell_text": 5.92
+                  },
+                  {
+                    "cell_id": "2.15.7",
+                    "cell_text": 116.0
+                  },
+                  {
+                    "cell_id": "2.15.8",
+                    "cell_text": 0.43
+                  }
+                ]
+              ]
+            },
+            {
+              "table_section_title_1": "FinnDiane (general DR, type 1)",
+              "data_rows": [
+                [
+                  {
+                    "cell_id": "2.16.1",
+                    "cell_text": "rs11018670"
+                  },
+                  {
+                    "cell_id": "2.16.2",
+                    "cell_text": "G"
+                  },
+                  {
+                    "cell_id": "2.16.3",
+                    "cell_text": "A"
+                  },
+                  {
+                    "cell_id": "2.16.4",
+                    "cell_text": 1.69
+                  },
+                  {
+                    "cell_id": "2.16.5",
+                    "cell_text": 0.48
+                  },
+                  {
+                    "cell_id": "2.16.6",
+                    "cell_text": 5.93
+                  },
+                  {
+                    "cell_id": "2.16.7",
+                    "cell_text": 116.0
+                  },
+                  {
+                    "cell_id": "2.16.8",
+                    "cell_text": 0.42
+                  }
+                ]
+              ]
+            },
+            {
+              "table_section_title_1": "Meta‐analysis without GoDARTS",
+              "data_rows": [
+                [
+                  {
+                    "cell_id": "2.17.1",
+                    "cell_text": "rs3913535"
+                  },
+                  {
+                    "cell_id": "2.17.2",
+                    "cell_text": "C"
+                  },
+                  {
+                    "cell_id": "2.17.3",
+                    "cell_text": "T"
+                  },
+                  {
+                    "cell_id": "2.17.4",
+                    "cell_text": 1.05
+                  },
+                  {
+                    "cell_id": "2.17.5",
+                    "cell_text": 0.92
+                  },
+                  {
+                    "cell_id": "2.17.6",
+                    "cell_text": 1.21
+                  },
+                  {
+                    "cell_id": "2.17.7",
+                    "cell_text": "2670 (1,638 + 1,032)"
+                  },
+                  {
+                    "cell_id": "2.17.8",
+                    "cell_text": 0.53
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "2.18.1",
+                    "cell_text": "rs10765219"
+                  },
+                  {
+                    "cell_id": "2.18.2",
+                    "cell_text": "T"
+                  },
+                  {
+                    "cell_id": "2.18.3",
+                    "cell_text": "G"
+                  },
+                  {
+                    "cell_id": "2.18.4",
+                    "cell_text": 1.13
+                  },
+                  {
+                    "cell_id": "2.18.5",
+                    "cell_text": 0.99
+                  },
+                  {
+                    "cell_id": "2.18.6",
+                    "cell_text": 1.29
+                  },
+                  {
+                    "cell_id": "2.18.7",
+                    "cell_text": 2670.0
+                  },
+                  {
+                    "cell_id": "2.18.8",
+                    "cell_text": 0.08
+                  }
+                ]
+              ]
+            },
+            {
+              "table_section_title_1": "Meta‐analysis all Caucasian cohorts",
+              "data_rows": [
+                [
+                  {
+                    "cell_id": "2.19.1",
+                    "cell_text": "rs11018670"
+                  },
+                  {
+                    "cell_id": "2.19.2",
+                    "cell_text": "G"
+                  },
+                  {
+                    "cell_id": "2.19.3",
+                    "cell_text": "A"
+                  },
+                  {
+                    "cell_id": "2.19.4",
+                    "cell_text": 1.09
+                  },
+                  {
+                    "cell_id": "2.19.5",
+                    "cell_text": 0.95
+                  },
+                  {
+                    "cell_id": "2.19.6",
+                    "cell_text": 1.23
+                  },
+                  {
+                    "cell_id": "2.19.7",
+                    "cell_text": 2670.0
+                  },
+                  {
+                    "cell_id": "2.19.8",
+                    "cell_text": 0.23
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "2.20.1",
+                    "cell_text": "rs3913535"
+                  },
+                  {
+                    "cell_id": "2.20.2",
+                    "cell_text": "C"
+                  },
+                  {
+                    "cell_id": "2.20.3",
+                    "cell_text": "T"
+                  },
+                  {
+                    "cell_id": "2.20.4",
+                    "cell_text": 1.03
+                  },
+                  {
+                    "cell_id": "2.20.5",
+                    "cell_text": 0.91
+                  },
+                  {
+                    "cell_id": "2.20.6",
+                    "cell_text": 1.16
+                  },
+                  {
+                    "cell_id": "2.20.7",
+                    "cell_text": "2829 (973 + 1,856)"
+                  },
+                  {
+                    "cell_id": "2.20.8",
+                    "cell_text": 0.52
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "2.21.1",
+                    "cell_text": "rs10765219"
+                  },
+                  {
+                    "cell_id": "2.21.2",
+                    "cell_text": "T"
+                  },
+                  {
+                    "cell_id": "2.21.3",
+                    "cell_text": "G"
+                  },
+                  {
+                    "cell_id": "2.21.4",
+                    "cell_text": 1.08
+                  },
+                  {
+                    "cell_id": "2.21.5",
+                    "cell_text": 0.95
+                  },
+                  {
+                    "cell_id": "2.21.6",
+                    "cell_text": 1.22
+                  },
+                  {
+                    "cell_id": "2.21.7",
+                    "cell_text": 2829.0
+                  },
+                  {
+                    "cell_id": "2.21.8",
+                    "cell_text": 0.21
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "2.22.1",
+                    "cell_text": "rs11018670"
+                  },
+                  {
+                    "cell_id": "2.22.2",
+                    "cell_text": "G"
+                  },
+                  {
+                    "cell_id": "2.22.3",
+                    "cell_text": "A"
+                  },
+                  {
+                    "cell_id": "2.22.4",
+                    "cell_text": 1.05
+                  },
+                  {
+                    "cell_id": "2.22.5",
+                    "cell_text": 0.91
+                  },
+                  {
+                    "cell_id": "2.22.6",
+                    "cell_text": 1.21
+                  },
+                  {
+                    "cell_id": "2.22.7",
+                    "cell_text": 2829.0
+                  },
+                  {
+                    "cell_id": "2.22.8",
+                    "cell_text": 0.42
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "2.23.1",
+                    "cell_text": "rs3913535"
+                  },
+                  {
+                    "cell_id": "2.23.2",
+                    "cell_text": "C"
+                  },
+                  {
+                    "cell_id": "2.23.3",
+                    "cell_text": "T"
+                  },
+                  {
+                    "cell_id": "2.23.4",
+                    "cell_text": 0.99
+                  },
+                  {
+                    "cell_id": "2.23.5",
+                    "cell_text": 0.96
+                  },
+                  {
+                    "cell_id": "2.23.6",
+                    "cell_text": 1.02
+                  },
+                  {
+                    "cell_id": "2.23.7",
+                    "cell_text": "8573 (4,128 + 4,445)"
+                  },
+                  {
+                    "cell_id": "2.23.8",
+                    "cell_text": 0.42
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "2.24.1",
+                    "cell_text": "rs10765219"
+                  },
+                  {
+                    "cell_id": "2.24.2",
+                    "cell_text": "T"
+                  },
+                  {
+                    "cell_id": "2.24.3",
+                    "cell_text": "G"
+                  },
+                  {
+                    "cell_id": "2.24.4",
+                    "cell_text": 1.05
+                  },
+                  {
+                    "cell_id": "2.24.5",
+                    "cell_text": 1.02
+                  },
+                  {
+                    "cell_id": "2.24.6",
+                    "cell_text": 1.08
+                  },
+                  {
+                    "cell_id": "2.24.7",
+                    "cell_text": 8573.0
+                  },
+                  {
+                    "cell_id": "2.24.8",
+                    "cell_text": 0.003
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "2.25.1",
+                    "cell_text": "rs11018670"
+                  },
+                  {
+                    "cell_id": "2.25.2",
+                    "cell_text": "G"
+                  },
+                  {
+                    "cell_id": "2.25.3",
+                    "cell_text": "A"
+                  },
+                  {
+                    "cell_id": "2.25.4",
+                    "cell_text": 1.03
+                  },
+                  {
+                    "cell_id": "2.25.5",
+                    "cell_text": 1.01
+                  },
+                  {
+                    "cell_id": "2.25.6",
+                    "cell_text": 1.06
+                  },
+                  {
+                    "cell_id": "2.25.7",
+                    "cell_text": 8573.0
+                  },
+                  {
+                    "cell_id": "2.25.8",
+                    "cell_text": 0.007
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "2.26.1",
+                    "cell_text": "rs3913535"
+                  },
+                  {
+                    "cell_id": "2.26.2",
+                    "cell_text": "C"
+                  },
+                  {
+                    "cell_id": "2.26.3",
+                    "cell_text": "T"
+                  },
+                  {
+                    "cell_id": "2.26.4",
+                    "cell_text": 1.01
+                  },
+                  {
+                    "cell_id": "2.26.5",
+                    "cell_text": 0.98
+                  },
+                  {
+                    "cell_id": "2.26.6",
+                    "cell_text": 1.03
+                  },
+                  {
+                    "cell_id": "2.26.7",
+                    "cell_text": "13 239 (4688 + 8,551)"
+                  },
+                  {
+                    "cell_id": "2.26.8",
+                    "cell_text": 0.71
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "2.27.1",
+                    "cell_text": "rs10765219"
+                  },
+                  {
+                    "cell_id": "2.27.2",
+                    "cell_text": "T"
+                  },
+                  {
+                    "cell_id": "2.27.3",
+                    "cell_text": "G"
+                  },
+                  {
+                    "cell_id": "2.27.4",
+                    "cell_text": 1.07
+                  },
+                  {
+                    "cell_id": "2.27.5",
+                    "cell_text": 1.03
+                  },
+                  {
+                    "cell_id": "2.27.6",
+                    "cell_text": 1.1
+                  },
+                  {
+                    "cell_id": "2.27.7",
+                    "cell_text": "13 239"
+                  },
+                  {
+                    "cell_id": "2.27.8",
+                    "cell_text": "9.02 × 10<sup>−5</sup>"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "2.28.1",
+                    "cell_text": "rs11018670"
+                  },
+                  {
+                    "cell_id": "2.28.2",
+                    "cell_text": "G"
+                  },
+                  {
+                    "cell_id": "2.28.3",
+                    "cell_text": "A"
+                  },
+                  {
+                    "cell_id": "2.28.4",
+                    "cell_text": 1.04
+                  },
+                  {
+                    "cell_id": "2.28.5",
+                    "cell_text": 1.02
+                  },
+                  {
+                    "cell_id": "2.28.6",
+                    "cell_text": 1.07
+                  },
+                  {
+                    "cell_id": "2.28.7",
+                    "cell_text": "13 239"
+                  },
+                  {
+                    "cell_id": "2.28.8",
+                    "cell_text": "4.24 × 10<sup>−4</sup>"
+                  }
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "offset": 1210,
+          "infons": {
+            "section_title_1": "table_footer",
+            "iao_name_1": "caption",
+            "iao_id_1": "IAO:0000304"
+          },
+          "text": "AUST = The Australian DR Genetics Case–Control Study, BMES = The Blue Mountain Eye Study, CHS2 = Cardiovascular Health Study 2, EA = effective allele, EDIC = The Epidemiology of Diabetes Interventions and Complications, FinnDiane = The Finnish Diabetic Nephropathy Study, GoDARTS = The Genetics of Diabetes Audit and Research Tayside, GoKinD = The Genetics of Kidneys in Diabetes study, N = number, NEA = non‐effective allele, OR = odds ratio, SDR = The Scania Diabetes Registry."
+        }
+      ]
+    }
+  ]
+}
