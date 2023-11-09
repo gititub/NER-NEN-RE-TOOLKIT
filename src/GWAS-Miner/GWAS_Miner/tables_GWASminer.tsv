@@ -1,0 +1,60 @@
+PMC	id	type	text	table_element	offset	identifier
+PMC6263819	2	trait	Eye	table_footer	1289	MeSH:T015681
+PMC6263819	2	trait	Diabetic Nephropathy	table_footer	1454	MeSH:D003928
+PMC6263819	2	trait	Kidneys	table_footer	1570	MeSH:D007668
+PMC6263819	2	trait	Registry	table_footer	1680	MeSH:T035847
+PMC6263819	2	significance	p	table_content	0	PVAL
+PMC6263819	2	genetic_variant	rs3913535	table_content	0	dbSNP:rs3913535
+PMC6263819	2	significance	4.05 × 10<sup>−9</sup>	table_content	0	PVAL
+PMC6263819	2	genetic_variant	rs10765219	table_content	0	dbSNP:rs10765219
+PMC6263819	2	significance	7.41 × 10<sup>−8</sup>	table_content	0	PVAL
+PMC6263819	2	genetic_variant	rs11018670	table_content	0	dbSNP:rs11018670
+PMC6263819	2	significance	1.23 × 10<sup>−8</sup>	table_content	0	PVAL
+PMC6263819	2	genetic_variant	rs3913535	table_content	0	dbSNP:rs3913535
+PMC6263819	2	significance	0.25	table_content	0	PVAL
+PMC6263819	2	genetic_variant	rs10765219	table_content	0	dbSNP:rs10765219
+PMC6263819	2	significance	0.02	table_content	0	PVAL
+PMC6263819	2	genetic_variant	rs11018670	table_content	0	dbSNP:rs11018670
+PMC6263819	2	significance	0.03	table_content	0	PVAL
+PMC6263819	2	genetic_variant	rs3913535	table_content	0	dbSNP:rs3913535
+PMC6263819	2	significance	0.68	table_content	0	PVAL
+PMC6263819	2	genetic_variant	rs10765219	table_content	0	dbSNP:rs10765219
+PMC6263819	2	significance	0.73	table_content	0	PVAL
+PMC6263819	2	genetic_variant	rs11018670	table_content	0	dbSNP:rs11018670
+PMC6263819	2	significance	0.62	table_content	0	PVAL
+PMC6263819	2	genetic_variant	rs3913535	table_content	0	dbSNP:rs3913535
+PMC6263819	2	significance	0.09	table_content	0	PVAL
+PMC6263819	2	genetic_variant	rs10765219	table_content	0	dbSNP:rs10765219
+PMC6263819	2	significance	0.007	table_content	0	PVAL
+PMC6263819	2	genetic_variant	rs11018670	table_content	0	dbSNP:rs11018670
+PMC6263819	2	significance	0.006	table_content	0	PVAL
+PMC6263819	2	genetic_variant	rs3913535	table_content	0	dbSNP:rs3913535
+PMC6263819	2	significance	0.87	table_content	0	PVAL
+PMC6263819	2	genetic_variant	rs10765219	table_content	0	dbSNP:rs10765219
+PMC6263819	2	significance	0.43	table_content	0	PVAL
+PMC6263819	2	genetic_variant	rs11018670	table_content	0	dbSNP:rs11018670
+PMC6263819	2	significance	0.42	table_content	0	PVAL
+PMC6263819	2	genetic_variant	rs3913535	table_content	0	dbSNP:rs3913535
+PMC6263819	2	significance	0.53	table_content	0	PVAL
+PMC6263819	2	genetic_variant	rs10765219	table_content	0	dbSNP:rs10765219
+PMC6263819	2	significance	0.08	table_content	0	PVAL
+PMC6263819	2	genetic_variant	rs11018670	table_content	0	dbSNP:rs11018670
+PMC6263819	2	significance	0.23	table_content	0	PVAL
+PMC6263819	2	genetic_variant	rs3913535	table_content	0	dbSNP:rs3913535
+PMC6263819	2	significance	0.52	table_content	0	PVAL
+PMC6263819	2	genetic_variant	rs10765219	table_content	0	dbSNP:rs10765219
+PMC6263819	2	significance	0.21	table_content	0	PVAL
+PMC6263819	2	genetic_variant	rs11018670	table_content	0	dbSNP:rs11018670
+PMC6263819	2	significance	0.42	table_content	0	PVAL
+PMC6263819	2	genetic_variant	rs3913535	table_content	0	dbSNP:rs3913535
+PMC6263819	2	significance	0.42	table_content	0	PVAL
+PMC6263819	2	genetic_variant	rs10765219	table_content	0	dbSNP:rs10765219
+PMC6263819	2	significance	0.003	table_content	0	PVAL
+PMC6263819	2	genetic_variant	rs11018670	table_content	0	dbSNP:rs11018670
+PMC6263819	2	significance	0.007	table_content	0	PVAL
+PMC6263819	2	genetic_variant	rs3913535	table_content	0	dbSNP:rs3913535
+PMC6263819	2	significance	0.71	table_content	0	PVAL
+PMC6263819	2	genetic_variant	rs10765219	table_content	0	dbSNP:rs10765219
+PMC6263819	2	significance	9.02 × 10<sup>−5</sup>	table_content	0	PVAL
+PMC6263819	2	genetic_variant	rs11018670	table_content	0	dbSNP:rs11018670
+PMC6263819	2	significance	4.24 × 10<sup>−4</sup>	table_content	0	PVAL

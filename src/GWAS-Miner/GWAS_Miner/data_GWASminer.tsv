@@ -1,0 +1,1443 @@
+doc_id	section	offset	end	identifier	type	text
+PMC2798468	document title	56	68	D020559	trait	Small GTPase
+PMC2888392	document title	4	12	D014443	trait	Tyrosine
+PMC2888392	document title	59	67	D008223	trait	Lymphoma
+PMC2888392	document title	68	74	T031819	trait	Kinase
+PMC2888392	document title	139	147	D014443	trait	Tyrosine
+PMC2888392	document title	148	159	D010744	trait	Phosphatase
+PMC2888392	document title	165	170	D009369	trait	Tumor
+PMC2888392	results section	12171	12178	D000077548	trait	NPM-ALK
+PMC2888392	results section	12267	12274	D000077548	trait	NPM-ALK
+PMC2888392	results section	12319	12326	D000077548	trait	NPM-ALK
+PMC2888392	results section	12385	12392	D000077548	trait	NPM-ALK
+PMC2888392	results section	12464	12471	D000077548	trait	NPM-ALK
+PMC2888392	results section	12575	12582	D000077548	trait	NPM-ALK
+PMC2888392	results section	12690	12697	D000077548	trait	NPM-ALK
+PMC2888392	results section	12748	12756	D014443	trait	tyrosine
+PMC2888392	results section	12773	12779	T031819	trait	kinase
+PMC2888392	results section	13069	13077	D014443	trait	tyrosine
+PMC2888392	results section	13167	13175	D014443	trait	tyrosine
+PMC2888392	results section	13188	13195	D000077548	trait	NPM-ALK
+PMC2888392	results section	13328	13336	D014443	trait	tyrosine
+PMC2888392	results section	13529	13537	D014443	trait	tyrosine
+PMC2888392	results section	13570	13577	D000077548	trait	NPM-ALK
+PMC2888392	results section	13705	13713	D014443	trait	tyrosine
+PMC2888392	results section	13714	13729	D010766	trait	phosphorylation
+PMC2888392	results section	13733	13740	D000077548	trait	NPM-ALK
+PMC2888392	results section	13760	13767	D000077548	trait	NPM-ALK
+PMC2888392	results section	13877	13884	D000077548	trait	NPM-ALK
+PMC2888392	results section	14259	14268	T050798	trait	mediating
+PMC2888392	results section	14273	14280	D000077548	trait	NPM-ALK
+PMC2888392	results section	14453	14460	D010455	trait	peptide
+PMC2888392	results section	14531	14550	D016384	trait	consensus sequences
+PMC2888392	results section	14610	14628	D016384	trait	consensus sequence
+PMC2888392	results section	14733	14740	D000077548	trait	NPM-ALK
+PMC2888392	results section	14781	14800	D016384	trait	consensus sequences
+PMC2888392	results section	14909	14916	D000077548	trait	NPM-ALK
+PMC2888392	results section	15042	15049	D000077548	trait	NPM-ALK
+PMC2888392	results section	15278	15286	D014443	trait	tyrosine
+PMC2888392	results section	15393	15404	D016296	trait	mutagenesis
+PMC2888392	results section	15432	15440	D014443	trait	tyrosine
+PMC2888392	results section	15629	15637	D014443	trait	tyrosine
+PMC2888392	results section	15694	15701	D000077548	trait	NPM-ALK
+PMC2888392	results section	15842	15850	D014443	trait	tyrosine
+PMC2888392	results section	15862	15869	D000077548	trait	NPM-ALK
+PMC2888392	results section	15898	15913	D010766	trait	phosphorylation
+PMC2888392	results section	16075	16082	D000077548	trait	NPM-ALK
+PMC2888392	results section	16156	16164	D014443	trait	tyrosine
+PMC2888392	results section	16186	16193	D000077548	trait	NPM-ALK
+PMC2888392	results section	16324	16331	D000077548	trait	NPM-ALK
+PMC2888392	results section	16346	16350	D006225	trait	hand
+PMC2888392	results section	16409	16416	D000077548	trait	NPM-ALK
+PMC2888392	results section	16510	16517	D000077548	trait	NPM-ALK
+PMC2888392	results section	16553	16561	D014443	trait	tyrosine
+PMC2888392	results section	16562	16577	D010766	trait	phosphorylation
+PMC2888392	results section	16587	16594	D000077548	trait	NPM-ALK
+PMC2888392	results section	16610	16618	D014443	trait	tyrosine
+PMC2888392	results section	16763	16771	D014443	trait	tyrosine
+PMC2888392	results section	16772	16787	D010766	trait	phosphorylation
+PMC2888392	results section	16870	16877	D000077548	trait	NPM-ALK
+PMC2888392	results section	17167	17174	D000077548	trait	NPM-ALK
+PMC2888392	results section	17328	17335	D000077548	trait	NPM-ALK
+PMC2888392	results section	17369	17376	D000077548	trait	NPM-ALK
+PMC2888392	results section	17476	17486	D018909	trait	SH2 domain
+PMC2888392	results section	17494	17505	D018909	trait	SH2 domains
+PMC2888392	results section	17531	17542	D018909	trait	SH2 domains
+PMC2888392	results section	17567	17574	D000077548	trait	NPM-ALK
+PMC2888392	results section	17622	17633	D018909	trait	SH2 domains
+PMC2888392	results section	17659	17668	T050798	trait	mediating
+PMC2888392	results section	17684	17691	D000077548	trait	NPM-ALK
+PMC2888392	results section	17832	17843	D018909	trait	SH2 domains
+PMC2888392	results section	17855	17864	T050798	trait	mediating
+PMC2888392	results section	17988	17996	D014443	trait	tyrosine
+PMC2888392	results section	17997	18008	D010744	trait	phosphatase
+PMC2888392	results section	18052	18059	D000077548	trait	NPM-ALK
+PMC2888392	results section	18089	18096	D000077548	trait	NPM-ALK
+PMC2888392	results section	18182	18193	D010744	trait	phosphatase
+PMC2888392	results section	18348	18358	D018909	trait	SH2 domain
+PMC2888392	results section	18410	18417	D000077548	trait	NPM-ALK
+PMC2888392	results section	18538	18547	D002460	trait	cell line
+PMC2888392	results section	18604	18615	D018909	trait	SH2 domains
+PMC2888392	results section	18671	18679	D014443	trait	tyrosine
+PMC2888392	results section	18680	18695	D010766	trait	phosphorylation
+PMC2888392	results section	18699	18706	D000077548	trait	NPM-ALK
+PMC2888392	results section	18809	18819	D018909	trait	SH2 domain
+PMC2888392	results section	18865	18872	D000077548	trait	NPM-ALK
+PMC2888392	results section	19002	19006	D000362	trait	agar
+PMC2888392	results section	19083	19090	D000077548	trait	NPM-ALK
+PMC2888392	results section	19099	19106	D000077548	trait	NPM-ALK
+PMC2888392	results section	19172	19179	D000077548	trait	NPM-ALK
+PMC2888392	results section	19286	19302	PVAL	significance	p value = 0.0032
+PMC2876068	document title	28	36	D008545	trait	melanoma
+PMC2876068	document title	37	47	D002460	trait	cell lines
+PMC2876068	document title	102	109	T775314	trait	PLX4032
+PMC2876068	results section	10164	10171	T775314	trait	PLX4032
+PMC2876068	results section	10239	10247	D008545	trait	melanoma
+PMC2876068	results section	10248	10258	D002460	trait	cell lines
+PMC2876068	results section	10467	10477	D002460	trait	cell lines
+PMC2876068	results section	10636	10646	D002460	trait	cell lines
+PMC2876068	results section	10734	10744	D002460	trait	cell lines
+PMC2876068	results section	10791	10800	D002460	trait	cell line
+PMC2876068	results section	10915	10924	D002460	trait	cell line
+PMC2876068	results section	11111	11118	T775314	trait	PLX4032
+PMC2876068	results section	11167	11177	D002460	trait	cell lines
+PMC2876068	results section	11315	11323	D008545	trait	Melanoma
+PMC2876068	results section	11324	11334	D002460	trait	cell lines
+PMC2876068	results section	11434	11441	T775314	trait	PLX4032
+PMC2876068	results section	11464	11474	D002460	trait	cell lines
+PMC2876068	results section	11520	11527	T775314	trait	PLX4032
+PMC2876068	results section	11552	11562	D002460	trait	cell lines
+PMC2876068	results section	11581	11588	T775314	trait	PLX4032
+PMC2876068	results section	11622	11632	D002460	trait	cell lines
+PMC2876068	results section	11677	11681	T059915	trait	IC50
+PMC2876068	results section	11725	11735	D002460	trait	cell lines
+PMC2876068	results section	11786	11790	T059915	trait	IC50
+PMC2876068	results section	11825	11832	T775314	trait	PLX4032
+PMC2876068	results section	11868	11878	D002460	trait	cell lines
+PMC2876068	results section	12031	12038	T775314	trait	PLX4032
+PMC2876068	results section	12226	12233	T775314	trait	PLX4032
+PMC2876068	results section	12237	12247	D002453	trait	cell cycle
+PMC2876068	results section	12298	12314	M0017756	trait	propidium iodide
+PMC2876068	results section	12331	12339	M0355509	trait	staining
+PMC2876068	results section	12354	12361	T775314	trait	PLX4032
+PMC2876068	results section	12379	12389	D002453	trait	cell cycle
+PMC2876068	results section	12405	12413	D008545	trait	melanoma
+PMC2876068	results section	12414	12424	D002460	trait	cell lines
+PMC2876068	results section	12492	12499	T775314	trait	PLX4032
+PMC2876068	results section	12646	12656	D002460	trait	cell lines
+PMC2876068	results section	12701	12708	T775314	trait	PLX4032
+PMC2876068	results section	12848	12855	T775314	trait	PLX4032
+PMC2876068	results section	12907	12915	D008545	trait	melanoma
+PMC2876068	results section	12916	12926	D002460	trait	cell lines
+PMC2876068	results section	12981	12989	D008545	trait	melanoma
+PMC2876068	results section	12990	12999	D002460	trait	cell line
+PMC2876068	results section	13024	13031	T775314	trait	PLX4032
+PMC2876068	results section	13085	13092	T775314	trait	PLX4032
+PMC2876068	results section	13109	13123	D002470	trait	cell viability
+PMC2876068	results section	13215	13231	M0017756	trait	propidium iodide
+PMC2876068	results section	13236	13243	T001004233	trait	Annexin
+PMC2876068	results section	13253	13260	T775314	trait	PLX4032
+PMC2876068	results section	13261	13270	T040578	trait	treatment
+PMC2876068	results section	13288	13297	D017304	trait	Annexin V
+PMC2876068	results section	13356	13372	M0017756	trait	propidium iodide
+PMC2876068	results section	13393	13400	T775314	trait	PLX4032
+PMC2876068	results section	13605	13615	D002453	trait	cell cycle
+PMC2876068	results section	13652	13659	T775314	trait	PLX4032
+PMC2876068	results section	13664	13674	D054697	trait	cytostatic
+PMC2876068	results section	13703	13713	D002460	trait	cell lines
+PMC2876068	results section	13749	13759	D054697	trait	cytostatic
+PMC2876068	results section	13785	13795	D002460	trait	cell lines
+PMC2876068	results section	13820	13827	T775314	trait	PLX4032
+PMC2876068	results section	13831	13845	D002470	trait	cell viability
+PMC2876068	results section	14014	14021	T775314	trait	PLX4032
+PMC2876068	results section	14097	14107	D002460	trait	cell lines
+PMC2876068	results section	14190	14200	D002460	trait	cell lines
+PMC2876068	results section	14202	14210	PVAL	significance	P = 0.24
+PMC2876068	results section	14328	14337	D002460	trait	cell line
+PMC2876068	results section	14404	14414	D002460	trait	cell lines
+PMC2876068	results section	14492	14499	T775314	trait	PLX4032
+PMC2876068	results section	14505	14515	D002460	trait	cell lines
+PMC2876068	results section	14529	14536	T775314	trait	PLX4032
+PMC2876068	results section	14574	14582	PVAL	significance	P = 0.16
+PMC2876068	results section	14644	14654	D002460	trait	cell lines
+PMC2876068	results section	14660	14664	T059915	trait	IC50
+PMC2876068	results section	14686	14693	T775314	trait	PLX4032
+PMC2876068	results section	14729	14739	D002460	trait	cell lines
+PMC2876068	results section	14779	14786	T775314	trait	PLX4032
+PMC2876068	results section	14951	14954	D020641	trait	SNP
+PMC2876068	results section	15131	15141	D002460	trait	cell lines
+PMC2876068	results section	15346	15353	T775314	trait	PLX4032
+PMC2876068	results section	15412	15422	D002460	trait	cell lines
+PMC2876068	results section	15433	15442	D002460	trait	cell line
+PMC2876068	results section	15478	15487	D002460	trait	cell line
+PMC2876068	results section	15554	15563	D002460	trait	cell line
+PMC2876068	results section	15634	15641	T775314	trait	PLX4032
+PMC2876068	results section	15694	15708	D017354	trait	point mutation
+PMC2876068	results section	15805	15815	D002460	trait	cell lines
+PMC2876068	results section	15999	16009	D002460	trait	cell lines
+PMC2876068	results section	16035	16045	T047492	trait	clustering
+PMC2876068	results section	16056	16059	D020641	trait	SNP
+PMC2876068	results section	16076	16083	T775314	trait	PLX4032
+PMC2876068	results section	16126	16136	D002460	trait	cell lines
+PMC2876068	results section	16239	16249	D002460	trait	cell lines
+PMC2876068	results section	16382	16392	D002460	trait	cell lines
+PMC2876068	results section	16440	16447	T775314	trait	PLX4032
+PMC2876068	results section	16481	16491	D002460	trait	cell lines
+PMC2876068	results section	16505	16511	D006128	trait	growth
+PMC2876068	results section	16512	16520	D007700	trait	kinetics
+PMC2876068	results section	16636	16646	D002460	trait	cell lines
+PMC2876068	results section	16766	16773	T775314	trait	PLX4032
+PMC2876068	results section	16820	16830	D002460	trait	cell lines
+PMC2876068	results section	16967	16970	D020641	trait	SNP
+PMC2876068	results section	17017	17029	D051059	trait	PTEN protein
+PMC2876068	results section	17071	17078	T775314	trait	PLX4032
+PMC2876068	results section	17108	17117	D002460	trait	cell line
+PMC2876068	results section	17160	17172	D051059	trait	PTEN protein
+PMC2876068	results section	17291	17298	T775314	trait	PLX4032
+PMC2876068	results section	17360	17369	D002460	trait	cell line
+PMC2876068	results section	17408	17418	D002460	trait	cell lines
+PMC2876068	results section	17424	17431	T775314	trait	PLX4032
+PMC2876068	results section	17559	17566	D005947	trait	glucose
+PMC2876068	results section	17567	17577	D008660	trait	metabolism
+PMC2876068	results section	17681	17688	T775314	trait	PLX4032
+PMC2876068	results section	18005	18023	D009705	trait	nucleoside analogs
+PMC2876068	results section	18025	18034	D013936	trait	thymidine
+PMC2876068	results section	18060	18067	D005947	trait	glucose
+PMC2876068	results section	18132	18142	D002460	trait	cell lines
+PMC2876068	results section	18182	18191	D013936	trait	thymidine
+PMC2876068	results section	18204	18211	T775314	trait	PLX4032
+PMC2876068	results section	18256	18266	D002460	trait	cell lines
+PMC2876068	results section	18305	18312	T775314	trait	PLX4032
+PMC2876068	results section	18357	18367	D009705	trait	nucleoside
+PMC2876068	results section	18448	18455	T775314	trait	PLX4032
+PMC2876068	results section	18578	18585	T775314	trait	PLX4032
+PMC2876068	results section	18626	18633	T775314	trait	PLX4032
+PMC2876068	results section	18644	18654	D002460	trait	cell lines
+PMC2876068	results section	18656	18665	PVAL	significance	P = 0.009
+PMC2876068	results section	18799	18806	T775314	trait	PLX4032
+PMC2876068	results section	18856	18864	D008545	trait	melanoma
+PMC2876068	results section	18865	18875	T839606	trait	xenografts
+PMC2876068	results section	18879	18888	D002460	trait	cell line
+PMC2876068	results section	18909	18916	T775314	trait	PLX4032
+PMC2876068	results section	18956	18963	T775314	trait	PLX4032
+PMC2876068	results section	19169	19174	D009369	trait	tumor
+PMC2876068	results section	19365	19372	T775314	trait	PLX4032
+PMC2854434	document title	79	93	D013922	trait	thrombocytosis
+PMC2854434	results section	14774	14778	T059915	trait	IC50
+PMC2854434	results section	14807	14813	T000996176	trait	enzyme
+PMC2854434	results section	14997	15007	D002460	trait	cell lines
+PMC2854434	results section	15027	15037	D002460	trait	cell lines
+PMC2854434	results section	15266	15276	D002460	trait	cell lines
+PMC2854434	results section	15395	15399	T059915	trait	IC50
+PMC2854434	results section	15424	15434	D002460	trait	cell lines
+PMC2854434	results section	15456	15460	T059915	trait	IC50
+PMC2854434	results section	15485	15489	T059915	trait	IC50
+PMC2854434	results section	15631	15635	T059915	trait	IC50
+PMC2854434	results section	15678	15682	T059915	trait	IC50
+PMC2854434	results section	15733	15737	T059915	trait	IC50
+PMC2854434	results section	15817	15821	T059915	trait	IC50
+PMC2854434	results section	15887	15897	D002460	trait	cell lines
+PMC2854434	results section	15914	15924	D002460	trait	cell lines
+PMC2854434	results section	15932	15936	T059915	trait	IC50
+PMC2854434	results section	15981	15987	D006128	trait	growth
+PMC2854434	results section	16040	16050	D002460	trait	cell lines
+PMC2854434	results section	16051	16056	PVAL	significance	THP-1
+PMC2854434	results section	16058	16062	T059915	trait	IC50
+PMC2854434	results section	16085	16089	T059915	trait	IC50
+PMC2854434	results section	16266	16294	M0023730	trait	signal transduction pathways
+PMC2854434	results section	16336	16346	D002460	trait	cell lines
+PMC2854434	results section	16348	16357	T040578	trait	Treatment
+PMC2854434	results section	16390	16405	D010766	trait	phosphorylation
+PMC2854434	results section	16586	16601	D010766	trait	phosphorylation
+PMC2854434	results section	16672	16678	D006128	trait	growth
+PMC2854434	results section	16801	16816	D010766	trait	phosphorylation
+PMC2854434	results section	16934	16942	D007938	trait	leukemia
+PMC2854434	results section	16943	16953	D002460	trait	cell lines
+PMC2854434	results section	17363	17377	D013922	trait	thrombocytosis
+PMC2854434	results section	17489	17499	D002460	trait	cell lines
+PMC2854434	results section	17794	17806	D007964	trait	leukocytosis
+PMC2854434	results section	17831	17845	D013922	trait	thrombocytosis
+PMC2854434	results section	17905	17914	T040578	trait	treatment
+PMC2854434	results section	18105	18114	T040578	trait	treatment
+PMC2854434	results section	18152	18167	D014180	trait	transplantation
+PMC2854434	results section	18222	18227	D008099	trait	liver
+PMC2854434	results section	18228	18234	D013154	trait	spleen
+PMC2854434	results section	18635	18647	D004358	trait	drug therapy
+PMC2854434	results section	18848	18863	D014180	trait	transplantation
+PMC2854434	results section	19006	19015	T040578	trait	treatment
+PMC2854434	results section	19071	19080	T040578	trait	treatment
+PMC2854434	results section	19358	19372	D013922	trait	thrombocytosis
+PMC2854434	results section	19377	19389	D007964	trait	leukocytosis
+PMC2854434	results section	19490	19499	T040578	trait	treatment
+PMC2854434	results section	19523	19532	T040578	trait	treatment
+PMC2854434	results section	19572	19581	T040578	trait	treatment
+PMC2854434	results section	19651	19663	D007964	trait	leukocytosis
+PMC2854434	results section	19668	19682	D013922	trait	thrombocytosis
+PMC2854434	results section	19785	19801	T023737	trait	white blood cell
+PMC2854434	results section	19868	19883	T032312	trait	platelet counts
+PMC2854434	results section	19908	19923	T032312	trait	platelet counts
+PMC2854434	results section	20117	20132	T032312	trait	platelet counts
+PMC2854434	results section	20162	20174	D004358	trait	drug therapy
+PMC2854434	results section	20187	20202	T032312	trait	platelet counts
+PMC2854434	results section	20304	20313	T040578	trait	treatment
+PMC2854434	results section	20381	20385	D004364	trait	drug
+PMC2854434	results section	20386	20395	T040578	trait	treatment
+PMC2854434	results section	20417	20428	D019737	trait	transplants
+PMC2854434	results section	20559	20564	D008099	trait	liver
+PMC2854434	results section	20565	20571	D013154	trait	spleen
+PMC2854434	results section	20708	20720	D007964	trait	leukocytosis
+PMC2854434	results section	20725	20739	D013922	trait	thrombocytosis
+PMC2854434	results section	20932	20941	T040578	trait	treatment
+PMC2854434	results section	21107	21113	D013154	trait	spleen
+PMC2854434	results section	21118	21123	D008099	trait	liver
+PMC2854434	results section	21271	21282	D001853	trait	bone marrow
+PMC2854434	results section	21406	21412	D013154	trait	spleen
+PMC2854434	results section	21619	21625	D013154	trait	spleen
+PMC2854434	results section	21748	21762	T025403	trait	megakaryocytes
+PMC2854434	results section	21853	21864	D009504	trait	neutrophils
+PMC2854434	results section	21872	21878	D008099	trait	livers
+PMC2854434	results section	22096	22100	D008168	trait	lung
+PMC2854434	results section	22182	22187	D008168	trait	lungs
+PMC2854434	results section	22275	22286	D019737	trait	transplants
+PMC2854434	results section	22343	22352	T040578	trait	treatment
+PMC2854434	results section	22380	22391	D001853	trait	bone marrow
+PMC2854434	results section	22393	22399	D013154	trait	spleen
+PMC2854434	results section	22405	22410	D008099	trait	liver
+PMC2854434	results section	22527	22536	D012155	trait	reticulin
+PMC2854434	results section	22537	22545	M0355509	trait	staining
+PMC2854434	results section	22549	22560	D001853	trait	bone marrow
+PMC2854434	results section	22565	22571	D013154	trait	spleen
+PMC2854434	results section	22656	22664	D005355	trait	fibrosis
+PMC2854434	results section	22732	22752	T027417	trait	bone marrow fibrosis
+PMC2854434	results section	22789	22798	T040578	trait	treatment
+PMC2854434	results section	22874	22885	D001853	trait	bone marrow
+PMC2854434	results section	22890	22896	D013154	trait	spleen
+PMC2854434	results section	22897	22905	D005355	trait	fibrosis
+PMC2854434	results section	22956	22964	D005355	trait	fibrosis
+PMC2854434	results section	23034	23043	T040578	trait	treatment
+PMC2854434	results section	23097	23106	D012155	trait	reticulin
+PMC2854434	results section	23125	23136	D001853	trait	bone marrow
+PMC2854434	results section	23141	23147	D013154	trait	spleen
+PMC2854434	results section	23193	23202	T040578	trait	treatment
+PMC2854434	results section	23280	23295	T032312	trait	platelet counts
+PMC2854434	results section	23297	23306	T040578	trait	treatment
+PMC2854434	results section	23378	23387	T000996079	trait	cytokines
+PMC2854434	results section	23403	23417	T018603	trait	growth factors
+PMC2854434	results section	23553	23557	T047025	trait	IL-6
+PMC2854434	results section	23565	23576	D007378	trait	interleukin
+PMC2854434	results section	23593	23597	T087210	trait	VEGF
+PMC2854434	results section	23676	23688	D022423	trait	myeloid cell
+PMC2854434	results section	23703	23710	D013154	trait	spleens
+PMC2854434	results section	23715	23727	D001853	trait	bone marrows
+PMC2854434	results section	23900	23906	D013154	trait	spleen
+PMC2854434	results section	23916	23927	D001853	trait	bone marrow
+PMC2854434	results section	23932	23936	D004364	trait	drug
+PMC2854434	results section	24024	24038	T025403	trait	megakaryocytes
+PMC2854434	results section	24046	24057	D001853	trait	bone marrow
+PMC2854434	results section	24062	24068	D013154	trait	spleen
+PMC2854434	results section	24072	24076	D004364	trait	drug
+PMC2854434	results section	24423	24429	D001402	trait	B-cell
+PMC2854434	results section	24648	24659	D006098	trait	granulocyte
+PMC2854434	results section	24661	24671	D009504	trait	neutrophil
+PMC2854434	results section	24725	24729	D004364	trait	drug
+PMC2854434	results section	24760	24771	D001853	trait	bone marrow
+PMC2854434	results section	24775	24781	D013154	trait	spleen
+PMC2854434	results section	24951	24963	D038042	trait	myelopoiesis
+PMC2854434	results section	24967	24978	D001853	trait	bone marrow
+PMC2854434	results section	24983	24990	D013154	trait	spleens
+PMC2854434	results section	25181	25192	D001853	trait	bone marrow
+PMC2854434	results section	25197	25203	D013154	trait	spleen
+PMC2854434	results section	25372	25389	D001854	trait	bone marrow cells
+PMC2854434	results section	25439	25452	T025403	trait	megakaryocyte
+PMC2854434	results section	25453	25478	D015672	trait	erythroid precursor cells
+PMC2854434	results section	25564	25580	D013234	trait	progenitor cells
+PMC2854434	results section	25588	25595	D013154	trait	spleens
+PMC2854434	results section	25742	25745	T010369	trait	CMP
+PMC2854434	results section	25768	25774	D013154	trait	spleen
+PMC2854434	results section	25938	25944	D013154	trait	spleen
+PMC2854434	results section	25976	25985	T040578	trait	treatment
+PMC2854434	results section	26035	26041	D013154	trait	spleen
+PMC2854434	results section	26110	26114	D004364	trait	drug
+PMC2854434	results section	26202	26221	M0028027	trait	Mann-Whitney U test
+PMC2854434	results section	26294	26300	D013154	trait	spleen
+PMC2854434	results section	26358	26369	D001853	trait	bone marrow
+PMC2854434	results section	26431	26440	T040578	trait	treatment
+PMC2854434	results section	26562	26573	D001853	trait	bone marrow
+PMC2854434	results section	26578	26584	D013154	trait	spleen
+PMC2854434	results section	26663	26672	T040578	trait	treatment
+PMC2854434	results section	26696	26705	T040578	trait	treatment
+PMC2854434	results section	26752	26771	M0028027	trait	Mann-Whitney U test
+PMC2854434	results section	26834	26845	D001853	trait	bone marrow
+PMC2854434	results section	26890	26896	D013154	trait	spleen
+PMC2854434	results section	26987	26998	D001853	trait	bone marrow
+PMC2854434	results section	27003	27009	D013154	trait	spleen
+PMC2854434	results section	27088	27099	D001853	trait	bone marrow
+PMC2854434	results section	27262	27273	D019737	trait	transplants
+PMC2854434	results section	27297	27312	D014180	trait	transplantation
+PMC2854434	results section	27336	27340	D004364	trait	drug
+PMC2854434	results section	27341	27350	T040578	trait	treatment
+PMC2854434	results section	27431	27450	D015398	trait	signal transduction
+PMC2854434	results section	27494	27508	D010750	trait	phosphoprotein
+PMC2854434	results section	27536	27542	D013154	trait	spleen
+PMC2854434	results section	27547	27564	D001854	trait	bone marrow cells
+PMC2854434	results section	27686	27701	D010766	trait	phosphorylation
+PMC2854434	results section	27922	27937	D010766	trait	phosphorylation
+PMC2854434	results section	28075	28090	D010766	trait	phosphorylation
+PMC2854434	results section	28229	28233	D004364	trait	drug
+PMC2854434	results section	28380	28389	T040578	trait	treatment
+PMC2854434	results section	28443	28458	D010766	trait	phosphorylation
+PMC2854434	results section	28490	28502	D022423	trait	myeloid cell
+PMC2854434	results section	28578	28587	T040578	trait	treatment
+PMC2854434	results section	28614	28629	D010766	trait	phosphorylation
+PMC2854434	results section	28878	28893	D010766	trait	phosphorylation
+PMC2854434	results section	28914	28929	D010766	trait	phosphorylation
+PMC2854434	results section	28942	28955	T025403	trait	megakaryocyte
+PMC2854434	results section	28960	28970	D009504	trait	neutrophil
+PMC2854434	results section	29017	29025	M0355509	trait	staining
+PMC2854434	results section	29049	29055	D013154	trait	spleen
+PMC2854434	results section	29437	29456	M0028027	trait	Mann-Whitney U test
+PMC2854434	results section	29576	29590	D013922	trait	thrombocytosis
+PMC2854434	results section	29592	29604	D007964	trait	leukocytosis
+PMC2854434	results section	29773	29778	T008700	trait	clone
+PMC2854434	results section	29849	29853	D004364	trait	drug
+PMC2854434	results section	29932	29943	D009504	trait	neutrophils
+PMC2854434	results section	29947	29951	D004364	trait	drug
+PMC2854434	results section	30002	30011	T040578	trait	Treatment
+PMC2854434	results section	30094	30105	D001853	trait	bone marrow
+PMC2854434	results section	30241	30247	D013154	trait	spleen
+PMC2854434	results section	30263	30272	T040578	trait	treatment
+PMC2854434	results section	30283	30302	M0028027	trait	Mann-Whitney U test
+PMC2854434	results section	30405	30414	T040578	trait	treatment
+PMC2854434	results section	30432	30441	T040578	trait	treatment
+PMC2854434	results section	30534	30543	T040578	trait	treatment
+PMC2854434	results section	30666	30671	T008700	trait	clone
+PMC6263819	document title	80	95	D000074663	trait	NADPH Oxidase 4
+PMC6263819	document title	120	140	T011767	trait	diabetic retinopathy
+PMC6263819	document title	144	159	T000896378	trait	type 2 diabetes
+PMC6263819	results section	15681	15687	M0449345	trait	gender
+PMC6263819	results section	15821	15825	D020641	trait	SNPs
+PMC6263819	results section	15921	15954	T001007718	trait	multidimensional scaling analysis
+PMC6263819	results section	16052	16062	D000223	trait	adjustment
+PMC6263819	results section	16165	16184	M0024483	trait	logistic regression
+PMC6263819	results section	16219	16225	M0449345	trait	gender
+PMC6263819	results section	16336	16340	D020641	trait	SNPs
+PMC6263819	results section	16399	16402	D020641	trait	SNP
+PMC6263819	results section	16422	16431	RSID	genetic_variant	rs3913535
+PMC6263819	results section	16559	16563	D020641	trait	SNPs
+PMC6263819	results section	16565	16575	RSID	genetic_variant	rs10765219
+PMC6263819	results section	16580	16590	RSID	genetic_variant	rs11018670
+PMC6263819	results section	16694	16698	D020641	trait	SNPs
+PMC6263819	results section	16831	16835	D020641	trait	SNPs
+PMC6263819	results section	16883	16905	D015810	trait	linkage disequilibrium
+PMC6263819	results section	16945	16949	D020641	trait	SNPs
+PMC6263819	results section	17289	17298	RSID	genetic_variant	rs3913535
+PMC6263819	results section	17300	17310	RSID	genetic_variant	rs10765219
+PMC6263819	results section	17315	17325	RSID	genetic_variant	rs11018670
+PMC6263819	results section	17461	17465	D020641	trait	SNPs
+PMC6263819	results section	17562	17566	D020641	trait	SNPs
+PMC6263819	results section	17692	17701	RSID	genetic_variant	rs3913535
+PMC6263819	results section	17703	17713	RSID	genetic_variant	rs10765219
+PMC6263819	results section	17718	17728	RSID	genetic_variant	rs11018670
+PMC2777185	document title	36	39	T361674	trait	MEK
+PMC2777185	results section	3922	3928	T031819	trait	kinase
+PMC2777185	results section	3976	3984	D008545	trait	melanoma
+PMC2777185	results section	4003	4014	D016296	trait	mutagenesis
+PMC2777185	results section	4154	4157	T361674	trait	MEK
+PMC2777185	results section	4205	4217	D015723	trait	cDNA library
+PMC2777185	results section	4244	4252	D008545	trait	melanoma
+PMC2777185	results section	4324	4327	T361674	trait	MEK
+PMC2777185	results section	4413	4416	T361674	trait	MEK
+PMC2777185	results section	4487	4493	T008700	trait	clones
+PMC2777185	results section	4643	4649	T008700	trait	clones
+PMC2777185	results section	4826	4832	T008700	trait	clones
+PMC2777185	results section	4868	4879	D016296	trait	mutagenesis
+PMC2777185	results section	4978	4993	D004351	trait	drug resistance
+PMC2777185	results section	5375	5399	T059440	trait	amino acid substitutions
+PMC2777185	results section	5463	5469	T031819	trait	kinase
+PMC2777185	results section	5628	5638	T047492	trait	clustering
+PMC2777185	results section	5753	5757	D004364	trait	drug
+PMC2777185	results section	6007	6014	D017293	trait	protein
+PMC2777185	results section	6687	6694	D011392	trait	proline
+PMC2777185	results section	6839	6845	T008700	trait	clones
+PMC2777185	results section	7124	7136	D015854	trait	upregulation
+PMC2777185	results section	7155	7161	T031819	trait	kinase
+PMC2777185	results section	7338	7346	T039910	trait	syndrome
+PMC2777185	results section	7377	7380	T361674	trait	MEK
+PMC2777185	results section	7448	7459	D016296	trait	mutagenesis
+PMC2777185	results section	7570	7576	D009369	trait	cancer
+PMC2777185	results section	7643	7649	T031819	trait	kinase
+PMC2777185	results section	7843	7846	T361674	trait	MEK
+PMC2777185	results section	7889	7893	D004364	trait	drug
+PMC2777185	results section	8040	8051	D016296	trait	mutagenesis
+PMC2777185	results section	8161	8166	D018076	trait	cDNAs
+PMC2777185	results section	8184	8192	D008545	trait	melanoma
+PMC2777185	results section	8322	8325	T361674	trait	MEK
+PMC2777185	results section	8366	8369	T361674	trait	MEK
+PMC2777185	results section	8707	8710	T361674	trait	MEK
+PMC2777185	results section	8894	8904	D020930	trait	MEK kinase
+PMC2777185	results section	8988	8994	T031819	trait	kinase
+PMC2777185	results section	9040	9046	T031819	trait	kinase
+PMC2777185	results section	9155	9158	T361674	trait	MEK
+PMC2777185	results section	9216	9225	T040578	trait	Treatment
+PMC2777185	results section	9273	9288	D010766	trait	phosphorylation
+PMC2777185	results section	9346	9349	T361674	trait	MEK
+PMC2777185	results section	9356	9359	T361674	trait	MEK
+PMC2777185	results section	9558	9561	T361674	trait	MEK
+PMC2777185	results section	9617	9620	T361674	trait	MEK
+PMC2777185	results section	9621	9636	D010766	trait	phosphorylation
+PMC2777185	results section	9640	9643	T361674	trait	MEK
+PMC2777185	results section	9674	9677	T361674	trait	MEK
+PMC2777185	results section	9701	9704	T361674	trait	MEK
+PMC2777185	results section	9713	9716	T361674	trait	MEK
+PMC2777185	results section	9889	9900	D016296	trait	mutagenesis
+PMC2777185	results section	10004	10007	T361674	trait	MEK
+PMC2777185	results section	10056	10062	D009369	trait	tumors
+PMC2777185	results section	10068	10076	D008545	trait	melanoma
+PMC2777185	results section	10099	10102	T361674	trait	MEK
+PMC2777185	results section	10312	10315	T361674	trait	MEK
+PMC2777185	results section	10376	10381	D009369	trait	tumor
+PMC2777185	results section	10408	10416	D008545	trait	melanoma
+PMC2777185	results section	10763	10773	D008198	trait	lymph node
+PMC2777185	results section	10784	10794	D009362	trait	metastases
+PMC2777185	results section	10878	10887	D008545	trait	melanomas
+PMC2777185	results section	10916	10924	D008545	trait	melanoma
+PMC2777185	results section	11096	11101	D009369	trait	tumor
+PMC2777185	results section	11156	11159	T361674	trait	MEK
+PMC2777185	results section	11170	11179	T040578	trait	treatment
+PMC2777185	results section	11473	11484	D016296	trait	mutagenesis
+PMC2777185	results section	11515	11539	T059440	trait	amino acid substitutions
+PMC2777185	results section	11633	11641	D008545	trait	melanoma
+PMC2777185	results section	11702	11707	D009369	trait	tumor
+PMC2777185	results section	11762	11767	D009369	trait	tumor
+PMC2777185	results section	11835	11839	D004364	trait	drug
+PMC2777185	results section	11906	11909	T361674	trait	MEK
+PMC2777185	results section	11995	12003	D008545	trait	melanoma
+PMC2777185	results section	12126	12138	D000077204	trait	temozolomide
+PMC2777185	results section	12219	12229	D008198	trait	lymph node
+PMC2777185	results section	12364	12373	T040578	trait	treatment
+PMC2777185	results section	12374	12377	D001132	trait	arm
+PMC2777185	results section	12472	12493	D008207	trait	lymph node metastasis
+PMC2777185	results section	12578	12583	D009369	trait	tumor
+PMC2777185	results section	12617	12627	T027899	trait	metastasis
+PMC2777185	results section	12851	12857	D066066	trait	RECIST
+PMC2777185	results section	12895	12900	D009369	trait	tumor
+PMC2777185	results section	12975	12978	T361674	trait	MEK
+PMC2777185	results section	13018	13021	T361674	trait	MEK
+PMC2777185	results section	13044	13052	D008545	trait	melanoma
+PMC2777185	results section	13097	13107	T027899	trait	metastasis
+PMC2777185	results section	13183	13193	D008198	trait	lymph node
+PMC2777185	results section	13387	13396	T040578	trait	treatment
+PMC2777185	results section	13413	13421	D008545	trait	melanoma
+PMC2777185	results section	13522	13532	T027899	trait	metastasis
+PMC2777185	results section	13663	13672	T040578	trait	treatment
+PMC2777185	results section	13740	13745	M0006418	trait	at 10
+PMC2777185	results section	13927	13930	T361674	trait	MEK
+PMC2777185	results section	14084	14087	T361674	trait	MEK
+PMC2777185	results section	14095	14098	T361674	trait	MEK
+PMC2777185	results section	14221	14224	T361674	trait	MEK
+PMC2777185	results section	14348	14351	T361674	trait	MEK
+PMC2777185	results section	14359	14362	T361674	trait	MEK
+PMC2777185	results section	14416	14420	D004364	trait	drug
+PMC2777185	results section	14509	14517	D008545	trait	melanoma
+PMC2777185	results section	14748	14756	D008545	trait	melanoma
+PMC2777185	results section	14806	14814	D008545	trait	melanoma
+PMC2777185	results section	14930	14939	T040578	trait	treatment
+PMC2777185	results section	15021	15024	T361674	trait	MEK
+PMC2777185	results section	15560	15563	T361674	trait	MEK
+PMC2777185	results section	15611	15614	T361674	trait	MEK
+PMC2777185	results section	15633	15642	T040578	trait	treatment
+PMC2777185	results section	15899	15905	T031819	trait	kinase
+PMC2777185	results section	15994	16002	D008545	trait	melanoma
+PMC2777185	results section	16279	16285	D006128	trait	growth
+PMC2777185	results section	16346	16349	T361674	trait	MEK
+PMC2777185	results section	16460	16466	D006128	trait	growth
+PMC2777185	results section	16543	16546	T361674	trait	MEK
+PMC2777185	results section	16781	16793	D015723	trait	cDNA library
+PMC2777185	results section	17063	17069	D006128	trait	growth
+PMC2777185	results section	17116	17124	D008545	trait	melanoma
+PMC2777185	results section	17145	17149	D006225	trait	hand
+PMC2777185	results section	17376	17379	T361674	trait	MEK
+PMC2777185	results section	17461	17467	D006128	trait	growth
+PMC2777185	results section	17730	17733	T361674	trait	MEK
+PMC2777185	results section	17794	17806	T040577	trait	therapeutics
+PMC2777185	results section	17832	17838	T031819	trait	kinase
+PMC2892953	document title	90	99	T000996079	trait	cytokines
+PMC2892953	document title	129	138	D009369	trait	neoplasms
+PMC2892953	results section	9107	9113	T000996176	trait	enzyme
+PMC2892953	results section	9129	9138	T025009	trait	screening
+PMC2892953	results section	9142	9166	D054852	trait	small molecule libraries
+PMC2892953	results section	9332	9349	T043681	trait	x-ray diffraction
+PMC2892953	results section	9389	9395	T031819	trait	kinase
+PMC2892953	results section	9464	9470	T031819	trait	kinase
+PMC2892953	results section	9512	9534	D000255	trait	adenosine triphosphate
+PMC2892953	results section	9536	9539	D000255	trait	ATP
+PMC2892953	results section	9622	9639	T666613	trait	tyrosine kinase 2
+PMC2892953	results section	9647	9653	T031819	trait	kinase
+PMC2892953	results section	9708	9712	T059915	trait	IC50
+PMC2892953	results section	9835	9842	T031819	trait	kinases
+PMC2892953	results section	9935	9939	T059915	trait	IC50
+PMC2892953	results section	9975	9983	D019925	trait	cyclin A
+PMC2892953	results section	10172	10182	D002460	trait	cell lines
+PMC2892953	results section	10229	10242	D036341	trait	growth factor
+PMC2892953	results section	10352	10360	D007938	trait	leukemia
+PMC2892953	results section	10365	10371	D009369	trait	cancer
+PMC2892953	results section	10372	10382	D002460	trait	cell lines
+PMC2892953	results section	10410	10420	D002460	trait	cell lines
+PMC2892953	results section	10457	10461	T059915	trait	IC50
+PMC2892953	results section	10562	10572	D002460	trait	cell lines
+PMC2892953	results section	10834	10847	T022138	trait	interleukin-3
+PMC2892953	results section	10849	10853	D007377	trait	IL-3
+PMC2892953	results section	10887	10893	D016178	trait	GM-CSF
+PMC2892953	results section	10955	10959	T047025	trait	IL-6
+PMC2892953	results section	10973	10977	T059915	trait	IC50
+PMC2892953	results section	11272	11282	D002460	trait	cell lines
+PMC2892953	results section	11353	11359	D006128	trait	growth
+PMC2892953	results section	11505	11515	D002460	trait	cell lines
+PMC2892953	results section	11815	11825	D002460	trait	cell lines
+PMC2892953	results section	11846	11850	T059915	trait	IC50
+PMC2892953	results section	11972	11982	D002460	trait	cell lines
+PMC2892953	results section	12057	12063	D006128	trait	growth
+PMC2892953	results section	12116	12126	D002460	trait	cell lines
+PMC2892953	results section	12161	12170	D017209	trait	apoptosis
+PMC2892953	results section	12203	12213	D002460	trait	cell lines
+PMC2892953	results section	12228	12239	D014343	trait	trypan blue
+PMC2892953	results section	12293	12302	D053148	trait	caspase 3
+PMC2892953	results section	12342	12351	D017209	trait	apoptosis
+PMC2892953	results section	12477	12486	D017209	trait	apoptosis
+PMC2892953	results section	12646	12661	D010766	trait	phosphorylation
+PMC2892953	results section	12834	12849	D010766	trait	phosphorylation
+PMC2892953	results section	12853	12890	T000996309	trait	extracellular signal-regulated kinase
+PMC2892953	results section	12908	12958	T489455	trait	signal transducer and activator of transcription 5
+PMC2892953	results section	13205	13216	D001853	trait	bone marrow
+PMC2892953	results section	13324	13335	D006706	trait	homeostasis
+PMC2892953	results section	13339	13350	D001773	trait	blood cells
+PMC2892953	results section	14069	14081	D007964	trait	leukocytosis
+PMC2892953	results section	14083	14097	M0017167	trait	erythrocytosis
+PMC2892953	results section	14158	14173	D014180	trait	transplantation
+PMC2892953	results section	14184	14207	T023720	trait	white blood cell counts
+PMC2892953	results section	14212	14222	T019338	trait	hematocrit
+PMC2892953	results section	14402	14411	T040578	trait	treatment
+PMC2892953	results section	14530	14539	T040578	trait	treatment
+PMC2892953	results section	14574	14585	T007153	trait	cell counts
+PMC2892953	results section	14659	14668	T040578	trait	treatment
+PMC2892953	results section	14702	14712	T019338	trait	hematocrit
+PMC2892953	results section	14779	14789	T019338	trait	hematocrit
+PMC2892953	results section	14915	14938	T023720	trait	white blood cell counts
+PMC2892953	results section	14985	14996	D006098	trait	granulocyte
+PMC2892953	results section	15047	15057	D008214	trait	lymphocyte
+PMC2892953	results section	15164	15186	T023720	trait	white blood cell count
+PMC2892953	results section	15191	15201	T019338	trait	hematocrit
+PMC2892953	results section	15265	15279	D013922	trait	Thrombocytosis
+PMC2892953	results section	15336	15351	T032312	trait	platelet counts
+PMC2892953	results section	15562	15571	T040578	trait	treatment
+PMC2892953	results section	15600	15615	D014180	trait	transplantation
+PMC2892953	results section	15673	15683	T019338	trait	hematocrit
+PMC2892953	results section	15729	15752	T023720	trait	white blood cell counts
+PMC2892953	results section	15892	15919	D016026	trait	bone marrow transplantation
+PMC2892953	results section	16041	16045	D004364	trait	drug
+PMC2892953	results section	16119	16128	T040578	trait	treatment
+PMC2892953	results section	16143	16170	D016026	trait	bone marrow transplantation
+PMC2892953	results section	16220	16227	D013154	trait	spleens
+PMC2892953	results section	16346	16361	D014180	trait	transplantation
+PMC2892953	results section	16381	16393	D013163	trait	splenomegaly
+PMC2892953	results section	16475	16481	D013154	trait	Spleen
+PMC2892953	results section	16598	16607	T040578	trait	treatment
+PMC2892953	results section	16615	16621	D013154	trait	spleen
+PMC2892953	results section	16708	16713	D008099	trait	Liver
+PMC2892953	results section	16866	16872	D013154	trait	spleen
+PMC2892953	results section	16903	16908	D008099	trait	liver
+PMC2892953	results section	16910	16914	D008168	trait	lung
+PMC2892953	results section	16920	16926	D007668	trait	kidney
+PMC2892953	results section	16927	16935	M0355509	trait	Staining
+PMC2892953	results section	16980	16995	T015010	trait	red blood cells
+PMC2892953	results section	17000	17013	T036190	trait	reticulocytes
+PMC2892953	results section	17074	17087	T036190	trait	reticulocytes
+PMC2892953	results section	17240	17247	D013154	trait	spleens
+PMC2892953	results section	17314	17342	D006411	trait	extramedullary hematopoiesis
+PMC2892953	results section	17597	17602	D008099	trait	Liver
+PMC2892953	results section	17645	17673	D006411	trait	extramedullary hematopoiesis
+PMC2892953	results section	17730	17744	T025403	trait	megakaryocytes
+PMC2892953	results section	17801	17813	D006098	trait	granulocytes
+PMC2892953	results section	17907	17918	D001853	trait	bone marrow
+PMC2892953	results section	17986	17997	D006965	trait	hyperplasia
+PMC2892953	results section	17999	18013	T025403	trait	Megakaryocytes
+PMC2892953	results section	18193	18202	D012155	trait	Reticulin
+PMC2892953	results section	18203	18211	D005355	trait	fibrosis
+PMC2892953	results section	18463	18471	D005355	trait	fibrosis
+PMC2892953	results section	18797	18809	D005453	trait	fluorescence
+PMC2892953	results section	18851	18862	D001853	trait	bone marrow
+PMC2892953	results section	18867	18873	D013154	trait	spleen
+PMC2892953	results section	18978	18990	D006098	trait	granulocytes
+PMC2892953	results section	19054	19060	D013154	trait	spleen
+PMC2892953	results section	19082	19093	D001853	trait	bone marrow
+PMC2892953	results section	19135	19142	D013601	trait	T cells
+PMC2892953	results section	19154	19161	D001402	trait	B cells
+PMC2892953	results section	19236	19244	D001519	trait	behavior
+PMC2892953	results section	19253	19259	D013154	trait	spleen
+PMC2892953	results section	19264	19270	D001853	trait	marrow
+PMC2892953	results section	19286	19297	D004912	trait	erythrocyte
+PMC2892953	results section	19410	19421	D004912	trait	erythrocyte
+PMC2892953	results section	19524	19531	D001853	trait	marrows
+PMC2892953	results section	19709	19725	D013234	trait	progenitor cells
+PMC2892953	results section	19768	19792	D006412	trait	hematopoietic stem cells
+PMC2892953	results section	19921	19927	D001853	trait	marrow
+PMC2892953	results section	19996	20002	D013154	trait	spleen
+PMC2892953	results section	20014	20025	D001853	trait	bone marrow
+PMC2892953	results section	21710	21719	T000996079	trait	cytokines
+PMC2892953	results section	21729	21733	T047025	trait	IL-6
+PMC2892953	results section	21745	21752	D013850	trait	thought
+PMC2892953	results section	21938	21946	T000996079	trait	cytokine
+PMC2892953	results section	22035	22044	T040578	trait	treatment
+PMC2892953	results section	22190	22199	T000996079	trait	cytokines
+PMC2892953	results section	22204	22214	D018925	trait	chemokines
+PMC2892953	results section	22322	22331	T000996079	trait	cytokines
+PMC2892953	results section	22336	22346	D018925	trait	chemokines
+PMC2892953	results section	22355	22359	D007377	trait	IL-3
+PMC2892953	results section	22361	22365	D015847	trait	IL-4
+PMC2892953	results section	22367	22371	T047025	trait	IL-6
+PMC2892953	results section	22373	22377	D016906	trait	IL-9
+PMC2892953	results section	22379	22384	D020381	trait	IL-17
+PMC2892953	results section	22386	22391	PVAL	significance	IP-10
+PMC2892953	results section	22398	22403	PVAL	significance	MCP-1
+PMC2892953	results section	22410	22414	T087210	trait	VEGF
+PMC2892953	results section	22532	22541	T000996079	trait	cytokines
+PMC2892953	results section	22546	22556	D018925	trait	chemokines
+PMC2892953	results section	22727	22731	D007377	trait	IL-3
+PMC2892953	results section	22733	22737	T087210	trait	VEGF
+PMC2892953	results section	22739	22744	D020381	trait	IL-17
+PMC2892953	results section	22746	22750	D016906	trait	IL-9
+PMC2892953	results section	22924	22928	T047025	trait	IL-6
+PMC2892953	results section	22942	22947	D016753	trait	IL-10
+PMC2892953	results section	22949	22954	PVAL	significance	IP-10
+PMC2892953	results section	22964	22969	PVAL	significance	MCP-1
+PMC2892953	results section	23053	23062	T000996079	trait	cytokines
+PMC2892953	results section	23064	23070	D016178	trait	GM-CSF
+PMC2892953	results section	23072	23080	D053762	trait	IL-12p40
+PMC2892953	results section	23215	23224	T000996079	trait	cytokines
+PMC2892953	results section	23234	23238	D001415	trait	back
+PMC2892953	results section	23275	23284	T040578	trait	treatment
+PMC2892953	results section	23324	23329	D016753	trait	IL-10
+PMC2892953	results section	23334	23339	D016179	trait	G-CSF
+PMC2892953	results section	23443	23448	D016753	trait	IL-10
+PMC2892953	results section	23494	23503	T040578	trait	treatment
+PMC2892953	results section	23520	23525	D016179	trait	G-CSF
+PMC2892953	results section	23594	23603	T040578	trait	treatment
+PMC2892953	results section	23736	23744	T000996079	trait	cytokine
+PMC2892953	results section	23749	23758	D018925	trait	chemokine
+PMC2892953	results section	23869	23884	T033997	trait	tyrosine kinase
+PMC2892953	results section	23904	23912	D000068877	trait	imatinib
+PMC2892953	results section	23916	23925	D000069439	trait	dasatinib
+PMC2892953	results section	23937	23946	D000077156	trait	gefitinib
+PMC2892953	results section	23954	23976	D055752	trait	small cell lung cancer
+PMC2892953	results section	24007	24022	D017354	trait	point mutations
+PMC2892953	results section	24030	24036	T031819	trait	kinase
+PMC2892953	results section	24278	24293	D017354	trait	point mutations
+PMC2892953	results section	24306	24312	T031819	trait	kinase
+PMC2892953	results section	24473	24479	T008700	trait	clones
+PMC2892953	results section	24649	24655	T008700	trait	clones
+PMC2892953	results section	24698	24713	D017354	trait	point mutations
+PMC2892953	results section	24810	24816	D013154	trait	spleen
+PMC2892953	results section	24851	24860	T040578	trait	treatment
+PMC2892953	results section	24896	24906	T019338	trait	hematocrit
+PMC2892953	results section	24982	24988	T008700	trait	clones
+PMC2892953	results section	25069	25076	D017293	trait	protein
+PMC2892953	results section	25555	25561	T008700	trait	clones
+PMC2892953	results section	25584	25590	T008700	trait	clones
+PMC2892953	results section	25684	25690	T008700	trait	clones
+PMC2892953	results section	25803	25809	T008700	trait	clones
+PMC2892953	results section	25992	25999	D017293	trait	protein
+PMC2892953	results section	26029	26034	T008700	trait	clone
+PMC2882923	document title	10	23	D013925	trait	tissue factor
+PMC2882923	document title	85	95	T000913539	trait	factor VII
+PMC2882923	document title	105	116	D000077362	trait	verteporfin
+PMC2882923	document title	117	137	T031836	trait	photodynamic therapy
+PMC2882923	document title	142	155	T005541	trait	breast cancer
+PMC2882923	results section	21748	21756	D000077362	trait	visudyne
+PMC2882923	results section	21901	21904	D004396	trait	dye
+PMC2882923	results section	21920	21928	D000077362	trait	visudyne
+PMC2882923	results section	21977	21985	D000077362	trait	visudyne
+PMC2882923	results section	22090	22100	T012877	trait	separation
+PMC2882923	results section	22109	22112	D004396	trait	dye
+PMC2882923	results section	22133	22136	D004396	trait	dye
+PMC2882923	results section	22244	22260	D008970	trait	molecular weight
+PMC2882923	results section	22418	22427	T012876	trait	separated
+PMC2882923	results section	22455	22458	D004396	trait	dye
+PMC2882923	results section	22499	22507	D012996	trait	solution
+PMC2882923	results section	22594	22601	D017293	trait	protein
+PMC2882923	results section	22626	22629	D004396	trait	dye
+PMC2882923	results section	22909	22916	D017293	trait	protein
+PMC2882923	results section	22969	22972	D004396	trait	dye
+PMC2882923	results section	23150	23159	T012876	trait	separated
+PMC2882923	results section	23184	23189	D008963	trait	molar
+PMC2882923	results section	23211	23218	D017293	trait	protein
+PMC2882923	results section	23480	23493	T005541	trait	breast cancer
+PMC2882923	results section	23512	23521	PVAL	significance	P = 0.096
+PMC2882923	results section	23595	23598	D004396	trait	dye
+PMC2882923	results section	23651	23657	D009369	trait	cancer
+PMC2882923	results section	23701	23714	T005541	trait	breast cancer
+PMC2882923	results section	23737	23750	T005541	trait	breast cancer
+PMC2882923	results section	23862	23871	D002460	trait	cell line
+PMC2882923	results section	24072	24078	D007668	trait	kidney
+PMC2882923	results section	24083	24092	D002460	trait	cell line
+PMC2882923	results section	24225	24229	T087210	trait	VEGF
+PMC2882923	results section	24421	24434	T005541	trait	breast cancer
+PMC2882923	results section	24463	24471	D008545	trait	melanoma
+PMC2882923	results section	24472	24477	D009369	trait	tumor
+PMC2882923	results section	24478	24488	T839606	trait	xenografts
+PMC2882923	results section	24679	24692	T005541	trait	breast cancer
+PMC2882923	results section	24846	24850	D004364	trait	drug
+PMC2882923	results section	25107	25116	D002460	trait	cell line
+PMC2882923	results section	25207	25216	PVAL	significance	P < 0.001
+PMC2882923	results section	25389	25398	D002460	trait	cell line
+PMC2882923	results section	25602	25610	PVAL	significance	P < 0.05
+PMC2882923	results section	25782	25787	T023410	trait	laser
+PMC2882923	results section	25827	25833	D009369	trait	cancer
+PMC2882923	results section	26156	26160	T087210	trait	VEGF
+PMC2882923	results section	26206	26219	D036341	trait	growth factor
+PMC2882923	results section	26307	26311	T087210	trait	VEGF
+PMC2882923	results section	26323	26334	D061307	trait	HUVEC cells
+PMC2882923	results section	26402	26427	T028021	trait	pathological angiogenesis
+PMC2882923	results section	26463	26474	D061307	trait	HUVEC cells
+PMC2882923	results section	26499	26508	PVAL	significance	P < 0.001
+PMC2882923	results section	26544	26548	T087210	trait	VEGF
+PMC2882923	results section	26757	26761	T087210	trait	VEGF
+PMC2882923	results section	26794	26805	D061307	trait	HUVEC cells
+PMC2882923	results section	26867	26871	T087210	trait	VEGF
+PMC2882923	results section	27115	27125	D002460	trait	cell lines
+PMC2882923	results section	27167	27178	D061307	trait	HUVEC cells
+PMC2882923	results section	27507	27520	T005541	trait	breast cancer
+PMC2882923	results section	27521	27531	D002460	trait	cell lines
+PMC2882923	results section	27628	27641	T005541	trait	breast cancer
+PMC2882923	results section	27931	27936	T023410	trait	laser
+PMC2882923	results section	28066	28071	T023410	trait	laser
+PMC2882923	results section	28532	28545	D002470	trait	cell survival
+PMC2882923	results section	28796	28805	D017209	trait	apoptosis
+PMC2882923	results section	28854	28860	D009369	trait	cancer
+PMC2882923	results section	28934	28943	D017209	trait	apoptosis
+PMC2882923	results section	29019	29029	PVAL	significance	P < 0.0001
+PMC2882923	results section	29128	29146	T000996404	trait	therapeutic effect
+PMC2882923	results section	29205	29215	PVAL	significance	P < 0.0001
+PMC2882923	results section	29222	29229	D020169	trait	Caspase
+PMC2882923	results section	29542	29548	D006128	trait	growth
+PMC2882923	results section	29559	29572	T005541	trait	breast cancer
+PMC2882923	results section	29582	29590	PVAL	significance	P < 0.01
+PMC2882923	results section	29749	29758	PVAL	significance	P = 0.979
+PMC2882923	results section	29887	29906	D045506	trait	therapeutic effects
+PMC2882923	results section	29932	29941	PVAL	significance	P < 0.001
+PMC2882923	results section	30122	30131	PVAL	significance	P = 0.744
+PMC2882923	results section	30283	30294	T040577	trait	therapeutic
+PMC2882923	results section	30723	30733	D009362	trait	metastases
+PMC2882923	results section	30844	30851	D013154	trait	spleens
+PMC2882923	results section	30870	30875	D008099	trait	liver
+PMC2882923	results section	30891	30901	D009362	trait	metastases
+PMC2882923	results section	30956	30963	D013154	trait	spleens
+PMC2882923	results section	31022	31032	D009362	trait	metastases
+PMC2882923	results section	31094	31103	T040578	trait	treatment
+PMC2882923	results section	31304	31309	T023410	trait	laser
+PMC2882923	results section	31469	31481	T005291	trait	body weights
+PMC2882923	results section	31617	31626	T040578	trait	treatment
+PMC2842125	document title	2	16	D012459	trait	salicylic acid
+PMC2842125	document title	99	106	D017293	trait	protein
+PMC2842125	document title	107	115	D014443	trait	tyrosine
+PMC2818631	document title	41	58	T364921	trait	pancreatic cancer
+PMC2818631	results section	17650	17659	D000077341	trait	lapatinib
+PMC2818631	results section	17664	17673	M0350388	trait	erlotinib
+PMC2818631	results section	17693	17708	T033997	trait	tyrosine kinase
+PMC2818631	results section	17735	17739	D000362	trait	agar
+PMC2818631	results section	17740	17746	D006128	trait	growth
+PMC2818631	results section	17758	17775	T364921	trait	pancreatic cancer
+PMC2818631	results section	17857	17864	D009369	trait	cancers
+PMC2818631	results section	17876	17914	T000999115	trait	head and neck squamous cell carcinomas
+PMC2818631	results section	17916	17921	T000999114	trait	HNSCC
+PMC2818631	results section	17927	17940	T005541	trait	breast cancer
+PMC2818631	results section	18020	18037	T364921	trait	pancreatic cancer
+PMC2818631	results section	18304	18321	T364921	trait	pancreatic cancer
+PMC2818631	results section	18322	18332	D002460	trait	cell lines
+PMC2818631	results section	18571	18577	T031819	trait	kinase
+PMC2818631	results section	18696	18700	D012333	trait	mRNA
+PMC2818631	results section	18735	18745	D002460	trait	cell lines
+PMC2818631	results section	18750	18760	D002460	trait	cell lines
+PMC2818631	results section	18846	18855	M0350388	trait	erlotinib
+PMC2818631	results section	18860	18869	D000077341	trait	lapatinib
+PMC2818631	results section	18910	18919	D000077341	trait	lapatinib
+PMC2818631	results section	18942	18948	D006128	trait	growth
+PMC2818631	results section	18981	18990	M0350388	trait	erlotinib
+PMC2818631	results section	19017	19027	D002460	trait	cell lines
+PMC2818631	results section	19029	19039	PVAL	significance	p = 0.0008
+PMC2818631	results section	19112	19116	D012333	trait	mRNA
+PMC2818631	results section	19126	19136	D002460	trait	cell lines
+PMC2818631	results section	19233	19239	D006128	trait	growth
+PMC2818631	results section	19254	19263	D000077341	trait	lapatinib
+PMC2818631	results section	19268	19277	M0350388	trait	erlotinib
+PMC2818631	results section	19306	19315	D000077341	trait	lapatinib
+PMC2818631	results section	19323	19329	D008024	trait	ligand
+PMC2818631	results section	19622	19631	D000077341	trait	lapatinib
+PMC2818631	results section	19696	19706	D002460	trait	cell lines
+PMC2818631	results section	19760	19766	D008024	trait	ligand
+PMC2818631	results section	19801	19810	D000077341	trait	lapatinib
+PMC2818631	results section	19825	19835	D002460	trait	cell lines
+PMC2818631	results section	19869	19878	D000077341	trait	lapatinib
+PMC2818631	results section	19900	19917	T364921	trait	pancreatic cancer
+PMC2818631	results section	20019	20028	D000077341	trait	lapatinib
+PMC2818631	results section	20142	20146	D004364	trait	drug
+PMC2818631	results section	20147	20156	T040578	trait	treatment
+PMC2818631	results section	20193	20203	D002453	trait	cell cycle
+PMC2818631	results section	20235	20245	D002460	trait	cell lines
+PMC2818631	results section	20295	20304	D000077341	trait	lapatinib
+PMC2818631	results section	20308	20312	T012521	trait	DMSO
+PMC2818631	results section	20411	20420	D000077341	trait	lapatinib
+PMC2818631	results section	20550	20560	D002453	trait	cell cycle
+PMC2818631	results section	20597	20606	D000077341	trait	lapatinib
+PMC2818631	results section	20687	20696	D000077341	trait	Lapatinib
+PMC2818631	results section	20962	20971	D002945	trait	cisplatin
+PMC2818631	results section	21037	21046	T034903	trait	radiation
+PMC2818631	results section	21129	21139	D002460	trait	cell lines
+PMC2818631	results section	21394	21412	T364921	trait	pancreatic cancers
+PMC2818631	results section	21555	21564	D000077341	trait	lapatinib
+PMC2818631	results section	21782	21791	D000077341	trait	lapatinib
+PMC2818631	results section	21848	21851	T361674	trait	MEK
+PMC2818631	results section	21852	21864	T787747	trait	ERK pathways
+PMC2818631	results section	21996	22005	D000077341	trait	lapatinib
+PMC2818631	results section	22072	22081	D000077341	trait	lapatinib
+PMC2818631	results section	22174	22183	D000077341	trait	lapatinib
+PMC2818631	results section	22465	22474	D000077341	trait	lapatinib
+PMC2818631	results section	22537	22546	D000077341	trait	lapatinib
+PMC2818631	results section	22736	22745	D000077341	trait	lapatinib
+PMC2818631	results section	22892	22909	T364921	trait	pancreatic cancer
+PMC2818631	results section	22929	22938	D000077341	trait	lapatinib
+PMC2818631	results section	23088	23097	D000077341	trait	lapatinib
+PMC2818631	results section	23189	23198	D000077341	trait	lapatinib
+PMC2818631	results section	23372	23382	D002460	trait	cell lines
+PMC2818631	results section	23518	23527	D000077341	trait	lapatinib
+PMC2818631	results section	23678	23681	T361674	trait	MEK
+PMC2818631	results section	23757	23760	T361674	trait	MEK
+PMC2818631	results section	23802	23819	T364921	trait	pancreatic cancer
+PMC2818631	results section	23864	23867	T361674	trait	MEK
+PMC2818631	results section	23888	23901	T005541	trait	breast cancer
+PMC2818631	results section	23987	24004	T364921	trait	pancreatic cancer
+PMC2818631	results section	24005	24015	D002460	trait	cell lines
+PMC2818631	results section	24019	24028	T034903	trait	radiation
+PMC2818631	results section	24037	24047	T050671	trait	cell death
+PMC2818631	results section	24088	24103	D010766	trait	phosphorylation
+PMC2818631	results section	24111	24121	D002460	trait	cell lines
+PMC2818631	results section	24174	24177	T361674	trait	MEK
+PMC2818631	results section	24227	24244	T364921	trait	pancreatic cancer
+PMC2818631	results section	24245	24255	D002460	trait	cell lines
+PMC2818631	results section	24333	24343	D002460	trait	cell lines
+PMC2818631	results section	24365	24374	T040578	trait	treatment
+PMC2818631	results section	24498	24507	T034903	trait	radiation
+PMC2818631	results section	24531	24540	T040578	trait	treatment
+PMC2818631	results section	24837	24860	D017320	trait	HIV protease inhibitors
+PMC2818631	results section	24871	24881	D019888	trait	nelfinavir
+PMC2818631	results section	24954	24959	T000999114	trait	HNSCC
+PMC2818631	results section	24961	24967	T005532	trait	breast
+PMC2818631	results section	24969	24973	D008168	trait	lung
+PMC2818631	results section	24985	25001	D045744	trait	tumor cell lines
+PMC2818631	results section	25177	25187	D019888	trait	nelfinavir
+PMC2818631	results section	25209	25226	T364921	trait	pancreatic cancer
+PMC2818631	results section	25285	25295	D019888	trait	nelfinavir
+PMC2818631	results section	25460	25470	D002453	trait	cell cycle
+PMC2818631	results section	25658	25668	D019888	trait	nelfinavir
+PMC2818631	results section	25672	25681	T034903	trait	radiation
+PMC2818631	results section	25729	25739	D019888	trait	nelfinavir
+PMC2818631	results section	25994	26004	D019888	trait	nelfinavir
+PMC2818631	results section	26009	26018	T040578	trait	treatment
+PMC2818631	results section	26111	26120	T040578	trait	treatment
+PMC2818631	results section	26154	26164	D019888	trait	nelfinavir
+PMC2818631	results section	26165	26174	T040578	trait	treatment
+PMC2818631	results section	26183	26189	D006128	trait	growth
+PMC2818631	results section	26260	26270	D019888	trait	nelfinavir
+PMC2818631	results section	26399	26409	D002460	trait	cell lines
+PMC2818631	results section	26466	26476	D019888	trait	nelfinavir
+PMC2818631	results section	26503	26512	T839606	trait	xenograft
+PMC2818631	results section	26589	26595	D009369	trait	tumors
+PMC2818631	results section	26637	26647	D019888	trait	nelfinavir
+PMC2818631	results section	26790	26796	D009369	trait	tumors
+PMC2818631	results section	26850	26860	D019888	trait	nelfinavir
+PMC2818631	results section	26960	26965	D009369	trait	tumor
+PMC2818631	results section	27155	27160	D009369	trait	tumor
+PMC2818631	results section	27161	27167	D006128	trait	growth
+PMC2818631	results section	27193	27202	T040578	trait	treatment
+PMC2818631	results section	27270	27280	D019888	trait	nelfinavir
+PMC2818631	results section	27282	27291	T034903	trait	radiation
+PMC2818631	results section	27296	27306	D019888	trait	nelfinavir
+PMC2818631	results section	27312	27321	T034903	trait	radiation
+PMC2818631	results section	27353	27362	T034903	trait	radiation
+PMC2818631	results section	27454	27459	D009369	trait	Tumor
+PMC2818631	results section	27460	27466	D006128	trait	growth
+PMC2818631	results section	27477	27486	T040578	trait	treatment
+PMC2818631	results section	27533	27543	D019888	trait	nelfinavir
+PMC2818631	results section	27548	27557	T034903	trait	radiation
+PMC2818631	results section	27575	27584	T040578	trait	treatment
+PMC2818631	results section	27601	27609	PVAL	significance	p<0.0001
+PMC2818631	results section	27651	27660	T034903	trait	radiation
+PMC2818631	results section	27665	27675	D019888	trait	nelfinavir
+PMC2818631	results section	27833	27838	D009369	trait	tumor
+PMC2818631	results section	27877	27887	T040578	trait	treatments
+PMC2818631	results section	27963	27972	T034903	trait	radiation
+PMC2818631	results section	27977	27987	D019888	trait	nelfinavir
+PMC2818631	results section	28026	28031	D009369	trait	tumor
+PMC2818631	results section	28056	28065	T040578	trait	treatment
+PMC2818631	results section	28095	28101	D006128	trait	growth
+PMC2818631	results section	28144	28149	D009369	trait	tumor
+PMC2818631	results section	28165	28175	D019888	trait	nelfinavir
+PMC2818631	results section	28181	28200	D011878	trait	radiation treatment
+PMC2818631	results section	28299	28308	T034903	trait	radiation
+PMC2818631	results section	28313	28323	D019888	trait	nelfinavir
+PMC2818631	results section	28439	28448	T034903	trait	radiation
+PMC2818631	results section	28490	28495	D004364	trait	drugs
+PMC2818631	results section	28504	28514	D019888	trait	nelfinavir
+PMC2912428	document title	28	34	D001710	trait	Biotin
+PMC2912428	document title	46	54	M0011227	trait	Reagents
+PMC2912428	document title	82	101	D000911	trait	Monoclonal Antibody
+PMC2912428	document title	134	146	D019809	trait	Streptavidin
+PMC2912428	results section	40972	40978	D001710	trait	biotin
+PMC2912428	results section	41021	41027	D006018	trait	glycol
+PMC2912428	results section	41183	41189	D001710	trait	biotin
+PMC2912428	results section	41343	41346	D010261	trait	EDC
+PMC2912428	results section	41413	41418	D004952	trait	ester
+PMC2912428	results section	41664	41670	D000588	trait	amines
+PMC2912428	results section	41711	41716	D004952	trait	ester
+PMC2912428	results section	41724	41730	D001710	trait	biotin
+PMC2912428	results section	41731	41740	T003668	trait	aspartate
+PMC2912428	results section	41776	41782	D001710	trait	biotin
+PMC2912428	results section	41856	41862	D001710	trait	biotin
+PMC2912428	results section	41970	41979	T003668	trait	aspartate
+PMC2912428	results section	42016	42022	D004952	trait	esters
+PMC2912428	results section	42030	42036	D001710	trait	biotin
+PMC2912428	results section	42090	42100	T001008584	trait	isocyanate
+PMC2912428	results section	42328	42334	D006018	trait	glycol
+PMC2912428	results section	42348	42352	D001132	trait	arms
+PMC2912428	results section	42553	42567	M0017763	trait	propionic acid
+PMC2912428	results section	42617	42622	D004952	trait	ester
+PMC2912428	results section	42676	42692	D014269	trait	trifluoroacetate
+PMC2912428	results section	42872	42885	D006865	trait	hydrogenation
+PMC2912428	results section	42897	42903	D009532	trait	Nickel
+PMC2912428	results section	42990	42995	D000588	trait	amine
+PMC2912428	results section	43084	43095	T040253	trait	temperature
+PMC2912428	results section	43159	43170	D010797	trait	phthalimide
+PMC2912428	results section	43194	43203	D006834	trait	hydrazine
+PMC2912428	results section	43207	43214	D000431	trait	ethanol
+PMC2912428	results section	43309	43318	D005690	trait	galactose
+PMC2912428	results section	43428	43435	D001966	trait	bromine
+PMC2912428	results section	43453	43464	D005690	trait	D-galactose
+PMC2912428	results section	43485	43493	D013890	trait	thiourea
+PMC2912428	results section	43507	43514	D000096	trait	acetone
+PMC2912428	results section	43625	43632	D000096	trait	acetone
+PMC2912428	results section	43633	43638	D014867	trait	water
+PMC2912428	results section	43671	43680	D005690	trait	galactose
+PMC2912428	results section	43753	43758	D004952	trait	ester
+PMC2912428	results section	44009	44015	D001710	trait	biotin
+PMC2912428	results section	44204	44210	D004952	trait	esters
+PMC2912428	results section	44266	44286	D014269	trait	trifluoroacetic acid
+PMC2912428	results section	44369	44378	D005690	trait	galactose
+PMC2912428	results section	44513	44525	D007474	trait	ion exchange
+PMC2912428	results section	44644	44650	D001710	trait	biotin
+PMC2912428	results section	44750	44756	D001710	trait	biotin
+PMC2912428	results section	44839	44846	D000814	trait	aniline
+PMC2912428	results section	44971	44985	D017879	trait	isothiocyanate
+PMC2912428	results section	45122	45129	D000814	trait	aniline
+PMC2912428	results section	45178	45186	D011725	trait	pyridine
+PMC2912428	results section	45263	45269	D004952	trait	esters
+PMC2912428	results section	45329	45335	D001710	trait	biotin
+PMC2912428	results section	45445	45452	D017293	trait	protein
+PMC2912428	results section	45501	45511	D002700	trait	chloramine
+PMC2912428	results section	45521	45528	T000997673	trait	oxidant
+PMC2912428	results section	45570	45576	D001710	trait	biotin
+PMC2912428	results section	45752	45758	D001360	trait	avidin
+PMC2912428	results section	46422	46428	D001360	trait	avidin
+PMC2912428	results section	46688	46696	M0000984	trait	ammonium
+PMC2912428	results section	46697	46704	D000085	trait	acetate
+PMC2912428	results section	46705	46711	T001005736	trait	buffer
+PMC2912428	results section	46715	46717	D006863	trait	pH
+PMC2912428	results section	46748	46759	T040253	trait	temperature
+PMC2912428	results section	46898	46905	D017293	trait	protein
+PMC2912428	results section	47432	47439	PVAL	significance	group 1
+PMC2912428	results section	47630	47636	D001710	trait	biotin
+PMC2912428	results section	47650	47657	M0011227	trait	reagent
+PMC2912428	results section	47752	47759	PVAL	significance	group 3
+PMC2912428	results section	47909	47916	PVAL	significance	group 2
+PMC2912428	results section	48005	48012	D017293	trait	protein
+PMC2912428	results section	48343	48348	D009369	trait	tumor
+PMC2912428	results section	48349	48359	T839606	trait	xenografts
+PMC2912428	results section	48390	48396	D001710	trait	biotin
+PMC2912428	results section	48458	48464	D001710	trait	biotin
+PMC2912428	results section	48475	48480	D004032	trait	diets
+PMC2912428	results section	48558	48563	D009369	trait	tumor
+PMC2912428	results section	48677	48683	D001710	trait	biotin
+PMC2912428	results section	48694	48699	D004032	trait	diets
+PMC2912428	results section	48712	48717	D004032	trait	diets
+PMC2912428	results section	48944	48952	D008223	trait	lymphoma
+PMC2912428	results section	48953	48963	T839606	trait	xenografts
+PMC2912428	results section	49053	49059	D001710	trait	biotin
+PMC2912428	results section	49102	49109	PVAL	significance	Group 1
+PMC2912428	results section	49120	49126	D001710	trait	biotin
+PMC2912428	results section	49137	49141	D004032	trait	diet
+PMC2912428	results section	49183	49188	D004032	trait	diets
+PMC2912428	results section	49226	49233	D017293	trait	protein
+PMC2912428	results section	49637	49642	D009369	trait	tumor
+PMC2912428	results section	49643	49653	T839606	trait	xenografts
+PMC2912428	results section	49922	49928	D007668	trait	kidney
+PMC2912428	results section	50149	50155	D001710	trait	biotin
+PMC2912428	results section	50168	50173	D009369	trait	tumor
+PMC2912428	results section	50205	50211	D001710	trait	biotin
+PMC2912428	results section	50243	50248	D009369	trait	tumor
+PMC2912428	results section	50320	50327	D017293	trait	protein
+PMC2912428	results section	50399	50405	D001710	trait	biotin
+PMC2912428	results section	50487	50492	D009369	trait	tumor
+PMC2912428	results section	50576	50582	D001710	trait	biotin
+PMC2912428	results section	50588	50593	D004032	trait	diets
+PMC2912428	results section	50595	50602	PVAL	significance	group 1
+PMC2912428	results section	50638	50643	D004032	trait	diets
+PMC2912428	results section	50645	50652	PVAL	significance	group 2
+PMC2912428	results section	50689	50694	D009369	trait	tumor
+PMC2912428	results section	50758	50763	D009369	trait	tumor
+PMC2912428	results section	50907	50920	D011851	trait	radioactivity
+PMC2912428	results section	50924	50929	D009369	trait	tumor
+PMC2912428	results section	50930	50940	T839606	trait	xenografts
+PMC2912428	results section	51113	51117	D004032	trait	diet
+PMC2912428	results section	51151	51164	D011851	trait	radioactivity
+PMC2912428	results section	51222	51227	D009369	trait	tumor
+PMC2912428	results section	51228	51238	T839606	trait	xenografts
+PMC2912428	results section	51300	51306	D001710	trait	biotin
+PMC2912428	results section	51321	51327	D001710	trait	biotin
+PMC2912428	results section	51550	51555	D008099	trait	liver
+PMC2912428	results section	51943	51950	D017293	trait	protein
+PMC2912428	results section	51963	51968	D008099	trait	liver
+PMC2912428	results section	52215	52222	D017293	trait	protein
+PMC2907921	document title	0	5	D000894	trait	NSAID
+PMC2907921	document title	6	14	D013467	trait	Sulindac
+PMC2907921	results section	6228	6236	D017308	trait	Etodolac
+PMC2907921	results section	6277	6286	D017209	trait	apoptosis
+PMC2907921	results section	6290	6296	D009369	trait	cancer
+PMC2907921	results section	6390	6396	D000894	trait	NSAIDs
+PMC2907921	results section	6415	6422	D008024	trait	ligands
+PMC2907921	results section	6438	6446	D013467	trait	Sulindac
+PMC2907921	results section	6496	6500	T059915	trait	IC50
+PMC2907921	results section	6572	6581	D017209	trait	apoptosis
+PMC2907921	results section	6668	6676	D013467	trait	Sulindac
+PMC2907921	results section	6685	6692	D017293	trait	protein
+PMC2907921	results section	6707	6724	T054336	trait	nuclear receptors
+PMC2907921	results section	6848	6854	D008024	trait	ligand
+PMC2907921	results section	6901	6908	D017293	trait	protein
+PMC2907921	results section	6912	6924	D002918	trait	chymotrypsin
+PMC2907921	results section	6925	6934	D004063	trait	digestion
+PMC2907921	results section	6938	6946	D013467	trait	Sulindac
+PMC2907921	results section	6990	6999	T487119	trait	advantage
+PMC2907921	results section	7019	7027	D005461	trait	fluorine
+PMC2907921	results section	7036	7044	D013467	trait	Sulindac
+PMC2907921	results section	7153	7161	D005461	trait	fluorine
+PMC2907921	results section	7174	7182	D013467	trait	Sulindac
+PMC2907921	results section	7236	7243	D017293	trait	protein
+PMC2907921	results section	7290	7298	D013467	trait	Sulindac
+PMC2907921	results section	7317	7332	D015533	trait	transactivation
+PMC2907921	results section	7459	7467	D013467	trait	Sulindac
+PMC2907921	results section	7478	7493	D015533	trait	transactivation
+PMC2907921	results section	7567	7575	D013467	trait	Sulindac
+PMC2907921	results section	7584	7593	D017209	trait	apoptosis
+PMC2907921	results section	7676	7684	D013467	trait	Sulindac
+PMC2907921	results section	7703	7712	D017209	trait	apoptosis
+PMC2907921	results section	7818	7826	D013467	trait	Sulindac
+PMC2907921	results section	8021	8029	D013467	trait	Sulindac
+PMC2907921	results section	8176	8182	D008024	trait	ligand
+PMC2907921	results section	8309	8315	D008024	trait	ligand
+PMC2907921	results section	8349	8364	D015533	trait	transactivation
+PMC2907921	results section	8419	8427	D013467	trait	Sulindac
+PMC2907921	results section	8467	8475	D013467	trait	Sulindac
+PMC2907921	results section	8484	8493	D017209	trait	apoptosis
+PMC2907921	results section	8616	8624	D013467	trait	Sulindac
+PMC2907921	results section	8716	8724	D013467	trait	Sulindac
+PMC2907921	results section	8726	8734	D013467	trait	Sulindac
+PMC2907921	results section	8776	8785	D017209	trait	apoptosis
+PMC2907921	results section	8808	8820	D003110	trait	colon cancer
+PMC2907921	results section	8836	8848	D045325	trait	HCT116 cells
+PMC2907921	results section	8885	8897	D045325	trait	HCT116 cells
+PMC2907921	results section	8960	8968	D013467	trait	Sulindac
+PMC2907921	results section	8977	8986	D017209	trait	apoptosis
+PMC2907921	results section	9090	9102	D008928	trait	mitochondria
+PMC2907921	results section	9118	9126	D013467	trait	Sulindac
+PMC2907921	results section	9156	9161	D034741	trait	siRNA
+PMC2907921	results section	9331	9339	D013467	trait	Sulindac
+PMC2907921	results section	9424	9429	D034741	trait	siRNA
+PMC2907921	results section	9524	9533	T050798	trait	mediating
+PMC2907921	results section	9558	9566	D013467	trait	Sulindac
+PMC2907921	results section	9607	9613	T031819	trait	kinase
+PMC2907921	results section	9669	9679	T000940753	trait	biological
+PMC2907921	results section	9766	9774	D013467	trait	Sulindac
+PMC2907921	results section	9841	9849	D013467	trait	Sulindac
+PMC2907921	results section	9905	9911	D009369	trait	cancer
+PMC2907921	results section	9912	9922	D002460	trait	cell lines
+PMC2907921	results section	9936	9948	T041487	trait	Transfection
+PMC2907921	results section	9957	9962	D034741	trait	siRNA
+PMC2907921	results section	10038	10046	D013467	trait	Sulindac
+PMC2907921	results section	10077	10085	D013467	trait	Sulindac
+PMC2907921	results section	10139	10147	D013467	trait	Sulindac
+PMC2907921	results section	10192	10215	D066255	trait	epidermal growth factor
+PMC2907921	results section	10278	10291	T041630	trait	retinoic acid
+PMC2907921	results section	10550	10559	T040578	trait	Treatment
+PMC2907921	results section	10568	10579	M0012750	trait	lung cancer
+PMC2907921	results section	10658	10666	D013467	trait	Sulindac
+PMC2907921	results section	10680	10692	T041487	trait	Transfection
+PMC2907921	results section	10701	10706	D034741	trait	siRNA
+PMC2907921	results section	10941	10949	D013467	trait	Sulindac
+PMC2907921	results section	11003	11009	D009369	trait	cancer
+PMC2907921	results section	11064	11077	T005541	trait	breast cancer
+PMC2907921	results section	11086	11101	D011471	trait	prostate cancer
+PMC2907921	results section	11248	11254	D009369	trait	cancer
+PMC2907921	results section	11264	11272	D013467	trait	Sulindac
+PMC2907921	results section	11424	11437	T041630	trait	retinoic acid
+PMC2907921	results section	11747	11754	D017293	trait	protein
+PMC2907921	results section	11836	11842	D009369	trait	cancer
+PMC2907921	results section	12565	12573	D013467	trait	Sulindac
+PMC2907921	results section	12758	12770	T007154	trait	cell density
+PMC2907921	results section	13077	13084	D017293	trait	protein
+PMC2907921	results section	13145	13157	T007154	trait	cell density
+PMC2907921	results section	13381	13389	M0355509	trait	staining
+PMC2907921	results section	13411	13420	D003593	trait	cytoplasm
+PMC2907921	results section	13445	13460	T007172	trait	plasma membrane
+PMC2907921	results section	13897	13907	T000940753	trait	biological
+PMC2907921	results section	13976	13986	D006367	trait	HeLa cells
+PMC2907921	results section	14057	14064	D017293	trait	protein
+PMC2907921	results section	14088	14098	D006367	trait	HeLa cells
+PMC2907921	results section	14123	14128	T008700	trait	clone
+PMC2907921	results section	14210	14214	D000362	trait	agar
+PMC2907921	results section	14228	14236	D013467	trait	Sulindac
+PMC2907921	results section	14284	14289	T008700	trait	clone
+PMC2907921	results section	14402	14408	D006128	trait	growth
+PMC2907921	results section	14425	14431	D009369	trait	cancer
+PMC2907921	results section	14522	14530	D013467	trait	Sulindac
+PMC2907921	results section	14615	14620	D009369	trait	tumor
+PMC2907921	results section	14695	14701	T005532	trait	breast
+PMC2907921	results section	14706	14718	D008113	trait	liver cancer
+PMC2907921	results section	14738	14743	D009369	trait	tumor
+PMC2907921	results section	14926	14931	D009369	trait	tumor
+PMC2907921	results section	14957	14964	D013961	trait	thyroid
+PMC2907921	results section	14965	14970	D009369	trait	tumor
+PMC2907921	results section	15100	15108	M0355509	trait	staining
+PMC2907921	results section	15112	15117	D008099	trait	liver
+PMC2907921	results section	15118	15123	D009369	trait	tumor
+PMC2907921	results section	15209	15214	D009369	trait	tumor
+PMC2907921	results section	15320	15326	D009369	trait	cancer
+PMC2907921	results section	15479	15490	D000596	trait	amino acids
+PMC2907921	results section	15509	15525	D008970	trait	molecular weight
+PMC2907921	results section	15900	15911	D000596	trait	amino acids
+PMC2907921	results section	16354	16363	D003593	trait	cytoplasm
+PMC2907921	results section	16390	16405	T007172	trait	plasma membrane
+PMC2907921	results section	16923	16932	T040578	trait	treatment
+PMC2907921	results section	17228	17240	D003110	trait	colon cancer
+PMC2907921	results section	17269	17275	T008700	trait	clones
+PMC2907921	results section	17394	17403	D019938	trait	cyclin D1
+PMC2907921	results section	17536	17542	D006128	trait	growth
+PMC2907921	results section	17546	17552	D009369	trait	cancer
+PMC2907921	results section	17715	17721	D009369	trait	tumors
+PMC2907921	results section	17936	17942	D009369	trait	cancer
+PMC2907921	results section	17948	17954	D006128	trait	growth
+PMC2907921	results section	18034	18042	D013467	trait	Sulindac
+PMC2907921	results section	18060	18069	D017209	trait	apoptosis
+PMC2907921	results section	18071	18080	T040578	trait	Treatment
+PMC2907921	results section	18092	18098	D009369	trait	cancer
+PMC2907921	results section	18099	18109	D002460	trait	cell lines
+PMC2907921	results section	18115	18123	D013467	trait	Sulindac
+PMC2907921	results section	18171	18180	D053181	trait	caspase-8
+PMC2907921	results section	18214	18223	D053181	trait	caspase-8
+PMC2907921	results section	18250	18259	T040578	trait	treatment
+PMC2907921	results section	18287	18295	D013467	trait	Sulindac
+PMC2907921	results section	18373	18381	D013467	trait	Sulindac
+PMC2907921	results section	18442	18448	D008024	trait	ligand
+PMC2907921	results section	18472	18484	T041487	trait	transfection
+PMC2907921	results section	18493	18498	D034741	trait	siRNA
+PMC2907921	results section	18591	18599	D013467	trait	Sulindac
+PMC2907921	results section	18615	18624	D053181	trait	caspase-8
+PMC2907921	results section	18640	18649	D017209	trait	apoptosis
+PMC2907921	results section	18780	18789	D053181	trait	caspase-8
+PMC2907921	results section	18819	18828	D053181	trait	Caspase-8
+PMC2907921	results section	18829	18834	D034741	trait	siRNA
+PMC2907921	results section	18863	18871	D013467	trait	Sulindac
+PMC2907921	results section	18933	18941	D013467	trait	Sulindac
+PMC2907921	results section	18955	18964	D017209	trait	apoptosis
+PMC2907921	results section	19037	19045	D013467	trait	Sulindac
+PMC2907921	results section	19211	19219	M0355509	trait	staining
+PMC2907921	results section	19281	19289	D013467	trait	Sulindac
+PMC2907921	results section	19521	19529	D013467	trait	Sulindac
+PMC2907921	results section	19559	19567	D013467	trait	Sulindac
+PMC2907921	results section	19658	19666	D013467	trait	Sulindac
+PMC2907921	results section	19708	19717	D017209	trait	apoptosis
+PMC2907921	results section	19816	19825	D017209	trait	apoptosis
+PMC2907921	results section	19835	19843	D013467	trait	Sulindac
+PMC2907921	results section	20048	20057	D017209	trait	apoptosis
+PMC2907921	results section	20076	20085	D053181	trait	caspase-8
+PMC2907921	results section	20097	20105	D013467	trait	Sulindac
+PMC2907921	results section	20187	20195	D013467	trait	Sulindac
+PMC2907921	results section	20205	20214	D017209	trait	apoptosis
+PMC2907921	results section	20430	20439	D053181	trait	caspase-8
+PMC2907921	results section	20474	20483	T040578	trait	Treatment
+PMC2907921	results section	20619	20627	D013467	trait	Sulindac
+PMC2907921	results section	20647	20655	D013467	trait	Sulindac
+PMC2907921	results section	20669	20678	D017209	trait	apoptosis
+PMC2907921	results section	20802	20810	D013467	trait	Sulindac
+PMC2907921	results section	20867	20875	D013467	trait	Sulindac
+PMC2907921	results section	20892	20898	D009369	trait	cancer
+PMC2907921	results section	20938	20946	D013467	trait	Sulindac
+PMC2907921	results section	21050	21058	D013467	trait	Sulindac
+PMC2907921	results section	21140	21148	D013467	trait	Sulindac
+PMC2907921	results section	21181	21189	D013467	trait	Sulindac
+PMC2907921	results section	21291	21298	D008024	trait	ligands
+PMC2907921	results section	21380	21387	D013440	trait	sulfide
+PMC2907921	results section	21399	21407	D013467	trait	Sulindac
+PMC2907921	results section	21480	21486	D045792	trait	ionone
+PMC2907921	results section	21612	21619	D017293	trait	protein
+PMC2907921	results section	21821	21829	D013467	trait	sulindac
+PMC2907921	results section	21830	21837	D011355	trait	prodrug
+PMC2907921	results section	21839	21847	D013467	trait	sulindac
+PMC2907921	results section	21848	21857	D013454	trait	sulfoxide
+PMC2907921	results section	21877	21885	D013467	trait	sulindac
+PMC2907921	results section	21886	21893	D013450	trait	sulfone
+PMC2907921	results section	21950	21958	D013467	trait	sulindac
+PMC2907921	results section	21959	21966	D013440	trait	sulfide
+PMC2907921	results section	22078	22086	D013467	trait	Sulindac
+PMC2907921	results section	22159	22166	D008024	trait	ligands
+PMC2907921	results section	23039	23055	D015232	trait	prostaglandin E2
+PMC2907921	results section	23057	23061	T044571	trait	PGE2
+PMC2907921	results section	23206	23214	D013467	trait	Sulindac
+PMC2907921	results section	23513	23521	D013467	trait	Sulindac
+PMC2907921	results section	23668	23677	D000078722	trait	PC3 cells
+PMC2907921	results section	23744	23749	D034741	trait	siRNA
+PMC2907921	results section	23963	23971	D013467	trait	Sulindac
+PMC2907921	results section	24022	24030	D013467	trait	Sulindac
+PMC2907921	results section	24127	24135	D013467	trait	Sulindac
+PMC2907921	results section	24209	24218	D053181	trait	caspase-8
+PMC2907921	results section	24459	24467	D013467	trait	Sulindac
+PMC2907921	results section	24475	24481	D006128	trait	growth
+PMC2907921	results section	24494	24499	D009369	trait	tumor
+PMC2907921	results section	24553	24561	D013467	trait	Sulindac
+PMC2907921	results section	24639	24645	D009369	trait	cancer
+PMC2907921	results section	24651	24657	D006128	trait	growth
+PMC2916062	document title	38	52	T365426	trait	Thyroid Cancer
+PMC2916062	document title	72	75	T361674	trait	MEK
+PMC2916062	results section	10107	10110	T361674	trait	MEK
+PMC2916062	results section	10167	10185	T580837	trait	cell proliferation
+PMC2916062	results section	10195	10209	T365426	trait	thyroid cancer
+PMC2916062	results section	10210	10220	D002460	trait	cell lines
+PMC2916062	results section	10313	10322	D002460	trait	cell line
+PMC2916062	results section	10497	10512	D010766	trait	phosphorylation
+PMC2916062	results section	10529	10538	T040578	trait	treatment
+PMC2916062	results section	10666	10675	T040578	trait	Treatment
+PMC2916062	results section	10725	10740	D010766	trait	phosphorylation
+PMC2916062	results section	11333	11337	T059915	trait	IC50
+PMC2916062	results section	11394	11397	T361674	trait	MEK
+PMC2916062	results section	11531	11535	T059915	trait	IC50
+PMC2916062	results section	11668	11682	T365426	trait	thyroid cancer
+PMC2916062	results section	11702	11705	T361674	trait	MEK
+PMC2916062	results section	11834	11848	T365426	trait	thyroid cancer
+PMC2916062	results section	11967	11981	T365426	trait	thyroid cancer
+PMC2916062	results section	12035	12038	T361674	trait	MEK
+PMC2916062	results section	12128	12142	T365426	trait	thyroid cancer
+PMC2916062	results section	12143	12153	D002460	trait	cell lines
+PMC2916062	results section	12554	12570	D004338	trait	drug combination
+PMC2916062	results section	12651	12666	D010766	trait	phosphorylation
+PMC2916062	results section	12736	12751	D010766	trait	phosphorylation
+PMC2916062	results section	12824	12839	D010766	trait	phosphorylation
+PMC2916062	results section	12904	12919	D010766	trait	phosphorylation
+PMC2916062	results section	12951	12961	D002460	trait	cell lines
+PMC2916062	results section	13196	13212	D004338	trait	drug combination
+PMC2916062	results section	13216	13234	T580837	trait	cell proliferation
+PMC2916062	results section	13519	13523	T059915	trait	IC50
+PMC2916062	results section	13841	13850	T040578	trait	treatment
+PMC2916062	results section	14885	14890	D004364	trait	drugs
+PMC2916062	results section	15039	15053	T365426	trait	thyroid cancer
+PMC2916062	results section	15054	15064	D002460	trait	cell lines
+PMC2916062	results section	15340	15344	T059915	trait	IC50
+PMC2916062	results section	15363	15368	D004364	trait	drugs
+PMC2916062	results section	15486	15500	T365426	trait	thyroid cancer
+PMC2916062	results section	15556	15565	D001343	trait	autophagy
+PMC2916062	results section	15590	15611	M000644348	trait	programmed cell death
+PMC2916062	results section	15674	15683	D001343	trait	autophagy
+PMC2916062	results section	15695	15701	D009369	trait	cancer
+PMC2916062	results section	15702	15712	D002460	trait	cell lines
+PMC2916062	results section	15804	15813	D001343	trait	autophagy
+PMC2916062	results section	15869	15883	T365426	trait	thyroid cancer
+PMC2916062	results section	15984	15993	D001343	trait	autophagy
+PMC2916062	results section	16087	16093	T031819	trait	kinase
+PMC2916062	results section	16152	16157	D004364	trait	drugs
+PMC2916062	results section	16181	16190	D001343	trait	autophagy
+PMC2916062	results section	16214	16223	D001343	trait	autophagy
+PMC2916062	results section	16313	16322	T040578	trait	treatment
+PMC2916062	results section	16351	16360	D001343	trait	autophagy
+PMC2916062	results section	16595	16601	D006128	trait	growth
+PMC2916062	results section	16605	16614	T839606	trait	xenograft
+PMC2916062	results section	16615	16621	D009369	trait	tumors
+PMC2916062	results section	16789	16798	T839606	trait	xenograft
+PMC2916062	results section	16799	16805	D006128	trait	growth
+PMC2916062	results section	17066	17075	T839606	trait	xenograft
+PMC2916062	results section	17076	17082	D009369	trait	tumors
+PMC2916062	results section	17097	17102	D009369	trait	tumor
+PMC2916062	results section	17103	17109	D006128	trait	growth
+PMC2916062	results section	17159	17168	T040578	trait	treatment
+PMC2916062	results section	17182	17187	D009369	trait	tumor
+PMC2916062	results section	17313	17322	PVAL	significance	p = 0.004
+PMC2916062	results section	17338	17349	PVAL	significance	group (0.96
+PMC2916062	results section	17362	17370	PVAL	significance	p = 0.03
+PMC2916062	results section	17384	17395	PVAL	significance	group (1.73
+PMC2916062	results section	17408	17416	PVAL	significance	p = 0.02
+PMC2916062	results section	17437	17442	D009369	trait	tumor
+PMC2916062	results section	17493	17502	T040578	trait	treatment
+PMC2916062	results section	17535	17540	D009369	trait	tumor
+PMC2916062	results section	17661	17670	PVAL	significance	p = 0.002
+PMC2916062	results section	17684	17695	PVAL	significance	group (1.81
+PMC2916062	results section	17706	17714	PVAL	significance	p = 0.02
+PMC2916062	results section	17787	17798	PVAL	significance	group (1.15
+PMC2916062	results section	17811	17819	PVAL	significance	p = 0.09
+PMC2837563	document title	115	121	D009369	trait	cancer
+PMC2837563	results section	17050	17063	D001224	trait	aspartic acid
+PMC2837563	results section	17304	17315	D018631	trait	Ras protein
+PMC2837563	results section	17435	17466	D020641	trait	single-nucleotide polymorphisms
+PMC2837563	results section	17468	17472	D020641	trait	SNPs
+PMC2837563	results section	17721	17724	D020641	trait	SNP
+PMC2837563	results section	17828	17831	D020641	trait	SNP
+PMC2837563	results section	17837	17841	T036182	trait	RFLP
+PMC2837563	results section	17879	17888	T025009	trait	screening
+PMC2837563	results section	17914	17922	D001065	trait	Appendix
+PMC2837563	results section	18220	18223	D020641	trait	SNP
+PMC2837563	results section	18267	18283	T411632	trait	allele frequency
+PMC2837563	results section	18302	18305	D020641	trait	SNP
+PMC2837563	results section	18325	18335	D000596	trait	amino acid
+PMC2837563	results section	18358	18369	D018631	trait	Ras protein
+PMC2837563	results section	18399	18409	D010641	trait	Phenotypes
+PMC2837563	results section	18625	18633	T531054	trait	plasmids
+PMC2837563	results section	18747	18754	T531054	trait	plasmid
+PMC2837563	results section	18875	18889	D005840	trait	crystal violet
+PMC2837563	results section	18921	18933	T041487	trait	transfection
+PMC2837563	results section	19333	19345	T041487	trait	transfection
+PMC2837563	results section	19742	19745	T018692	trait	GTP
+PMC2837563	results section	19867	19870	T018692	trait	GTP
+PMC2837563	results section	19907	19910	D006153	trait	GDP
+PMC2837563	results section	20182	20185	T018692	trait	GTP
+PMC2837563	results section	20262	20265	T018692	trait	GTP
+PMC2837563	results section	20330	20340	D010641	trait	phenotypes
+PMC2837563	results section	20489	20499	T047492	trait	clustering
+PMC2837563	results section	21137	21147	D018631	trait	Ras GTPase
+PMC2837563	results section	21234	21243	D010641	trait	phenotype
+PMC2837563	results section	21418	21427	D010641	trait	phenotype
+PMC2837563	results section	21554	21564	D010641	trait	phenotypes
+PMC2837563	results section	21708	21727	D015398	trait	signal transduction
+PMC2837563	results section	21729	21741	T010462	trait	cytoskeleton
+PMC2837563	results section	21758	21771	D002448	trait	cell adhesion
+PMC2837563	results section	21869	21879	T000940753	trait	biological
+PMC2837563	results section	22147	22157	T047492	trait	clustering
+PMC2837563	results section	22236	22251	D015870	trait	gene expression
+PMC2837563	results section	22431	22459	T050828	trait	protein tyrosine phosphatase
+PMC2837563	results section	22478	22503	D020690	trait	GTPase activating protein
+PMC2837563	results section	22635	22652	D054639	trait	MAPK phosphatases
+PMC2837563	results section	22759	22781	T000996524	trait	cell adhesion molecule
+PMC2837563	results section	22795	22826	D015849	trait	plasminogen activator inhibitor
+PMC2837563	results section	22958	22973	D015870	trait	gene expression
+PMC2837563	results section	23513	23531	T017427	trait	gene amplification
+PMC2837563	results section	24157	24175	T017427	trait	gene amplification
+PMC2837563	results section	24296	24305	D008677	trait	metaphase
+PMC2837563	results section	24573	24585	D005453	trait	fluorescence
+PMC2837563	results section	24592	24604	D005453	trait	fluorescence
+PMC2837563	results section	24686	24704	T017427	trait	gene amplification
+PMC2837563	results section	24710	24722	D005453	trait	fluorescence
+PMC2837563	results section	24729	24741	D005453	trait	fluorescence
+PMC2837563	results section	24883	24891	M0355509	trait	staining
+PMC2837563	results section	25092	25104	D004270	trait	circular DNA
