@@ -20,7 +20,7 @@ https://nerversetoolkit.shinyapps.io/normamedtoolbox/
 
 ```
 git clone https://github.com/gititub/NEN-NER-TOOLKIT.git
-cd NER-NEN-TOOLKIT
+cd NEN-NER-TOOLKIT
 ```
 Create a new environment with Conda. Supports Python 3.8, 3.9, and 3.10:
 ```
