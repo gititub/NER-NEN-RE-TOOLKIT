@@ -1,0 +1,1372 @@
+{
+  "src": "Auto-CORPus (full-text)",
+  "date": "20231109",
+  "key": "autocorpus_fulltext.key",
+  "infons": {},
+  "documents": [
+    {
+      "id": "PMC2837563",
+      "inputfile": "./html_files/PMC2837563.html",
+      "infons": {},
+      "passages": [
+        {
+          "offset": 0,
+          "infons": {
+            "iao_name_1": "document title",
+            "iao_id_1": "IAO:0000305"
+          },
+          "text": "Activating K-Ras mutations outwith ‘hotspot’ codons in sporadic colorectal tumours – implications for personalised cancer medicine",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 130,
+          "infons": {
+            "section_title_1": "keywords",
+            "iao_name_1": "keywords section",
+            "iao_id_1": "IAO:0000630"
+          },
+          "text": "K-Ras, mutation, colorectal tumour, gene amplification, personalised medicine",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 215,
+          "infons": {
+            "section_title_1": "Abstract",
+            "section_title_2": "Background: ",
+            "iao_name_1": "textual abstract section",
+            "iao_id_1": "IAO:0000315"
+          },
+          "text": "Response to EGFR-targeted therapies in colorectal cancer patients has been convincingly associated with Kirsten-Ras (K-Ras) mutation status. Current mandatory mutation testing for patient selection is limited to the K-Ras ‘hotspot’ codons 12 and 13.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 484,
+          "infons": {
+            "section_title_1": "Abstract",
+            "section_title_2": "Methods: ",
+            "iao_name_1": "textual abstract section",
+            "iao_id_1": "IAO:0000315"
+          },
+          "text": "Colorectal tumours (n=106) were screened for additional K-Ras mutations, phenotypes compared in transformation and Ras GTPase activating assays and gene and pathway changes induced by individual K-Ras mutants identified by microarray analysis. Taqman-based gene copy number and FISH analyses were used to investigate K-Ras gene amplification.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 835,
+          "infons": {
+            "section_title_1": "Abstract",
+            "section_title_2": "Results: ",
+            "iao_name_1": "textual abstract section",
+            "iao_id_1": "IAO:0000315"
+          },
+          "text": "Four additional K-Ras mutations (Leu19Phe (1 out of 106 tumours), Lys117Asn (1 out of 106), Ala146Thr (7 out of 106) and Arg164Gln (1 out of 106)) were identified. Lys117Asn and Ala146Thr had phenotypes similar to the hotspot mutations, whereas Leu19Phe had an attenuated phenotype and the Arg164Gln mutation was phenotypically equivalent to wt K-Ras. We additionally identified a new K-Ras gene amplification event, present in approximately 2% of tumours.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 1300,
+          "infons": {
+            "section_title_1": "Abstract",
+            "section_title_2": "Conclusions: ",
+            "iao_name_1": "textual abstract section",
+            "iao_id_1": "IAO:0000315"
+          },
+          "text": "The identification of mutations outwith previously described hotspot codons increases the K-Ras mutation burden in colorectal tumours by one-third. Future mutation screening to facilitate optimal patient selection for treatment with EGFR-targeted therapies should therefore be extended to codon 146, and in addition should consider the unique molecular signatures associated with individual K-Ras mutations.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 1720,
+          "infons": {
+            "section_title_1": "document part",
+            "iao_name_1": "document part",
+            "iao_id_1": "IAO:0000314"
+          },
+          "text": "Colorectal cancer accounts for approximately 15% of all cancers diagnosed annually in the United Kingdom, and is a major cause of death due to cancer, second only to lung and breast cancer (http://info.cancerresearchuk.org/cancerstats/incidence).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 1979,
+          "infons": {
+            "section_title_1": "document part",
+            "iao_name_1": "document part",
+            "iao_id_1": "IAO:0000314"
+          },
+          "text": "The majority of colorectal tumours arise from adenomatous polyps (adenomas), benign precursor lesions that develop from normal colonic mucosa. However, fewer than 10% of colorectal adenomas develop into invasive cancers and a number of molecular mechanisms including epigenetic events, DNA mismatch-repair defects, chromosomal rearrangements and mutations in key oncogenes and tumour suppressor genes have been suggested to regulate progression from adenoma to adenocarcinoma (de la Chapelle, 2004).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 2478,
+          "infons": {
+            "section_title_1": "document part",
+            "iao_name_1": "document part",
+            "iao_id_1": "IAO:0000314"
+          },
+          "text": "A genetic model for colorectal cancer highlighted key genes, including the tumour suppressor genes adenomatous polyposis coli (APC) and p53 and the oncogene Kirsten-Ras (K-Ras), the progressive acquisition of mutations in which was proposed to regulate the adenoma-carcinoma transition (Vogelstein et al, 1988). We subsequently refined this model (Smith et al, 2002), highlighting a significant increase in K-Ras mutation frequency in Dukes' C tumours, suggesting that K-Ras mutation status may be an important determinant of tumour progression. We additionally used comparative genomic hybridisation (CGH) analysis to identify common chromosomal aberrations in colorectal tumours, and highlighted an amplification of the region of chromosome 12p where the K-Ras gene is localised (Leslie et al, 2003). We and others have shown that K-Ras mutations are associated with significantly reduced survival in colorectal cancer patients (Andreyev et al, 2001; Conlin et al, 2005), although previous data is not entirely consistent (Etienne-Grimaldi et al, 2008; Winder et al, 2009). K-Ras mutation status has recently been convincingly associated with response to the new generation EGFR antagonists cetuximab (Erbitux) and panitumumab (Vectibix), where response is preferentially observed in wt K-Ras tumours (Lievre et al, 2006; Benvenuti et al, 2007; Khambata-Ford et al, 2007; Freeman et al, 2008; Karapetis et al, 2008; Ramos et al, 2008; Loupakis et al, 2009; Van Cutsem et al, 2009). K-Ras mutation testing is therefore increasingly recommended to facilitate selection of the most appropriate patients for treatment with EGFR antagonists (McNeill, 2008; van Krieken and Tol, 2009).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 4159,
+          "infons": {
+            "section_title_1": "document part",
+            "iao_name_1": "document part",
+            "iao_id_1": "IAO:0000314"
+          },
+          "text": "K-Ras is a member of the highly homologous family of small p21Ras G proteins (H-Ras, N-Ras and K-Ras) which transduce signals across the plasma membrane, principally by activation of the RAS–RAF–MEK–ERK–MAPK signalling cascade (Figure 1; (Barbacid, 1990)). Ras genes are the most frequently mutated oncogenes in human cancer, where tumour-specific mutations lead to the permanent activation of Ras signalling cascades, influencing proliferation, differentiation and apoptosis (Bos, 1989). Previous analyses of K-Ras mutations in human tumours have consistently focussed on single-point mutations in codons 12, 13 and 61, where mutation has been shown to result in reduced Ras GAP GTPase activity, locking the protein in the active Ras-GTP conformation (Ellis and Clark, 2000), although additional mutations at codons 19, 22 and 146 have been described in single colorectal tumour case reports (Orita et al, 1991; Miyakura et al, 2002; Akagi et al, 2007).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 5113,
+          "infons": {
+            "section_title_1": "document part",
+            "iao_name_1": "document part",
+            "iao_id_1": "IAO:0000314"
+          },
+          "text": "Ras proteins regulate signal transduction by activating a number of downstream effector proteins, including the cytoplasmic serine/threonine protein kinase B-Raf (Figure 1). B-Raf mutations have also been identified in human cancers, including melanoma and thyroid, ovarian and colorectal tumours, although mutation frequency estimates in colorectal tumours vary from 1 to 20%, and have been particularly associated with tumours deficient in mismatch-repair activity (Wellbrock et al, 2004). The most common B-Raf mutation is a T to A transversion, resulting in a valine to glutamic acid substitution (V600E), present in approximately 90% of B-Raf mutant tumours (Davies et al, 2002), which results in a 500-fold increase in in vitro kinase activity and the induction of cell proliferation and transformation (Wan et al, 2004). Although K-Ras and B-Raf mutations are found in the same tumour types, they are thought to be mutually exclusive (Wellbrock et al, 2004), providing distinct but related mechanisms for the activation of K-Ras signalling pathways. B-Raf mutation status has also recently been associated with response to cetuximab and panitumumab where, like K-Ras, clinical response is limited to wt B-Raf tumours (Di Nicolantonio et al, 2008).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 6367,
+          "infons": {
+            "section_title_1": "document part",
+            "iao_name_1": "document part",
+            "iao_id_1": "IAO:0000314"
+          },
+          "text": "As K-Ras mutations in colorectal tumours are clearly important biomarkers of tumour progression and patient survival and also influence response to new generation EGFR antagonists, we have used a variety of experimental approaches to further investigate inter-individual differences in K-Ras mutation burden.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 6675,
+          "infons": {
+            "section_title_1": "Materials and methods",
+            "section_title_2": "Study participants ",
+            "iao_name_1": "materials section",
+            "iao_id_1": "IAO:0000633",
+            "iao_name_2": "methods section",
+            "iao_id_2": "IAO:0000317"
+          },
+          "text": "Patients (age range 45–80 years, median age 67 years, 64 males and 42 females) undergoing surgery for colorectal cancer at Ninewells Hospital, Dundee or Perth Royal Infirmary were invited to participate in the study. All patients were Caucasian, had pre-operative pathological confirmation of diagnosis (ICD-9 classification 153.0–153.9, 154.0–154.1) and had no history of previous cancer, inflammatory bowel disease, ulcerative colitis or diverticular disease. Patient details have been described previously (Smith et al, 2002). The study was approved by the Tayside Committee on Medical Research Ethics and written informed consent was obtained from all study participants.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 7390,
+          "infons": {
+            "section_title_1": "Materials and methods",
+            "section_title_2": "DNA preparation ",
+            "iao_name_1": "materials section",
+            "iao_id_1": "IAO:0000633",
+            "iao_name_2": "methods section",
+            "iao_id_2": "IAO:0000317"
+          },
+          "text": "Primary colorectal tumour resection specimens were brought fresh from theatre to pathology and tumours selected by an experienced pathologist and stored in liquid nitrogen before analysis. Genomic DNA for mutation analysis was extracted using the Wizard Genomic DNA Purification Kit (Promega, Southampton, UK) according to the manufacturer's instructions. All study participants provided a 10 ml venous blood sample, which was stored in EDTA blood containers at −20°C. Genomic DNA was extracted from 200 μl of whole blood, using a QIAamp 96 spin blood kit (Qiagen, Crawley, West Sussex, UK) according to the manufacturer's instructions.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 8042,
+          "infons": {
+            "section_title_1": "Materials and methods",
+            "section_title_2": "K-Ras and B-Raf mutation detection ",
+            "iao_name_1": "materials section",
+            "iao_id_1": "IAO:0000633",
+            "iao_name_2": "methods section",
+            "iao_id_2": "IAO:0000317"
+          },
+          "text": "Methods for K-Ras and B-Raf mutation detection and restriction fragment length polymorphism (RFLP) analysis of mutation frequencies are given in Appendix A.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 8233,
+          "infons": {
+            "section_title_1": "Materials and methods",
+            "section_title_2": "Cell culture and transfection ",
+            "iao_name_1": "materials section",
+            "iao_id_1": "IAO:0000633",
+            "iao_name_2": "methods section",
+            "iao_id_2": "IAO:0000317"
+          },
+          "text": "The mouse embryonic fibroblast cell line NIH3T3 was obtained from Cancer Research UK cell services. NIH3T3 cells were maintained in Dulbecco's modified Eagle's medium (DMEM) supplemented with 10% calf serum unless otherwise stated, at 37°C in 5% CO2. Cells were transfected using Lipofectamine (Invitrogen, Paisley, UK) according to the manufacturer's instructions.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 8628,
+          "infons": {
+            "section_title_1": "Materials and methods",
+            "section_title_2": "Mammalian expression plasmids ",
+            "iao_name_1": "materials section",
+            "iao_id_1": "IAO:0000633",
+            "iao_name_2": "methods section",
+            "iao_id_2": "IAO:0000317"
+          },
+          "text": "The pEF.6 plink and pEFHA wt K-Ras plasmids were kind gifts from Professor Richard Marais (Institute of Cancer Research, London, UK). Site-directed mutagenesis (SDM) was carried out on the pEFHA wt K-Ras plasmid using the QuikChange II SDM kit (Agilent, South Queensferry, Edinburgh, UK) according to the manufacturer's instructions to generate the following K-Ras mutations: G12V, G12D, G13D, Q61H, L19F, K117N, A146T and R164Q, using the oligonucleotide primers described in Table 1.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 9143,
+          "infons": {
+            "section_title_1": "Materials and methods",
+            "section_title_2": "K-Ras foci formation assays ",
+            "iao_name_1": "materials section",
+            "iao_id_1": "IAO:0000633",
+            "iao_name_2": "methods section",
+            "iao_id_2": "IAO:0000317"
+          },
+          "text": "NIH3T3 cells were seeded at 2.5 × 105 cells in 35 mm culture dishes and allowed to adhere overnight before transfection with 250 ng of either pEF.6, pEFHA (wt K-Ras) or plasmids containing one of the following K-Ras mutants: G12V, G12D, G13D, Q61H, L19F, K117N, A146T or R164Q. After 24 h, cells were trypsinised and split (1 : 3) between two 10 cm3 plates and grown in DMEM containing 5% calf serum for 21 days, then fixed with methanol and stained with 0.5% (w/v) crystal violet. Foci greater then 5 mm were counted manually. All transfections were repeated three times and average foci counts and standard deviations calculated.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 9802,
+          "infons": {
+            "section_title_1": "Materials and methods",
+            "section_title_2": "Ras GTPase activating assays ",
+            "iao_name_1": "materials section",
+            "iao_id_1": "IAO:0000633",
+            "iao_name_2": "methods section",
+            "iao_id_2": "IAO:0000317"
+          },
+          "text": "Ras activity was determined using a Ras activation assay kit (Millipore, Watford, Hertfordshire, UK). Briefly, cells were harvested 48 h after transfection in an Mg-containing lysis buffer (MLB). 500 μg of cell lysate from each sample was incubated with 10 μg of Raf-1 RBD agarose at 4°C for 30 min with gentle rocking. After washing three times with MLB, the agarose beads were re-suspended in 40 μl of NuPage LDS sample buffer (Invitrogen), and 20 μl of each sample separated on SDS-PAGE. A total of 30 μg of whole-cell lysate was additionally separated by SDS–PAGE for the analysis of total K-Ras expression.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 10442,
+          "infons": {
+            "section_title_1": "Materials and methods",
+            "section_title_2": "Western blot analysis ",
+            "iao_name_1": "materials section",
+            "iao_id_1": "IAO:0000633",
+            "iao_name_2": "methods section",
+            "iao_id_2": "IAO:0000317"
+          },
+          "text": "Cells were lysed 48 h after transfection with MKK lysis buffer (20 mM Tris-acetate, 1 mM EDTA, 1% (v/v) Triton X-100, 1 mM EGTA, 0.1% (v/v) β-mercaptoethanol, 1 mM sodium orthovanadate, 1 mM sodium pyrophosphate, 1 mM sodium β-glycerophosphate, 5 mM sodium fluoride and protease inhibitors). Cell lysates were centrifuged at 13 000 r.p.m. for 15 min at 4°C and the soluble fraction transferred to a fresh 1.5 ml Eppendorf tube. Protein concentration was determined using the Bio-Rad protein assay (Bio-Rad, Hemel Hempstead, Hertfordshire, UK). For western blot analysis, 30 μg of each cell lysate was separated using the NuPage electrophoresis system (12% pre-cast polyacrylamide gels, Invitrogen) and transferred to nitrocellulose membranes (Whatman, Maidstone, Kent, UK). Membranes were probed with anti-K-Ras (Merck, Nottingham, UK) and anti-actin (Santa Cruz Biotechnology, Heidelberg, Germany) antibodies overnight at 4°C. Secondary horseradish peroxidase-conjugated antibodies (anti-mouse, Dako or anti-goat, Santa Cruz Biotechnology) were applied for 1 h at room temperature before developing the membranes using enhanced chemiluminescence.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 11611,
+          "infons": {
+            "section_title_1": "Materials and methods",
+            "section_title_2": "RNA transcription profiling analysis ",
+            "iao_name_1": "materials section",
+            "iao_id_1": "IAO:0000633",
+            "iao_name_2": "methods section",
+            "iao_id_2": "IAO:0000317"
+          },
+          "text": "NIH3T3 cells were plated at 2.5 × 105 cells per well in a 6-well plate and, following overnight attachment, transfected with 250 ng of pEF, wt K-Ras or one of the K-Ras mutants: G12V, G12D, G12C, G13D, Q61H, L19F, K117N, A146T and R164Q. After 48 h, cells were harvested in 1 ml of TRIzol reagent (Invitrogen) and total RNA extracted according to the manufacturer's instructions. RNA was further purified using an RNeasy mini kit (Qiagen), eluted in a final volume of 50 μl RNAse-free dH20 and RNA quality and concentration assessed with a Bioanalyzer 2100 using the RNA 6000 Nano LabChip Kit (Agilent). RNA labelling and microarray hybridisation was carried out in collaboration with CXR Biosciences, Dundee, UK. Briefly 1 μg of total RNA sample was amplified to generate complementary RNA (cRNA) and labelled with cyanine 3-CTP (Cys3) using the QuickAmp labelling kit, one-colour (Agilent). Labelled cRNA was hybridised to Agilent 4 × 44K Whole Mouse Genome Oligo Microarray slides, which were scanned on an Agilent Microarray Scanner and images processed using Agilent Feature Extraction Software v9.1.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 12753,
+          "infons": {
+            "section_title_1": "Materials and methods",
+            "section_title_2": "RNA transcription profiling analysis ",
+            "iao_name_1": "materials section",
+            "iao_id_1": "IAO:0000633",
+            "iao_name_2": "methods section",
+            "iao_id_2": "IAO:0000317"
+          },
+          "text": "Microarray data was analysed using the open-source software Bioconducter 2.2. Lists of differentially expressed genes were generated comparing each of the K-Ras mutants with empty vector control using probes that exhibited an adjusted p value (false discovery rate (FDR)) ⩾0.05. Hierarchical clustering analysis was carried out using ‘Cluster’ (open source clustering software) and clusters visualised using Java TreeView.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 13175,
+          "infons": {
+            "section_title_1": "Materials and methods",
+            "section_title_2": "K-Ras gene copy number assay ",
+            "iao_name_1": "materials section",
+            "iao_id_1": "IAO:0000633",
+            "iao_name_2": "methods section",
+            "iao_id_2": "IAO:0000317"
+          },
+          "text": "A new Taqman gene expression assay to evaluate K-Ras gene copy number was designed, in which K-Ras copy number was compared with the endogenous control gene RNAse P (copy number 2). K-Ras was amplified from genomic DNA extracted from normal and tumour tissues (n=96 normal/tumour pairs) from our colorectal patient series (Smith et al, 2002) with the oligonucleotide primers 5′-TTTAATACTTTTTATGTATTTCAGGGTGTTG-3′ (300 nM) and 5′-TTACCATCTTTGCTCATCTTTTCTTTAT-3′ (300 nM) and Taqman probe 5′-FAM-TGATGCCTTCTATACATTAGTTCGAGAAATTCGAAAA-TAMRA-3′ (100 nM), and expression compared with RNAse P by the comparative Ct method, according to the manufacturer's instructions (Applied Biosystems, Warrington, UK).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 13904,
+          "infons": {
+            "section_title_1": "Materials and methods",
+            "section_title_2": "Fluorescent in-situ hybridisation (FISH) analysis ",
+            "iao_name_1": "materials section",
+            "iao_id_1": "IAO:0000633",
+            "iao_name_2": "methods section",
+            "iao_id_2": "IAO:0000317"
+          },
+          "text": "Sections (4 μM) of formalin-fixed paraffin-embedded tumour tissue were provided by Tayside Tissue Bank on positively charged slides, which had been baked overnight at 56°C. Sections were deparaffinised using an automated protocol on a Vysis VP2000 processor, placed into a coplin-containing pre-warmed pre-treatment solution (Vysis, Maidenhead, Kent, UK) and incubated at 80°C for 30 min. Slides were then washed at room temperature in water for 1 min, before two 5 min washes in 2 × SSC before digestion with protease buffer at 37°C for 65 min. Following digestion, slides were washed three times in 2 × SSC for 2 min, before sequential washes in 70, 85 and 100% ethanol for 2 min each at room temperature and dried on a 37°C block. Meanwhile, 1 μl chromosome 12p BAC RP11-707G18 (Red) (BlueGnome), 1 μl chromosome 12q BAC RP11-89H19 (Green) (BlueGnome) and 9 μl LSI–WCP hybridisation buffer (Vysis) was mixed together for each slide and pipetted onto a 22 × 22 mm coverslip which was placed onto a region of the slide containing tumour tissue and placed onto a heat block at 75°C for 5 min to co-denature the probes and tumour tissue. Rubber cement was then applied to seal the coverslips and slides placed into a humidified hybridisation chamber in a 37°C incubator overnight. The next morning, coverslips were removed and slides placed into 0.4 × SSC at 72°C for 90 s and transferred to 2 × SSC containing 0.005% Tween for 30 s before being left to dry in the dark. In all, 20 μl of DAPI stain was then applied to coverslips, which were then gently applied to each slide and, after removing air bubbles, sealed with clear nail varnish. Slides were analysed on an epifluorescence microscope (Olympus BX60), where probe signals from 20 different cells in three different regions of the tumour tissue were counted and the average number of probe signals and s.d. calculated.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 15829,
+          "infons": {
+            "section_title_1": "Results",
+            "section_title_2": "Identification of new K-Ras mutations ",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "We have previously described K-Ras mutations at codons 12, 13 and 61 in a series of 106 unselected colorectal tumours (Smith et al, 2002). Our K-Ras mutation analysis was performed by direct sequencing of K-Ras exon 1 (codons 12 and 13) and exon 2 (codon 61), and would therefore have detected any additional mutations in these exons. Codon 12 mutations were detected in 23 tumours (21.7%) and codon 13 mutations in 6 tumours (5.7%), whereas no codon 61 mutations were detected. Mutations at codon 19 (G57T, Leu19Phe) and in B-Raf (V600E) were found in single tumours (Table 2).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 16452,
+          "infons": {
+            "section_title_1": "Results",
+            "section_title_2": "Identification of new K-Ras mutations ",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "To identify additional K-Ras mutations, and to establish the relative frequencies of individual K-Ras mutations in human colorectal tumours, we used WAVE analysis followed by direct sequencing to screen the same tumour series for mutations in K-Ras exon 3 and exon 4B, the most common exon 4 splice variant. Four additional sequence changes were identified – an A to C change (Lys to Asn substitution) at codon 117, a G to A change (Ala to Thr substitution) at codon 146, a G to A change (Arg to Gln substitution) at codon 164 and a ‘silent’ C to T nucleotide substitution, which did not alter the aspartic acid residue at codon 173 (Table 2). Together, these K-Ras mutations and the B-Raf V600E mutation increase overall Ras pathway mutation frequency from 27.4 to 37.8%. The predicted localisation of each mutation in the functional domains of the K-Ras protein is illustrated in Figure 2.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 17343,
+          "infons": {
+            "section_title_1": "Results",
+            "section_title_2": "Identification of new K-Ras mutations ",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "To determine whether our reported sequence changes represented tumour-specific mutations or single-nucleotide polymorphisms (SNPs), genomic DNA from blood and tumour tissue was compared. Sequence changes at codons 19, 117, 146 and 164 were only detected in tumour DNA, whereas the codon 173 sequence change was detected in both blood and tumour DNA, and therefore represented a SNP (Table 2).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 17735,
+          "infons": {
+            "section_title_1": "Results",
+            "section_title_2": "Identification of new K-Ras mutations ",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "To determine the frequencies of the codon 117, 146 and 164 K-Ras mutations and the codon 173 SNP, PCR–RFLP assays were designed to permit rapid screening of blood and tumour DNA (Appendix A). Like the codon 19 mutation, the codon 117 and codon 164 mutations were found in single tumours, whereas the codon 146 mutation was found in 7 out of 106 (6.5%) of tumours. No tumours with codon 19, 117, 146 or 146 mutations had additional K-Ras mutations in codons 12, 13 or 61. The codon 173 SNP was found in 39 individuals, predicting an allele frequency of 18.2%. As this SNP did not lead to an amino acid substitution in the K-Ras protein, it was not analysed further.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 18399,
+          "infons": {
+            "section_title_1": "Results",
+            "section_title_2": "Focus formation assays ",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "Phenotypes associated with the various K-Ras mutations have previously not been systematically evaluated. To compare the transformation potential of the K-Ras mutants, therefore, NIH3T3 cells were transiently transfected with plasmids expressing wt K-Ras and the K-Ras mutations G12V, G12D, G13D, Q61H, L19F, K117N, A146T and R164Q. Equivalence of plasmid loading was assessed spectrophotometrically and by western blotting for K-Ras (data not shown). Cells were stained with crystal violet and foci counted 21 days after transfection, as described in Materials and Methods (Figure 3). No foci were observed in untransfected cells or in cells transfected with wt K-Ras, whereas abundant foci were seen with each hotspot K-Ras mutation (Figure 3A). Codon 12 mutations had slightly greater transforming potential than codon 13 mutations and consistently greater transforming potential than the codon 61 Q61H mutation (Figure 3C). After transfection of additional K-Ras mutations, significant focus formation was observed for codon 117 and 146 mutations (Figure 3B). In contrast, the codon 164 mutation was phenotypically equivalent to wt K-ras with no evidence of foci formation and the codon 19 mutation generated low but consistent numbers of isolated foci (Figure 3C).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 19691,
+          "infons": {
+            "section_title_1": "Results",
+            "section_title_2": "Ras activating assays ",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "To assess which K-Ras mutations were in the active GTP-bound conformation, a Raf-1 binding assay was carried out as described in Materials and Methods. Raf-1 selectively binds GTP-bound Ras (rather than the inactive GDP-bound form) which, following immunoprecipitation, can be visualised by western blotting. Figure 4 illustrates the results of our analysis where, consistent with our focus formation experiments, the K-Ras G12V and L19F, K117N and A146T mutations are clearly in the active GTP-bound conformation. In contrast, the R164Q mutation, like wt K-Ras, was not GTP-bound.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 20294,
+          "infons": {
+            "section_title_1": "Results",
+            "section_title_2": "RNA transcription-profiling experiments ",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "To further compare and contrast the phenotypes associated with each of the K-Ras mutants, transcription-profiling experiments were carried out as described in Materials and Methods. Hierarchical clustering analysis revealed the presence of two major gene clusters, ‘cluster 1’ containing the G12V, G12C and G12D mutants and ‘cluster 2’ containing G13D, A146T, K117N, R164Q and L19F (Figure 5). It is interesting to note that the codon 12 mutants were most similar to wt K-Ras, whereas the K117N and A146T mutants clustered with the activating codon 13 and codon 61 hotspot mutants. The L19F and R164Q mutants formed a subcluster within cluster 2 suggesting, consistent with our foci formation data, that these mutants are phenotypically distinct from the G13D, A146T and K117N mutants. The presence of L19F in cluster 2 is consistent with our Ras GTPase assay data whereas, in contrast, our experimental data for R164Q predicted a ‘wt’ Ras phenotype. The presence of R164Q in cluster 2, rather than in cluster 1 with wt K-Ras was therefore initially surprising, but suggests that the R164Q mutation also has an ‘activating’ phenotype, albeit attenuated relative to the other mutations studied.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 21527,
+          "infons": {
+            "section_title_1": "Results",
+            "section_title_2": "RNA transcription-profiling experiments ",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "To further investigate the phenotypes associated with each of the K-Ras mutants, the expression of a diverse selection of genes associated a variety of cellular processes including signal transduction, cytoskeleton remodelling and cell adhesion was compared. Although further analysis of this complex dataset, including composite analysis of biological pathways and processes is ongoing and will be discussed in more detail in a future manuscript, representative examples of genes showing differential expression following the introduction of each K-Ras mutant are summarised in Table 3.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 22114,
+          "infons": {
+            "section_title_1": "Results",
+            "section_title_2": "RNA transcription-profiling experiments ",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "Consistent with our hierarchical clustering analysis, introduction of the R164Q mutation led to relatively few changes in gene expression or showed reduced pathway activation compared with the other mutants studied. However, there were examples of genes that were induced by all of the mutants studied, including the protein tyrosine phosphatase Ptpre and the Rho GTPase activating protein Arhgap6, and multiple examples of genes induced or repressed by all of the mutants with the exception of R164Q. These included the MAPK phosphatases DUSP4 and DUSP6, Ereg, Hbegf and Btc, all involved in EGFR binding, the Rho guanine-exchange factor NGEF, cell adhesion molecule Ceacam 1 and plasminogen activator inhibitor Serpinb2. Consistently, the novel A146T and K117N mutants (and, to a lesser extent, the L19F mutant) clustered with and influenced gene expression similarly to the previously described activating G13D and Q61H ‘hotspot’ mutations.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 23057,
+          "infons": {
+            "section_title_1": "Results",
+            "section_title_2": "RNA transcription-profiling experiments ",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "Of particular interest were genes, for example, Vegfa, Pak3, Pim1 and EII2 which were differentially expressed by cluster 1 but not cluster 2 mutants, genes, for example, Spry4, Igf1R, Creb1 and Tcf4 which were differentially expressed by cluster 2 mutants, and additional genes, for example, Jun, E2F2, Mmp3 and Glut-1 which were differentially regulated by each mutant studied.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 23436,
+          "infons": {
+            "section_title_1": "Results",
+            "section_title_2": "K-Ras gene amplification ",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "To investigate whether altered K-Ras activity could additionally result from gene amplification, a K-Ras gene copy number assay was designed and carried out as described in Materials and Methods and K-Ras copy number compared in normal and tumour tissues. In total, 2 of the 96 tumour pairs analysed (2.1%) showed tumour-specific copy number increases (Figure 6), one (study code 1264, wt K-Ras) with 4 tumour copies of K-Ras and the other (study code 1233, wt K-Ras) with 27 copies of the K-Ras gene. Assay reproducibility and linearity was demonstrated from the analysis of standard curves generated by serial dilutions of a wide concentration range of input genomic DNA (data not shown).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 24151,
+          "infons": {
+            "section_title_1": "Results",
+            "section_title_2": "K-Ras gene amplification ",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "K-Ras gene amplification was confirmed by FISH analysis as described in Materials and Methods (Figure 7). Figures 7A and B illustrate chromosome metaphase spreads confirming FISH probe specificities for chromosomes 12p and 12q, respectively, whereas Figures 7C and D show representative colorectal tumour FISH analysis. Figure 7C illustrates a tumour sample (study code 1271) in which the K-Ras gene is not amplified (red fluorescence=green fluorescence), whereas Figure 7D illustrates a colorectal tumour (study code 1264) with K-Ras gene amplification (red fluorescence>green fluorescence). Signals from the red 12p12.1 probe in tumour 1264 appear as a cluster of bright dots forming a line which is suggestive of a homogeneously staining region (HSR), a chromosomal region which is amplified either on the original chromosome or on another chromosome, as opposed to double minutes where the amplified gene is located in extra-chromosomal circular DNA molecules.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 25115,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "Recent clinical data has shown a compelling association between K-Ras and B-Raf mutation status and response to EGFR blockade by cetuximab and panitumumab in the treatment of metastatic colorectal tumours (Benvenuti et al, 2007; Khambata-Ford et al, 2007; Freeman et al, 2008; Karapetis et al, 2008; Ramos et al, 2008). K-Ras mutations in colorectal tumours have been extensively documented, where recent meta analysis of more than 3000 tumours estimates an average K-Ras mutation frequency of 34.8% (Andreyev et al, 2001). This and the majority of previous analyses were, however, limited to codons 12 and 13, whereas only a minority of studies have additionally analysed codon 61. Although additional K-Ras mutations have been reported outwith these ‘hotspot’ codons, to our knowledge, there has been no systematic analysis of K-Ras mutation frequency in human colorectal tumours. Our use of ‘WAVE’ denaturing HPLC (dHPLC) analysis (Kuklin et al, 1997) allowed us to carry out a rapid, systematic analysis of the entire K-Ras coding sequence to identify colorectal tumours with sequence changes, the nature which were subsequently confirmed by conventional dideoxy sequencing.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 26303,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "Our data clearly demonstrates that K-Ras mutations in human colorectal tumours are likely to be significantly underestimated if only hotspot codons are analysed. Indeed, current mutation screening tests based on the hotspot codons 12 and 13 are likely to result in the mis-classification of up to one-third of patients. Although mutations at codons 19, 117 and 164 are relatively rare events, our data suggests that each K-Ras mutation may differentially influence treatment response. We would therefore recommend the adoption of comprehensive K-Ras mutation profiling, or at least the routine inclusion of the codon 146 mutation, for patient selection for cetuximab and related therapies.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 26992,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "Current data from the COSMIC database, which summarises literature data and the ongoing Sanger cancer-genome project describes 29 K-Ras colorectal tumour mutations outwith codons 12, 13 and 61, and more than 11 800 mutations at these hotspot codons (http://www.sanger.ac.uk/genetics/CGP/), but does not describe associated phenotypes. Consistent with our own data, codon 146 was the most frequently mutated of the mutations described. K-Ras codon 146 mutations have been described in a human colorectal tumour cell line (Higashi et al, 1990), in mice with thymic lymphomas (Sloan et al, 1990) and in a single human colorectal tumour case report (Orita et al, 1991). In more detailed molecular profiling studies, codon 146 mutations were described in 4% of two independent colorectal tumour series from Hong Kong and the United States of America (Edkins et al, 2006) and in chronic myelomonocytic leukaemia (Gelsi-Boyer et al, 2008; Tyner et al, 2009). Consistent with our own data, Tyner et al (2009) reported an oncogenic phenotype associated with the K-Ras 146 mutation in leukaemia and Loupakis et al (2009) have recently reported that a patient with metastatic colorectal cancer with a K-Ras 146 mutation was resistant to cetuximab.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 28228,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "There is only a single report of K-Ras codon 19 mutations in human colorectal tumours (Akagi et al, 2007), in which in vitro elevation of active Ras-GTP levels, anchorage-independent growth and increased tumourigenicity in nude mice was demonstrated. A codon 19 mutation has additionally been described in H-Ras in a human pituitary carcinoma metastases (Pei et al, 1994). There are two recent reports of codon 117 mutations – the first in K-Ras in human colorectal tumours (Wojcik et al, 2008) and the second in H-Ras, associated with activation of the RAS–MAPK pathway and the mental retardation Costello syndrome (Denayer et al, 2008). It is interesting to note that Costello syndrome has been associated with increased cancer predisposition (Gripp, 2005). There are no reports of K-Ras 164 mutations, and mutations at this codon were not identified by Sanger cancer genome project investigators.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 29127,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "Recent clinical data convincingly associates response to anti-EGFR therapies with K-Ras mutation status in patients with metastatic colorectal cancer where, logically, response is preferentially observed in K-Ras wt tumours (Lievre et al, 2006; Benvenuti et al, 2007; Khambata-Ford et al, 2007; Freeman et al, 2008; Karapetis et al, 2008; Ramos et al, 2008; Loupakis et al, 2009; Van Cutsem et al, 2009) which retain the ability to respond to EGFR blockade. Our description of K-Ras gene amplification in a subset of wt tumours is of particular interest in this regard as increased K-Ras gene copy number may lead to a more active ‘mutation’-like phenotype. Experiments to investigate this possibility are currently underway in our laboratory.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 29870,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "It is interesting to note that our transcription profiling analysis revealed some similarities but many marked differences in gene expression following the introduction of the individual K-Ras mutants. We found that the codon 117 and the common codon 146 mutations cluster with the previously described activating mutations at codons 13 and 61, highlighting differences in individual mutation phenotypes. Our analysis of K-Ras induced gene expression identified a number of genes previously associated with K-Ras signalling, for example the MAPK dual specificity phosphatases DUSP4 and DUSP6. DUSPs are key regulators of the balance between kinase pathway activation and inactivation, and have previously been reported to be upregulated in an adaptive response, creating a negative feedback loop following MAPK pathway activation (Keyse, 2008). Consistent with our own data, DUSP4 expression has previously been shown to be increased in pancreatic tumours with K-Ras mutations (Yip-Schneider et al, 2001) and DUSP6 expression increased in a variety of tumour types with mutations in Ras or Raf pathway genes (Croonquist et al, 2003; Warmka et al, 2004; Bloethner et al, 2005). Of particular interest, however, was our observation that certain signalling cascades, including those mediated by Igf1 and Vegf, were differentially activated by cluster 1 and cluster 2 K-Ras mutants, suggesting that not only the presence but the specific molecular characteristics of individual K-Ras mutations may be important determinants of both tumour progression and treatment response. For example, recent data suggests that glucose deprivation can promote the acquisition of K-Ras mutations in human tumours and reports upregulation of the glucose transporter GLUT-1 in K-Ras mutant tumours (Yun et al, 2009). Our data confirms this hypothesis, but shows GLUT-1 induction restricted to the codon 12, 13, 61 and 117 mutations, with no change in GLUT-1 expression associated with the introduction of codon 19, 146 or 164 mutations, again reflecting phenotypic heterogeneity.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 31928,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "Current clinical data is sufficiently compelling that K-Ras mutation testing to facilitate the selection of patients most likely to benefit from anti-EGFR therapy is increasingly recommended in clinical practise (McNeill, 2008; van Krieken and Tol, 2009), and has resulted in a recent formal recommendation from the National Comprehensive Cancer Network that patients with K-Ras tumour mutations should not be treated with cetuximab or panitumumab (McNeill, 2008). There is increasing interest in the identification of prognostic molecular markers, which may be used to select the most appropriate patients for adjuvant chemotherapy or to identify colorectal cancer patients at increased risk of disease progression. Although the clinical implications of non-hotspot K-Ras mutations requires further validation both as prognostic markers and therapeutic targets, our data suggests that future analysis of K-Ras mutations and quantitation of mutation burden in colorectal tumours should not be limited to previously described mutation hotspots and should additionally consider the unique molecular signatures associated with individual K-Ras mutations.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 33079,
+          "infons": {
+            "section_title_1": "Acknowledgments",
+            "iao_name_1": "acknowledgements section",
+            "iao_id_1": "IAO:0000324"
+          },
+          "text": "We thank Professor Richard Marais; Professor of Molecular Oncology, Institute of Cancer Research for technical advice and the generous gift of protocols and K-Ras expression plasmids; Dr Simon Plummer, CXR Biosciences, Dundee, UK for carrying out the transcription profiling analysis; Probir Chakravarty, Cancer Research UK for helping with bioinformatics analysis; Dr Norman Pratt, Dundee, UK for helping with FISH analysis; and Tayside Tissue Bank for helping with patient recruitment and sample processing. We acknowledge financial support from Cancer Research UK (C4639/A5661), Food Standards Agency (Contract TO1004) and the Ninewells Cancer Campaign, and funding from the MRC and Cancer Research UK for Tayside Tissue Bank.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 33823,
+          "infons": {
+            "section_title_1": "Appendix 1",
+            "iao_name_1": "supplementary material section",
+            "iao_id_1": "IAO:0000326"
+          },
+          "text": "Kirsten-Ras (K-Ras) mutation detection and restriction fragment length polymorphism (RFLP) analysis of mutation frequencies",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 33956,
+          "infons": {
+            "section_title_1": "Appendix 1",
+            "section_title_2": "K-Ras Exon 3 and Exon 4 mutation detection ",
+            "iao_name_1": "supplementary material section",
+            "iao_id_1": "IAO:0000326"
+          },
+          "text": "Mutations in exons 3 and 4 of the K-Ras gene were identified using the Transgenomic WAVE denaturing HPLC system. PCR products for WAVE analysis were generated using the Expand High Fidelity PCR system (Roche, Welingkar garden, UK) incorporating Taq polymerase with enhanced proofreading activity. A 200 bp PCR product encompassing K-Ras exon 3 was generated using the oligonucleotide primers 5′-TTCTTTCCCAGAGAACAAATTAA-3′ and 5′-AGATCTGTATTTATTTCAGTGTTACTTACC-3′. Similarly, a 261 bp PCR product encompassing K-Ras Exon 4b was generated using the oligonucleotide primers 5′-TACTTTTTATGTATTTCAGGGTGTTG-3′ and 5′-GCTAACAGTCTGCATGGAGC-3′.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 34634,
+          "infons": {
+            "section_title_1": "Appendix 1",
+            "section_title_2": "K-Ras Exon 3 and Exon 4 mutation detection ",
+            "iao_name_1": "supplementary material section",
+            "iao_id_1": "IAO:0000326"
+          },
+          "text": "Assay conditions (acetonitrile gradient and temperature profile) were optimised for WAVE analysis of each PCR fragment using Transgenomic WAVEMAKER 4.1 software, according to the manufacturer's instructions. K-Ras exon 3 was analysed at 55°C with an initial concentration of 51% Buffer B (0.1 M TEAA, 25% acetonitrile) and exon 4 at 55°C with an initial concentration of 54% Buffer B. All samples were denatured and cooled slowly to room temperature before WAVE analysis to maximise heteroduplex formation.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 35140,
+          "infons": {
+            "section_title_1": "Appendix 1",
+            "section_title_2": "Direct sequencing ",
+            "iao_name_1": "supplementary material section",
+            "iao_id_1": "IAO:0000326"
+          },
+          "text": "The K-Ras mutations detected by WAVE analysis were confirmed by direct sequencing of PCR products. This analysis was performed by the DNA analysis facility, Department of Molecular and Cellular Pathology, Ninewells Hospital and Medical School, Dundee DD1 9SY, UK, using 16 capillary ABI 3100 Genetic Analysers (Applied Biosystems). Before sequencing, all PCR products were purified using QIAquick PCR purification kits (Qiagen), according to the manufacturer's instructions. All sequences obtained were aligned with previously published sequences (NCBI Genbank Accession Numbers L00047 and L00049 for K-Ras exons 3 and 4b, respectively); the presence and nature of each mutation was confirmed by repeat PCR and sequencing.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 35880,
+          "infons": {
+            "section_title_1": "Appendix 1",
+            "section_title_2": "RFLP analysis of K-Ras codon 117 mutations ",
+            "iao_name_1": "supplementary material section",
+            "iao_id_1": "IAO:0000326"
+          },
+          "text": "To permit rapid identification of the K-Ras codon 117 mutation, a PCR–RFLP assay was designed where the presence of the mutation created a recognition site for the restriction enzyme Bsr S1. A 288 bp PCR product was amplified using the primers 5′-GATCTTTTGAGAGAGATACAAGGTTTC-3′ and 5′-TGTTCTAGAAGGCAAATCACA-3′. Following PCR amplification, PCR products were digested with Bsr S1 for 2 h at 65°C and analysed on 8% polyacrylamide gels, run in 1 × TBE buffer at 200 V for 2 h. Gels were stained with ethidium bromide and DNA bands visualised on a UV transilluminator. Samples without the K-Ras codon 117 mutation were resistant to digestion and produced a single band of 288 bp, whereas samples homozygous for the codon 117 mutation were digested to produce bands of 271 and 17 bp. Heterozygous samples produced bands of 288, 271 and 17 bp. Band sizes were determined by comparison with ΦX174 DNA size markers (Promega).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 36841,
+          "infons": {
+            "section_title_1": "Appendix 1",
+            "section_title_2": "RFLP analysis of K-Ras codon 146 mutations ",
+            "iao_name_1": "supplementary material section",
+            "iao_id_1": "IAO:0000326"
+          },
+          "text": "Similarly, a PCR-RFLP assay was designed to identify the K-Ras codon 146 mutation, where the presence of the mutation created a recognition site for the restriction enzyme Mse I. A 197 bp PCR product was amplified using the primers 5′ TGG AAT TCC TTT TAT TGA AAC ATC A 3′ and 5′ GAT TAA GAA GCA ATG CCC TCT C 3′. Following PCR amplification, PCR products were digested with Mse1 for 2 h at 37°C and analysed on 8% polyacrylamide gels as described above. Samples without the K-Ras codon 146 mutation were digested to produce bands of 101, 91 and 5 bp, whereas samples homozygous for the codon 146 mutation produced bands of 91, 78, 23 and 5 bp. Heterozygous samples produced bands of 101, 91, 78, 23 and 5 bp.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 37592,
+          "infons": {
+            "section_title_1": "Appendix 1",
+            "section_title_2": "RFLP analysis of K-Ras codon 164 mutations ",
+            "iao_name_1": "supplementary material section",
+            "iao_id_1": "IAO:0000326"
+          },
+          "text": "The presence of the codon 164 mutation was confirmed using a novel RFLP assay, wherein the presence of the mutation destroyed a recognition site for the restriction enzyme BstBI. A 261 bp PCR product was generated as described above for K-Ras exon 4B mutation detection. After PCR amplification, PCR products were digested with BstBI for 2 h at 65°C and analysed on 2% agarose gels. Samples without the codon 164 mutation were digested to produce bands of 203 and 58 bp, whereas samples homozygous for the mutation produced a single band of 261 bp. Heterozygous samples produced bands of 261, 203 and 58 bp.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 38242,
+          "infons": {
+            "section_title_1": "Appendix 1",
+            "section_title_2": "RFLP analysis of K-Ras codon 173 single-nucleotide polymorphism (SNP) ",
+            "iao_name_1": "supplementary material section",
+            "iao_id_1": "IAO:0000326"
+          },
+          "text": "The codon 173 SNP was detected using a novel RFLP assay, where the presence of the mutation destroyed a recognition site for the restriction enzyme BccI. A 261 bp PCR product was generated as described above for K-Ras exon 4B mutation detection. After PCR amplification, PCR products were digested with BccI for 2 h at 37°C and analysed on 2% agarose gels. Samples without the codon 173 SNP were digested to produce bands of 173 and 88 bp, whereas samples homozygous for the codon 173 SNP produced a single band of 261 bp. Heterozygous samples produced bands of 261, 173 and 88 bp.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 38893,
+          "infons": {
+            "section_title_1": "Appendix 1",
+            "section_title_2": "RFLP analysis of B-Raf V599E mutation ",
+            "iao_name_1": "supplementary material section",
+            "iao_id_1": "IAO:0000326"
+          },
+          "text": "The B-Raf V599E mutation was detected using a novel RFLP assay, where the presence of the mutation destroyed a recognition site for the restriction enzyme TspRI. A 224 bp PCR product was amplified using the primers 5′-TCATAATGCTTGCTCTGATAGGA-3′ and 5′-GGCCAAAAATTTAATCAGTGGA-3′ in a 50 ml reaction containing 1 × PCR buffer (Promega), 1.25 mM MgCl2, 200 mM dNTPs, 300 nM primers, 6% DMSO and 1.5 U of Taq polymerase in a PCR as described above. After PCR amplification, PCR products were digested with TspR1 for 2 h at 37°C and analysed on 8% polyacrylamide gels as described above. Samples without the B-Raf V599E mutation were digested to produce bands of 124, 78 and 22 bp, whereas samples homozygous for the V599E mutation produced bands of 202 and 22 bp. Heterozygous samples produced bands of 202, 124, 78 and 22 bp.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 39753,
+          "infons": {
+            "title": "Characterization of a novel oncogenic K-ras mutation in colon cancer",
+            "journal": "Biochem Biophys Res Commun",
+            "volume": "352",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Akagi K, Uchibori R, Yamaguchi K, Kurosawa K, Tanaka Y, Kozu T (2007) Characterization of a novel oncogenic K-ras mutation in colon cancer. Biochem Biophys Res Commun352: 728–732 [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 39967,
+          "infons": {
+            "title": "Kirsten ras mutations in patients with colorectal cancer: the ‘RASCAL II’ study",
+            "journal": "Br J Cancer",
+            "volume": "85",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Andreyev HJ, Norman AR, Cunningham D, Oates J, Dix BR, Iacopetta BJ, Young J, Walsh T, Ward R, Hawkins N, Beranek M, Jandik P, Benamouzig R, Jullian E, Laurent-Puig P, Olschwang S, Muller O, Hoffmann I, Rabes HM, Zietz C, Troungos C, Valavanis C, Yuen ST, Ho JW, Croke CT, O'Donoghue DP, Giaretti W, Rapallo A, Russo A, Bazan V, Tanaka M, Omura K, Azuma T, Ohkusa T, Fujimori T, Ono Y, Pauly M, Faber C, Glaesener R, de Goeij AF, Arends JW, Andersen SN, Lovig T, Breivik J, Gaudernack G, Clausen OP, De Angelis PD, Meling GI, Rognum TO, Smith R, Goh HS, Font A, Rosell R, Sun XF, Zhang H, Benhattar J, Losi L, Lee JQ, Wang ST, Clarke PA, Bell S, Quirke P, Bubb VJ, Piris J, Cruickshank NR, Morton D, Fox JC, Al-Mulla F, Lees N, Hall CN, Snary D, Wilkinson K, Dillon D, Costa J, Pricolo VE, Finkelstein SD, Thebo JS, Senagore AJ, Halter SA, Wadler S, Malik S, Krtolica K, Urosevic N (2001) Kirsten ras mutations in patients with colorectal cancer: the ‘RASCAL II’ study. Br J Cancer85: 692–696 [PMC free article] [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 41004,
+          "infons": {
+            "title": "Ras oncogenes: their role in neoplasia",
+            "journal": "Eur J Clin Invest",
+            "volume": "20",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Barbacid M (1990) Ras oncogenes: their role in neoplasia. Eur J Clin Invest20: 225–235 [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 41116,
+          "infons": {
+            "title": "Oncogenic activation of the RAS/RAF signaling pathway impairs the response of metastatic colorectal cancers to anti-epidermal growth factor receptor antibody therapies",
+            "journal": "Cancer Res",
+            "volume": "67",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Benvenuti S, Sartore-Bianchi A, Di Nicolantonio F, Zanon C, Moroni M, Veronese S, Siena S, Bardelli A (2007) Oncogenic activation of the RAS/RAF signaling pathway impairs the response of metastatic colorectal cancers to anti-epidermal growth factor receptor antibody therapies. Cancer Res67: 2643–2648 [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 41443,
+          "infons": {
+            "title": "Effect of common B-RAF and N-RAS mutations on global gene expression in melanoma cell lines",
+            "journal": "Carcinogenesis",
+            "volume": "26",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Bloethner S, Chen B, Hemminki K, Muller-Berghaus J, Ugurel S, Schadendorf D, Kumar R (2005) Effect of common B-RAF and N-RAS mutations on global gene expression in melanoma cell lines. Carcinogenesis26: 1224–1232 [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 41681,
+          "infons": {
+            "title": "ras oncogenes in human cancer: a review",
+            "journal": "Cancer Res",
+            "volume": "49",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Bos JL (1989) ras oncogenes in human cancer: a review. Cancer Res49: 4682–4689 [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 41785,
+          "infons": {
+            "title": "The prognostic significance of K-ras, p53, and APC mutations in colorectal carcinoma",
+            "journal": "Gut",
+            "volume": "54",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Conlin A, Smith G, Carey FA, Wolf CR, Steele RJ (2005) The prognostic significance of K-ras, p53, and APC mutations in colorectal carcinoma. Gut54: 1283–1286 [PMC free article] [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 41987,
+          "infons": {
+            "title": "Gene profiling of a myeloma cell line reveals similarities and unique signatures among IL-6 response, N-ras-activating mutations, and coculture with bone marrow stromal cells",
+            "journal": "Blood",
+            "volume": "102",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Croonquist PA, Linden MA, Zhao F, Van Ness BG (2003) Gene profiling of a myeloma cell line reveals similarities and unique signatures among IL-6 response, N-ras-activating mutations, and coculture with bone marrow stromal cells. Blood102: 2581–2592 [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 42261,
+          "infons": {
+            "title": "Mutations of the BRAF gene in human cancer",
+            "journal": "Nature",
+            "volume": "417",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Davies H, Bignell GR, Cox C, Stephens P, Edkins S, Clegg S, Teague J, Woffendin H, Garnett MJ, Bottomley W, Davis N, Dicks E, Ewing R, Floyd Y, Gray K, Hall S, Hawes R, Hughes J, Kosmidou V, Menzies A, Mould C, Parker A, Stevens C, Watt S, Hooper S, Wilson R, Jayatilake H, Gusterson BA, Cooper C, Shipley J, Hargrave D, Pritchard-Jones K, Maitland N, Chenevix-Trench G, Riggins GJ, Bigner DD, Palmieri G, Cossu A, Flanagan A, Nicholson A, Ho JW, Leung SY, Yuen ST, Weber BL, Seigler HF, Darrow TL, Paterson H, Marais R, Marshall CJ, Wooster R, Stratton MR, Futreal PA (2002) Mutations of the BRAF gene in human cancer. Nature417: 949–954 [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 42925,
+          "infons": {
+            "title": "Genetic predisposition to colorectal cancer",
+            "journal": "Nat Rev Cancer",
+            "volume": "4",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "de la Chapelle A (2004) Genetic predisposition to colorectal cancer. Nat Rev Cancer4: 769–780 [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 43044,
+          "infons": {
+            "title": "Mutation analysis in Costello syndrome: functional and structural characterization of the HRAS p.Lys117Arg mutation",
+            "journal": "Hum Mutat",
+            "volume": "29",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Denayer E, Parret A, Chmara M, Schubbert S, Vogels A, Devriendt K, Frijns JP, Rybin V, de Ravel TJ, Shannon K, Cools J, Scheffzek K, Legius E (2008) Mutation analysis in Costello syndrome: functional and structural characterization of the HRAS p.Lys117Arg mutation. Hum Mutat29: 232–239 [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 43356,
+          "infons": {
+            "title": "Wild-type BRAF is required for response to panitumumab or cetuximab in metastatic colorectal cancer",
+            "journal": "J Clin Oncol",
+            "volume": "26",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Di Nicolantonio F, Martini M, Molinari F, Sartore-Bianchi A, Arena S, Saletti P, De Dosso S, Mazzucchelli L, Frattini M, Siena S, Bardelli A (2008) Wild-type BRAF is required for response to panitumumab or cetuximab in metastatic colorectal cancer. J Clin Oncol26: 5705–5712 [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 43656,
+          "infons": {
+            "title": "Recurrent KRAS codon 146 mutations in human colorectal cancer",
+            "journal": "Cancer Biol Ther",
+            "volume": "5",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Edkins S, O'Meara S, Parker A, Stevens C, Reis M, Jones S, Greenman C, Davies H, Dalgliesh G, Forbes S, Hunter C, Smith R, Stephens P, Goldstraw P, Nicholson A, Chan TL, Velculescu VE, Yuen ST, Leung SY, Stratton MR, Futreal PA (2006) Recurrent KRAS codon 146 mutations in human colorectal cancer. Cancer Biol Ther5: 928–932 [PMC free article] [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 44025,
+          "infons": {
+            "title": "The importance of being K-Ras",
+            "journal": "Cell Signal",
+            "volume": "12",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Ellis CA, Clark G (2000) The importance of being K-Ras. Cell Signal12: 425–434 [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 44129,
+          "infons": {
+            "title": "K-Ras mutations and treatment outcome in colorectal cancer patients receiving exclusive fluoropyrimidine therapy",
+            "journal": "Clin Cancer Res",
+            "volume": "14",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Etienne-Grimaldi MC, Formento JL, Francoual M, Francois E, Formento P, Renee N, Laurent-Puig P, Chazal M, Benchimol D, Delpero JR, Letoublon C, Pezet D, Seitz JF, Milano G (2008) K-Ras mutations and treatment outcome in colorectal cancer patients receiving exclusive fluoropyrimidine therapy. Clin Cancer Res14: 4830–4835 [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 44476,
+          "infons": {
+            "title": "Association of K-ras mutational status and clinical outcomes in patients with metastatic colorectal cancer receiving panitumumab alone",
+            "journal": "Clin Colorectal Cancer",
+            "volume": "7",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Freeman DJ, Juan T, Reiner M, Hecht JR, Meropol NJ, Berlin J, Mitchell E, Sarosi I, Radinsky R, Amado RG (2008) Association of K-ras mutational status and clinical outcomes in patients with metastatic colorectal cancer receiving panitumumab alone. Clin Colorectal Cancer7: 184–190 [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 44782,
+          "infons": {
+            "title": "Genome profiling of chronic myelomonocytic leukemia: frequent alterations of RAS and RUNX1 genes",
+            "journal": "BMC Cancer",
+            "volume": "8",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Gelsi-Boyer V, Trouplin V, Adelaide J, Aceto N, Remy V, Pinson S, Houdayer C, Arnoulet C, Sainty D, Bentires-Alj M, Olschwang S, Vey N, Mozziconacci MJ, Birnbaum D, Chaffanet M (2008) Genome profiling of chronic myelomonocytic leukemia: frequent alterations of RAS and RUNX1 genes. BMC Cancer8: 299. [PMC free article] [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 45126,
+          "infons": {
+            "title": "Tumor predisposition in Costello syndrome",
+            "journal": "Am J Med Genet C Semin Med Genet",
+            "volume": "137C",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Gripp KW (2005) Tumor predisposition in Costello syndrome. Am J Med Genet C Semin Med Genet137C: 72–77 [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 45254,
+          "infons": {
+            "title": "Hamster cell line suitable for transfection assay of transforming genes",
+            "journal": "Proc Natl Acad Sci USA",
+            "volume": "87",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Higashi T, Sasai H, Suzuki F, Miyoshi J, Ohuchi T, Takai S, Mori T, Kakunaga T (1990) Hamster cell line suitable for transfection assay of transforming genes. Proc Natl Acad Sci USA87: 2409–2413 [PMC free article] [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 45493,
+          "infons": {
+            "title": "K-ras mutations and benefit from cetuximab in advanced colorectal cancer",
+            "journal": "N Engl J Med",
+            "volume": "359",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Karapetis CS, Khambata-Ford S, Jonker DJ, O'Callaghan CJ, Tu D, Tebbutt NC, Simes RJ, Chalchal H, Shapiro JD, Robitaille S, Price TJ, Shepherd L, Au HJ, Langer C, Moore MJ, Zalcberg JR (2008) K-ras mutations and benefit from cetuximab in advanced colorectal cancer. N Engl J Med359: 1757–1765 [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 45811,
+          "infons": {
+            "title": "Dual-specificity MAP kinase phosphatases (MKPs) and cancer",
+            "journal": "Cancer Metastasis Rev",
+            "volume": "27",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Keyse SM (2008) Dual-specificity MAP kinase phosphatases (MKPs) and cancer. Cancer Metastasis Rev27: 253–261 [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 45945,
+          "infons": {
+            "title": "Expression of epiregulin and amphiregulin and K-ras mutation status predict disease control in metastatic colorectal cancer patients treated with cetuximab",
+            "journal": "J Clin Oncol",
+            "volume": "25",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Khambata-Ford S, Garrett CR, Meropol NJ, Basik M, Harbison CT, Wu S, Wong TW, Huang X, Takimoto CH, Godwin AK, Tan BR, Krishnamurthi SS, Burris III HA, Poplin EA, Hidalgo M, Baselga J, Clark EA, Mauro DJ (2007) Expression of epiregulin and amphiregulin and K-ras mutation status predict disease control in metastatic colorectal cancer patients treated with cetuximab. J Clin Oncol25: 3230–3237 [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 46364,
+          "infons": {
+            "title": "Detection of single-nucleotide polymorphisms with the WAVE DNA fragment analysis system",
+            "journal": "Genet Test",
+            "volume": "1",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Kuklin A, Munson K, Gjerde D, Haefele R, Taylor P (1997) Detection of single-nucleotide polymorphisms with the WAVE DNA fragment analysis system. Genet Test1: 201–206 [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 46556,
+          "infons": {
+            "title": "Mutations of APC, K-ras, and p53 are associated with specific chromosomal aberrations in colorectal adenocarcinomas",
+            "journal": "Cancer Res",
+            "volume": "63",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Leslie A, Pratt NR, Gillespie K, Sales M, Kernohan NM, Smith G, Wolf CR, Carey FA, Steele RJ (2003) Mutations of APC, K-ras, and p53 are associated with specific chromosomal aberrations in colorectal adenocarcinomas. Cancer Res63: 4656–4661 [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 46822,
+          "infons": {
+            "title": "KRAS mutation status is predictive of response to cetuximab therapy in colorectal cancer",
+            "journal": "Cancer Res",
+            "volume": "66",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Lievre A, Bachet JB, Le Corre D, Boige V, Landi B, Emile JF, Cote JF, Tomasic G, Penna C, Ducreux M, Rougier P, Penault-Llorca F, Laurent-Puig P (2006) KRAS mutation status is predictive of response to cetuximab therapy in colorectal cancer. Cancer Res66: 3992–3995 [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 47113,
+          "infons": {
+            "title": "KRAS codon 61, 146 and BRAF mutations predict resistance to cetuximab plus irinotecan in KRAS codon 12 and 13 wild-type metastatic colorectal cancer",
+            "journal": "Br J Cancer",
+            "volume": "101",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Loupakis F, Ruzzo A, Cremolini C, Vincenzi B, Salvatore L, Santini D, Masi G, Stasi I, Canestrari E, Rulli E, Floriani I, Bencardino K, Galluccio N, Catalano V, Tonini G, Magnani M, Fontanini G, Basolo F, Falcone A, Graziano F (2009) KRAS codon 61, 146 and BRAF mutations predict resistance to cetuximab plus irinotecan in KRAS codon 12 and 13 wild-type metastatic colorectal cancer. Br J Cancer101: 715–721 [PMC free article] [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 47565,
+          "infons": {
+            "title": "K-Ras mutations are changingpractice in advanced colorectal cancer",
+            "journal": "J Natl Cancer Inst",
+            "volume": "100",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "McNeill C (2008) K-Ras mutations are changingpractice in advanced colorectal cancer. J Natl Cancer Inst100: 1667–1669 [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 47708,
+          "infons": {
+            "title": "Concurrent mutations of K-ras oncogene at codons 12 and 22 in colon cancer",
+            "journal": "Jpn J Clin Oncol",
+            "volume": "32",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Miyakura Y, Sugano K, Fukayama N, Konishi F, Nagai H (2002) Concurrent mutations of K-ras oncogene at codons 12 and 22 in colon cancer. Jpn J Clin Oncol32: 219–221 [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 47897,
+          "infons": {
+            "title": "A novel point mutation at codon 146 of the K-ras gene in a human colorectal cancer identified by the polymerase chain reaction",
+            "journal": "Virus Genes",
+            "volume": "5",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Orita S, Higashi T, Kawasaki Y, Harada A, Igarashi H, Monden T, Morimoto H, Shimano T, Mori T, Miyoshi J (1991) A novel point mutation at codon 146 of the K-ras gene in a human colorectal cancer identified by the polymerase chain reaction. Virus Genes5: 75–79 [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 48182,
+          "infons": {
+            "title": "H-ras mutations in human pituitary carcinoma metastases",
+            "journal": "J Clin Endocrinol Metab",
+            "volume": "78",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Pei L, Melmed S, Scheithauer B, Kovacs K, Prager D (1994) H-ras mutations in human pituitary carcinoma metastases. J Clin Endocrinol Metab78: 842–846 [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 48357,
+          "infons": {
+            "title": "Understanding the predictive role of K-ras for epidermal growth factor receptor-targeted therapies in colorectal cancer",
+            "journal": "Clin Colorectal Cancer",
+            "volume": "7",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Ramos FJ, Macarulla T, Capdevila J, Elez E, Tabernero J (2008) Understanding the predictive role of K-ras for epidermal growth factor receptor-targeted therapies in colorectal cancer. Clin Colorectal Cancer7(Suppl 2): S52–S57 [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 48608,
+          "infons": {
+            "title": "Neutron radiation can activate K-ras via a point mutation in codon 146 and induces a different spectrum of ras mutations than does gamma radiation",
+            "journal": "Mol Cell Biol",
+            "volume": "10",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Sloan SR, Newcomb EW, Pellicer A (1990) Neutron radiation can activate K-ras via a point mutation in codon 146 and induces a different spectrum of ras mutations than does gamma radiation. Mol Cell Biol10: 405–408 [PMC free article] [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 48865,
+          "infons": {
+            "title": "Mutations in APC, Kirsten-ras, and p53–alternative genetic pathways to colorectal cancer",
+            "journal": "Proc Natl Acad Sci USA",
+            "volume": "99",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Smith G, Carey FA, Beattie J, Wilkie MJ, Lightfoot TJ, Coxhead J, Garner RC, Steele RJ, Wolf CR (2002) Mutations in APC, Kirsten-ras, and p53–alternative genetic pathways to colorectal cancer. Proc Natl Acad Sci USA99: 9433–9438 [PMC free article] [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 49138,
+          "infons": {
+            "title": "High-throughput sequencing screen reveals novel, transforming RAS mutations in myeloid leukemia patients",
+            "journal": "Blood",
+            "volume": "113",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Tyner JW, Erickson H, Deininger MW, Willis SG, Eide CA, Levine RL, Heinrich MC, Gattermann N, Gilliland DG, Druker BJ, Loriaux MM (2009) High-throughput sequencing screen reveals novel, transforming RAS mutations in myeloid leukemia patients. Blood113: 1749–1755 [PMC free article] [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 49445,
+          "infons": {
+            "title": "Cetuximab and chemotherapy as initial treatment for metastatic colorectal cancer",
+            "journal": "N Engl J Med",
+            "volume": "360",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Van Cutsem E, Kohne CH, Hitre E, Zaluski J, Chang Chien CR, Makhson A, D'Haens G, Pinter T, Lim R, Bodoky G, Roh JK, Folprecht G, Ruff P, Stroh C, Tejpar S, Schlichting M, Nippgen J, Rougier P (2009) Cetuximab and chemotherapy as initial treatment for metastatic colorectal cancer. N Engl J Med360: 1408–1417 [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 49779,
+          "infons": {
+            "title": "Setting future standards for KRAS testing in colorectal cancer",
+            "journal": "Pharmacogenomics",
+            "volume": "10",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "van Krieken H, Tol J (2009) Setting future standards for KRAS testing in colorectal cancer. Pharmacogenomics10: 1–3 [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 49920,
+          "infons": {
+            "title": "Genetic alterations during colorectal-tumor development",
+            "journal": "N Engl J Med",
+            "volume": "319",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Vogelstein B, Fearon ER, Hamilton SR, Kern SE, Preisinger AC, Leppert M, Nakamura Y, White R, Smits AM, Bos JL (1988) Genetic alterations during colorectal-tumor development. N Engl J Med319: 525–532 [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 50145,
+          "infons": {
+            "title": "Mechanism of activation of the RAF-ERK signaling pathway by oncogenic mutations of B-RAF",
+            "journal": "Cell",
+            "volume": "116",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Wan PT, Garnett MJ, Roe SM, Lee S, Niculescu-Duvaz D, Good VM, Jones CM, Marshall CJ, Springer CJ, Barford D, Marais R (2004) Mechanism of activation of the RAF-ERK signaling pathway by oncogenic mutations of B-RAF. Cell116: 855–867 [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 50403,
+          "infons": {
+            "title": "Mitogen-activated protein kinase phosphatase-3 is a tumor promoter target in initiated cells that express oncogenic Ras",
+            "journal": "J Biol Chem",
+            "volume": "279",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Warmka JK, Mauro LJ, Wattenberg EV (2004) Mitogen-activated protein kinase phosphatase-3 is a tumor promoter target in initiated cells that express oncogenic Ras. J Biol Chem279: 33085–33092 [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 50619,
+          "infons": {
+            "title": "The RAF proteins take centre stage",
+            "journal": "Nat Rev Mol Cell Biol",
+            "volume": "5",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Wellbrock C, Karasarides M, Marais R (2004) The RAF proteins take centre stage. Nat Rev Mol Cell Biol5: 875–885 [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 50756,
+          "infons": {
+            "title": "Different types of K-Ras mutations are conversely associated with overall survival in patients with colorectal cancer",
+            "journal": "Oncol Rep",
+            "volume": "21",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Winder T, Mundlein A, Rhomberg S, Dirschmid K, Hartmann BL, Knauer M, Drexel H, Wenzl E, De Vries A, Lang A (2009) Different types of K-Ras mutations are conversely associated with overall survival in patients with colorectal cancer. Oncol Rep21: 1283–1287 [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 51038,
+          "infons": {
+            "title": "KRAS mutation profile in colorectal carcinoma and novel mutation–internal tandem duplication in KRAS",
+            "journal": "Pol J Pathol",
+            "volume": "59",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Wojcik P, Kulig J, Okon K, Zazula M, Mozdzioch I, Niepsuj A, Stachura J (2008) KRAS mutation profile in colorectal carcinoma and novel mutation–internal tandem duplication in KRAS. Pol J Pathol59: 93–96 [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 51266,
+          "infons": {
+            "title": "Pancreatic tumor cells with mutant K-ras suppress ERK activity by MEK-dependent induction of MAP kinase phosphatase-2",
+            "journal": "Biochem Biophys Res Commun",
+            "volume": "280",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Yip-Schneider MT, Lin A, Marshall MS (2001) Pancreatic tumor cells with mutant K-ras suppress ERK activity by MEK-dependent induction of MAP kinase phosphatase-2. Biochem Biophys Res Commun280: 992–997, [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 51494,
+          "infons": {
+            "title": "Glucose deprivation contributes to the development of KRAS pathway mutations in tumor cells",
+            "journal": "Science",
+            "volume": "325",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Yun J, Rago C, Cheong I, Pagliarini R, Angenendt P, Rajagopalan H, Schmidt K, Willson JK, Markowitz S, Zhou S, Diaz Jr LA, Velculescu VE, Lengauer C, Kinzler KW, Vogelstein B, Papadopoulos N (2009) Glucose deprivation contributes to the development of KRAS pathway mutations in tumor cells. Science325: 1555–1559 [PMC free article] [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        }
+      ],
+      "annotations": [],
+      "relations": []
+    }
+  ]
+}

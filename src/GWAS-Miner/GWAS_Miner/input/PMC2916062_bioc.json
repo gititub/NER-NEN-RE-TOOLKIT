@@ -1,0 +1,804 @@
+{
+  "src": "Auto-CORPus (full-text)",
+  "date": "20231109",
+  "key": "autocorpus_fulltext.key",
+  "infons": {},
+  "documents": [
+    {
+      "id": "PMC2916062",
+      "inputfile": "./html_files/PMC2916062.html",
+      "infons": {},
+      "passages": [
+        {
+          "offset": 0,
+          "infons": {
+            "iao_name_1": "document title",
+            "iao_id_1": "IAO:0000305"
+          },
+          "text": "BRAF Mutation-selective Inhibition of Thyroid Cancer Cells by the Novel MEK Inhibitor RDEA119 and Genetic-potentiated Synergism with the mTOR Inhibitor Temsirolimus",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 164,
+          "infons": {
+            "section_title_1": "keywords",
+            "iao_name_1": "keywords section",
+            "iao_id_1": "IAO:0000630"
+          },
+          "text": "Thyroid Cancer, RDEA119, Temsirolimus, MEK Inhibitor, mTOR Inhibitor",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 240,
+          "infons": {
+            "section_title_1": "Abstract",
+            "iao_name_1": "textual abstract section",
+            "iao_id_1": "IAO:0000315"
+          },
+          "text": "We examined the therapeutic potential of a novel MEK inhibitor, RDEA119, and its synergism with the mTOR inhibitor temsirolimus in thyroid cancer cell lines. RDEA119 potently inhibited the proliferation of the four cell lines that harbored BRAF mutation, but had no or modest effects on the other four cells that harbored wild-type BRAF (IC50 of 0.034 – 0.217 μM vs. 1.413 – 34.120 μM). This inhibitory effect of RDEA119 in selected cell lines OCUT1 (BRAF V600E+, PIK3CA H1047R+) and SW1376 (BRAF V600E+) was enhanced by combination with the mTOR inhibitor temsirolimus. The PTEN-deficient cell FTC133 was highly sensitive to temsirolimus but insensitive to RDEA119 and simultaneous treatment with the latter enhanced the sensitivity of the cell to the former. The KAT18 (wild-type) cell was not sensitive to either drug alone, but became sensitive to the combination of the two drugs. The drug synergy was confirmed by combination index and isobologram analyses. RDEA119 and temsirolimus also showed synergistic effects on autophagic death of OCUT1 and KAT18 cells selectively tested. Dramatic synergistic effects of the two drugs were also seen on the growth of FTC133 xenograft tumors in nude mice. Overall, the effects of the two drugs on cell proliferation or autophagic death, either alone or in combination, were more pronounced in cells that harbored genetic alterations in the MAP kinase and PI3K/Akt pathways. Thus, these results demonstrated the important therapeutic potential of the novel MEK inhibitor RDEA119 and its synergism with temsirolimus in thyroid cancer.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 1826,
+          "infons": {
+            "section_title_1": "Introduction",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "Follicular cell-derived thyroid cancer is the most common endocrine malignancy with a rapidly rising incidence in recent years 1,2. This cancer is histologically classified into papillary thyroid cancer (PTC), follicular thyroid cancer (FTC), and anaplastic thyroid cancer (ATC). Although surgical and radioiodine treatments are generally effective, many thyroid cancer patients have persistent disease that is currently incurable and associated with increased morbidity and mortality 3,4. The Ras → Raf → MEK→ MAP kinase/ERK signaling pathway (MAPK pathway) plays an important role in thyroid tumorigenesis and progression of thyroid cancer, particularly the aggressive and incurable types 5–7. Unique of thyroid cancer with respect to the signaling of this pathway is the high prevalence of the activating BRAF mutation in this pathway, particularly in PTC and ATC 8. Several clinical trials have been completed testing the therapeutic effects of targeting this pathway at various levels, such as MEK and receptor tyrosine kinases (RTK), using several inhibitors 9–12. Although these studies have opened an exciting new era of translational thyroid cancer research, the clinical effectiveness of the drugs tested was generally limited, raising question on the effectiveness of targeting single pathways.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 3143,
+          "infons": {
+            "section_title_1": "Introduction",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "The phosphatidylinositol-3-kinase (PI3K) → Akt → mTOR signaling pathway (PI3K/Akt pathway) also plays an important role in thyroid tumorigenesis 6,7. Blocking the PI3K signaling pathway with pharmacologically toxic (clinically inapplicable) agents resulted in suppression of thyroid cancer cells 13,14. Moreover, our and others’ studies demonstrated that genetic alterations in the PI3K/Akt pathway were common in thyroid cancer, particularly in FTC and ATC 15–18. We recently further showed that genetic alterations in receptor tyrosine kinases and in their coupled MAPK and PI3K/Akt pathways occurred in nearly all cases of ATC, the most aggressive type of thyroid cancer, with the majority of the cases harboring genetic alterations that could potentially simultaneously activate MAPK and PI3K/Akt pathways 19. These results suggest that dual involvement of the two pathways is a fundamental mechanism in the tumorigenesis and aggressiveness of thyroid cancer and thus simultaneously targeting the two pathways may be particularly effective for the treatment of thyroid cancer. In the present study, we explored the therapeutic potential of a novel MEK inhibitor, RDEA119, and its synergism with the mTOR inhibitor temsirolimus, which are both clinically applicable, in the inhibition of thyroid cancer cells.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 4455,
+          "infons": {
+            "section_title_1": "Materials and Methods",
+            "section_title_2": "Cell lines and reagents",
+            "iao_name_1": "materials section",
+            "iao_id_1": "IAO:0000633",
+            "iao_name_2": "methods section",
+            "iao_id_2": "IAO:0000317"
+          },
+          "text": "The thyroid cancer cell line OCUT1 was originally from Dr. Naoyoshi Onoda (Osaka City University Graduate School of Medicine, Osaka, Japan); K1 from Dr. David Wynford-Thomas (University of Wales College of Medicine, Cardiff, UK); BCPAP from Dr. Massimo Santoro (University of Federico II, Naples, Italy); SW1736 and Hth74 from Dr. N.E. Heldin (University of Uppsala, Uppsala, Sweden); FTC133 from Dr. Georg Brabant (University of Manchester, Manchester, UK); KAT18 from Dr. Kenneth B. Ain (University of Kentucky Medical Center, Lexington, KY), and WRO-82-1 from Dr. G. J. F. Juillard (University of California-Los Angeles School of Medicine, Los Angeles, CA). They were all grown at 37°C in RPMI 1640 medium with 5% human serum, except for FTC133 that was cultured with DMEM/HAM’S F-12 medium with 5% human serum. RDEA119 was obtained from Ardea Biosciences (San Diego, CA), and temsirolimus were obtained from Wyeth Pharmaceuticals (Madison, NJ). The cell culture medium and agents were replenished every 24 h during the treatment.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 5532,
+          "infons": {
+            "section_title_1": "Materials and Methods",
+            "section_title_2": "Western blotting analysis",
+            "iao_name_1": "materials section",
+            "iao_id_1": "IAO:0000633",
+            "iao_name_2": "methods section",
+            "iao_id_2": "IAO:0000317"
+          },
+          "text": "Western blotting analysis was performed according to standard procedures as we described previously20. The antibodies used in the present study, including anti-phospho-ERK (Sc-7383), anti-ERK1 (Sc-94), anti-phospho-Akt (Sc-7985-R), anti-phospho-p70S6 Kinase (p70S6K) (Sc-7985-R), anti-actin (Sc-1616-R), HRP-conjugated anti-rabbit (Sc-2004), and HRP-conjugated anti-mouse (Sc-2005) IgG antibodies, were purchased from Santa Cruz (Santa Cruz, CA). The antigen-antibody complexes were visualized using the chemilucent ECL detection system (Amersham Pharmacia Biotech, Piscataway, NJ).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 6139,
+          "infons": {
+            "section_title_1": "Materials and Methods",
+            "section_title_2": "Cell proliferation assay",
+            "iao_name_1": "materials section",
+            "iao_id_1": "IAO:0000633",
+            "iao_name_2": "methods section",
+            "iao_id_2": "IAO:0000317"
+          },
+          "text": "Cell proliferation assay was performed in triplicate for each experiment as previously described 20. Briefly, cells (800/well) were seeded into 96-well plates and treated with different drugs at indicated concentrations. After 5 days of treatments, cell culture was added with 10 μl of 5 mg/ml MTT [3-(4, 5-dimethylthiazolyl-2)-2, 5-diphenyltetrazolium bromide] and incubated for 4 h, followed by addition of 100 μl of 10% SDS solution and a further incubation overnight. The plates were read using the test wavelength of 570 nm and the reference wavelength of 670 nm. IC50 values were calculated using the Reed-Muench method.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 6789,
+          "infons": {
+            "section_title_1": "Materials and Methods",
+            "section_title_2": "Analysis of combined drug effects",
+            "iao_name_1": "materials section",
+            "iao_id_1": "IAO:0000633",
+            "iao_name_2": "methods section",
+            "iao_id_2": "IAO:0000317"
+          },
+          "text": "Drug synergy was determined by the combination-index and isobologram analyses, which were generated according to the median-effect method of Chou and Talalay using the CalcuSyn software (Biosoft, Ferguson, MO) 21. The combination-index (CI) is a quantitative representation of the degree of drug interaction. On the basis of the dose-response curves using MTT assay for thyroid cancer cells treated with inhibitors, alone or combination, the CI values were generated over a range of fraction affected (Fa) levels from 5% – 95% growth inhibition. Synergism, additivity, and antagonism are defined as CI < 1, CI = 1, and CI > 1, respectively. The isobologram is formed by plotting the individual drug concentrations required to achieve 50% inhibitory effect on their respective x- and y- axes. A straight line connecting the two points is drawn and the concentration (combination data point) of the two drugs used in combination to achieve the 50% inhibitory effect is plotted on the isobologram. Combination data points that fall on the line represent an additive drug, whereas data points that fall below or above the line represent synergism and antagonism, respectively.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 7994,
+          "infons": {
+            "section_title_1": "Materials and Methods",
+            "section_title_2": "Cell autophagy analysis",
+            "iao_name_1": "materials section",
+            "iao_id_1": "IAO:0000633",
+            "iao_name_2": "methods section",
+            "iao_id_2": "IAO:0000317"
+          },
+          "text": "Cells were transfected with GFP-LC3 expression plasmid EGFP-LC3B (Addgene Inc, Cambridge, MA). At 24 h after transfection, cells were treated with or without 1 μM RDEA19 and/or 100 nM temsirolimus for 48 h. Cells were then fixed with 4% paraformaldehyde and imaged using fluorescence microscopy. Hoechst 33342 counter-stain was used to identify cells with intact nuclei. Autophagy was reflected by GFP-LC3B redistribution to form puncta, which would represent the autophagic vacuoles. Cells with more than four GFP-LC3B puncta per cell were regarded as autophagic cells as described previously 22. Five random fields representing 200 GFP-LC3-positive cells were counted and the percentage of cells with punctuate staining was determined in three independent experiments 22. Microscope photos were captured using Spot image software (Diagnostic Instruments Inc., Sterling Heights, MI).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 8901,
+          "infons": {
+            "section_title_1": "Materials and Methods",
+            "section_title_2": "Xenograft tumor assay in nude mice",
+            "iao_name_1": "materials section",
+            "iao_id_1": "IAO:0000633",
+            "iao_name_2": "methods section",
+            "iao_id_2": "IAO:0000317"
+          },
+          "text": "An aliquot of 2 × 106 FTC133 cells was injected subcutaneously into the flanks of nude mice (Harlan Sprague Dawley, Indianapolis, Inc). When tumors grew to about 5 mm in diameter, animals were grouped into 4 groups (4 mice/group) that have similar average tumor size. RDEA119 was prepared in vehicle 1 (10% cremohor EL in saline), and was administered through oral gavage twice/day (5 mg/kg). Temsirolimus was formulated in vehicle 2 containing 2% ethanol and 8% cremophor, and administered through intraperitoneal injection once/3 days (10 mg/kg). The four groups were treated with vehicle 1 plus vehicle 2 (control), temsirolimus plus vehicle 1 (temsirolimus group), RDEA119 plus vehicle 2 (RDEA119 group) or RDEA119 plus temsirolimus (combination group), respectively. Tumor size was measured on the skin surface twice a week and tumor volumes were calculated by the formula (width)2 × length/2 as described previously 23. Tumors were harvested and weighed after treatment for two weeks. Statistical analysis of differences in tumor volumes and weights between groups was performed using the two-tailed Independent-sample T test.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 10067,
+          "infons": {
+            "section_title_1": "Results",
+            "section_title_2": "The novel MEK inhibitor RDEA119 selectively inhibited the proliferation of thyroid cancer cells with genetic alterations in the MAPK pathway",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "We first tested the effect of the novel MEK inhibitor RDEA119 on the activities of MAPK pathway and cell proliferation of eight thyroid cancer cell lines, which had different genotypes of the MAPK and PI3K/Akt pathways (Table 1). In one selected cell line, SW1736, which harbored heterozygous BRAF mutation, RDEA119 suppressed the MAPK pathway in a concentration-dependent manner. As shown in Fig 1A, remarkable inhibition of ERK phosphorylation was achieved by treatment with 0.2 μM RDEA119 and complete inhibition was achieved at 0.5 μM. The inhibitory effect remained for at least 24 h (Fig 1B). Treatment with RDEA119 for 24 h had similar effects on ERK phosphorylation in OCUT1, K1 and BCPAP cells that harbored T1799A BRAF mutation. RDEA119 showed moderate inhibitory effects on FTC133, KAT18, Hth74 and WRO cells that did not harbor BRAF mutation (Fig 1C).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 11077,
+          "infons": {
+            "section_title_1": "Results",
+            "section_title_2": "The novel MEK inhibitor RDEA119 selectively inhibited the proliferation of thyroid cancer cells with genetic alterations in the MAPK pathway",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "We next examined the effect of RDEA119 on the proliferation of these cells. As shown in Fig 1D and Table 1, RDEA119 potently inhibited the proliferation of BRAF mutation-harboring cells OCUT1, K1, BCPAP and SW1736 in a concentration-dependent manner, with IC50 values ranging from 0.034 – 0.217 μM. In contrast, this MEK inhibitor showed no or very modest inhibitory effects in FTC133, KAT18, Hth74, and WRO cells that did not harbor BRAF mutation, with IC50 values ranging from 1.413 – 34.12 μM (Fig 1D and Table 1). Thus, these results demonstrated a BRAF mutation-selective inhibition of thyroid cancer cells by the novel MEK inhibitor RDEA119.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 11724,
+          "infons": {
+            "section_title_1": "Results",
+            "section_title_2": "The MEK inhibitor RDEA119 and mTOR inhibitor temsirolimus synergistically inhibited the proliferation of thyroid cancer cells",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "As genetic alterations in both the MAPK and PI3K/Akt pathways play a fundamental role in the tumorigenesis of thyroid cancer 6,7, we asked whether simultaneously targeting the two pathways would have synergetic effects on the proliferation of thyroid cancer cells. The inhibitory effects of combined use of the MEK inhibitor RDEA119 and the mTOR inhibitor temsirolimus were tested in four representative thyroid cancer cell lines, including OCUT1 harboring both BRAF and PIK3CA mutations, SW1736 harboring only BRAF mutation, FTC133 harboring deficient PTEN, and KAT18 cells with wild-type alleles. These cells were chosen for their representative genotypes in the two pathways.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 12527,
+          "infons": {
+            "section_title_1": "Results",
+            "section_title_2": "The MEK inhibitor RDEA119 and mTOR inhibitor temsirolimus synergistically inhibited the proliferation of thyroid cancer cells",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "Fig 2 shows the effects of drug combination on MAPK and PI3K/Akt signaling pathways. Temsirolimus and RDEA119 inhibited the phosphorylation of p70S6K and ERK, respectively, and their combination inhibited the phosphorylation of both. Interestingly, RDEA119 also showed an inhibitory effect on the phosphorylation of p70S6K in OCUT1 and SW1736 cells. Temsirolimus increased Akt phosphorylation to various extents in the four cell lines, especially in SW1736 cells, consistent with the known feedback effect of mTOR inhibitors on Akt activation 23. Combination with RDEA119 interestingly blocked this feedback effect in SW1736 cells (Fig 2).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 13166,
+          "infons": {
+            "section_title_1": "Results",
+            "section_title_2": "The MEK inhibitor RDEA119 and mTOR inhibitor temsirolimus synergistically inhibited the proliferation of thyroid cancer cells",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "We next tested the effects of drug combination on cell proliferation. As shown in the upper panel of Fig 3A, the PIK3CA mutation-harboring OCUT1 cells showed a higher sensitivity to the inhibition by temsirolimus than SW1736 cells. This can also be seen in the isobologram in the lower panel of Fig 3A in which the marked points on the x-axis represent IC50 values of temsirolimus for the four cells. This is consistent with the results we reported recently 20. In both cells, temsirolimus enhanced the already remarkable inhibitory effects of RDEA119. The PTEN-deficient cell FTC133 was highly sensitive to temsirolimus but only minimally sensitive to RDEA119. Simultaneous treatment with the two inhibitors resulted in enhanced inhibition of the cell (Fig 3A). Also consistent with our previous finding20 was that KAT18 cells were less sensitive than OCUT1 cells and FTC133 cells, particularly the latter, to temsirolimus. Combination of RDEA119 and temsirolimus also had a synergistic effect on the KAT18 cell, but the overall magnitude of inhibition was lower compared with other cells that harbored genetic alterations in the MAPK or PI3K/Akt pathways (Fig 3A). The SW1736 and KAT18 cells do not have known genetic alterations in the PI3K/Akt pathway, but the latter was more sensitive than the former to temsirolimus (Fig 3), raising the possibility of the existence of a molecular mechanism unique to the KAT18 cells.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 14590,
+          "infons": {
+            "section_title_1": "Results",
+            "section_title_2": "The MEK inhibitor RDEA119 and mTOR inhibitor temsirolimus synergistically inhibited the proliferation of thyroid cancer cells",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "To more clearly analyze the level of interaction (synergistic, additive or antagonistic) between RDEA119 and temsirolimus, the combination-index (CI) and isobologram were calculated according to the Chou and Talalay median effect principal 21. The CI values for each dose combination of the two drugs are shown in the middle panel of Fig 3A. Synergy between RDEA119 and temsirolimus was observed in at least 5 different does combination in the four thyroid cancer cell lines, with most of the CI values being less than 0.5, suggesting a synergism. The results of isobologram analysis, which reflect the whole interaction level, are shown in the lower panel of Fig 3A. The combination data points for all the cells were below the lines connecting the IC50 points of the two drugs. The results thus again revealed strong synergistic effects between RDEA119 and temsirolimus on the proliferation of thyroid cancer cells.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 15507,
+          "infons": {
+            "section_title_1": "Results",
+            "section_title_2": "RDEA119 and temsirolimus synergistically induced autophagic death of thyroid cancer cells",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "Increasing evidence indicates that deficiency of autophagy, known as non-apoptotic programmed cell death, is involved in tumorigenesis and mTOR inhibitors induce cell autophagy in various cancer cell lines 24–26. We therefore examined whether REDA119 and temsirolimus could synergistically induce autophagy as one mechanism for their effects on proliferation of thyroid cancer cells. As shown in Fig 3B and C, RDEA119 and temsirolimus, when used individually, slightly induced autophagy in OCUT1 cells that harbored genetic alterations (BRAF and PIK3CA mutations) in both the MAP kinase and PI3K/Akt pathways. Remarkably, combination of the two drugs dramatically increased autophagy of OCUT1 cells. Slight autophagy of KAT18 cells occurred when treated with RDEA119 or temsirolimus alone, and combination treatment caused a modest increase in autophagy in this cell that harbored wild-type genotypes in the MAPK and PI3K/Akt pathways.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 16531,
+          "infons": {
+            "section_title_1": "Results",
+            "section_title_2": "RDEA119 and temsirolimus synergistically inhibited thyroid xenograft tumor growth in vivo",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "We also examined the effects of RDEA119 and temsirolimus on the growth of xenograft tumors derived from FTC133 cells, which were previously shown to be well compatible with the nude mice 20. As shown in Fig 4A, while temsirolimus significantly inhibited the xenograft growth, RDEA119 only had a modest effect. This is consistent with the in vitro proliferation data that FTC133 cells were far more sensitive to temsirolimus than RDEA119 (Fig 3A). Combination of RDEA119 and temsirolimus resulted in a more pronounced inhibition of the xenograft tumors and, in fact, tumor growth was nearly completely suspended. At two weeks of treatment, the average tumor volumes of the combination group was 0.34 ± 0.23 cm3, which was significantly smaller than that of control (3.40 ± 1.35 cm3, p = 0.004), temsirolimus group (0.96 ± 0.38 cm3, p = 0.03) and RDEA119 group (1.73 ± 0.81 cm3, p = 0.02), respectively. The tumor weight of each individual mouse at the end of the treatment is shown in Fig 4B. The average tumor weight of the combination group was 0.55 ± 0.28 g, which was significantly smaller than that of control (2.90 ± 0.93 g, p = 0.002) and RDEA119 group (1.81 ± 0.75 g, p = 0.02), respectively. It was marginally smaller than that of the temsirolimus group (1.15 ± 0.54 cm3, p = 0.09).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 17910,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "RDEA119 is a novel and unique MEK inhibitor that has been developed recently with great promise as an anti-cancer drug for its favorable properties, including easy oral dosing, excellent selectivity for MEK and low central nervous system penetration (hence low neurological toxicity) 27. It is currently in clinical trials in advanced cancer patients as both monotreatment and combinative therapy with the multi-kinase inhibitor sorafenib. In the present preclinical study, we for the first time tested the effects of RDEA119 and, taking a further step, the effects of combined use of RDEA119 and the mTOR inhibitor temsirolimus on thyroid cancer cells. Like other MEK inhibitors tested previously, many of which may not be clinically applicable 28–33, we demonstrated the BRAF mutation selectivity of the novel MEK inhibitor RDEA119. We also demonstrated that RDEA119 and temsirolimus had significant synergism in inhibiting the proliferation of thyroid cancer cells in vitro and the growth of xenograft thyroid tumors in vivo.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 18948,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "Like the BRAF mutation-selective effects of the MEK inhibitor RDEA119 on thyroid cancer cells, the mTOR inhibitor temsirolimus also showed more potent inhibition on cells (OCUT1 and FTC133) that harbored genetic alterations in the PI3K/Akt pathway. This is consistent with our recent report that genetic alterations in the PI3K/Akt pathway conferred thyroid cancer cells sensitivity to the inhibitors of this pathway 20. Interestingly, in the present study, we demonstrated that RDEA119 and temsirolimus, when used in combination, showed synergistic effects on cell proliferation in all cell lines, including cells that had wild genotypes in the MAPK and PI3K/Akt pathways. However, inhibition of cells by combined use of RDEA119 and temsirolimus was most effective in cells that harbored genetic alterations in the MAPK and PI3K/Akt pathways, particularly in cells that harbored genetic alterations in both pathways, and least in cells that had wild genotypes in both pathways. This genetic-selective pattern was also clearly seen in the synergistic effects of RDEA119 and temsirolimus on autophagic death of thyroid cancer cells (Fig. 3B), which can explain the synergistic inhibitory effects of the two drugs on thyroid cancer cell proliferation and xenograft tumor growth. These findings have important therapeutic implications for thyroid cancer, particularly for aggressive and currently incurable thyroid cancers that commonly harbored activating genetic alterations in both the MAPK and PI3K/Akt pathways 19. Simultaneously targeting the two pathways using RDEA119 and temsirolimus may be particularly effective for the treatment of these cancers.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 20603,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "No significant cell apoptosis was induced by the MEK and mTOR inhibitors in the present study (data not shown). Therefore, unlike autophagic cell death, apoptosis may not be a major mechanism involved in the synergistic inhibition of thyroid cancer cells by the MEK and mTOR inhibitors. A recent study published during the revision of the present paper also showed enhanced inhibition of thyroid cancer cells by combined use of a MEK inhibitor, AZD6244, and a mTOR inhibitor, rapamycin34. Although combination index and isobologram were not examined in this study for synergism analysis, the results are consistent with our findings. It would be interesting to know whether the effects of AZD6244 and rapamycin also involved autophagic cell death as a mechanism for the observed effects of the combined use of the two inhibitors since cell apoptosis was also not observed in this study. In terms of pharmaceutical properties and toxicity profiles, rapamycin may be inferior to its derivative newer generations of mTOR inhibitors, such as temsirolimus. We previously also demonstrated a synergistic inhibition of thyroid cancer cells by the MEK inhibitor PD0325901 and the PI3K inhibitor LY294002 32. However, these inhibitors are unlikely to be clinically applicable. Therefore, future clinical trial designing on combination therapy targeting both the MAPK and PI3K/Akt pathways for thyroid cancer may reasonably use temsirolimus and a clinically applicable MEK inhibitor, such as RDEA119 or AZD6244.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 22104,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "In summary, this study demonstrated the therapeutic potential of the novel MEK inhibitor RDEA119 in thyroid cancer and its synergism with the mTOR inhibitor temsirolimus. This seemed to be the case particularly in thyroid cancer cells that harbored genetic alterations in MAPK and PI3K/Akt pathways. Given the extremely common genetic alterations in the MAPK and PI3K/Akt pathways in thyroid cancer, particularly aggressive and currently incurable thyroid cancers, combination therapy using RDEA119 and temsirolimus may prove to be effective in tackling these cancers. Given the good clinical applicability of RDEA119 and temsirolimus, clinical trials on combination therapy using the two drugs in thyroid cancer may be warranted.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 22834,
+          "infons": {
+            "section_title_1": "Acknowledgments",
+            "iao_name_1": "acknowledgements section",
+            "iao_id_1": "IAO:0000324"
+          },
+          "text": "We thank Drs. Heldin NE, Ain KB, Onoda N, Santoro M, Wynford-Thomas D, Brabant G, Juillard GJ, Schweppe RE, and Haugen BR for kindly providing us or facilitating the accessibility to the cell lines used in this study. This work was partly supported by NIH RO-1 grant CA113507-01 and NIH SPORE grant CA-96784 (U.S.A.) to M Xing and an American Thyroid Association research grant to D Liu.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 23236,
+          "infons": {
+            "journal": "JAMA. ",
+            "volume": "295",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "1. Davies L, Welch HG. Increasing incidence of thyroid cancer in the United States, 1973–2002. JAMA. 2006;295:2164–67. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 23390,
+          "infons": {
+            "journal": "CA Cancer J Clin. ",
+            "volume": "59",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "2. Jemal A, Siegel R, Ward E, Hao Y, Xu J, Thun MJ. Cancer statistics. CA Cancer J Clin. 2009;59:225–49. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 23520,
+          "infons": {
+            "journal": "Thyroid. ",
+            "volume": "16",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "3. Cooper DS, Doherty GM, Haugen BR, Kloos RT, Lee SL, Mandel SJ, Mazzaferri EL, McIver B, Sherman SI, Tuttle RM. Management guidelines for patients with thyroid nodules and differentiated thyroid cancer. Thyroid. 2006;16:109–42. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 23775,
+          "infons": {
+            "journal": "J Clin Endocrinol Metab. ",
+            "volume": "91",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "4. Durante C, Haddy N, Baudin E, Leboulleux S, Hartl D, Travagli JP, Caillou B, Ricard M, Lumbroso JD, De Vathaire F, Schlumberger M. Long-term outcome of 444 patients with distant metastases from papillary and follicular thyroid carcinoma: benefits and limits of radioiodine therapy. J Clin Endocrinol Metab. 2006;91:2892–99. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 24127,
+          "infons": {
+            "journal": "Endocr Rev. ",
+            "volume": "28",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "5. Xing M. BRAF mutation in papillary thyroid cancer: pathogenic role, molecular bases, and clinical implications. Endocr Rev. 2007;28:742–62. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 24295,
+          "infons": {
+            "journal": "Otolaryngol Clin North Am. ",
+            "volume": "41",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "6. Xing M. Recent advances in molecular biology of thyroid cancer and their clinical implications. Otolaryngol Clin North Am. 2008;41:1135–46. [PMC free article] [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 24482,
+          "infons": {
+            "journal": "Endocrinol Metab Clin North Am. ",
+            "volume": "37",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "7. Paes JE, Ringel MD. Dysregulation of the phosphatidylinositol 3-kinase pathway in thyroid neoplasia. Endocrinol Metab Clin North Am. 2008;37:375–87. [PMC free article] [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 24678,
+          "infons": {
+            "journal": "Endocr Relat Cancer. ",
+            "volume": "12",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "8. Xing M. BRAF mutation in thyroid cancer. Endocr Relat Cancer. 2005;12:245–62. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 24784,
+          "infons": {
+            "journal": "N Engl J Med. ",
+            "volume": "359",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "9. Sherman SI, Wirth LJ, Droz JP, Hofmann M, Bastholt L, Martins RG, Licitra L, Eschenberg MJ, Sun YN, Juan T, Stepan DE, Schlumberger MJ. Motesanib diphosphate in progressive differentiated thyroid cancer. N Engl J Med. 2008;359:31–42. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 25046,
+          "infons": {
+            "journal": "J Clin Oncol. ",
+            "volume": "26",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "10. Cohen EE, Rosen LS, Vokes EE, Kies MS, Forastiere AA, Worden FP, Kane MA, Sherman E, Kim S, Bycott P, Tortorici M, Shalinsky DR, Liau KF, Cohen RB. Axitinib Is an Active Treatment for All Histologic Subtypes of Advanced Thyroid Cancer: Results From a Phase II Study. J Clin Oncol. 2008;26:4708–13. [PMC free article] [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 25392,
+          "infons": {
+            "journal": "J Clin Oncol. ",
+            "volume": "26",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "11. Gupta-Abramson V, Troxel AB, Nellore A, Puttaswamy K, Redlinger M, Ransone K, Mandel SJ, Flaherty KT, Loevner LA, O’Dwyer PJ, Brose MS. Phase II Trial of Sorafenib in Advanced Thyroid Cancer. J Clin Oncol. 2008;26:4714–19. [PMC free article] [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 25663,
+          "infons": {
+            "journal": "J Clin Oncol. ",
+            "volume": "27",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "12. Kloos RT, Ringel MD, Knopp MV, Hall NC, King M, Stevens R, Liang J, Wakely PE, Jr, Vasko VV, Saji M, Rittenberry J, Wei L, Arbogast D, Collamore M, Wright JJ, Grever M, Shah MH. Phase II trial of sorafenib in metastatic thyroid cancer. J Clin Oncol. 2009;27:1675–84. [PMC free article] [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 25978,
+          "infons": {
+            "journal": "Br J Cancer. ",
+            "volume": "92",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "13. Mandal M, Kim S, Younes MN, Jasser SA, El Naggar AK, Mills GB, Myers JN. The Akt inhibitor KP372-1 suppresses Akt activity and cell proliferation and induces apoptosis in thyroid cancer cells. Br J Cancer. 2005;92:1899–905. [PMC free article] [PubMed] [Google Scholar] Retracted",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 26260,
+          "infons": {
+            "journal": "Carcinogenesis. ",
+            "volume": "28",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "14. Furuya F, Lu C, Willingham MC, Cheng SY. Inhibition of phosphatidylinositol 3′ kinase delays tumor progression and blocks metastatic spread in a mouse model of thyroid cancer. Carcinogenesis. 2007;28:2451–58. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 26498,
+          "infons": {
+            "journal": "J Clin Endocrinol Metab. ",
+            "volume": "90",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "15. Wu G, Mambo E, Guo Z, Hu S, Huang X, Gollin SM, Trink B, Ladenson PW, Sidransky D, Xing M. Uncommon mutation, but common amplifications, of the PIK3CA gene in thyroid tumors. J Clin Endocrinol Metab. 2005;90:4688–93. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 26744,
+          "infons": {
+            "journal": "Cancer Res. ",
+            "volume": "65",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "16. Garcia-Rostan G, Costa AM, Pereira-Castro I, Salvatore G, Hernandez R, Hermsem MJ, Herrero A, Fusco A, Cameselle-Teijeiro J, Santoro M. Mutation of the PIK3CA gene in anaplastic thyroid cancer. Cancer Res. 2005;65:10199–207. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 26998,
+          "infons": {
+            "journal": "Clin Cancer Res. ",
+            "volume": "13",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "17. Hou P, Liu D, Shan Y, Hu S, Studeman K, Condouris S, Wang Y, Trink A, El Naggar AK, Tallini G, Vasko V, Xing M. Genetic alterations and their relationship in the phosphatidylinositol 3-kinase/Akt pathway in thyroid cancer. Clin Cancer Res. 2007;13:1161–70. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 27284,
+          "infons": {
+            "journal": "J Clin Endocrinol Metab. ",
+            "volume": "93",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "18. Santarpia L, El Naggar AK, Cote GJ, Myers JN, Sherman SI. Phosphatidylinositol 3-kinase/akt and ras/raf-mitogen-activated protein kinase pathway mutations in anaplastic thyroid cancer. J Clin Endocrinol Metab. 2008;93:278–84. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 27539,
+          "infons": {
+            "journal": "J Clin Endocrinol Metab. ",
+            "volume": "93",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "19. Liu Z, Hou P, Ji M, Guan H, Studeman K, Jensen K, Vasko V, El Naggar AK, Xing M. Highly prevalent genetic alterations in receptor tyrosine kinases and phosphatidylinositol 3-kinase/akt and mitogen-activated protein kinase pathways in anaplastic and follicular thyroid cancers. J Clin Endocrinol Metab. 2008;93:3106–16. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 27887,
+          "infons": {
+            "journal": "Cancer Res. ",
+            "volume": "69",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "20. Liu D, Hou P, Liu Z, Wu G, Xing M. Genetic alterations in the phosphoinositide 3-kinase/Akt signaling pathway confer sensitivity of thyroid cancer cells to therapeutic targeting of Akt and mammalian target of rapamycin. Cancer Res. 2009;69:7311–19. [PMC free article] [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 28184,
+          "infons": {
+            "journal": "Trends Pharmacol Sci. ",
+            "volume": "4",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "21. Chou T-C, Talalay P. Analysis of combined drug effects: a new look at a very old problem. Trends Pharmacol Sci. 1983;4:450–454. [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 28332,
+          "infons": {
+            "journal": "J Clin Invest. ",
+            "volume": "117",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "22. Amaravadi RK, Yu D, Lum JJ, Bui T, Christophorou MA, Evan GI, Thomas-Tikhonenko A, Thompson CB. Autophagy inhibition enhances therapy-induced apoptosis in a Myc-induced model of lymphoma. J Clin Invest. 2007;117:326–36. [PMC free article] [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 28600,
+          "infons": {
+            "journal": "Cancer Res. ",
+            "volume": "65",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "23. Sun SY, Rosenberg LM, Wang X, Zhou Z, Yue P, Fu H, Khuri FR. Activation of Akt and eIF4E survival pathways by rapamycin-mediated mammalian target of rapamycin inhibition. Cancer Res. 2005;65:7052–58. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 28829,
+          "infons": {
+            "journal": "Oncogene. ",
+            "volume": "23",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "24. Gozuacik D, Kimchi A. Autophagy as a cell death and tumor suppressor mechanism. Oncogene. 2004;23:2891–906. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 28966,
+          "infons": {
+            "journal": "Proc Natl Acad Sci U S A. ",
+            "volume": "103",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "25. Yu L, Wan F, Dutta S, Welsh S, Liu Z, Freundt E, Baehrecke EH, Lenardo M. Autophagic programmed cell death by selective catalase degradation. Proc Natl Acad Sci U S A. 2006;103:4952–57. [PMC free article] [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 29200,
+          "infons": {
+            "journal": "Blood. ",
+            "volume": "113",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "26. Crazzolara R, Cisterne A, Thien M, Hewson J, Baraz R, Bradstock KF, Bendall LJ. Potentiating effects of RAD001 (Everolimus) on vincristine therapy in childhood acute lymphoblastic leukemia. Blood. 2009;113:3297–306. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 29445,
+          "infons": {
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "27. Hamatake R, Iverson C, Yeh LT, Dadson C, Tieu K, Vernier JM, Quart B. RDEA119, a Potent and Highly Specific MEK Inhibitor is Efficacious in Mouse Tumor Xenograft Studies. 2008. AACR annual meeting; 2008. [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 29669,
+          "infons": {
+            "journal": "J Clin Endocrinol Metab. ",
+            "volume": "92",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "28. Liu D, Liu Z, Jiang D, Dackiw AP, Xing M. Inhibitory Effects of the MEK Inhibitor CI-1040 on the Proliferation and Tumor Growth of Thyroid Cancer Cells with BRAF or RAS Mutations. J Clin Endocrinol Metab. 2007;92:4686–95. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 29920,
+          "infons": {
+            "journal": "J Clin Endocrinol Metab. ",
+            "volume": "92",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "29. Ball DW, Jin N, Rosen DM, Dackiw A, Sidransky D, Xing M, Nelkin BD. Selective Growth Inhibition in BRAF Mutant Thyroid Cancer by the MEK 1/2 Inhibitor AZD6244 (ARRY-142886) J Clin Endocrinol Metab. 2007;92:4712–18. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 30164,
+          "infons": {
+            "journal": "Arch Otolaryngol Head Neck Surg. ",
+            "volume": "133",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "30. Henderson YC, Fredrick MJ, Clayman GL. Differential responses of human papillary thyroid cancer cell lines carrying the RET/PTC1 rearrangement or a BRAF mutation to MEK1/2 inhibitors. Arch Otolaryngol Head Neck Surg. 2007;133:810–815. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 30428,
+          "infons": {
+            "journal": "J Clin Endocrinol Metab. ",
+            "volume": "93",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "31. Leboeuf R, Baumgartner JE, Benezra M, Malaguarnera R, Solit D, Pratilas CA, Rosen N, Knauf JA, Fagin JA. BRAFV600E mutation is associated with preferential sensitivity to mitogen-activated protein kinase kinase inhibition in thyroid cancer cell lines. J Clin Endocrinol Metab. 2008;93:2194–201. [PMC free article] [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 30771,
+          "infons": {
+            "journal": "Thyroid. ",
+            "volume": "18",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "32. Liu D, Xing M. Potent Inhibition of Thyroid Cancer Cells by the MEK Inhibitor PD0325901 and Its Potentiation by Suppression of the PI3K and NF-kappaB Pathways. Thyroid. 2008;18:853–64. [PMC free article] [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 31004,
+          "infons": {
+            "journal": "Thyroid. ",
+            "volume": "19",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "33. Schweppe RE, Kerege AA, Sharma V, Poczobutt JM, Gutierrez-Hartmann A, Grzywa RL, Haugen BR. Distinct genetic alterations in the mitogen-activated protein kinase pathway dictate sensitivity of thyroid cancer cells to mitogen-activated protein kinase kinase 1/2 inhibition. Thyroid. 2009;19:825–35. [PMC free article] [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 31349,
+          "infons": {
+            "journal": "J Clin Endocrinol Metab. ",
+            "volume": "94",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "34. Jin N, Jiang T, Rosen DM, Nelkin BD, Ball DW. Dual inhibition of mitogen-activated protein kinase kinase and mammalian target of rapamycin in differentiated and anaplastic thyroid cancer. J Clin Endocrinol Metab. 2009;94:4107–12. [PMC free article] [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        }
+      ],
+      "annotations": [],
+      "relations": []
+    }
+  ]
+}

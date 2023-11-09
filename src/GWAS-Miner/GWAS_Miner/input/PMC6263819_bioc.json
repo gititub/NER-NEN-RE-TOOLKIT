@@ -1,0 +1,1431 @@
+{
+  "src": "Auto-CORPus (full-text)",
+  "date": "20231109",
+  "key": "autocorpus_fulltext.key",
+  "infons": {},
+  "documents": [
+    {
+      "id": "PMC6263819",
+      "inputfile": "./html_files/PMC6263819.html",
+      "infons": {},
+      "passages": [
+        {
+          "offset": 0,
+          "infons": {
+            "iao_name_1": "document title",
+            "iao_id_1": "IAO:0000305"
+          },
+          "text": "A genome‐wide association study suggests new evidence for an association of the NADPH Oxidase 4 (NOX4) gene with severe diabetic retinopathy in type 2 diabetes",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 159,
+          "infons": {
+            "section_title_1": "keywords",
+            "iao_name_1": "keywords section",
+            "iao_id_1": "IAO:0000630"
+          },
+          "text": "diabetes, diabetic complications, diabetic retinopathy, genome‐wide association study, NOX4",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 258,
+          "infons": {
+            "section_title_1": "Abstract",
+            "section_title_2": "Purpose",
+            "iao_name_1": "textual abstract section",
+            "iao_id_1": "IAO:0000315"
+          },
+          "text": "Diabetic retinopathy is the most common eye complication in patients with diabetes. The purpose of this study is to identify genetic factors contributing to severe diabetic retinopathy.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 458,
+          "infons": {
+            "section_title_1": "Abstract",
+            "section_title_2": "Methods",
+            "iao_name_1": "textual abstract section",
+            "iao_id_1": "IAO:0000315"
+          },
+          "text": "A genome‐wide association approach was applied. In the Genetics of Diabetes Audit and Research in Tayside Scotland (GoDARTS) datasets, cases of severe diabetic retinopathy were defined as type 2 diabetic patients who were ever graded as having severe background retinopathy (Level R3) or proliferative retinopathy (Level R4) in at least one eye according to the Scottish Diabetic Retinopathy Grading Scheme or who were once treated by laser photocoagulation. Controls were diabetic individuals whose longitudinal retinopathy screening records were either normal (Level R0) or only with mild background retinopathy (Level R1) in both eyes. Significant Single Nucleotide Polymorphisms (SNPs) were taken forward for meta‐analysis using multiple Caucasian cohorts.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 1225,
+          "infons": {
+            "section_title_1": "Abstract",
+            "section_title_2": "Results",
+            "iao_name_1": "textual abstract section",
+            "iao_id_1": "IAO:0000315"
+          },
+          "text": "Five hundred and sixty cases of type 2 diabetes with severe diabetic retinopathy and 4,106 controls were identified in the GoDARTS cohort. We revealed that rs3913535 in the NADPH Oxidase 4 (NOX4) gene reached a p value of 4.05 × 10−9. Two nearby SNPs, rs10765219 and rs11018670 also showed promising p values (p values = 7.41 × 10−8 and 1.23 × 10−8, respectively). In the meta‐analysis using multiple Caucasian cohorts (excluding GoDARTS), rs10765219 and rs11018670 showed associations for diabetic retinopathy (p = 0.003 and 0.007, respectively), while the p value of rs3913535 was not significant (p = 0.429).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 1843,
+          "infons": {
+            "section_title_1": "Abstract",
+            "section_title_2": "Conclusion",
+            "iao_name_1": "textual abstract section",
+            "iao_id_1": "IAO:0000315"
+          },
+          "text": "This genome‐wide association study of severe diabetic retinopathy suggests new evidence for the involvement of the NOX4 gene.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 1978,
+          "infons": {
+            "section_title_1": "Introduction",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "Diabetic retinopathy (DR) is a chronic, progressive, potentially sight‐threatening disease of the retinal microvasculature associated with pathophysiological changes intensified by diabetes (The Royal College of Ophthalmologists. Diabetic Retinopathy Guidelines 2012). It is the most common eye complication in diabetic patients and the most common cause of blindness among people of working age in the UK (Bunce & Wormald 2008). In general, DR can be broadly graded as non‐proliferative diabetic retinopathy (NPDR) and proliferative diabetic retinopathy (PDR) according to the absence or presence of abnormal new vessels (Williams et al. 2004). In each year, around 60% of diabetic patients under retinal screening have NPDR and approximately 20% of diabetic patients have active or regressed PDR (Keenan et al. 2013). It is estimated that over 1000 new cases of blindness are caused by DR each year in England alone and a further 4000 people each year in the country are thought to be at risk of vision loss due to retinopathy (http://www.diabetes.co.uk 2017). Around one in five type 2 diabetic patients in Scotland have been diagnosed with DR, and 10% of these DR patients need to be referred to ophthalmologists for further treatment (Looker et al. 2012). The quality of life can be significantly affected for DR patients due to visual impairment, worries and movement restrictions (Woodcock et al. 2004). In addition to physical and emotional impacts, DR also represents a significant economic burden to the healthcare system. In the USA, the total direct medical cost of DR in adults was estimated to be $493 million per year (Rein et al. 2006). The average annual healthcare costs of NPDR and PDR per person were €26 and €257 in Sweden, respectively (Heintz et al. 2010). In addition to the fact that there is a huge cost difference depending on the severity of DR, It has been estimated that without treatment for PDR, 50% of all patients will become blind within 5 years following diagnosis (Williams et al. 2004). Therefore, it is essential to identify and treat this disorder at an early stage and slow or stop its progress.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 4126,
+          "infons": {
+            "section_title_1": "Introduction",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "Epidemiological studies have proposed multiple risk factors associated with the development and the progression of DR from longitudinal studies including higher glycaemia, higher blood pressure, no smoking, male sex, higher HbA1c, longer duration of diabetes, lower body mass index and elevated blood urea concentration (Stratton et al. 2001; Xu et al. 2012). In addition, Xu et al. (2012) reported that patients with microalbuminuria were 4.7 times more likely to have a severe or proliferating DR than those without microalbuminuria. This study links DR with renal function since both DR and diabetic nephropathy are microvascular complications of diabetes. As most of these risk factors are amenable, clinical trials have been performed to intervene with the incidence and progress of DR. It is reported that intensive blood sugar control effectively delays the onset and slows the progression of DR when initiated in adolescent subjects (Diabetes & Complications 1994; White et al. 2001). The persistent beneficial effect in DR in the intensive therapy group continues for at least 10 years (White et al. 2008). Epidemiological studies are one of the essential tools to identify risk factors and effective preventive strategies for diseases along with genetic studies which search for underlying causative biological mechanisms and genetic pathways.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 5479,
+          "infons": {
+            "section_title_1": "Introduction",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "Understanding the genetic factors associated with DR would assist in identifying biological underpinnings and potentially suggest molecular targets for pharmacological research. Both twin studies and family studies have confirmed that DR is a heritable trait in both type 1 and type 2 diabetes (Leslie & Pyke 1982; Rema et al. 2002; Hallman et al. 2005; Looker et al. 2007; Monti et al. 2007; Zhang et al. 2010). In particular, a greater genetic component exists in more severe types of DR (Hallman et al. 2005). The heritability of DR has been estimated to be 18% in sibling samples (Looker et al. 2007). Genome‐wide linkage studies have proposed multiple chromosome loci to be linked with DR using multiple ethnic groups, while no specific genes have been identified (Imperatore et al. 1998; Hallman et al. 2007; Looker et al. 2007). Candidate gene approaches have suggested promising genes with possible biological connections with DR such as VEGFA, AKR1B1, AGER, ICAM1, MTHFR, while larger samples will be required to further consolidate the reliability of these results (Awata et al. 2002; Lindholm et al. 2006; Abhary et al. 2010; Simões et al. 2014; Opatrilova et al. 2017).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 6660,
+          "infons": {
+            "section_title_1": "Introduction",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "Genome‐wide association studies (GWAS) have been very successful in identifying potential candidate genes for common complex disorders using DNA chips (McCarthy et al. 2008). Recently, several GWAS have proposed multiple susceptibility loci for DR. However, none of these loci achieved genome‐wide significance, and none have been replicated by other studies (Fu et al. 2010; Grassi et al. 2011; Huang et al. 2011; Sheu et al. 2013; Burdon et al. 2015).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 7113,
+          "infons": {
+            "section_title_1": "Introduction",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "To facilitate identification of the genetic factors associated with severe DR, we performed this GWAS using a homogenous Scottish diabetic population in the first stage and multiple Caucasian DR cohorts in the replication stage. To our knowledge, this is the first GWAS based on Scottish Diabetic Retinopathy Grading Scheme and the largest GWAS on severe DR so far.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 7478,
+          "infons": {
+            "section_title_1": "Patients and Methods",
+            "section_title_2": "Participants In the discovery cohort",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "The datasets from the GoDARTS project were analysed in this study. The GoDARTS project mainly recruits type 2 diabetic patients and non‐diabetic controls throughout Tayside, Scotland, to identify genetic susceptibility to diabetes including its complications and response to treatment. Participants will undertake a simple baseline clinical examination and complete a lifestyle questionnaire in addition to providing biological samples such as blood and urine. The participants provide informed consent at the time of recruitment which allows the use of their data and samples (including extracted DNA) for research purposes as well as link the data anonymously to their medical records. These records include the Scottish Care Information‐Diabetes Collaboration (SCI‐DC) and Scottish Diabetic Retinopathy Screening Collaborative electronic health records used by health care professionals throughout Scotland for the care of patients with diabetes. Further information, including data access procedures, can be found at http://diabetesgenetics.dundee.ac.uk/. The GoDARTS study has been approved by Tayside Committee on Medical Research Ethics, and informed consent was obtained from all patients (REC reference 053/04). The research adhered to the tenets of the Declaration of Helsinki.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 8821,
+          "infons": {
+            "section_title_1": "Patients and Methods",
+            "section_title_2": "Participants In the discovery cohort",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "So far, the project has recruited 9,439 diabetic patients and 6,927 of them have been genotyped. For this study, we extracted the DR screening records of all GoDARTS individuals from June 1996 until June 2011 as well as information on age, gender, body mass index (BMI), HbA1c and duration of diabetes.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 9123,
+          "infons": {
+            "section_title_1": "Patients and Methods",
+            "section_title_2": "DR grading in Scotland",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "Retinal screening has been undertaken in Tayside since 1990, and the DR screening protocol has previously been described (Leese et al. 2005). According to the Scottish Diabetic Retinopathy Grading Scheme, DR status can be graded into five levels: level R0: No DR; level R1: mild background retinopathy; level R2: moderate background retinopathy; level R3: severe background retinopathy; level R4: PDR. The detailed diagnostic criteria are summarized in Liu et al. (2013)'s paper. In addition, the status of macula was recorded as with or without diabetic maculopathy. However, the status of the macula was not taken into account in this study when defining DR. The history of laser photocoagulation treatment was also recorded for GoDARTS participants but lacking information of the exact methods (panretinal photocoagulation, focal photocoagulation or both).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 10004,
+          "infons": {
+            "section_title_1": "Patients and Methods",
+            "section_title_2": "DR grading in Scotland",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "There are other DR grading systems such as Early Treatment Diabetic Retinopathy Study (ETDRS), American Academy of Ophthalmology (AAO) and National Screening Committee (NSC). The approximate equivalence of Scottish Diabetic Retinopathy Grading Scheme and alternative classification systems for diabetic retinopathy can be found in the latest DR guideline from The Royal College of Ophthalmologists (The Royal College of Ophthalmologists 2012).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 10447,
+          "infons": {
+            "section_title_1": "Patients and Methods",
+            "section_title_2": "Definition of severe diabetic retinopathy cases and controls in GoDARTS",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "A severe DR case was defined in this study as a type 2 diabetic individual with at least one eye that has previously been coded as severe background retinopathy (level R3) or PDR (level R4); or with a history of laser photocoagulation treatment in the e‐health records.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 10787,
+          "infons": {
+            "section_title_1": "Patients and Methods",
+            "section_title_2": "Definition of severe diabetic retinopathy cases and controls in GoDARTS",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "A control was defined as a type 2 diabetic individual with DR longitudinal screening records for both eyes, which were only graded as normal (level R0) or mild background retinopathy (level R1). In addition, controls had no record of laser photocoagulation treatment.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 11054,
+          "infons": {
+            "section_title_1": "Patients and Methods",
+            "section_title_2": "Definition of severe diabetic retinopathy cases and controls in GoDARTS",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "To maintain homogeneous case and control populations, we removed type 2 diabetic individuals whose severest DR screening records were moderate background retinopathy (level R2) from both cases and controls.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 11260,
+          "infons": {
+            "section_title_1": "Patients and Methods",
+            "section_title_2": "Definition of severe diabetic retinopathy cases and controls in GoDARTS",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "In simple words, this study compared severe DR cases (level R3 and R4) with controls (level R0 and R1).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 11363,
+          "infons": {
+            "section_title_1": "Patients and Methods",
+            "section_title_2": "DR definitions in the multiple Caucasian and African American Cohorts",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "Meta‐analyses were performed in four studies of Caucasian patients with type 2 diabetes (The Scania Diabetes Registry, The Australian DR Genetics Case‐Control Study, The Blue Mountain Eye Study and Cardiovascular Health Study 2) and two studies of Caucasian patients with type 1 diabetes (The Finnish Diabetic Nephropathy Study and The Genetics of Kidneys in Diabetes study/The Epidemiology of Diabetes Interventions and Complications). Diabetic retinopathy (DR) was defined either based on ETDRS scoring, or laser treatment. See the Appendix S1 for the DR definitions for all cohorts. A general description of all cohorts can also be found in the Appendix S1.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 12092,
+          "infons": {
+            "section_title_1": "Patients and Methods",
+            "section_title_2": "Genotyping and quality control",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "The GoDARTS diabetic individuals were genotyped by either Affymetrix SNP6.0 chips (3,673 patients) funded by the Wellcome Trust Case Control Consortium 2 (WTCCC2) project or by Illumina OmniExpress chips (3,254 patients) funded by the Surrogate markers for Micro‐ and Macro‐vascular hard endpoints for Innovative diabetes Tools (SUMMIT) project. Standard protocols were used for genotyping quality controls for the WTCCC2 studies and the SUMMIT studies (GoDARTS and UKPDS Diabetes Pharmacogenetics Study Group et al. 2011; Fagerholm et al. 2012). The genotyping quality control of other Caucasian and African American DR cohorts followed their own protocols.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 12780,
+          "infons": {
+            "section_title_1": "Patients and Methods",
+            "section_title_2": "Statistical analysis",
+            "iao_name_1": "methods section",
+            "iao_id_1": "IAO:0000317"
+          },
+          "text": "The imputation of non‐genotyped single nucleotide polymorphisms (SNPs) in the Affymetrix SNP6.0 chips and Illumina OmniExpress chips were done by SHAPEIT and IMPUTE2 using reference files from the 1000 genome phase I datasets (Howie et al. 2006; Delaneau et al. 2011). The recommended r\n2 > 0.3 was used to filter out badly imputed SNPs. Routine quality control steps were frequently applied using PLINK (removing SNPs with over 5% genotyping missing, or with minor allele frequency less than 1%, or those that failed Hardy–Weinberg tests p < 0.000001, and removing individuals with more than 5% genotype data missing) (Purcell et al. 2007). SNPs on the X and Y chromosomes and mitochondrial SNPs were excluded from analyses. Population stratification analysis was based on multidimensional scaling integrated in PLINK to detect any difference in ancestry within the cohort, with a lambda value indicating the level of stratification. Removal of related samples was based on pi‐hat > 0.125 in PLINK. The p values for SNP associations were generated based on logistic regression analyses using PLINK, and adjusting for age, gender, BMI,HbA1c and duration of diabetes. A p value of less than 5 × 10−8 was considered to be an association, warranting further exploration. The LD scores (R‐squared) among significant SNPs were later calculated by PLINK. The positive SNPs generated from the first stage were then meta‐analysed using multiple replication cohorts where p values of these SNPs were generated by logistic regression adjusting with relevant covariates. Multiple meta‐analyses were performed by GWAMA combining Caucasian cohorts and African American cohorts (Mägi & Morris 2010). SNP functional annotations were applied by SNPnexus, and the Manhattan plot was generated by HaploView (Barrett et al. 2005; Dayem Ullah et al. 2013). LocusZoom was used for regional visualization (Pruim et al. 2010). SNPEVG was used to generate the corresponding Q‐Q plot, a tool to evaluate differences between cases and controls caused by potential confounders (different genotyping lab, different DNA extraction methods, etc) (Wang et al. 2012). Narrow‐sense heritability was calculated by GCTA (Lee et al. 2011). Means of age, BMI, HbA1c and duration of diabetes were compared between cases and controls using independent t tests in spss 22 (IBM Corp, New York, NY, USA). The gender difference was evaluated using Chi‐squared test (2 × 2 tables).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 15237,
+          "infons": {
+            "section_title_1": "Results",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "In the GoDARTS population, we identified 560 unrelated severe DR patients (133 individuals with severe background retinopathy and 427 individuals with PDR) and 4106 controls (1873 individuals with no DR and 2233 individuals with mild background retinopathy) based on our definitions. The clinical characteristics of cases and controls are summarized in Table S1. There are statistical differences between the cases and the controls in terms of gender, age, duration of diabetes and HbA1c. There is no statistical difference of BMI between the two groups. Altogether 6 585 471 imputed SNPs passed from routine quality control checking and imputation quality score r\n2 > 0.3. Since the multidimensional scaling analysis for population stratification found a lambda value of 1.005 for the cleaned datasets, no further adjustment based on population stratification was applied. The corresponding Q‐Q plot is shown in Fig. S1. Using logistic regression analysis integrated in PLINK with gender, age, duration of diabetes and HbA1c as covariates, there was a cluster appearing in the Manhattan plot (only SNPs with p values less than 0.01 were used) (Fig. 1). The top SNP in this region was rs3913535 in the NOX4 gene with a p value of 4.05 × 10−9 and an odds ratio (OR) of 1.55 (95% confidence interval: 1.34–1.79). Two nearby SNPs, rs10765219 and rs11018670, also showed promising p values (p = 7.41 × 10−8, 1.23 × 10−8, respectively). Table 1 summarises these SNPs found in the region. Figure S2 shows the regional plot of the identified loci. We downloaded the linkage information of these three SNPs from HapMap Caucasian population and found the linkage disequilibrium (LD) scores (R‐squared) of these three SNPs from GoDARTS are quite consistent with those from HapMap (Table S2). The heritability of severe DR was estimated to be 7.00% in this diabetic population based on the restricted maximum likelihood analysis by GCTA. In the replication cohorts, including seven Caucasian DR cohorts with multiple DR definitions, the meta‐analysis p values of rs3913535, rs10765219 and rs11018670 were 0.429, 0.003 and 0.007, respectively (Table 2). When combined with the GoDARTS results, the meta‐analysis p values of these three SNPs were 0.71, 9.02 × 10−5 and 4.24 × 10−4, respectively (Table 2). The forest plots of these three SNPs in the Caucasian DR cohorts are summarized in Fig. 2. In the four African American DR cohorts, the meta‐analysis p values of rs3913535, rs10765219 and rs11018670 were 0.883, 0.814 and 0.686, respectively (Table S3).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 17782,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "This GWAS on severe DR was based on a well‐defined type 2 diabetic population in the UK and has suggested new evidence that the NOX4 gene might be associated with severe DR. Supporting evidence was also obtained from multiple Caucasian DR cohorts.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 18039,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "In Scotland, all patients with diabetes are invited to have an annual retinal screening. During the screening, the clinical information of the eyes is recorded such as visual acuity (VA), cataract status, retinal status, macula status, etc. The severe DR cases in GoDARTS are a combination of type 2 diabetes patients with severe background retinopathy and PDR or anyone with a record of laser photocoagulation treatment. We have two reasons for this definition. First, Liu et al. (2013) observed that there is an accelerated trend from a less severe DR status to a more severe DR status. For example, it takes approximately 0.11 years for severe background retinopathy to progress to PDR, while it takes 12.6 years from no DR status to mild background retinopathy. In other words, most severe background retinopathy will progress to PDR in a relatively short timeframe. This is matched with the fact that there were more PDR (427 individuals) than severe background retinopathy (133 individuals) in the GoDARTS cohort. Second, Grassi et al. used patients with PDR and/or diabetic macular oedema as severe DR cases. Though this case definition is stricter, it only left 281 severe cases for their sub‐GWAS analysis on severe DR (Grassi et al. 2011). Therefore, it is reasonable to use our definition to increase case sample size and correspondingly to increase the power of this study. Our control definition includes DR‐free and mild background retinopathy individuals. This is based on a phenomenon that substantial rates of mild background DR regression can be observed in longitudinal studies. Diabetic retinopathy (DR) is often observed to regress from mild background retinopathy to no DR status, but it is not possible to revert from PDR to no DR (Liu et al. 2013). Around 50% of type 2 diabetic patients without DR at baseline will develop DR five years later, while 25% of type 2 diabetic patients with non‐severe DR will fully recover from DR in the same period (Jin et al. 2014). Since these patients fluctuate between DR‐free and mild background retinopathy, it is reasonable to treat them as one group. Further, the genetic mechanisms of non‐severe DR and severe DR might not be the same. Non‐severe DR is likely driven by a microenvironment change in the eye, while severe DR can be the consequences of the interaction between genes and the microenvironment in the eye. In other words, genetics play a bigger role in severe DR than non‐severe DR (Hallman et al. 2005). The same phenomenon also happens in another eye disorder—myopia, for which low myopia is considered as an environmental‐driven result, while high myopia is a consequence of both genetic and environment factors (Meng et al. 2012a, b). Thus, it is reasonable to use this control definition. Nevertheless, our control population with no severe DR cases is better than using a population control which contains a small proportion of severe DR cases. To have homogeneous case and control populations, we also removed moderate background retinopathy samples from both case and control populations. In the GWAS study on type 1 diabetes by Grassi et al., all non‐severe DR cases were treated as control samples, which means they support our hypothesis that genetic mechanisms of severe DR and non‐severe DR might not be the same. Similar to Grassi et al.'s work, we also do not consider the status of diabetic nephropathy in our GWAS. We recognize that our case‐control ratio is 1:7 which is consistent with the case‐control ratio of the UKPDS cohort (R0 = 2,316, R1 + R2 = 801, R3 + R4 = 509) (Kohner et al. 2001). It is expected that the power will not increase dramatically if the case‐control ratio is smaller than 1:4 when the overall sample size increases (Grimes & Schulz 2005). But, for GWAS, it is recommended to have a larger sample size. A good phenotype definition will gather relatively homogeneous individuals with similar clinical conditions and underlying genetic mechanisms.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 22005,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "The most significant SNP was identified in the NOX4 gene with a p value of 4.05 × 10−9 at rs3913535 and an odds ratio (OR) of 1.55 (95% confidence interval: 1.34–1.79). Two nearby SNPs, located next to NOX4, rs10765219 and rs11018670 also showed promising p values (p = 7.41 × 10−8, 1.23 × 10−8). The NOX4 gene encodes the NOX4 protein which is located in non‐phagocytic cells where it acts as an oxygen sensor and catalyses the reduction of molecular oxygen to various reactive oxygen species (ROS). The ROS has been linked with numerous biological functions including signal transduction, cell differentiation and tumour cell growth (http://www.ncbi.nlm.nih.gov/gene/50507 2017). Nox4 mediates vascular endothelial growth factor receptor (VEGF) 2‐induced intravitreal neovascularization in a rat model of retinopathy of prematurity (Wang et al. 2014). In mice models, activation of Nox4 plays an essential role in high‐glucose and hypoxia‐mediated VEGF expression and diabetes‐induced blood‐retinal barrier breakdown, while the inhibition of Nox4 contributes to the protective effects of lovastatin in diabetic retinopathy (Li et al. 2010). In addition, Nox4's expression is significantly increased in oxygen‐induced retinopathy and upregulation of Nox4 contributes to retinal neovascularization formation in oxygen‐induced retinopathy (Li et al. 2014). Further, Nox4 has been identified to mediate insulin‐stimulated VEGF expression and angiogenesis in cells (Meng et al. 2012a). Last but not least, it is also reported that Nox4‐mediated oxidative stress contributes to Wnt pathway activation in diabetic retinopathy (Liu et al. 2014). Modulation of retinal Nox4 expression may present a promising therapeutic approach for neovascular retinal diseases. In addition to DR, NOX4 has been linked with other diabetic microvascular disorders such as diabetic nephropathy with strong evidence. Inhibitor of the NOX4 gene has been proved to have renoprotection in diabetic nephropathy (Gorin & Block 2013; Jha et al. 2014; Thallas‐Bonke et al. 2014). The inhibitor, also named as GKT‐137831, has been under Phase II clinical development for the treatment of diabetic nephropathy, though it failed to pass recently (Gorin et al. 2015). We did not have direct replications of these 3 SNPs for the same definitions of severe DR, but we have performed a meta‐analysis of these 3 SNPs from multiple Caucasian DR cohorts including Scania Diabetic Registry (SDR), Finnish Diabetic Nephropathy Study (FinnDiane), Genetics of Kidneys in Diabetes study (GoKinD), Epidemiology of Diabetes Interventions and Complications (EDIC), Australian DR Genetics Case‐Control Study (AUST), The Blue Mountain Eye Study (BMES) and Cardiovascular Health Study 2 (CHS2), regardless of the types of diabetes, the DR grading methods and the severity of DR (Table 2). The meta‐analysis p values of these SNPs were no longer GWAS significant though the p values of rs10765219 and rs11018670 were less than 0.01. This could be due to multiple reasons such as different ethnic populations, different types of diabetes, the heterogeneity of DR definitions, different levels of DR severity in these Caucasian DR cohorts and different adjusted covariates (which might lead to bias) among cohorts (see the Appendix S1). We also performed a meta‐analysis using four African American DR cohorts including African American Proliferative Diabetic Retinopathy Study (AAPDR), Jackson Heart Study (JHS), Atherosclerosis Risk in Communities (ARIC) Study and Multi‐Ethnic Study of Atherosclerosis‐African Americans (MESA‐AA). The three SNPs did not show positive results (Table S3). The directions of the effect of these SNPs are quite consistent among Caucasian DR cohorts, while they were quite mixed among African American DR cohorts. In addition to the above‐mentioned reasons, the smaller sample size in each African American cohort could be causing these mixed directions of effect. Finally, it is noticed that all the three SNPs strongly affect the NOX4 gene expression according to the Genotype‐Tissue Expression (GTEx) portal though the cells used were from fibroblasts, not from eyes (Carithers et al. 2015).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 26175,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "Narrow‐sense heritability of severe DR was estimated to be 7.00% in this diabetic population. Narrow‐sense heritability means the ratio of total phenotypic variance that is due to additive genetic effects (Lee et al. 2011). This estimation does not include the contribution of gene‐gene interactions, gene‐environment interactions, etc, so the actual heritability of this phenotype is likely to be greater. We have suggested that severe DR is a heritable trait in this GWAS and further genetic research is warranted.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 26691,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "We had moderate power in this study due to the limited number of cases in GoDARTS. According to CaTS, using an additive model, we had 80% power to detect a genotypic relative risk of 1.50 for variants with a minor allele frequency of 30% when the disease prevalence in the population is 25% and the significance level is 5 × 10−8 (Skol et al. 2006). We also provided the corresponding p values in the GoDARTS of the SNPs suggested by other GWAS studies (Table S4). For reader's interest, we also selected controls with diabetic history over 20 years (N = 470) to perfectly match cases in terms of duration of diabetes. The p values of the three SNPs increased, which were mainly caused by decreased sample size.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 27402,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "A consensus phenotyping approach to DR will not only improve data and study quality but also help to discover novel mechanisms of DR at a molecular level. It has the potential for identifying drug targets and eventually leading to better therapeutic management. This study will initiate more questions to answer about diabetic retinopathy, such as 1. Do diabetic retinopathy and other types of retinopathies share common genetic components? 2. Are the mechanisms of diabetic retinopathy in type 1 and type 2 diabetes the same or not?",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 27935,
+          "infons": {
+            "section_title_1": "Discussion",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "This analysis suggests new evidence that NOX4 gene might be associated with severe DR. We used a novel approach in this study to define severe DR cases and controls, based on DR screening results and Scottish Diabetic Retinopathy Grading Scheme to have a reasonably homogenous phenotype. Our next step is to attempt replication of significant SNPs using newly recruited samples and focus on the molecular mechanisms that may be responsible for the association hits. The findings of these studies will help to confirm the role of NOX4 in the DR mechanisms and provide possible drug targets for DR treatment.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 28541,
+          "infons": {
+            "section_title_1": "Supporting information",
+            "iao_name_1": "supplementary material section",
+            "iao_id_1": "IAO:0000326"
+          },
+          "text": "\nFigure S1. Q‐Q plot expected and observed log10(1/P) values.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 28624,
+          "infons": {
+            "section_title_1": "Supporting information",
+            "iao_name_1": "supplementary material section",
+            "iao_id_1": "IAO:0000326"
+          },
+          "text": "\nFigure S2. Regional plot of NOX4 gene area.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 28668,
+          "infons": {
+            "section_title_1": "Supporting information",
+            "iao_name_1": "supplementary material section",
+            "iao_id_1": "IAO:0000326"
+          },
+          "text": "\nAppendix S1. DR definitions in the multiple Caucasian and African American DR cohorts.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 28755,
+          "infons": {
+            "section_title_1": "Supporting information",
+            "iao_name_1": "supplementary material section",
+            "iao_id_1": "IAO:0000326"
+          },
+          "text": "\nTable S1. The clinical characteristics of the case and control populations in GoDARTS.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 28842,
+          "infons": {
+            "section_title_1": "Supporting information",
+            "iao_name_1": "supplementary material section",
+            "iao_id_1": "IAO:0000326"
+          },
+          "text": "\nTable S2. Linkage disequilibrium (LD) score in the GoDARTS and in the HapMap CEU populations.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 28936,
+          "infons": {
+            "section_title_1": "Supporting information",
+            "iao_name_1": "supplementary material section",
+            "iao_id_1": "IAO:0000326"
+          },
+          "text": "\nTable S3. The input information and the output meta‐analysis results of 4 African American DR cohorts based on GWAMA (default setting).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 29072,
+          "infons": {
+            "section_title_1": "Supporting information",
+            "iao_name_1": "supplementary material section",
+            "iao_id_1": "IAO:0000326"
+          },
+          "text": "\nTable S4. The p values of suggestive SNPs (identified by others) in GoDARTS.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 29149,
+          "infons": {
+            "section_title_1": "Supporting information",
+            "iao_name_1": "supplementary material section",
+            "iao_id_1": "IAO:0000326"
+          },
+          "text": "\nTable S5. The p values of the 3 SNPs when controls (with diabetic history over 20 years) were matched with cases in terms of duration of diabetes.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 29296,
+          "infons": {
+            "section_title_1": "Contributor Information",
+            "iao_name_1": "author information section",
+            "iao_id_1": "IAO:0000607"
+          },
+          "text": "Weihua Meng, Email: ku.ca.eednud@gnem.w.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 29359,
+          "infons": {
+            "section_title_1": "Contributor Information",
+            "iao_name_1": "author information section",
+            "iao_id_1": "IAO:0000607"
+          },
+          "text": "Colin N.A. Palmer, Email: ku.ca.eednud@remlap.a.n.c.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 29411,
+          "infons": {
+            "title": "Aldose reductase gene polymorphisms and diabetic retinopathy susceptibility",
+            "journal": "Diabetes Care",
+            "volume": "33",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Abhary S, Burdon KP, Laurie KJ et al. (2010): Aldose reductase gene polymorphisms and diabetic retinopathy susceptibility. Diabetes Care33: 1834–1836. [PMC free article] [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 29616,
+          "infons": {
+            "title": "A common polymorphism in the 5′‐untranslated region of the VEGF gene is associated with diabetic retinopathy in type 2 diabetes",
+            "journal": "Diabetes",
+            "volume": "51",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Awata T, Inoue K, Kurihara S, Ohkubo T, Watanabe M, Inukai K, Inoue I & Katayama S (2002): A common polymorphism in the 5′‐untranslated region of the VEGF gene is associated with diabetic retinopathy in type 2 diabetes. Diabetes51: 1635–1639. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 29884,
+          "infons": {
+            "title": "Haploview: analysis and visualization of LD and haplotype maps",
+            "journal": "Bioinformatics",
+            "volume": "21",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Barrett JC, Fry B, Maller J & Daly MJ (2005): Haploview: analysis and visualization of LD and haplotype maps. Bioinformatics21: 263–265. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 30046,
+          "infons": {
+            "title": "Causes of blind certifications in England and Wales: April 1999–March 2000",
+            "journal": "Eye",
+            "volume": "22",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Bunce C & Wormald R (2008): Causes of blind certifications in England and Wales: April 1999–March 2000. Eye22: 905–911. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 30191,
+          "infons": {
+            "title": "Genome‐wide association study for sight‐threatening diabetic retinopathy reveals association with genetic variation near the GRB2 gene",
+            "journal": "Diabetologia",
+            "volume": "58",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Burdon KP, Fogarty RD, Shen W et al. (2015): Genome‐wide association study for sight‐threatening diabetic retinopathy reveals association with genetic variation near the GRB2 gene. Diabetologia58: 2288–2297. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 30424,
+          "infons": {
+            "title": "A novel approach to high‐quality postmortem tissue procurement: The GTEx project",
+            "journal": "Biopreserv Biobank",
+            "volume": "13",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Carithers LJ, Ardlie K, Barcus M et al. (2015): A novel approach to high‐quality postmortem tissue procurement: The GTEx project. Biopreserv Biobank13: 311–319. [PMC free article] [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 30629,
+          "infons": {
+            "title": "A practical guide for the functional annotation of genetic variations using SNPnexus",
+            "journal": "Brief Bioinform",
+            "volume": "14",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Dayem Ullah AZ, Lemoine NR & Chelala C (2013): A practical guide for the functional annotation of genetic variations using SNPnexus. Brief Bioinform14: 437–447. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 30815,
+          "infons": {
+            "title": "A linear complexity phasing method for thousands of genomes",
+            "journal": "Nat Methods",
+            "volume": "9",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Delaneau O, Marchini J & Zagury JF (2011): A linear complexity phasing method for thousands of genomes. Nat Methods9: 179–181. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 30967,
+          "infons": {
+            "title": "Effect of intensive diabetes treatment on the development and progression of long term complications in adolescents with insulin dependent diabetes mellitus",
+            "journal": "J Pediatr",
+            "volume": "125",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Diabetes Control and Complications Trial(1994): Effect of intensive diabetes treatment on the development and progression of long term complications in adolescents with insulin dependent diabetes mellitus. J Pediatr125: 177–188. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 31221,
+          "infons": {
+            "title": "SNP in the genome‐wide association study hotspot on chromosome 9p21 confers susceptibility to diabetic nephropathy in type 1 diabetes",
+            "journal": "Diabetologia",
+            "volume": "55",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Fagerholm E, Ahlqvist E, Forsblom C et al. (2012): SNP in the genome‐wide association study hotspot on chromosome 9p21 confers susceptibility to diabetic nephropathy in type 1 diabetes. Diabetologia55: 2386–2393. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 31459,
+          "infons": {
+            "title": "Identification of diabetic retinopathy genes through a genome‐wide association study among Mexican‐Americans from Starr County Texas",
+            "journal": "J Ophthalmol",
+            "volume": "2010",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Fu YP, Hallman DM, Gonzalez VH et al. (2010): Identification of diabetic retinopathy genes through a genome‐wide association study among Mexican‐Americans from Starr County Texas. J Ophthalmol2010: 861291. [PMC free article] [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 31709,
+          "infons": {
+            "title": "Common variants near ATM are associated with glycemic response to metformin in type 2 diabetes",
+            "journal": "Nat Genet",
+            "volume": "43",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "GoDARTS, UKPDS Diabetes Pharmacogenetics Study Group, Wellcome Trust Case Control Consortium 2, Zhou K et al. (2011): Common variants near ATM are associated with glycemic response to metformin in type 2 diabetes. Nat Genet43: 117–120. [PMC free article] [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 31989,
+          "infons": {
+            "title": "Nox4 and diabetic nephropathy: with a friend like this who needs enemies?",
+            "journal": "Free Radic Biol Med",
+            "volume": "61",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Gorin Y & Block K (2013): Nox4 and diabetic nephropathy: with a friend like this who needs enemies?Free Radic Biol Med61: 130–142. [PMC free article] [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 32164,
+          "infons": {
+            "title": "Targeting NADPH oxidase with a novel dual Nox1/Nox4 inhibitor attenuates renal pathology in type 1 diabetes",
+            "journal": "Am J Physiol Renal Physiol",
+            "volume": "308",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Gorin Y, Cavaglieri RC, Khazim K et al. (2015): Targeting NADPH oxidase with a novel dual Nox1/Nox4 inhibitor attenuates renal pathology in type 1 diabetes. Am J Physiol Renal Physiol308: F1276–F1287. [PMC free article] [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 32409,
+          "infons": {
+            "title": "Genome‐wide meta‐analysis for severe diabetic retinopathy",
+            "journal": "Hum Mol Genet",
+            "volume": "20",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Grassi MA, Tikhomirov A, Ramalingam S, Below JE, Cox NJ & Nicolae DL (2011): Genome‐wide meta‐analysis for severe diabetic retinopathy. Hum Mol Genet20: 2472–2481. [PMC free article] [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 32617,
+          "infons": {
+            "title": "Compared to what? Finding controls for case‐control studies",
+            "journal": "Lancet",
+            "volume": "365",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Grimes DA & Schulz KF (2005): Compared to what? Finding controls for case‐control studiesLancet365: 1429–1433. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 32753,
+          "infons": {
+            "title": "Familial aggregation of severity of diabetic retinopathy in Mexican Americans from Starr County Texas",
+            "journal": "Diabetes Care",
+            "volume": "28",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Hallman DM, Huber JC, Gonzalez VH Jr, Klein BE, Klein R & Hanis CL (2005): Familial aggregation of severity of diabetic retinopathy in Mexican Americans from Starr County Texas. Diabetes Care28: 1163–1168. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 32984,
+          "infons": {
+            "title": "A genome‐wide linkage scan for diabetic retinopathy susceptibility genes in Mexican Americans with type 2 diabetes from Starr County Texas",
+            "journal": "Diabetes",
+            "volume": "56",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Hallman DM, Boerwinkle E, Gonzalez VH, Klein BE, Klein R & Hanis CL (2007): A genome‐wide linkage scan for diabetic retinopathy susceptibility genes in Mexican Americans with type 2 diabetes from Starr County Texas. Diabetes56: 1167–1173. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 33248,
+          "infons": {
+            "title": "Prevalence and healthcare costs of diabetic retinopathy: a population‐based register study in Sweden",
+            "journal": "Diabetologia",
+            "volume": "53",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Heintz E, Wiréhn AB, Peebo BB, Rosenqvist U & Levin LA (2010): Prevalence and healthcare costs of diabetic retinopathy: a population‐based register study in Sweden. Diabetologia53: 2147–2154. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 33465,
+          "infons": {
+            "title": "A flexible and accurate genotype imputation method for the next generation of genome‐wide association studies",
+            "journal": "PLoS Genet",
+            "volume": "5",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Howie BN, Donnelly P & Marchini J (2006): A flexible and accurate genotype imputation method for the next generation of genome‐wide association studies. PLoS Genet5: e1000529. [PMC free article] [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 33685,
+          "infons": {
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "http://www.diabetes.co.uk/diabetes-complications/diabetic-retinopathy.html (Accessed on 1 June 2017.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 33785,
+          "infons": {
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "http://www.ncbi.nlm.nih.gov/gene/50507. (Accessed 1 June 2017).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 33848,
+          "infons": {
+            "title": "Genome‐wide association study of diabetic retinopathy in a Taiwanese population",
+            "journal": "Ophthalmology",
+            "volume": "118",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Huang YC, Lin JM, Lin HJ, Chen CC, Chen SY, Tsai CH & Tsai FJ (2011): Genome‐wide association study of diabetic retinopathy in a Taiwanese population. Ophthalmology118: 642–648. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 34051,
+          "infons": {
+            "title": "Sib‐pair linkage analysis for susceptibility genes for microvascular complications among Pima Indians with type 2 diabetes. Pima Diabetes Genes Group",
+            "journal": "Diabetes",
+            "volume": "47",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Imperatore G, Hanson RL, Pettitt DJ, Kobes S, Bennett PH & Knowler WC (1998): Sib‐pair linkage analysis for susceptibility genes for microvascular complications among Pima Indians with type 2 diabetes. Pima Diabetes Genes Group. Diabetes47: 821–830. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 34326,
+          "infons": {
+            "title": "Genetic targeting or pharmacologic inhibition of NADPH oxidase nox4 provides renoprotection in long‐term diabetic nephropathy",
+            "journal": "J Am Soc Nephrol",
+            "volume": "25",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Jha JC, Gray SP, Barit D et al. (2014): Genetic targeting or pharmacologic inhibition of NADPH oxidase nox4 provides renoprotection in long‐term diabetic nephropathy. J Am Soc Nephrol25: 1237–1254. [PMC free article] [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 34568,
+          "infons": {
+            "title": "The 5‐year onset and regression of diabetic retinopathy in Chinese type 2 diabetes patients",
+            "journal": "PLoS One",
+            "volume": "9",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Jin P, Peng J, Zou H et al. (2014): The 5‐year onset and regression of diabetic retinopathy in Chinese type 2 diabetes patients. PLoS One9: e113359. [PMC free article] [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 34761,
+          "infons": {
+            "title": "nited Kingdom National Ophthalmology Database Study: Diabetic Retinopathy; Report 1: prevalence of centre‐involving diabetic macular oedema and other grades of maculopathy and retinopathy in hospital eye services",
+            "journal": "Eye (Lond)",
+            "volume": "27",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Keenan TD, Johnston RL, Donachie PH, Sparrow JM, Stratton IM & Scanlon P (2013): nited Kingdom National Ophthalmology Database Study: Diabetic Retinopathy; Report 1: prevalence of centre‐involving diabetic macular oedema and other grades of maculopathy and retinopathy in hospital eye services. Eye (Lond)27: 1397–1404. [PMC free article] [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 35125,
+          "infons": {
+            "title": "Relationship between the severity of retinopathy and progression to photocoagulation in patients with Type 2 diabetes mellitus in the UKPDS (UKPDS 52)",
+            "journal": "Diabet Med",
+            "volume": "18",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Kohner EM, Stratton IM, Aldington SJ, Holman RR, Matthews DR & UK Prospective Diabetes Study (IKPDS) Group(2001): Relationship between the severity of retinopathy and progression to photocoagulation in patients with Type 2 diabetes mellitus in the UKPDS (UKPDS 52). Diabet Med18: 178–184. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 35439,
+          "infons": {
+            "title": "Estimating missing heritability for disease from genome‐wide association studies",
+            "journal": "Am J Hum Genet",
+            "volume": "88",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Lee SH, Wray NR, Goddard ME & Visscher PM (2011): Estimating missing heritability for disease from genome‐wide association studies. Am J Hum Genet88: 294–305. [PMC free article] [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 35642,
+          "infons": {
+            "title": "Implementation of national diabetes retinal screening programme is associated with a lower proportion of patients referred to ophthalmology",
+            "journal": "Diabet Med",
+            "volume": "22",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Leese GP, Morris AD, Swaminathan K et al. (2005): Implementation of national diabetes retinal screening programme is associated with a lower proportion of patients referred to ophthalmology. Diabet Med22: 1112–1115. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 35883,
+          "infons": {
+            "title": "Diabetic retinopathy in identical twins",
+            "journal": "Diabetes",
+            "volume": "31",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Leslie RD & Pyke DA (1982): Diabetic retinopathy in identical twins. Diabetes31: 19–21. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 35996,
+          "infons": {
+            "title": "Inhibition of reactive oxygen species by Lovastatin downregulates vascular endothelial growth factor expression and ameliorates blood‐retinal barrier breakdown in db/db mice: role of NADPH oxidase 4",
+            "journal": "Diabetes",
+            "volume": "59",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Li J, Wang JJ, Yu Q, Chen K, Mahadev K & Zhang SX (2010): Inhibition of reactive oxygen species by Lovastatin downregulates vascular endothelial growth factor expression and ameliorates blood‐retinal barrier breakdown in db/db mice: role of NADPH oxidase 4. Diabetes59: 1528–1538. [PMC free article] [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 36321,
+          "infons": {
+            "title": "NADPH Oxidase4‐derived H2O2 promotes aberrant retinal neovascularization via activation of VEGF receptor 2 pathway in oxygen‐induced retinopathy",
+            "journal": "Invest Ophthalmol Vis Sci",
+            "volume": "55",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Li J, Wang JJ & Zhang X (2014): NADPH Oxidase4‐derived H2O2 promotes aberrant retinal neovascularization via activation of VEGF receptor 2 pathway in oxygen‐induced retinopathy. Invest Ophthalmol Vis Sci55:E‐Abstract 2955. [PMC free article] [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 36588,
+          "infons": {
+            "title": "The ‐374 T/A polymorphism in the gene encoding RAGE is associated with diabetic nephropathy and retinopathy in type 1 diabetic patients",
+            "journal": "Diabetologia",
+            "volume": "49",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Lindholm E, Bakhtadze E, Sjögren M, Cilio CM, Agardh E, Groop L & Agardh CD (2006): The ‐374 T/A polymorphism in the gene encoding RAGE is associated with diabetic nephropathy and retinopathy in type 1 diabetic patients. Diabetologia49: 2745–2755. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 36861,
+          "infons": {
+            "title": "Glycemic exposure and blood pressure influencing progression and remission of diabetic retinopathy: a longitudinal cohort study in GoDARTS",
+            "journal": "Diabetes Care",
+            "volume": "36",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Liu Y, Wang M, Morris AD, Doney AS, Leese GP, Pearson ER & Palmer CN (2013): Glycemic exposure and blood pressure influencing progression and remission of diabetic retinopathy: a longitudinal cohort study in GoDARTS. Diabetes Care36: 3979–3984. [PMC free article] [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 37150,
+          "infons": {
+            "title": "Salutary effect of fenofibrate on diabetic retinopathy via inhibiting oxidative stress‐mediated Wnt pathway activation",
+            "journal": "Invest Ophthalmol Vis Sci",
+            "volume": "55",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Liu Q, Li J, Liu Z & Ma J (2014): Salutary effect of fenofibrate on diabetic retinopathy via inhibiting oxidative stress‐mediated Wnt pathway activation. Invest Ophthalmol Vis Sci55:E‐Abstract 1027. [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 37365,
+          "infons": {
+            "title": "Genome‐wide linkage analyses to identify Loci for diabetic retinopathy",
+            "journal": "Diabetes",
+            "volume": "56",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Looker HC, Nelson RG, Chew E, Klein R, Klein BE, Knowler WC & Hanson RL (2007): Genome‐wide linkage analyses to identify Loci for diabetic retinopathy. Diabetes56: 1160–1166. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 37565,
+          "infons": {
+            "title": "Scottish diabetic retinopathy screening collaborative; Scottish diabetes research network epidemiology group. Diabetic retinopathy at diagnosis of type 2 diabetes in Scotland",
+            "journal": "Diabetologia",
+            "volume": "55",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Looker HC, Nyangoma SO, Cromie D et al. (2012): Scottish diabetic retinopathy screening collaborative; Scottish diabetes research network epidemiology group. Diabetic retinopathy at diagnosis of type 2 diabetes in Scotland. Diabetologia55: 2335–2342. [PMC free article] [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 37860,
+          "infons": {
+            "title": "GWAMA: software for genome‐wide association meta‐analysis",
+            "journal": "BMC Bioinformat",
+            "volume": "11",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Mägi R & Morris AP (2010): GWAMA: software for genome‐wide association meta‐analysis. BMC Bioinformat11: 288. [PMC free article] [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 38014,
+          "infons": {
+            "title": "Genome‐wide association studies for complex traits: consensus uncertainty and challenges",
+            "journal": "Nat Rev Genet",
+            "volume": "9",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "McCarthy MI, Abecasis GR, Cardon LR, Goldstein DB, Little J, Ioannidis JP & Hirschhorn JN (2008): Genome‐wide association studies for complex traits: consensus uncertainty and challenges. Nat Rev Genet9: 356–369. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 38252,
+          "infons": {
+            "title": "NADPH oxidase 4 mediates insulin‐stimulated HIF‐1α and VEGF expression and angiogenesis in vitro",
+            "journal": "PLoS One",
+            "volume": "7",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Meng D, Mei A, Liu J, Kang X, Shi X, Qian R & Chen S (2012a): NADPH oxidase 4 mediates insulin‐stimulated HIF‐1α and VEGF expression and angiogenesis in vitro. PLoS One7: e48393. [PMC free article] [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 38475,
+          "infons": {
+            "title": "A genome‐wide association study provides evidence for association of chromosome 8p23 (MYP10) and 10q21.1 (MYP15) with high myopia in the French Population",
+            "journal": "Invest Ophthalmol Vis Sci",
+            "volume": "53",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Meng W, Butterworth J, Bradley DT, Hughes AE, Soler V, Calvas P & Malecaze F (2012b): A genome‐wide association study provides evidence for association of chromosome 8p23 (MYP10) and 10q21.1 (MYP15) with high myopia in the French Population. Invest Ophthalmol Vis Sci53: 7983–7988. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 38782,
+          "infons": {
+            "title": "Familial risk factors for microvascular complications and differential male‐female risk in a large cohort of American families with type 1 diabetes",
+            "journal": "J Clin Endocrinol Metab",
+            "volume": "92",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Monti MC, Lonsdale JT, Montomoli C, Montross R, Schlag E & Greenberg DA (2007): Familial risk factors for microvascular complications and differential male‐female risk in a large cohort of American families with type 1 diabetes. J Clin Endocrinol Metab92: 4650–4655. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 39074,
+          "infons": {
+            "title": "Nitric oxide in the pathophysiology of retinopathy: evidences from preclinical and clinical researches",
+            "journal": "Acta Ophthalmol",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Opatrilova R, Kubatka P, Caprnda M et al. (2017): Nitric oxide in the pathophysiology of retinopathy: evidences from preclinical and clinical researches. Acta Ophthalmol 10.1111/aos.13384. [PubMed] [CrossRef] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 39299,
+          "infons": {
+            "title": "LocusZoom: regional visualization of genome‐wide association scan results",
+            "journal": "Bioinformatics",
+            "volume": "26",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Pruim RJ, Welch RP, Sanna S et al. (2010): LocusZoom: regional visualization of genome‐wide association scan results. Bioinformatics26: 2336–2337. [PMC free article] [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 39490,
+          "infons": {
+            "title": "PLINK: a tool set for whole‐genome association and population‐based linkage analyses",
+            "journal": "Am J Hum Genet",
+            "volume": "81",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Purcell S, Neale B, Todd‐Brown K et al. (2007): PLINK: a tool set for whole‐genome association and population‐based linkage analyses. Am J Hum Genet81: 559–575. [PMC free article] [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 39695,
+          "infons": {
+            "title": "The economic burden of major adult visual disorders in the United States",
+            "journal": "Arch Ophthalmol",
+            "volume": "124",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Rein DB, Zhang P, Wirth KE et al. (2006): The economic burden of major adult visual disorders in the United States. Arch Ophthalmol124: 1754–1760. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 39867,
+          "infons": {
+            "title": "Familial clustering of diabetic retinopathy in South Indian Type 2 diabetic patients",
+            "journal": "Diabet Med",
+            "volume": "19",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Rema M, Saravanan G, Deepa R & Mohan V (2002): Familial clustering of diabetic retinopathy in South Indian Type 2 diabetic patients. Diabet Med19: 910–916. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 40048,
+          "infons": {
+            "title": "Genome‐wide association study in a Chinese population with diabetic retinopathy",
+            "journal": "Hum Mol Genet",
+            "volume": "22",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Sheu WH, Kuo JZ, Lee IT et al. (2013): Genome‐wide association study in a Chinese population with diabetic retinopathy. Hum Mol Genet22: 3165–3173. [PMC free article] [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 40240,
+          "infons": {
+            "title": "Genetic variants in ICAM1, PPARGC1A and MTHFR are potentially associated with different phenotypes of diabetic retinopathy",
+            "journal": "Ophthalmologica",
+            "volume": "232",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Simões MJ, Lobo C, Egas C et al. (2014): Genetic variants in ICAM1, PPARGC1A and MTHFR are potentially associated with different phenotypes of diabetic retinopathy. Ophthalmologica232: 156–162. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 40459,
+          "infons": {
+            "title": "oint analysis is more efficient than replication‐based analysis for two‐stage genome‐wide association studies",
+            "journal": "Nat Genet",
+            "volume": "38",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Skol AD, Scott LJ, Abecasis GR & Boehnke M (2006): oint analysis is more efficient than replication‐based analysis for two‐stage genome‐wide association studies. Nat Genet38: 209–213. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 40668,
+          "infons": {
+            "title": "UKPDS 50: risk factors for incidence and progression of retinopathy in Type II diabetes over 6 years from diagnosis",
+            "journal": "Diabetologia",
+            "volume": "44",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Stratton IM, Kohner EM, Aldington SJ, Turner RC, Holman RR, Manley SE & Matthews DR (2001): UKPDS 50: risk factors for incidence and progression of retinopathy in Type II diabetes over 6 years from diagnosis. Diabetologia44: 156–163. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 40927,
+          "infons": {
+            "title": "Nox‐4 deletion reduces oxidative stress and injury by PKC‐α‐associated mechanisms in diabetic nephropathy",
+            "journal": "Physiol Rep",
+            "volume": "2",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Thallas‐Bonke V, Jha JC, Gray SP et al. (2014): Nox‐4 deletion reduces oxidative stress and injury by PKC‐α‐associated mechanisms in diabetic nephropathy. Physiol Rep2: e12192. [PMC free article] [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 41148,
+          "infons": {
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "The Royal College of Ophthalmologists. Diabetic Retinopathy Guidelines(2012): Available at: https://www.rcophth.ac.uk/standards-publications-research/clinical-guidelines/. (Accessed 1 June 2017).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 41343,
+          "infons": {
+            "title": "NPEVG: a graphical tool for GWAS graphing with mouse clicks",
+            "journal": "BMC Bioinformatics",
+            "volume": "13",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Wang S, Dvorkin D & Da Y (2012): NPEVG: a graphical tool for GWAS graphing with mouse clicks. BMC Bioinformatics13: 319. [PMC free article] [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 41508,
+          "infons": {
+            "title": "Endothelial NADPH oxidase 4 mediates vascular endothelial growth factor receptor 2‐induced intravitreal neovascularization in a rat model of retinopathy of prematurity",
+            "journal": "Mol Vis",
+            "volume": "20",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Wang H, Yang Z, Jiang Y & Hartnett ME (2014): Endothelial NADPH oxidase 4 mediates vascular endothelial growth factor receptor 2‐induced intravitreal neovascularization in a rat model of retinopathy of prematurity. Mol Vis20: 231–241. [PMC free article] [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 41787,
+          "infons": {
+            "title": "Beneficial effects of intensive therapy of diabetes during adolescence: outcomes after the conclusion of the Diabetes Control and Complications Trial (DCCT)",
+            "journal": "J Pediatr",
+            "volume": "139",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "White NH, Cleary PA, Dahms W, Goldstein D, Malone J & Tamborlane WV & Diabetes Control and Complications Trial (DCCT)/Epidemiology of Diabetes Interventions and Complications (EDIC) Research Group(2001): Beneficial effects of intensive therapy of diabetes during adolescence: outcomes after the conclusion of the Diabetes Control and Complications Trial (DCCT). J Pediatr139:804–812. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 42196,
+          "infons": {
+            "title": "Prolonged effect of intensive therapy on the risk of retinopathy complications in patients with type 1 diabetes mellitus: 10 years after the Diabetes Control and Complications Trial",
+            "journal": "Arch Ophthalmol",
+            "volume": "126",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "White NH, Sun W, Cleary PA et al. (2008): Prolonged effect of intensive therapy on the risk of retinopathy complications in patients with type 1 diabetes mellitus: 10 years after the Diabetes Control and Complications Trial. Arch Ophthalmol126: 1707–1715. [PMC free article] [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 42496,
+          "infons": {
+            "title": "Epidemiology of diabetic retinopathy and macular oedema: a systematic review",
+            "journal": "Eye (Lond)",
+            "volume": "18",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Williams R, Airey M, Baxter H, Forrester J, Kennedy‐Martin T & Girach A (2004): Epidemiology of diabetic retinopathy and macular oedema: a systematic review. Eye (Lond)18: 963–983. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 42702,
+          "infons": {
+            "title": "The influence of diabetic retinopathy on quality of life: interviews to guide the design of a condition‐specific individualised questionnaire: the RetDQoL",
+            "journal": "Patient Educ Couns",
+            "volume": "53",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Woodcock A, Bradley C, Plowright R, ffytche T, Kennedy‐Martin T & Hirsch A (2004): The influence of diabetic retinopathy on quality of life: interviews to guide the design of a condition‐specific individualised questionnaire: the RetDQoL. Patient Educ Couns53: 365–383. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 42997,
+          "infons": {
+            "title": "Prevalence and risk factors for diabetic retinopathy: the Beijing Communities Diabetes Study 6",
+            "journal": "Retina",
+            "volume": "32",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Xu J, Wei WB, Yuan MX et al. (2012): Prevalence and risk factors for diabetic retinopathy: the Beijing Communities Diabetes Study 6. Retina32: 322–329. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 43174,
+          "infons": {
+            "title": "Familial clustering of diabetic retinopathy in Chongqing, China, type 2 diabetic patients",
+            "journal": "Eur J Ophthalmol",
+            "volume": "20",
+            "section_title_1": "References",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "Zhang X, Gao Y, Zhou Z, Wang J, Zhou Q & Li Q (2010): Familial clustering of diabetic retinopathy in Chongqing, China, type 2 diabetic patients. Eur J Ophthalmol20: 911–918. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        }
+      ],
+      "annotations": [],
+      "relations": []
+    }
+  ]
+}

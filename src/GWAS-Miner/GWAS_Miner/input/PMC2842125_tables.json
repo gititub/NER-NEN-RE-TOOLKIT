@@ -1,0 +1,765 @@
+{
+  "src": "Auto-CORPus (tables)",
+  "date": "20231109",
+  "key": "autocorpus_tables.key",
+  "infons": {},
+  "documents": [
+    {
+      "inputfile": "./html_files/PMC2842125.html",
+      "id": "1",
+      "infons": {},
+      "passages": [
+        {
+          "offset": 0,
+          "infons": {
+            "section_title_1": "table_title",
+            "iao_name_1": "document title",
+            "iao_id_1": "IAO:0000305"
+          },
+          "text": [
+            "Table 1"
+          ]
+        },
+        {
+          "offset": 1,
+          "infons": {
+            "section_title_1": "table_caption",
+            "iao_name_1": "caption",
+            "iao_id_1": "IAO:0000304"
+          },
+          "text": "IC<sub>50</sub> values (μM) of top hits for SHP2 identified from the library"
+        },
+        {
+          "offset": 77,
+          "infons": {
+            "section_title_1": "table_content",
+            "iao_name_1": "table",
+            "iao_id_1": "IAO:0000306"
+          },
+          "column_headings": [
+            {
+              "cell_id": "1.1.1",
+              "cell_text": "Compound"
+            },
+            {
+              "cell_id": "1.1.2",
+              "cell_text": "Structure"
+            },
+            {
+              "cell_id": "1.1.3",
+              "cell_text": "IC<sub>50</sub> (μM)"
+            }
+          ],
+          "data_section": [
+            {
+              "table_section_title_1": "",
+              "data_rows": [
+                [
+                  {
+                    "cell_id": "1.2.1",
+                    "cell_text": "II-B08 (9)"
+                  },
+                  {
+                    "cell_id": "1.2.2",
+                    "cell_text": "Open in a separate window"
+                  },
+                  {
+                    "cell_id": "1.2.3",
+                    "cell_text": "5.5 ± 0.4"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.3.1",
+                    "cell_text": "II-A09 (10)"
+                  },
+                  {
+                    "cell_id": "1.3.2",
+                    "cell_text": "Open in a separate window"
+                  },
+                  {
+                    "cell_id": "1.3.3",
+                    "cell_text": "7.8 ± 0.8"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.4.1",
+                    "cell_text": "II-A12 (11)"
+                  },
+                  {
+                    "cell_id": "1.4.2",
+                    "cell_text": "Open in a separate window"
+                  },
+                  {
+                    "cell_id": "1.4.3",
+                    "cell_text": "10.4 ± 0.6"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.5.1",
+                    "cell_text": "II-A15 (12)"
+                  },
+                  {
+                    "cell_id": "1.5.2",
+                    "cell_text": "Open in a separate window"
+                  },
+                  {
+                    "cell_id": "1.5.3",
+                    "cell_text": "9.1 ± 0.4"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "1.6.1",
+                    "cell_text": "II-B50 (13)"
+                  },
+                  {
+                    "cell_id": "1.6.2",
+                    "cell_text": "Open in a separate window"
+                  },
+                  {
+                    "cell_id": "1.6.3",
+                    "cell_text": "8 ± 1"
+                  }
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "offset": 298,
+          "infons": {
+            "section_title_1": "table_footer",
+            "iao_name_1": "caption",
+            "iao_id_1": "IAO:0000304"
+          },
+          "text": "All measurements were made using pNPP as a substrate at pH 7.0, 25 °C, and I=0.15 M."
+        }
+      ]
+    },
+    {
+      "inputfile": "./html_files/PMC2842125.html",
+      "id": "2",
+      "infons": {},
+      "passages": [
+        {
+          "offset": 0,
+          "infons": {
+            "section_title_1": "table_title",
+            "iao_name_1": "document title",
+            "iao_id_1": "IAO:0000305"
+          },
+          "text": [
+            "Table 2"
+          ]
+        },
+        {
+          "offset": 1,
+          "infons": {
+            "section_title_1": "table_caption",
+            "iao_name_1": "caption",
+            "iao_id_1": "IAO:0000304"
+          },
+          "text": "Selectivity of 9 against a panel of PTPs"
+        },
+        {
+          "offset": 41,
+          "infons": {
+            "section_title_1": "table_content",
+            "iao_name_1": "table",
+            "iao_id_1": "IAO:0000306"
+          },
+          "column_headings": [
+            {
+              "cell_id": "2.1.1",
+              "cell_text": "PTP"
+            },
+            {
+              "cell_id": "2.1.2",
+              "cell_text": "IC<sub>50</sub> (μM)"
+            }
+          ],
+          "data_section": [
+            {
+              "table_section_title_1": "",
+              "data_rows": [
+                [
+                  {
+                    "cell_id": "2.2.1",
+                    "cell_text": "SHP2"
+                  },
+                  {
+                    "cell_id": "2.2.2",
+                    "cell_text": "5.5±0.4"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "2.3.1",
+                    "cell_text": "SHP1"
+                  },
+                  {
+                    "cell_id": "2.3.2",
+                    "cell_text": "15.7±2.1"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "2.4.1",
+                    "cell_text": "PTP1B"
+                  },
+                  {
+                    "cell_id": "2.4.2",
+                    "cell_text": "14.3±1.5"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "2.5.1",
+                    "cell_text": "HePTP"
+                  },
+                  {
+                    "cell_id": "2.5.2",
+                    "cell_text": ">50"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "2.6.1",
+                    "cell_text": "Lyp"
+                  },
+                  {
+                    "cell_id": "2.6.2",
+                    "cell_text": "25.0±3.6"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "2.7.1",
+                    "cell_text": "FAP1"
+                  },
+                  {
+                    "cell_id": "2.7.2",
+                    "cell_text": "20.3±1.3"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "2.8.1",
+                    "cell_text": "CD45"
+                  },
+                  {
+                    "cell_id": "2.8.2",
+                    "cell_text": "30.0±6"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "2.9.1",
+                    "cell_text": "LAR"
+                  },
+                  {
+                    "cell_id": "2.9.2",
+                    "cell_text": ">50"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "2.10.1",
+                    "cell_text": "PTPα"
+                  },
+                  {
+                    "cell_id": "2.10.2",
+                    "cell_text": ">50"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "2.11.1",
+                    "cell_text": "VHR"
+                  },
+                  {
+                    "cell_id": "2.11.2",
+                    "cell_text": ">50"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "2.12.1",
+                    "cell_text": "Cdc14A"
+                  },
+                  {
+                    "cell_id": "2.12.2",
+                    "cell_text": ">50"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "2.13.1",
+                    "cell_text": "LMWPTP"
+                  },
+                  {
+                    "cell_id": "2.13.2",
+                    "cell_text": "31.1±1.9"
+                  }
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "offset": 160,
+          "infons": {
+            "section_title_1": "table_footer",
+            "iao_name_1": "caption",
+            "iao_id_1": "IAO:0000304"
+          },
+          "text": "All measurements were made using pNPP as a substrate at pH 7.0, 25 °C, and I=0.15 M."
+        }
+      ]
+    },
+    {
+      "inputfile": "./html_files/PMC2842125.html",
+      "id": "3",
+      "infons": {},
+      "passages": [
+        {
+          "offset": 0,
+          "infons": {
+            "section_title_1": "table_title",
+            "iao_name_1": "document title",
+            "iao_id_1": "IAO:0000305"
+          },
+          "text": [
+            "Table 4"
+          ]
+        },
+        {
+          "offset": 1,
+          "infons": {
+            "section_title_1": "table_caption",
+            "iao_name_1": "caption",
+            "iao_id_1": "IAO:0000304"
+          },
+          "text": "Structure and activity for Compound 9"
+        },
+        {
+          "offset": 38,
+          "infons": {
+            "section_title_1": "table_content",
+            "iao_name_1": "table",
+            "iao_id_1": "IAO:0000306"
+          },
+          "column_headings": [
+            {
+              "cell_id": "3.1.1",
+              "cell_text": "Compound"
+            },
+            {
+              "cell_id": "3.1.2",
+              "cell_text": "Structure"
+            },
+            {
+              "cell_id": "3.1.3",
+              "cell_text": "IC<sub>50</sub> (μM)"
+            }
+          ],
+          "data_section": [
+            {
+              "table_section_title_1": "",
+              "data_rows": [
+                [
+                  {
+                    "cell_id": "3.2.1",
+                    "cell_text": "Salicylic acid core 1"
+                  },
+                  {
+                    "cell_id": "3.2.2",
+                    "cell_text": "Open in a separate window"
+                  },
+                  {
+                    "cell_id": "3.2.3",
+                    "cell_text": "212 ± 23"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "3.3.1",
+                    "cell_text": "II-A08 (9a)"
+                  },
+                  {
+                    "cell_id": "3.3.2",
+                    "cell_text": "Open in a separate window"
+                  },
+                  {
+                    "cell_id": "3.3.3",
+                    "cell_text": "9.3 ± 0.5"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "3.4.1",
+                    "cell_text": 9.0
+                  },
+                  {
+                    "cell_id": "3.4.2",
+                    "cell_text": "Open in a separate window"
+                  },
+                  {
+                    "cell_id": "3.4.3",
+                    "cell_text": "5.5 ± 0.4"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "3.5.1",
+                    "cell_text": "II-C08 (9b)"
+                  },
+                  {
+                    "cell_id": "3.5.2",
+                    "cell_text": "Open in a separate window"
+                  },
+                  {
+                    "cell_id": "3.5.3",
+                    "cell_text": "12 ± 1"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "3.6.1",
+                    "cell_text": "II-B05 (14)"
+                  },
+                  {
+                    "cell_id": "3.6.2",
+                    "cell_text": "Open in a separate window"
+                  },
+                  {
+                    "cell_id": "3.6.3",
+                    "cell_text": "86 ± 3"
+                  }
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "offset": 258,
+          "infons": {
+            "section_title_1": "table_footer",
+            "iao_name_1": "caption",
+            "iao_id_1": "IAO:0000304"
+          },
+          "text": "All measurements were made using pNPP as a substrate at pH 7.0, 25 °C, and I=0.15 M."
+        }
+      ]
+    },
+    {
+      "inputfile": "./html_files/PMC2842125.html",
+      "id": "4",
+      "infons": {},
+      "passages": [
+        {
+          "offset": 0,
+          "infons": {
+            "section_title_1": "table_title",
+            "iao_name_1": "document title",
+            "iao_id_1": "IAO:0000305"
+          },
+          "text": [
+            "Table 3"
+          ]
+        },
+        {
+          "offset": 1,
+          "infons": {
+            "section_title_1": "table_caption",
+            "iao_name_1": "caption",
+            "iao_id_1": "IAO:0000304"
+          },
+          "text": "Crystallographic Data and Refinement Statistics for SHP2•9 Complex"
+        },
+        {
+          "offset": 67,
+          "infons": {
+            "section_title_1": "table_content",
+            "iao_name_1": "table",
+            "iao_id_1": "IAO:0000306"
+          },
+          "column_headings": [
+            {
+              "cell_id": "4.1.1",
+              "cell_text": "Crystal Parameters"
+            },
+            {
+              "cell_id": "4.1.2",
+              "cell_text": ""
+            }
+          ],
+          "data_section": [
+            {
+              "table_section_title_1": "",
+              "data_rows": [
+                [
+                  {
+                    "cell_id": "4.2.1",
+                    "cell_text": "Space group"
+                  },
+                  {
+                    "cell_id": "4.2.2",
+                    "cell_text": "P2<sub>1</sub>"
+                  }
+                ]
+              ]
+            },
+            {
+              "table_section_title_1": "Cell dimensions",
+              "data_rows": [
+                [
+                  {
+                    "cell_id": "4.3.1",
+                    "cell_text": "a (Å)"
+                  },
+                  {
+                    "cell_id": "4.3.2",
+                    "cell_text": 39.5
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "4.4.1",
+                    "cell_text": "b (Å)"
+                  },
+                  {
+                    "cell_id": "4.4.2",
+                    "cell_text": 75.8
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "4.5.1",
+                    "cell_text": "c (Å)"
+                  },
+                  {
+                    "cell_id": "4.5.2",
+                    "cell_text": 48.2
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "4.6.1",
+                    "cell_text": "β (°)"
+                  },
+                  {
+                    "cell_id": "4.6.2",
+                    "cell_text": 98.5
+                  }
+                ]
+              ]
+            },
+            {
+              "table_section_title_1": "Data Collection",
+              "data_rows": [
+                [
+                  {
+                    "cell_id": "4.7.1",
+                    "cell_text": "Wavelength for data collection"
+                  },
+                  {
+                    "cell_id": "4.7.2",
+                    "cell_text": 0.97915
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "4.8.1",
+                    "cell_text": "Resolution (Å)"
+                  },
+                  {
+                    "cell_id": "4.8.2",
+                    "cell_text": "50.0-2.0"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "4.9.1",
+                    "cell_text": "Highest resolution shell (Å)"
+                  },
+                  {
+                    "cell_id": "4.9.2",
+                    "cell_text": "2.06-2.0"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "4.10.1",
+                    "cell_text": "No. of unique reflections"
+                  },
+                  {
+                    "cell_id": "4.10.2",
+                    "cell_text": 18718.0
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "4.11.1",
+                    "cell_text": "Completeness (%)"
+                  },
+                  {
+                    "cell_id": "4.11.2",
+                    "cell_text": "99.4 (99.1)<sup>a</sup>"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "4.12.1",
+                    "cell_text": "Redundancy"
+                  },
+                  {
+                    "cell_id": "4.12.2",
+                    "cell_text": 3.4
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "4.13.1",
+                    "cell_text": "R<sub>merge</sub><sup>b</sup>"
+                  },
+                  {
+                    "cell_id": "4.13.2",
+                    "cell_text": "7.5 (30.8)<sup>a</sup>"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "4.14.1",
+                    "cell_text": "〈I/δ(I)〉"
+                  },
+                  {
+                    "cell_id": "4.14.2",
+                    "cell_text": "13.7 (2.2)<sup>a</sup>"
+                  }
+                ]
+              ]
+            },
+            {
+              "table_section_title_1": "Refinement",
+              "data_rows": [
+                [
+                  {
+                    "cell_id": "4.15.1",
+                    "cell_text": "Resolution range (Å)"
+                  },
+                  {
+                    "cell_id": "4.15.2",
+                    "cell_text": "50-2.0"
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "4.16.1",
+                    "cell_text": "No. of Reflections used"
+                  },
+                  {
+                    "cell_id": "4.16.2",
+                    "cell_text": 18673.0
+                  }
+                ]
+              ]
+            },
+            {
+              "table_section_title_1": "F≥2.0σ (F)",
+              "data_rows": [
+                [
+                  {
+                    "cell_id": "4.17.1",
+                    "cell_text": "No. of protein atoms"
+                  },
+                  {
+                    "cell_id": "4.17.2",
+                    "cell_text": 2075.0
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "4.18.1",
+                    "cell_text": "No. of inhibitor"
+                  },
+                  {
+                    "cell_id": "4.18.2",
+                    "cell_text": 1.0
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "4.19.1",
+                    "cell_text": "No. of water"
+                  },
+                  {
+                    "cell_id": "4.19.2",
+                    "cell_text": 142.0
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "4.20.1",
+                    "cell_text": "R<sub>work</sub><sup>c</sup>/ R<sub>free</sub><sup>d</sup>"
+                  },
+                  {
+                    "cell_id": "4.20.2",
+                    "cell_text": "19.1/25.1"
+                  }
+                ]
+              ]
+            },
+            {
+              "table_section_title_1": "RMS deviations from ideal geometry",
+              "data_rows": [
+                [
+                  {
+                    "cell_id": "4.21.1",
+                    "cell_text": "Bond length (Å)"
+                  },
+                  {
+                    "cell_id": "4.21.2",
+                    "cell_text": 0.006
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "4.22.1",
+                    "cell_text": "Bond angle (°)"
+                  },
+                  {
+                    "cell_id": "4.22.2",
+                    "cell_text": 1.22
+                  }
+                ],
+                [
+                  {
+                    "cell_id": "4.23.1",
+                    "cell_text": "Average B-factors (Å<sup>2</sup>)"
+                  },
+                  {
+                    "cell_id": "4.23.2",
+                    "cell_text": 31.7
+                  }
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "offset": 656,
+          "infons": {
+            "section_title_1": "table_footer",
+            "iao_name_1": "caption",
+            "iao_id_1": "IAO:0000304"
+          },
+          "text": "<sup>a</sup>The value in parentheses corresponds to the highest resolution shell.<sup>b</sup>R<sub>merge</sub> = Σ<sub>h</sub>Σ<sub>i</sub>|I(h)<sub>i</sub> − 〈I(h)〉|/Σ<sub>h</sub>Σ<sub>i</sub>I(h)<sub>i</sub>.<sup>c</sup>R<sub>work</sub> = Σ<sub>h</sub>|F(h)<sub>calcd</sub> − F(h)<sub>obsd</sub>|/Σ<sub>h</sub>F(h)<sub>obsd</sub>, where F(h)<sub>calcd</sub> and F(h)<sub>obsd</sub> were the refined calculated and observed structure factors, respectively.<sup>d</sup>R<sub>free</sub> was calculated for a randomly selected 3.8% of the reflections that were omitted from refinement."
+        }
+      ]
+    }
+  ]
+}

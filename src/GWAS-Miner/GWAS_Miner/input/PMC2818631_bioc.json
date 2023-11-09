@@ -1,0 +1,1416 @@
+{
+  "src": "Auto-CORPus (full-text)",
+  "date": "20231109",
+  "key": "autocorpus_fulltext.key",
+  "infons": {},
+  "documents": [
+    {
+      "id": "PMC2818631",
+      "inputfile": "./html_files/PMC2818631.html",
+      "infons": {},
+      "passages": [
+        {
+          "offset": 0,
+          "infons": {
+            "iao_name_1": "document title",
+            "iao_id_1": "IAO:0000305"
+          },
+          "text": "Radiosensitization of EGFR/HER2 positive pancreatic cancer is mediated by inhibition of Akt independent of Ras mutational status",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 128,
+          "infons": {
+            "section_title_1": "keywords",
+            "iao_name_1": "keywords section",
+            "iao_id_1": "IAO:0000630"
+          },
+          "text": "pancreatic cancer, EGFR/HER2, radiosensitization, PI3K/Akt",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 194,
+          "infons": {
+            "section_title_1": "document part",
+            "iao_name_1": "document part",
+            "iao_id_1": "IAO:0000314"
+          },
+          "text": "SUPPLEMENTAL FIGURE 1. Lapatinib radiosensitizes T3M4 cells in a dose dependent manner. Clonogenic survival assays of cells treated with increasing concentrations of lapatinib and either mock irradiation (black) or 5 Gy (gray). Curves normalized to surviving fraction with DMSO control for both 0 and 5 Gy. Cells were treated with lapatinib or DMSO for 2 h prior to and 2 h after irradiation and allowed to grow for 2 weeks prior to fixation, staining and counting colonies consisting of at least 50 cells. N=3; **, p<0.01; ***, p<0.001.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 744,
+          "infons": {
+            "section_title_1": "document part",
+            "iao_name_1": "document part",
+            "iao_id_1": "IAO:0000314"
+          },
+          "text": "SUPPLEMENTAL FIGURE 2. Pancreatic cancer cells are not radiosensitized by inhibition of MEK/ERK. A, ERK phosphorylation is inhibited by treatment with U0126 (1 or 5 μM) but not DMSO control for 2 hours prior to collection of protein lysates and analysis by western blot for p-ERK1/2 and p-Akt. B, Clonogenic survival assays of cells treated with U0126 (5 μM) show no radiosensitization of any of the pancreatic cancer cell lines. Plating efficiency of unirradiated cells in the presence or absence of U0126 was not significantly different for any cell line.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 1301,
+          "infons": {
+            "section_title_1": "Abstract",
+            "section_title_2": "Purpose",
+            "iao_name_1": "textual abstract section",
+            "iao_id_1": "IAO:0000315"
+          },
+          "text": "Epidermal growth factor receptor family members (e.g., EGFR, HER2, HER3, and HER4) are commonly overexpressed in pancreatic cancer. We investigated the effects of inhibition of EGFR/HER2 signaling on pancreatic cancer to elucidate the role(s) of EGFR/HER2 in radiosensitization and to provide evidence in support of further clinical investigations.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 1664,
+          "infons": {
+            "section_title_1": "Abstract",
+            "section_title_2": "Experimental Design",
+            "iao_name_1": "textual abstract section",
+            "iao_id_1": "IAO:0000315"
+          },
+          "text": "Expression of EGFR family members in pancreatic cancer lines was assessed by qRT-PCR. Cell growth inhibition was determined by MTS assay. The effects of inhibition of EGFR family receptors and downstream signaling pathways on in vitro radiosensitivity were evaluated using clonogenic assays. Growth delay was used to evaluate the effects of nelfinavir on in vivo tumor radiosensitivity.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 2069,
+          "infons": {
+            "section_title_1": "Abstract",
+            "section_title_2": "Results",
+            "iao_name_1": "textual abstract section",
+            "iao_id_1": "IAO:0000315"
+          },
+          "text": "Lapatinib inhibited cell growth in four pancreatic cancer cell lines, but radiosensitized only wild-type K-ras-expressing T3M4 cells. Akt activation was blocked in a wild-type K-ras cell line, whereas constitutive phosphorylation of Akt and ERK was seen in lines expressing mutant K-ras. Overexpression of constitutively-active K-ras(G12V) abrogated lapatinib-mediated inhibition of both Akt phosphorylation and radiosensitization. Inhibition of MEK/ERK signaling with U0126 had no effect on radiosensitization, whereas inhibition of activated Akt with LY294002 (enhancement ratio 1.2–1.8) or nelfinavir (enhancement ratio 1.2–1.4) radiosensitized cells regardless of K-ras mutation status. Oral nelfinavir administration to mice bearing mutant K-ras-containing Capan-2 xenografts resulted in a greater than additive increase in radiation-mediated tumor growth delay (synergy assessment ratio of 1.5).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 2977,
+          "infons": {
+            "section_title_1": "Abstract",
+            "section_title_2": "Conclusions",
+            "iao_name_1": "textual abstract section",
+            "iao_id_1": "IAO:0000315"
+          },
+          "text": "Inhibition of EGFR/HER2 enhances radiosensitivity in wild-type K-ras pancreatic cancer. Nelfinavir, and other PI3K/Akt inhibitors, are effective pancreatic radiosensitizers regardless of K-ras mutation status.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 3197,
+          "infons": {
+            "section_title_1": "document part",
+            "section_title_2": "Translational Relevance",
+            "iao_name_1": "document part",
+            "iao_id_1": "IAO:0000314"
+          },
+          "text": "In this article we provide two important pieces of evidence to guide future cancer care. First, constitutive activation of K-ras results in resistance to radiosensitization by inhibition of EGFR and HER2. This result suggests that use of EGFR/HER2 inhibitors as radiosensitizers of pancreatic cancer may not be efficacious given the high K-ras mutation prevalence in pancreatic cancer. Second, we provide the first evidence documenting the in vitro and in vivo efficacy of nelfinavir as a radiosensitizer of pancreatic cancer and further evidence supporting its role as a radiosensitizer. These results provide a rationale for future clinical investigation of the tolerability and therapeutic efficacy of nelfinavir in combination with radiotherapy in pancreatic cancer.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 3990,
+          "infons": {
+            "section_title_1": "INTRODUCTION",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "Pancreatic cancer, with nearly 33,000 cases diagnosed annually, is the 4th leading cause of cancer deaths in the United States (1). Improvements in understanding the molecular aberrations underlying pancreatic cancer (reviewed in (2)), have led to the approval of drugs targeting these abnormalities (3). Some of these agents target the members of the epidermal growth factor receptor family (EGFR/ErbB-1/HER1, ErbB-2/HER2/neu, ErbB-3/HER3, and ErbB-4/HER4).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 4460,
+          "infons": {
+            "section_title_1": "INTRODUCTION",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "Ligand activation of EGFR-family proteins (EGFR is a member of the receptor tyrosine kinase superfamily of transmembrane proteins) results in perturbation of a variety of downstream signaling cascades. The clinical efficacy of drugs targeting the EGFR family of proteins was hypothesized due to the observed overexpression of EGFR in 40-70% of pancreatic cancers (4, 5), along with overexpression of HER2 in a smaller subset of cases (6-8). The use of EGFR family inhibitors has been supported by data demonstrating that blockade of EGFR or HER2 inhibits the growth of pancreatic cancer cells in vitro (9-11). Downregulation of both EGFR and HER2 has been suggested to be more effective at inhibiting pancreatic cancer cell proliferation than inhibition of either receptor alone (12).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 5244,
+          "infons": {
+            "section_title_1": "INTRODUCTION",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "EGFR-family inhibitors have recently been demonstrated to radiosensitize multiple cancers (reviewed in (13)). We have previously demonstrated that lapatinib (GW572016, Tykerb®, GlaxoSmithKline), a dual EGFR and HER2 small molecule inhibitor, is an effective radiosensitizer for breast cancer, a cancer that frequently expresses high levels of HER2 and/or EGFR (14). Interestingly, the signaling pathway(s) downstream of EGFR/HER2 responsible for radiosensitization appears to vary by cancer subtype. While numerous compounds have been used successfully in laboratory studies to directly inhibit signaling pathways located downstream of EGFR and/or HER2, translation to efficacious and tolerable clinical use has been difficult.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 5971,
+          "infons": {
+            "section_title_1": "INTRODUCTION",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "Nelfinavir (Viracept®, Pfizer), a Type 1 HIV protease inhibitor, may downregulate Akt signaling with minimal side effects. HIV protease inhibitors were first noted to inhibit the growth of Kaposi's sarcoma independent of their anti-retroviral effect soon after receiving FDA approval in 1997 (15, 16). Several groups then showed that these compounds radiosensitize several tumor cells via blockade of Akt signaling (17) and/or proteasome inhibition (18). The exact mechanism of this effect remains unclear, as nelfinavir has been demonstrated to increase caspase-dependent apoptosis, non-apoptotic (caspase-independent) death, endoplasmic reticulum stress, and autophagy (19, 20).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 6651,
+          "infons": {
+            "section_title_1": "INTRODUCTION",
+            "iao_name_1": "introduction section",
+            "iao_id_1": "IAO:0000316"
+          },
+          "text": "We initiated this study to determine whether inhibition of EGFR/HER2 signaling could sensitize pancreatic cancer to ionizing radiation to provide data in support of a clinical trial. We expanded the study to determine the downstream signaling pathways involved in radiosensitization and to demonstrate that nelfinavir, and other agents that inhibit the PI3K→Akt pathway, is an effective radiosensitizer in the majority of pancreatic cancers.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 7092,
+          "infons": {
+            "section_title_1": "MATERIALS AND METHODS",
+            "section_title_2": "Inhibitors and growth factors",
+            "iao_name_1": "materials section",
+            "iao_id_1": "IAO:0000633",
+            "iao_name_2": "methods section",
+            "iao_id_2": "IAO:0000317"
+          },
+          "text": "Lapatinib (Tykerb®) was provided by GlaxoSmithKline (Middlesex, United Kingdom). LY294002 was obtained from Sigma Chemical Co. (St. Louis, MO) and U0126 from Calbiochem (La Jolla, CA). Inhibitors were reconstituted in DMSO and working solutions subdivided and stored at −20 °C. Tablets of nelfinavir mesylate (650 mg) were purchased from the UNC inpatient pharmacy and ground into fine powder before being dissolved into 100% ethanol prior to each use. EGF ligand was obtained from Invitrogen (Carlsbad, CA). Control cells were treated with equal concentrations of DMSO or ethanol.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 7723,
+          "infons": {
+            "section_title_1": "MATERIALS AND METHODS",
+            "section_title_2": "Quantitative reverse transcription-PCR (qRT-PCR)",
+            "iao_name_1": "materials section",
+            "iao_id_1": "IAO:0000633",
+            "iao_name_2": "methods section",
+            "iao_id_2": "IAO:0000317"
+          },
+          "text": "Gene-specific 5’-3’ oligonucleotides and intervening fluorescent dye-labeled probes for human genes encoding EGFR, HER2, HER3, and HER4 (Supplemental Table 1) were designed, synthesized, labeled, and purified using standard techniques. Real-time fluorescence quantitative PCR (qPCR) was performed with an ABI PRISM 7900 instrument from Applied Biosystems (Foster City, CA). mRNA sequences for each gene were transcribed in vitro using MEGAscript (Ambion, Austin, TX), and used as positive controls and absolute quantitation standards for the assays. Amplification of two-fold serial dilutions of RNA was used to construct standard linear curves that permitted accurate measurements of 200 to 90 million template copies. Total RNA was isolated from each cell line in triplicate by using a QIAGEN (Valencia, CA) RNeasy kit and was treated with RNase-free DNase. Total RNA (10 ng) isolated from each cell line was assayed.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 8690,
+          "infons": {
+            "section_title_1": "MATERIALS AND METHODS",
+            "section_title_2": "Cell lines and culture conditions",
+            "iao_name_1": "materials section",
+            "iao_id_1": "IAO:0000633",
+            "iao_name_2": "methods section",
+            "iao_id_2": "IAO:0000317"
+          },
+          "text": "Pancreatic cancer cell lines (T3M4, Capan-2, MIA PaCa-2, and PANC-1) were obtained from the American Type Culture Collection (ATCC) and cultured in RPMI-1640 supplemented with 10% FBS, penicillin (100 units/ml), and streptomycin (100 mg/ml). No additional authentication was performed although the ATCC performs DNA profiling of cell lines and all cell lines were cultured for less than 6 months prior to being reconstituted from frozen stocks. Cells were maintained as monolayer cultures at 37°C in a humidified atmosphere of 5% CO2.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 9257,
+          "infons": {
+            "section_title_1": "MATERIALS AND METHODS",
+            "section_title_2": "Cell proliferation assay and IC50 determination",
+            "iao_name_1": "materials section",
+            "iao_id_1": "IAO:0000633",
+            "iao_name_2": "methods section",
+            "iao_id_2": "IAO:0000317"
+          },
+          "text": "Cells (1.5-5 × 103 cells/well) were plated on 96 well plates in 100 μl media with increasing concentrations of lapatinib (0.01 μM to 50.0 μM) or nelfinavir (0.001 μM to 20.0 μM). After 72 h, cell viability was measured via MTS assay according to the manufacturer's directions (Promega, Madison, WI). IC50 values and 95% confidence intervals were calculated according to a non-linear curve fit and compared by the extra sum-of-squares F test using GraphPad Prism version 5.01 (GraphPad Software, San Diego, CA).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 9814,
+          "infons": {
+            "section_title_1": "MATERIALS AND METHODS",
+            "section_title_2": "Immunoprecipitation and western blot analysis",
+            "iao_name_1": "materials section",
+            "iao_id_1": "IAO:0000633",
+            "iao_name_2": "methods section",
+            "iao_id_2": "IAO:0000317"
+          },
+          "text": "Cells were initially starved overnight followed by 1 h lapatinib (1 or 5 μM) pretreatment and then EGF (10 ng/ml) stimulation for 15 min. Cellular extracts were prepared by washing cells with cold phosphate-buffered saline (PBS) and lysing them in cold NLB buffer (20 mM HEPES [pH 7.3], 50 mM sodium fluoride, 10% glycerol, 1% Triton X-100, 5 mM EDTA, 0.5 M NaCl, 1 mM sodium vanadate, aprotinin [6 μg/ml], and leupeptin [10 μg/ml]). Receptor proteins were precipitated from cell lysates (1 mg) with a commercial antibody against HER2 (clone 9G6.10; Neomarkers, Inc./Thermo Scientific, Fremont, CA) or with a non-commercial antibody against HER1/EGFR (V22) kindly provided by S. Earp (Univ. of North Carolina) (14) at 4°C overnight. Immunocomplexes were then pulled down with protein A/G-agarose beads (Santa Cruz Biotechnology, Inc., Santa Cruz, CA) for 3 h at 4°C, washed three times with NLB, and analyzed by western blot analysis using an anti-phosphotyrosine antibody (PY20-HRP; Santa Cruz Biotechnology, Inc).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 10874,
+          "infons": {
+            "section_title_1": "MATERIALS AND METHODS",
+            "section_title_2": "Immunoprecipitation and western blot analysis",
+            "iao_name_1": "materials section",
+            "iao_id_1": "IAO:0000633",
+            "iao_name_2": "methods section",
+            "iao_id_2": "IAO:0000317"
+          },
+          "text": "Western blot analyses were performed to determine the effect of pharmacological inhibitors on MEK/ERK1/2 and PI3K/Akt activation. Cells were plated at 40% confluence in 60 mm dishes and the following day treated with inhibitors against EGFR/HER2 (lapatinib, 1-5 μM), PI3K (LY294002, 5-20 μM), MEK1/2 (U0126, 1-5 μM), or vehicle alone (DMSO) for one hour or with nelfinavir (1 μM) or vehicle alone (ethanol) for 4 or 28 h prior to lysis. Thirty μg of protein lysates (harvested as described above) were separated over 15% SDS-PAGE gels, transferred to Immobilon-P membrane (Millipore, Billerica, MA) and immunoblots performed utilizing phospho-ERK1/2- (#9106), ERK1/2- (#9122), phospho-Akt(Ser473)- (#9271), or Akt-(#9272), specific antibodies (all from Cell Signaling Technology, Inc., Cambridge, MA). Anti α-tubulin (TU-02) was obtained from Santa Cruz Biotechnology.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 11742,
+          "infons": {
+            "section_title_1": "MATERIALS AND METHODS",
+            "section_title_2": "Clonogenic survival assays",
+            "iao_name_1": "materials section",
+            "iao_id_1": "IAO:0000633",
+            "iao_name_2": "methods section",
+            "iao_id_2": "IAO:0000317"
+          },
+          "text": "Cells were trypsinized to create single cell suspensions, seeded into T-25 flasks at defined densities, and incubated overnight to ensure log phase of growth. The next day, two hours pre-irradiation, cells were fed with fresh media supplemented with either lapatinib (5 μM), U0126 (5 μM), or LY294002 (10 μM). Cells treated with nelfinavir (1 or 5 μM) received 2 or 26 h of pre-treatment prior to irradiation. Control cells were maintained in media containing a corresponding concentration of vehicle (DMSO or ethanol) alone. Cells were irradiated with single doses of 1, 3, 5, or 7 Gy using a Mark I 137Cs irradiator (JL Shepherd, San Fernando, CA) delivering a dose rate of 158 cGy/min. Two hours post-irradiation, all drugs were removed and the cells re-fed with fresh media. After 10 to 15 days, surviving colonies were fixed with a solution of methanol and acetic acid (3:1 v/v) and stained with 1% crystal violet. Colonies containing more than 50 cells were counted and survival curves were generated.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 12775,
+          "infons": {
+            "section_title_1": "MATERIALS AND METHODS",
+            "section_title_2": "Clonogenic survival assays",
+            "iao_name_1": "materials section",
+            "iao_id_1": "IAO:0000633",
+            "iao_name_2": "methods section",
+            "iao_id_2": "IAO:0000317"
+          },
+          "text": "The surviving fraction was calculated from the number of colonies formed in the irradiated dishes compared with the number formed in the unirradiated control, where plating efficiency is defined as the percentage of cells plated that form colonies in unirradiated dishes, and surviving fraction = number of colonies formed/(number of cells plated × plating efficiency). Statistical comparisons were done using GraphPad Prism according to the two-tailed nonparametric Mann-Whitney test. The clonogenic survival curve for each condition was fitted to a linear-quadratic model (Y=e−[A * X + B * X2]) using GraphPad Prism according to a least squares fit, weighted to minimize the relative distances squared, and compared using the extra sum-of-squares F test. Each point represents the mean surviving fraction calculated from three independent experiments done in triplicate for each treatment condition; error bars represent the standard deviation. The mean inactivation dose was calculated according to the method of Fertil (21) and the cell survival enhancement ratio (ER) was calculated as the ratio of the mean inactivation dose under control conditions divided by the mean inactivation dose after drug exposure as described by Morgan (22). A value significantly greater than 1 indicates radiosensitization. For the drug dose response comparison, two-way ANOVA followed by Bonferroni posttests was performed using GraphPad Prism.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 14206,
+          "infons": {
+            "section_title_1": "MATERIALS AND METHODS",
+            "section_title_2": "Ectopic expression of mutant K-ras",
+            "iao_name_1": "materials section",
+            "iao_id_1": "IAO:0000633",
+            "iao_name_2": "methods section",
+            "iao_id_2": "IAO:0000317"
+          },
+          "text": "T3M4 cells, which are wild-type for K-ras, were transfected with pCGN-K-ras(G12V)-HA or an empty vector control as previously described (23) using FuGENE 6 Transfection Reagent (Roche Diagnostics, Indianapolis, IN). Clonogenic survival assays were performed 24 hours after transfection and protein lysates prepared as described above for western blot analysis with anti-K-ras serum (#OP24; Calbiochem, San Diego, CA).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 14657,
+          "infons": {
+            "section_title_1": "MATERIALS AND METHODS",
+            "section_title_2": "Xenografts",
+            "iao_name_1": "materials section",
+            "iao_id_1": "IAO:0000633",
+            "iao_name_2": "methods section",
+            "iao_id_2": "IAO:0000317"
+          },
+          "text": "Four to five week-old athymic BALB/c female nude mice were purchased from Charles River Laboratories (Wilmington, MA), housed in filter-topped cages in an aseptic environment, and maintained per defined protocol approved by and in accordance with the University of North Carolina Institutional Animal Care and Use Committee. To determine the biologically optimal dose of nelfinavir with regards to inhibition of Akt activation, mice (n=1 per group) were injected subcutaneously in the flanks with Capan-2 cells (5 × 106) resuspended in 200 μl of a 1:1 ratio of PBS:Matrigel (BD Biosciences, San Jose, CA) and treated with nelfinavir (50, 100, or 150 mg/kg once daily) or vehicle alone by oral gavage for a total of five days. Mice were euthanized by CO2 inhalation and tumors harvested using sterile technique 4 hours after the last dose on day 5. Excised tumors were flash frozen and pulverized with a mortar and pestle under liquid nitrogen prior to transfer into 1-2 ml of RIPA buffer [150 mM NaCl, 50 mM Tris-HCl pH 7.5, 0.25% deoxycholate, 1% NP-40, 1 mM sodium orthovanadate, and complete protease inhibitor cocktail (Roche Applied Science, Indianopolis, IN)]. Lysates were then homogenized using a Polytron homogenizer (Brinkmann, Westbury, NY), incubated on ice for 30 min, and centrifuged at 14,000 rpm at 4°C for 15 minutes; supernatants were stored at −80°C prior to immunoblotting for P-Akt, Akt, and α-tubulin as described above.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 16109,
+          "infons": {
+            "section_title_1": "MATERIALS AND METHODS",
+            "section_title_2": "Xenografts",
+            "iao_name_1": "materials section",
+            "iao_id_1": "IAO:0000633",
+            "iao_name_2": "methods section",
+            "iao_id_2": "IAO:0000317"
+          },
+          "text": "To assess the tumor growth delay induced by nelfinavir, mice (n=6 per group) bearing Capan-2 xenografts prepared as described above were randomly assigned to one of four treatment groups: 1) vehicle alone, 2) nelfinavir alone (150 mg/kg daily by oral gavage) × 10 days, 3) radiation alone (200 cGy/day on days 6, 7, and 8), or 4) radiation plus nelfinavir (as above). Radiation was delivered by a linear accelerator (Primus, Siemens, New York, NY) to anaesthetized mice using 6 MeV electrons and a custom lead cutout. Tumors were measured at 2-3 day intervals using Vernier calipers and the tumor volumes calculated (V = π × length × width2 / 6). Tumor volumes were fit using a straight line non-linear regression (GraphPad Prism) and compared using the extra sum-of-squares F test.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 16891,
+          "infons": {
+            "section_title_1": "MATERIALS AND METHODS",
+            "section_title_2": "Xenografts",
+            "iao_name_1": "materials section",
+            "iao_id_1": "IAO:0000633",
+            "iao_name_2": "methods section",
+            "iao_id_2": "IAO:0000317"
+          },
+          "text": "To assess antagonistic, additive, or synergistic effects, we used the fractional product method at day 25 (24, 25). The observed fractional tumor volume (FTV) is equal to the mean tumor volume of each treated group (nelfinavir, radiation, or nelfinavir + radiation) divided by the mean tumor volume of the control group. The expected FTV from the combined treatment (FTVnelfinavir + radiation) is calculated by multiplying the observed FTVnelfinavir by the observed FTVradiation. Dividing the expected FTVnelfinavir + radiation by the observed FTVnelfinavir + radiation yields a synergy assessment ratio in which a value >1 suggests that the combined treatments are effectively synergistic, <1 antagonistic, and =1 additive.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 17615,
+          "infons": {
+            "section_title_1": "RESULTS",
+            "section_title_2": "Lapatinib blocks EGFR and HER2 activation",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "We have shown previously that both lapatinib and erlotinib, an EGFR-selective tyrosine kinase inhibitor, block the soft-agar growth of several pancreatic cancer cell lines1. Since EGFR inhibition has been demonstrated to radiosensitize other cancers, including head and neck squamous cell carcinomas (HNSCC) and breast cancer (13), we sought to determine whether these compounds could also radiosensitize pancreatic cancer cells and whether this radiosensitization correlated with EGFR and HER2 expression.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 18169,
+          "infons": {
+            "section_title_1": "RESULTS",
+            "section_title_2": "Lapatinib blocks EGFR and HER2 activation",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "We first evaluated by qRT-PCR the relative expression levels of all four members of the EGFR family of receptors among a panel of four pancreatic cancer cell lines (Table 1). While HER2 levels were similar among all four lines, EGFR levels were 10-17-fold higher in the PANC-1 and T3M4 cells relative to that observed in the Capan-2 and MIA PaCa-2 cells. Expression of HER3, a family member that lacks kinase activity, was approximately 10-fold higher in the Capan-2 and T3M4 cells. HER4, the final family member, had very low mRNA expression levels across all four cell lines.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 18746,
+          "infons": {
+            "section_title_1": "RESULTS",
+            "section_title_2": "Lapatinib blocks EGFR and HER2 activation",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "All cell lines showed an anti-proliferative effect in response to increasing concentrations of both erlotinib and lapatinib (Table 1). The dual EGFR/HER2 inhibitor lapatinib demonstrated improved growth inhibitory activity compared to erlotinib in Capan-2 and MIA PaCa-2 cell lines (p = 0.0008 and 0.0001, respectively), a finding consistent with low levels of EGFR mRNA in these cell lines. PANC-1 and T3M4 cells had higher levels of EGFR than HER2 expression, and demonstrated similar growth inhibition by lapatinib and erlotinib (p=ns). To demonstrate that lapatinib blocks ligand-stimulated EGFR and HER2 activation in our pancreatic cells activation of receptors was analyzed by immunoprecipitation followed by western blot analysis. Consistent with what we and others have previously reported using in vitro, in vivo, and patient samples ((14, 26)and reviewed in (27)), lapatinib blocked activation of both EGFR and HER2 in all four pancreatic cell lines (Fig. 1A).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 19717,
+          "infons": {
+            "section_title_1": "RESULTS",
+            "section_title_2": "Pancreatic cancer cell lines harboring K-ras mutations are resistant to lapatinib-mediated radiosensitization",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "Due to the improved anti-proliferative and ligand-stimulated receptor inhibition of lapatinib in the tested cell lines, we chose to investigate whether lapatinib could radiosensitize pancreatic cancer cells. Clonogenic survival assays were performed on our panel of cells that were either treated with lapatinib (5 μM) or vehicle alone for the 2 hours preceding and 2 hours after irradiation. We chose this short duration of drug treatment because the clonogenic survival and cell cycle distribution of non-irradiated cell lines that were pretreated in this fashion with either lapatinib or DMSO control were not statistically different (data not shown), suggesting that the 4 hour exposure to lapatinib did not radiosensitize cells simply by inhibiting proliferation or by redistributing cells to a more radiosensitive phase of the cell cycle. T3M4 cells were radiosensitized by lapatinib while MIA PaCa-2, PANC-1, and Capan-2 cells were not radiosensitized (Fig. 1B). Lapatinib-mediated radiosensitization occurred in a dose-dependent manner (Supplemental Fig. 1) and at doses unlikely to have significant off-target effects (28). The ER of 1.3 for T3M4 cells is consistent with that reported for known radiosensitizers such as gemcitabine or cisplatin (29, 30). Suggestive of the importance of K-ras mutations in the radiation response, T3M4 cells express wild-type K-ras while MIA PaCa-2, PANC-1 and Capan-2 cell lines all express mutant K-ras (31).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 21279,
+          "infons": {
+            "section_title_1": "RESULTS",
+            "section_title_2": "Pancreatic cancer cell lines harboring K-ras mutations are resistant to lapatinib-mediated radiosensitization",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "The presence of constitutively active, mutant forms of K-ras, a molecular abnormality seen in approximately 90% of pancreatic cancers (32, 33), has previously been demonstrated to confer radioresistance (34-37). Thus, we hypothesized that inhibition of EGFR/HER2 signaling by lapatinib with resulting radiosensitization was conferred through inhibition of specific downstream signaling pathways that are directly activated in the presence of constitutively active Ras. We first evaluated the ability of lapatinib to inhibit downstream signaling of the PI3K/Akt and Raf/MEK/ERK pathways, two pathways capable of being activated by both EGFR/HER2 and Ras. Activation of Akt, but not ERK1/2, was completely inhibited by lapatinib in the T3M4 cells, while neither ERK1/2 nor Akt were inhibited by lapatinib in cells with mutant K-ras (Fig. 1C). Taken together, these data suggest that resistance to lapatinib radiosensensitization in the MIA PaCa-2, PANC-1, and Capan-2 cells may be mediated by activation of PI3K/Akt by mutant Ras.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 22307,
+          "infons": {
+            "section_title_1": "RESULTS",
+            "section_title_2": "K-ras expression blocks radiosensitization by lapatinib",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "To determine the role of mutant Ras in conferring radioresistance in these cells, we next evaluated whether ectopic expression of mutant K-ras could abrogate lapatinib-mediated radiosensitization of T3M4 cells. Cells treated with lapatinib that were expressing K-ras(G12V), but not vector control, exhibited sustained Akt activation and no change in ERK activation (Fig. 2A). This correlated with a lack of radiosensitization by lapatinib in cells expressing K-ras(G12V), but not vector control (Fig. 2B). These results support a model in which the presence of mutant K-ras can render pancreatic cancer cells resistant to lapatinib-mediated radiosensitization.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 23022,
+          "infons": {
+            "section_title_1": "RESULTS",
+            "section_title_2": "Pancreatic cancer cells are radiosensitized by inhibition of PI3K/Akt, but not MEK/ERK",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "If activated Ras could block the radiosensitization observed with lapatinib-mediated inhibition of EGFR/HER2 in the T3M4 cells, we reasoned that radiosensitization by lapatinib was being mediated by the inhibition of a downstream signaling pathway(s) that is activated by both EGFR/HER2 and Ras. In addition, we hypothesized that in the mutant K-ras cell lines (MIA PaCa-2, PANC-1, and Capan-2) activation of these downstream pathways by Ras could be responsible for their observed resistance to lapatinib-mediated radiosensitization. Downstream signaling from EGFR/HER2 and Ras are both known to activate several key pathways in common, including the Raf/MEK/ERK and PI3K/Akt pathways (13, 38). To determine whether inhibition of Raf/MEK/ERK and/or PI3K/Akt could radiosensitize pancreatic cancer cells, we evaluated the ability of U0126, a MEK inhibitor and known breast cancer radiosensitizer (14), and LY294002, a PI3K inhibitor (39), to sensitize our panel of pancreatic cancer cell lines to radiation-induced cell death. Despite effective inhibition of ERK1/2 phosphorylation in all cell lines by U0126 (Supplemental Fig. 2A), this inhibition of MEK/ERK activation did not radiosensitize any of the pancreatic cancer cell lines (Supplemental Fig. 2B). A modest increase in Akt activation was seen in some cell lines in response to U0126 treatment, a result consistent with feedback-signaling loops described by others (40, 41) and consistent with the role of Akt in the radiation response. In contrast, treatment with LY294002 resulted in effective inhibition of Akt with consequent radiosensitization (ERs ranged from 1.3 to 2.1) of all cells regardless of their K-ras mutational status (Figs. 3A, B).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 24816,
+          "infons": {
+            "section_title_1": "RESULTS",
+            "section_title_2": "Nelfinavir blocks Akt phosphorylation and radiosensitizes both wild-type and mutant K-ras cell lines",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "Several FDA approved HIV protease inhibitors including nelfinavir and ritonivir have been shown to block Akt signaling and radiosensitize HNSCC, breast, lung, and brain tumor cell lines (19, 42-46). Since currently available PI3K inhibitors have demonstrated unacceptable clinical toxicity, we sought to evaluate whether inhibition of the PI3K/Akt pathway with nelfinavir would radiosensitize pancreatic cancer cells. Cells treated with a clinically attainable dose of nelfinavir (47) or vehicle alone showed decreased Akt activation after 28 hours, but not after a four hour exposure (Fig. 4A). Little change in ERK1/2 activation (Fig. 4A) or cell cycle distribution (data not shown) was seen at either time point.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 25631,
+          "infons": {
+            "section_title_1": "RESULTS",
+            "section_title_2": "Nelfinavir blocks Akt phosphorylation and radiosensitizes both wild-type and mutant K-ras cell lines",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "To determine the effect of nelfinavir on radiation response, cells were similarly pretreated with nelfinavir for either 2 or 26 hours prior to and 2 hours after irradiation and their ability to proliferate in clonogenic survival assays determined. Both mutant and wild-type K-ras cells were radiosensitized (ERs ranged from 1.3 to 1.5, Fig. 4B) after 26 hours of nelfinavir pre-treatment. Consistent with effects on Akt activation, no radiosensitization was seen after 2 hour pre-treatment. To exclude the possibility that nelfinavir treatment induces growth arrest, MTS assay was used to monitor proliferation after exposure to nelfinavir for either 2 or 26 hours. No significant difference in proliferation was seen with either length of exposure in any of the four cell lines tested (data not shown).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 26434,
+          "infons": {
+            "section_title_1": "RESULTS",
+            "section_title_2": "Nelfinavir inhibits Akt activation and results in tumor growth delay of Capan-2-bearing xenografts",
+            "iao_name_1": "results section",
+            "iao_id_1": "IAO:0000318"
+          },
+          "text": "We next assessed the ability of nelfinavir to radiosensitize a mouse xenograft model utilizing Capan-2 cells, chosen based on their robust ability to form tumors. First, to determine the optimal dose of nelfinavir required to inhibit Akt activation in vivo, Capan-2 cells (5 × 106) were injected into the flanks of athymic BALB/c nude mice. After palpable tumors developed, mice were treated with indicated doses of nelfinavir or vehicle control by gastric gavage for 5 consecutive days. On the 5th day, mice were sacrificed, tumor lysates prepared, and Akt activation assessed by western blot analysis. At a dose of 150 mg/kg, phospho-Akt levels in vivo were significantly decreased (Fig. 5A). With this optimized dose, tumor growth in cohorts (n=6 mice per treatment group) were compared with mice either sham-treated or treated with nelfinavir, radiation, or nelfinavir plus radiation. A clinically relevant dose of radiation (2 Gy per fraction) was chosen to provide meaningful assessment of any radiosensitization. Tumor growth following treatment was significantly slower in mice treated with nelfinavir and radiation than with either treatment alone (Fig. 5B, p<0.0001) and was consistent with synergy between radiation and nelfinavir as demonstrated by a synergy assessment ratio (± SEM) of 1.5 ± 0.27 as determined by the fractional product method (Fig. 5C). In addition, the slopes of the tumor volume curves after completion of all treatments (day 10) differed significantly (p=<.0001) consistent with synergy between radiation and nelfinavir. Consistent with the survival of some tumor cells after the initial treatment, a repopulation with similar growth rates was observed after day 20. However, tumor volumes in the nelfinavir plus radiation treatment were consistently significantly reduced in comparison to controls consistent with synergy between radiation and nelfinavir. Collectively, these data support a model in which blockade of an activated PI3K/Akt pro-survival pathway mediates radiation sensitization and provides evidence that drugs such as nelfinavir or other novel agents targeting this pathway may be efficacious radiosensitizers worthy of further study.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 28718,
+          "infons": {
+            "section_title_1": "DISCUSSION",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "EGFR and/or HER2 are overexpressed in a significant number of pancreatic cancers (4-8) and blockade of EGFR or HER2 inhibits the growth of pancreatic cancer cells in vitro (9-11). Erlotinib has been approved for the treatment of pancreatic cancer (3) and its role as a radiosensitizer is currently being studied in clinical trials. Due to the growing evidence supporting the ability of pharmacological inhibitors of EGFR and HER2 to radiosensitize multiple types of cancers including breast, HNSCC, colon, and pancreas [reviewed in (13)], and due to overexpression of both EGFR and HER2 in pancreatic cancer, we hypothesized that dual inhibition of EGFR and HER2 with lapatinib would sensitize pancreatic cancer to radiation.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 29453,
+          "infons": {
+            "section_title_1": "DISCUSSION",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "In our preliminary studies, we sought to determine whether inhibition of both EGFR and HER2 with lapatinib would be superior to inhibition of EGFR alone with erlotinib. As expected, lapatinib had an improved proliferative IC50 in cell lines with high HER2 mRNA levels and had a similar IC50 as erlotinib in cells with high levels of EGFR mRNA. Thus, we chose to study the ability of lapatinib to radiosensitize pancreatic cancer. Intriguingly, we found that lapatinib was an effective radiosensitizer in only the T3M4 line that did not harbor a mutant form of K-ras despite its ability to block EGFR and HER2 activation (Fig. 1A), cellular proliferation (Table 1), and soft agar growth (B. Calvo, unpublished data) in multiple cell lines. This was consistent with the results reported recently by Morgan et al. in which erlotinib radiosensitized a single cell line expressing wild-type K-ras (22). Due to the expression of mutated K-ras in >90% of pancreatic cancers (32, 33), our data suggests that targeting EGFR and HER2 in a clinical trial is unlikely to be a successful strategy for radiosensitization of pancreatic cancer. Given the wealth of evidence supporting resistance of K-ras mutated cancers to EGFR targeted therapies [reviewed in (48)], this finding is not surprising.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 30736,
+          "infons": {
+            "section_title_1": "DISCUSSION",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "The differential effect of lapatinib on growth inhibition and radiosensitization adds to evidence that the downstream signaling pathways responsible for these biological responses can be uncoupled. We have previously shown that ERK inhibition correlates with both growth inhibition and radiosensitization in EGFR overexpressing breast cancer cell lines (14) while HER2 overexpressing breast cancer cell lines show growth delay but not radiosensitization in response to therapies that inhibit Akt (manuscript in preparation). These differences may depend upon alternative activation of intracellular feedback loops via collateral pathway activation, a mechanism of resistance to tyrosine kinase inhibitors recently described by several groups (40, 41).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 31487,
+          "infons": {
+            "section_title_1": "DISCUSSION",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "We have shown that lapatinib decreased Akt-activation in T3M4 cells and that overexpression of activated K-ras in these cells abrogated the ability of lapatinib to both inhibit Akt and radiosensitize these cells. Direct inhibition of the PI3K/Akt pathway radiosensitized all cells independent of their K-ras mutational status while inhibition of MER/ERK signaling had no effect on the radiation sensitivity of any cell line tested. These results add support to the growing body of evidence that the PI3K/Akt signaling pathway plays a vital role in radiosensitization (17, 34, 42, 49-52) and provides further evidence that Akt inhibitors may be promising clinical radiosensitizers.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 32167,
+          "infons": {
+            "section_title_1": "DISCUSSION",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "Finally, we show that nelfinavir, an HIV protease inhibitor blocked Akt activation and radiosensitized both wild-type and mutant K-ras containing cells at concentrations attainable in humans (47). The radiation enhancement ratio of nelfinavir ranged from 1.2 to 1.4, values that can result in a large cumulative effect when applied over many daily fractions of radiation (Fig. 5D). Using a xenograft system, we demonstrated that oral nelfinavir decreased intra-tumor Akt activation in vivo and synergized with clinically relevant fractionated radiation doses. The exact mechanism of action of nelfinavir remains unclear. In addition, whether all HIV protease inhibitors share a common mechanism of radiosensitization remains untested. Saquinavir, a compound in the class of HIV protease inhibitors has been shown to block proteasome function stabilizing IκB, and decreasing NFκB in glioblastoma and prostate cancer cell lines (18). Others have pointed to a role of the ER stress response and/or the unfolded protein response resulting in phosphatase activation and Akt dephosphorylation in a head and neck squamous cell carcinoma cell line (44). Both decreased Akt and NFκB activation can contribute to radiosensitization. In addition, HIV protease inhibitors may enhance tumor oxygenation through inhibition of HIF-1 and VEGF as demonstrated in glioblastoma, lung carcinoma, and head and neck squamous cell carcinoma cell lines, thus rendering tumors more sensitive to radiation regardless of effects on intracellular signaling pathways (43, 45). The potential cell line specific differences in mechanism highlight the importance of studying potential treatments in multiple systems.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 33851,
+          "infons": {
+            "section_title_1": "DISCUSSION",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "These results provide valuable information in support of the use of nelfinavir as a clinically relevant radiosensitizer for pancreatic cancer. While a small phase I trial combining radiation and nelfinavir with increasing doses of gemcitabine has recently been completed (53) this trial was not designed to determine the biologically effective dose of nelfinavir. In addition, the tolerability of adding nelfinavir, or other novel Akt inhibitors, to radiation and 5-fluorouracil or capecitabine, a common regimen used in the treatment of pancreatic cancer deserves further study.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 34430,
+          "infons": {
+            "section_title_1": "DISCUSSION",
+            "iao_name_1": "discussion section",
+            "iao_id_1": "IAO:0000319"
+          },
+          "text": "While we have delineated the PI3K/Akt pathway as an important component of radiation sensitization in pancreatic cancer, other signaling pathways downstream of EGFR/HER2, Ras or yet undefined signaling node proteins may also play an important role in this response. It is also possible that the off target effects may play a role in radiosensitization. Several groups have shown that LY294002 inhibits not only PI3K, but at concentrations higher than used in our studies can also inhibit PI3K-like kinases such as DNA-PK, a key regulator of DNA double strand break repair (54, 55). The concomitant use of multiple targeted therapies is being investigated in our lab and others and may result in improved tumor control both locally and distantly. Care must be used in these cases, as drug combinations may result in unexpected therapeutic antagonism, have increased toxicities, and lead to unexpected clinical consequences. While the treatment of metastatic disease remains of critical importance in the treatment of pancreatic cancer, a substantial portion of patients are still dying of local disease, underlying the importance of both improved local and systemic therapies (56).",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 35610,
+          "infons": {
+            "section_title_1": "CONCLUSION",
+            "iao_name_1": "conclusion section",
+            "iao_id_1": "IAO:0000615"
+          },
+          "text": "We have provided evidence that the high incidence of K-ras mutations in pancreatic cancer makes the use of EGFR and/or HER2 inhibitors as radiosensitizers in this disease unlikely to be efficacious. This is consistent with findings reported by several groups that mutations in K-ras render non-small cell lung cancer and colorectal cancer resistant to EGFR-targeted therapy (reviewed in (57)) and complements data provided by Morgan and colleagues that erlotinib is a radiosensitizer for a wild-type K-ras-containing pancreatic cancer cell line (22). Furthermore, we demonstrate that persistent activation of the PI3K/Akt pathway via constitutively active K-ras correlates with a lack of radiosensitization and that direct inhibition of the PI3K/Akt pathway results in radiosensitization regardless of K-ras mutational status. Most importantly, nelfinavir, an HIV protease inhibitor, both decreases Akt phosphorylation and radiosensitizes several pancreatic cancer cell lines regardless of K-ras mutation status. While most inhibitors of the PI3K/Akt pathway are too toxic for routine clinical use, nelfinavir is routinely used long-term for the treatment of HIV with relatively few side-effects. Additional studies into the tolerability and efficacy of combined treatment with nelfinavir, traditional cytotoxic chemotherapy, and radiation for the treatment of pancreatic cancer are warranted.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 37013,
+          "infons": {
+            "section_title_1": "Acknowledgements",
+            "iao_name_1": "acknowledgements section",
+            "iao_id_1": "IAO:0000324"
+          },
+          "text": "We would like to thank Laura Caskey and H. Shelton Earp for assistance with the qRT-PCR studies and Elaine Zeman for thoughtful discussions about cumulative dose effects. This work was supported by UNC/Lineberger GI SPORE grant 1-P50-CA106991-01. RJK has been designated a B. Leonard Holman Pathway Fellow by the American Board of Radiology and is supported by a 2007-08 Phillips Medical Systems/Radiological Society of North America Research Resident Grant and by a 2008 Resident/Fellows in Radiation Oncology Seed Grant from the American Society for Therapeutic Radiology and Oncology. KMB was supported by Surgical Oncology Training Grant 2-T32-CA009688.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 37686,
+          "infons": {
+            "section_title_1": "Footnotes",
+            "iao_name_1": "footnote section",
+            "iao_id_1": "IAO:0000325"
+          },
+          "text": "1Baerman K, Caskey L, Sasi F, Earp H, Calvo B. EGFR/HER2 targeted therapy inhibits growth of pancreatic cancer cells. 2005 Gastrointestinal Cancers Symposium; 2005. p. Abst 84.",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 37871,
+          "infons": {
+            "journal": "Cancer Facts and Figures 2007.",
+            "section_title_1": "REFERENCES",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "1. American Cancer Society . Cancer Facts and Figures 2007. American Cancer Society; Atlanta: 2007. [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 37997,
+          "infons": {
+            "journal": "Semin Radiat Oncol. ",
+            "volume": "11",
+            "section_title_1": "REFERENCES",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "2. Harari PM, Huang SM. Radiation response modification following molecular inhibition of epidermal growth factor receptor signaling. Semin Radiat Oncol. 2001;11:281–9. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 38191,
+          "infons": {
+            "journal": "J Clin Oncol. ",
+            "volume": "25",
+            "section_title_1": "REFERENCES",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "3. Moore MJ, Goldstein D, Hamm J, et al. Erlotinib plus gemcitabine compared with gemcitabine alone in patients with advanced pancreatic cancer: a phase III trial of the National Cancer Institute of Canada Clinical Trials Group. J Clin Oncol. 2007;25:1960–6. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 38475,
+          "infons": {
+            "journal": "Anticancer Res. ",
+            "volume": "13",
+            "section_title_1": "REFERENCES",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "4. Yamanaka Y, Friess H, Kobrin MS, Buchler M, Beger HG, Korc M. Coexpression of epidermal growth factor receptor and ligands in human pancreatic cancer is associated with enhanced tumor aggressiveness. Anticancer Res. 1993;13:565–9. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 38734,
+          "infons": {
+            "journal": "Anticancer Res. ",
+            "volume": "18",
+            "section_title_1": "REFERENCES",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "5. Dong M, Nio Y, Guo KJ, Tamura K, Tian YL, Dong YT. Epidermal growth factor and its receptor as prognostic indicators in Chinese patients with pancreatic cancer. Anticancer Res. 1998;18:4613–9. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 38955,
+          "infons": {
+            "journal": "Int J Gastrointest Cancer. ",
+            "volume": "35",
+            "section_title_1": "REFERENCES",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "6. Talar-Wojnarowska R, Gasiorowska A, Smolarz B, et al. Clinical significance of K-ras and c-erbB-2 mutations in pancreatic adenocarcinoma and chronic pancreatitis. Int J Gastrointest Cancer. 2005;35:33–41. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 39188,
+          "infons": {
+            "journal": "J Pathol. ",
+            "volume": "161",
+            "section_title_1": "REFERENCES",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "7. Hall PA, Hughes CM, Staddon SL, Richman PI, Gullick WJ, Lemoine NR. The c-erb B-2 proto-oncogene in human pancreatic cancer. J Pathol. 1990;161:195–200. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 39369,
+          "infons": {
+            "journal": "Am J Clin Oncol. ",
+            "volume": "24",
+            "section_title_1": "REFERENCES",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "8. Safran H, Steinhoff M, Mangray S, et al. Overexpression of the HER-2/neu oncogene in pancreatic adenocarcinoma. Am J Clin Oncol. 2001;24:496–9. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 39541,
+          "infons": {
+            "journal": "Anticancer Res. ",
+            "volume": "22",
+            "section_title_1": "REFERENCES",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "9. Lee LT, Huang YT, Hwang JJ, et al. Blockade of the epidermal growth factor receptor tyrosine kinase activity by quercetin and luteolin leads to growth inhibition and apoptosis of pancreatic tumor cells. Anticancer Res. 2002;22:1615–27. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 39805,
+          "infons": {
+            "journal": "J Clin Oncol. ",
+            "volume": "22",
+            "section_title_1": "REFERENCES",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "10. Xiong HQ, Rosenberg A, LoBuglio A, et al. Cetuximab, a monoclonal antibody targeting the epidermal growth factor receptor, in combination with gemcitabine for advanced pancreatic cancer: a multicenter phase II Trial. J Clin Oncol. 2004;22:2610–6. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 40081,
+          "infons": {
+            "journal": "Cancer Invest. ",
+            "volume": "22",
+            "section_title_1": "REFERENCES",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "11. Safran H, Iannitti D, Ramanathan R, et al. Herceptin and gemcitabine for metastatic pancreatic cancers that overexpress HER-2/neu. Cancer Invest. 2004;22:706–12. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 40272,
+          "infons": {
+            "journal": "Cancer Res. ",
+            "volume": "66",
+            "section_title_1": "REFERENCES",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "12. Zhang Y, Banerjee S, Wang Z, et al. Antitumor activity of epidermal growth factor receptor-related protein is mediated by inactivation of ErbB receptors and nuclear factor-kappaB in pancreatic cancer. Cancer Res. 2006;66:1025–32. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 40531,
+          "infons": {
+            "journal": "Semin Radiat Oncol. ",
+            "volume": "13",
+            "section_title_1": "REFERENCES",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "13. Sartor CI. Epidermal growth factor family receptors and inhibitors: radiation response modulators. Semin Radiat Oncol. 2003;13:22–30. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 40694,
+          "infons": {
+            "journal": "Int J Radiat Oncol Biol Phys. ",
+            "volume": "58",
+            "section_title_1": "REFERENCES",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "14. Zhou H, Kim YS, Peletier A, McCall W, Earp HS, Sartor CI. Effects of the EGFR/HER2 kinase inhibitor GW572016 on EGFR- and HER2-overexpressing breast cancer cell line proliferation, radiosensitization, and resistance. Int J Radiat Oncol Biol Phys. 2004;58:344–52. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 40986,
+          "infons": {
+            "journal": "AIDS. ",
+            "volume": "13",
+            "section_title_1": "REFERENCES",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "15. Niehues T, Horneff G, Megahed M, Schroten H, Wahn V. Complete regression of AIDS-related Kaposi's sarcoma in a child treated with highly active antiretroviral therapy. AIDS. 1999;13:1148–9. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 41205,
+          "infons": {
+            "journal": "Lancet Oncol. ",
+            "volume": "4",
+            "section_title_1": "REFERENCES",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "16. Sgadari C, Monini P, Barillari G, Ensoli B. Use of HIV protease inhibitors to block Kaposi's sarcoma and tumour growth. Lancet Oncol. 2003;4:537–47. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 41383,
+          "infons": {
+            "journal": "Cancer Res. ",
+            "volume": "65",
+            "section_title_1": "REFERENCES",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "17. Gupta AK, Cerniglia GJ, Mick R, McKenna WG, Muschel RJ. HIV protease inhibitors block Akt signaling and radiosensitize tumor cells both in vitro and in vivo. Cancer Res. 2005;65:8256–65. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 41599,
+          "infons": {
+            "journal": "Cancer Res. ",
+            "volume": "62",
+            "section_title_1": "REFERENCES",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "18. Pajonk F, Himmelsbach J, Riess K, Sommer A, McBride WH. The Human Immunodeficiency Virus (HIV)-1 Protease Inhibitor Saquinavir Inhibits Proteasome Function and Causes Apoptosis and Radiosensitization in Non-HIV-associated Human Cancer Cells. Cancer Res. 2002;62:5230–5. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 41898,
+          "infons": {
+            "journal": "Clin Cancer Res. ",
+            "volume": "13",
+            "section_title_1": "REFERENCES",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "19. Gills JJ, Lopiccolo J, Tsurutani J, et al. Nelfinavir, A lead HIV protease inhibitor, is a broad-spectrum, anticancer agent that induces endoplasmic reticulum stress, autophagy, and apoptosis in vitro and in vivo. Clin Cancer Res. 2007;13:5183–94. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 42175,
+          "infons": {
+            "journal": "Autophagy. ",
+            "volume": "4",
+            "section_title_1": "REFERENCES",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "20. Gills JJ, Lopiccolo J, Dennis PA. Nelfinavir, a new anti-cancer drug with pleiotropic effects and many paths to autophagy. Autophagy. 2008;4:107–9. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 42352,
+          "infons": {
+            "journal": "Radiat Res. ",
+            "volume": "99",
+            "section_title_1": "REFERENCES",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "21. Fertil B, Dertinger H, Courdi A, Malaise EP. Mean inactivation dose: a useful concept for intercomparison of human cell survival curves. Radiat Res. 1984;99:73–84. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 42545,
+          "infons": {
+            "journal": "Clin Cancer Res. ",
+            "volume": "14",
+            "section_title_1": "REFERENCES",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "22. Morgan MA, Parsels LA, Kollar LE, Normolle DP, Maybaum J, Lawrence TS. The combination of epidermal growth factor receptor inhibitors with gemcitabine and radiation in pancreatic cancer. Clin Cancer Res. 2008;14:5142–9. [PMC free article] [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 42813,
+          "infons": {
+            "journal": "Methods Enzymol. ",
+            "volume": "332",
+            "section_title_1": "REFERENCES",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "23. Fiordalisi JJ, Johnson RL, 2nd, Ulku AS, Der CJ, Cox AD. Mammalian expression vectors for Ras family proteins: generation and use of expression constructs to analyze Ras family function. Methods Enzymol. 2001;332:3–36. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 43061,
+          "infons": {
+            "journal": "Cancer Res. ",
+            "volume": "60",
+            "section_title_1": "REFERENCES",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "24. Yokoyama Y, Dhanabal M, Griffioen AW, Sukhatme VP, Ramakrishnan S. Synergy between angiostatin and endostatin: inhibition of ovarian cancer growth. Cancer Res. 2000;60:2190–6. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 43266,
+          "infons": {
+            "journal": "Clin Cancer Res. ",
+            "volume": "10",
+            "section_title_1": "REFERENCES",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "25. Matar P, Rojo F, Cassia R, et al. Combined epidermal growth factor receptor targeting with the tyrosine kinase inhibitor gefitinib (ZD1839) and the monoclonal antibody cetuximab (IMC-C225): superiority over single-agent receptor targeting. Clin Cancer Res. 2004;10:6487–501. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 43570,
+          "infons": {
+            "journal": "J Clin Oncol. ",
+            "volume": "23",
+            "section_title_1": "REFERENCES",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "26. Spector NL, Xia W, Burris H, 3rd, et al. Study of the biologic effects of lapatinib, a reversible inhibitor of ErbB1 and ErbB2 tyrosine kinases, on tumor growth and survival pathways in patients with advanced malignancies. J Clin Oncol. 2005;23:2502–12. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 43853,
+          "infons": {
+            "journal": "Clin Ther. ",
+            "volume": "30",
+            "section_title_1": "REFERENCES",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "27. Medina PJ, Goodin S. Lapatinib: a dual inhibitor of human epidermal growth factor receptor tyrosine kinases. Clin Ther. 2008;30:1426–47. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 44019,
+          "infons": {
+            "journal": "Nat Biotechnol. ",
+            "volume": "23",
+            "section_title_1": "REFERENCES",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "28. Fabian MA, Biggs WH, 3rd, Treiber DK, et al. A small molecule-kinase interaction map for clinical kinase inhibitors. Nat Biotechnol. 2005;23:329–36. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 44197,
+          "infons": {
+            "journal": "Int J Radiat Oncol Biol Phys. ",
+            "volume": "20",
+            "section_title_1": "REFERENCES",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "29. Skov K, MacPhail S. Interaction of platinum drugs with clinically relevant x-ray doses in mammalian cells: a comparison of cisplatin, carboplatin, iproplatin, and tetraplatin. Int J Radiat Oncol Biol Phys. 1991;20:221–5. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 44447,
+          "infons": {
+            "journal": "Oncologist. ",
+            "volume": "10",
+            "section_title_1": "REFERENCES",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "30. Pauwels B, Korst AEC, Lardon F, Vermorken JB. Combined Modality Therapy of Gemcitabine and Radiation. Oncologist. 2005;10:34–51. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 44605,
+          "infons": {
+            "journal": "Virchows Arch. ",
+            "volume": "439",
+            "section_title_1": "REFERENCES",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "31. Moore PS, Sipos B, Orlandini S, et al. Genetic profile of 22 pancreatic carcinoma cell lines. Analysis of K-ras, p53, p16 and DPC4/Smad4. Virchows Arch. 2001;439:798–802. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 44805,
+          "infons": {
+            "journal": "Science. ",
+            "volume": "321",
+            "section_title_1": "REFERENCES",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "32. Jones S, Zhang X, Parsons DW, et al. Core Signaling Pathways in Human Pancreatic Cancers Revealed by Global Genomic Analyses. Science. 2008;321:1801–6. [PMC free article] [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 45005,
+          "infons": {
+            "journal": "Nucleic Acids Res. ",
+            "volume": "16",
+            "section_title_1": "REFERENCES",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "33. Smit VT, Boot AJ, Smits AM, Fleuren GJ, Cornelisse CJ, Bos JL. KRAS codon 12 mutations occur very frequently in pancreatic adenocarcinomas. Nucleic Acids Res. 1988;16:7773–82. [PMC free article] [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 45229,
+          "infons": {
+            "journal": "Cancer Res. ",
+            "volume": "65",
+            "section_title_1": "REFERENCES",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "34. Kim IA, Bae SS, Fernandes A, et al. Selective inhibition of Ras, phosphoinositide 3 kinase, and Akt isoforms increases the radiosensitivity of human carcinoma cell lines. Cancer Res. 2005;65:7902–10. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 45458,
+          "infons": {
+            "journal": "Neoplasia. ",
+            "volume": "9",
+            "section_title_1": "REFERENCES",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "35. Cengel KA, Voong KR, Chandrasekaran S, et al. Oncogenic K-Ras signals through epidermal growth factor receptor and wild-type H-Ras to promote radiation survival in pancreatic and colorectal carcinoma cells. Neoplasia. 2007;9:341–8. [PMC free article] [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 45738,
+          "infons": {
+            "journal": "Cancer Res. ",
+            "volume": "65",
+            "section_title_1": "REFERENCES",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "36. Brunner TB, Cengel KA, Hahn SM, et al. Pancreatic cancer cell radiation survival and prenyltransferase inhibition: the role of K-Ras. Cancer Res. 2005;65:8433–41. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 45930,
+          "infons": {
+            "journal": "Cancer Res. ",
+            "volume": "63",
+            "section_title_1": "REFERENCES",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "37. Grana TM, Sartor CI, Cox AD. Epidermal growth factor receptor autocrine signaling in RIE-1 cells transformed by the Ras oncogene enhances radiation resistance. Cancer Res. 2003;63:7807–14. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 46148,
+          "infons": {
+            "journal": "Oncogene. ",
+            "volume": "22",
+            "section_title_1": "REFERENCES",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "38. Cox AD, Der CJ. The dark side of Ras: regulation of apoptosis. Oncogene. 2003;22:8999–9006. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 46269,
+          "infons": {
+            "journal": "J Biol Chem. ",
+            "volume": "269",
+            "section_title_1": "REFERENCES",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "39. Vlahos CJ, Matter WF, Hui KY, Brown RF. A specific inhibitor of phosphatidylinositol 3-kinase, 2-(4-morpholinyl)-8-phenyl-4H-1-benzopyran-4-one (LY294002). J Biol Chem. 1994;269:5241–8. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 46484,
+          "infons": {
+            "journal": "Cancer Res. ",
+            "volume": "69",
+            "section_title_1": "REFERENCES",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "40. Mirzoeva OK, Das D, Heiser LM, et al. Basal Subtype and MAPK/ERK Kinase (MEK)-Phosphoinositide 3-Kinase Feedback Signaling Determine Susceptibility of Breast Cancer Cells to MEK Inhibition. Cancer Res. 2009;69:565–72. [PMC free article] [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 46750,
+          "infons": {
+            "journal": "Mol Cancer Ther. ",
+            "volume": "7",
+            "section_title_1": "REFERENCES",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "41. Bachleitner-Hofmann T, Sun MY, Chen C-T, et al. HER kinase activation confers resistance to MET tyrosine kinase inhibition in MET oncogene-addicted gastric cancer cells. Mol Cancer Ther. 2008;7:3499–508. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 46983,
+          "infons": {
+            "journal": "Cancer Res. ",
+            "volume": "67",
+            "section_title_1": "REFERENCES",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "42. Jiang Z, Pore N, Cerniglia GJ, et al. Phosphatase and Tensin Homologue Deficiency in Glioblastoma Confers Resistance to Radiation and Temozolomide that Is Reversed by the Protease Inhibitor Nelfinavir. Cancer Res. 2007;67:4467–73. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 47243,
+          "infons": {
+            "journal": "Cancer Res. ",
+            "volume": "66",
+            "section_title_1": "REFERENCES",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "43. Pore N, Gupta AK, Cerniglia GJ, et al. Nelfinavir down-regulates hypoxia-inducible factor 1alpha and VEGF expression and increases tumor oxygenation: implications for radiotherapy. Cancer Res. 2006;66:9252–9. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 47481,
+          "infons": {
+            "journal": "Neoplasia. ",
+            "volume": "9",
+            "section_title_1": "REFERENCES",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "44. Gupta AK, Li B, Cerniglia GJ, Ahmed MS, Hahn SM, Maity A. The HIV protease inhibitor nelfinavir downregulates Akt phosphorylation by inhibiting proteasomal activity and inducing the unfolded protein response. Neoplasia. 2007;9:271–8. [PMC free article] [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 47763,
+          "infons": {
+            "journal": "Neoplasia. ",
+            "volume": "8",
+            "section_title_1": "REFERENCES",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "45. Pore N, Gupta AK, Cerniglia GJ, Maity A. HIV protease inhibitors decrease VEGF/HIF-1alpha expression and angiogenesis in glioblastoma cells. Neoplasia. 2006;8:889–95. [PMC free article] [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 47978,
+          "infons": {
+            "journal": "Cancer Sci. ",
+            "volume": "96",
+            "section_title_1": "REFERENCES",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "46. Yang Y, Ikezoe T, Takeuchi T, et al. HIV-1 protease inhibitor induces growth arrest and apoptosis of human prostate cancer LNCaP cells in vitro and in vivo in conjunction with blockade of androgen receptor STAT3 and AKT signaling. Cancer Sci. 2005;96:425–33. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 48266,
+          "infons": {
+            "journal": "Antimicrob Agents Chemother. ",
+            "volume": "45",
+            "section_title_1": "REFERENCES",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "47. Zhang KE, Wu E, Patick AK, et al. Circulating Metabolites of the Human Immunodeficiency Virus Protease Inhibitor Nelfinavir in Humans: Structural Identification, Levels in Plasma, and Antiviral Activities. Antimicrob Agents Chemother. 2001;45:2405. [PMC free article] [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 48563,
+          "infons": {
+            "journal": "Cancer Treatment Reviews. ",
+            "volume": "35",
+            "section_title_1": "REFERENCES",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "48. Heinemann V, Stintzing S, Kirchner T, Boeck S, Jung A. Clinical relevance of EGFR- and KRAS-status in colorectal cancer patients treated with monoclonal antibodies directed against the EGFR. Cancer Treatment Reviews. 2009;35:262–71. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 48825,
+          "infons": {
+            "journal": "Cancer Res. ",
+            "volume": "62",
+            "section_title_1": "REFERENCES",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "49. Grana TM, Rusyn EV, Zhou H, Sartor CI, Cox AD. Ras Mediates Radioresistance through Both Phosphatidylinositol 3-Kinase-dependent and Raf-dependent but Mitogen-activated Protein Kinase/Extracellular Signal-regulated Kinase Kinase-independent Signaling Pathways. Cancer Res. 2002;62:4142–50. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 49144,
+          "infons": {
+            "journal": "Int J Radiat Oncol Biol Phys. ",
+            "volume": "56",
+            "section_title_1": "REFERENCES",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "50. Gupta AK, Cerniglia GJ, Mick R, et al. Radiation sensitization of human cancer cells in vivo by inhibiting the activity of PI3K using LY294002. Int J Radiat Oncol Biol Phys. 2003;56:846–53. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 49363,
+          "infons": {
+            "journal": "Cancer Res. ",
+            "volume": "68",
+            "section_title_1": "REFERENCES",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "51. Prevo R, Deutsch E, Sampson O, et al. Class I PI3 kinase inhibition by the pyridinylfuranopyrimidine inhibitor PI-103 enhances tumor radiosensitivity. Cancer Res. 2008;68:5915–23. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 49572,
+          "infons": {
+            "journal": "Br J Cancer. ",
+            "volume": "94",
+            "section_title_1": "REFERENCES",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "52. Kim TJ, Lee JW, Song SY, et al. Increased expression of pAKT is associated with radiation resistance in cervical cancer. Br J Cancer. 2006;94:1678–82. [PMC free article] [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 49771,
+          "infons": {
+            "journal": "J Clin Oncol. ",
+            "volume": "26",
+            "section_title_1": "REFERENCES",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "53. Brunner TB, Geiger M, Grabenbauer GG, et al. Phase I trial of the human immunodeficiency virus protease inhibitor nelfinavir and chemoradiation for locally advanced pancreatic cancer. J Clin Oncol. 2008;26:2699–706. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 50016,
+          "infons": {
+            "journal": "Gynecol Oncol. ",
+            "volume": "110",
+            "section_title_1": "REFERENCES",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "54. Fuhrman CB, Kilgore J, LaCoursiere YD, et al. Radiosensitization of cervical cancer cells via double-strand DNA break repair inhibition. Gynecol Oncol. 2008;110:93–8. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 50212,
+          "infons": {
+            "journal": "Clin Cancer Res. ",
+            "volume": "3",
+            "section_title_1": "REFERENCES",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "55. Rosenzweig KE, Youmell MB, Palayoor ST, Price BD. Radiosensitization of human tumor cells by the phosphatidylinositol3-kinase inhibitors wortmannin and LY294002 correlates with inhibition of DNA-dependent protein kinase and prolonged G2-M delay. Clin Cancer Res. 1997;3:1149–56. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 50520,
+          "infons": {
+            "journal": "J Clin Oncol. ",
+            "volume": "27",
+            "section_title_1": "REFERENCES",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "56. Iacobuzio-Donahue CA, Fu B, Yachida S, et al. DPC4 Gene Status of the Primary Carcinoma Correlates With Patterns of Failure in Patients With Pancreatic Cancer. J Clin Oncol. 2009;27:1806–13. [PMC free article] [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        },
+        {
+          "offset": 50759,
+          "infons": {
+            "journal": "Lancet Oncol. ",
+            "volume": "9",
+            "section_title_1": "REFERENCES",
+            "iao_name_1": "references section",
+            "iao_id_1": "IAO:0000320"
+          },
+          "text": "57. Linardou H, Dahabreh IJ, Kanaloupiti D, et al. Assessment of somatic k-RAS mutations as a mechanism associated with resistance to EGFR-targeted agents: a systematic review and meta-analysis of studies in advanced non-small-cell lung cancer and metastatic colorectal cancer. Lancet Oncol. 2008;9:962–72. [PubMed] [Google Scholar]",
+          "sentences": [],
+          "annotations": [],
+          "relations": []
+        }
+      ],
+      "annotations": [],
+      "relations": []
+    }
+  ]
+}
