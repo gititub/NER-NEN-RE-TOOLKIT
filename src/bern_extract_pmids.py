@@ -75,8 +75,7 @@ def process_pmid(pmid):
 
         if response.status_code == 200:
             json_data = response.json()
-            df = json_to_df(json_data)
-            return df
+            return json_data
         else:
             print(f"Request for PMID {pmid} failed with status code:", response.status_code)
             return None
@@ -98,17 +97,18 @@ def main():
     start_time = time.time()
 
     results = []
-
     for pmid in pmids_total:
-        df = process_pmid(pmid)
-        if df is not None:
+        json_results = process_pmid(pmid)
+        if json_results is not None:
+            df = json_to_df(json_results)
             results.append(df)
 
     if results:
         bern = pd.concat(results)
 
         if output_file.endswith(".json"):
-            bern.to_json(output_file, orient='records', lines=True)
+            with open(output_file, 'w') as f:
+                json.dump(bern.to_dict(orient='records'), f, indent=2)
         elif output_file.endswith(".tsv"):
             bern.to_csv(output_file, sep='\t', index=False)
         else:
